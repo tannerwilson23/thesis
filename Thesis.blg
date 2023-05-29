@@ -1,0 +1,71 @@
+This is BibTeX, Version 0.99d (TeX Live 2022)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Thesis.aux
+The style file: mnras.bst
+Database file #1: references.bib
+Warning--I didn't find a database entry for "heger_2000"
+Warning--I didn't find a database entry for "maeder_diffuse_1996"
+Warning--I didn't find a database entry for "chiosi_1986"
+Warning--I didn't find a database entry for ""
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+"ArXiv e-prints" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry charbonnel_deep_2008
+while executing---line 1822 of file mnras.bst
+`journal' is a missing field, not a string, for entry charbonnel_deep_2008
+while executing---line 1822 of file mnras.bst
+"ArXiv e-prints" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry charbonnel_deep_2008
+while executing---line 1822 of file mnras.bst
+Warning--empty publisher in eddington_internal_1926
+"ArXiv e-prints" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry johnstone_stellar_2015
+while executing---line 1822 of file mnras.bst
+`journal' is a missing field, not a string, for entry johnstone_stellar_2015
+while executing---line 1822 of file mnras.bst
+"ArXiv e-prints" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry johnstone_stellar_2015
+while executing---line 1822 of file mnras.bst
+Warning--empty publisher in kippenhahn_stellar_1990
+You've used 155 entries,
+            2881 wiz_defined-function locations,
+            1872 strings with 53791 characters,
+and the built_in function-call counts, 73198 in all, are:
+= -- 5838
+> -- 5604
+< -- 393
++ -- 2470
+- -- 862
+* -- 8837
+:= -- 11814
+add.period$ -- 0
+call.type$ -- 155
+change.case$ -- 310
+chr.to.int$ -- 153
+cite$ -- 157
+duplicate$ -- 3506
+empty$ -- 3507
+format.name$ -- 1346
+if$ -- 12555
+int.to.chr$ -- 3
+int.to.str$ -- 0
+missing$ -- 155
+newline$ -- 482
+num.names$ -- 1086
+pop$ -- 737
+preamble$ -- 1
+purify$ -- 620
+quote$ -- 0
+skip$ -- 2107
+stack$ -- 0
+substring$ -- 4042
+swap$ -- 1715
+text.length$ -- 623
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 1383
+warning$ -- 2
+while$ -- 1172
+width$ -- 0
+write$ -- 1563
+(There were 6 error messages)
