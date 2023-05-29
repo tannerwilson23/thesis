@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.2.3)  29 MAY 2023 14:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.2.3)  29 MAY 2023 23:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -495,24 +495,24 @@ File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
 (./Thesis.aux)
 \openout1 = `Thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
@@ -548,7 +548,7 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 149.
 )
-Package hyperref Info: Link coloring ON on input line 44.
+Package hyperref Info: Link coloring ON on input line 45.
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -562,9 +562,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count322
 )
-LaTeX Info: Redefining \ref on input line 44.
-LaTeX Info: Redefining \pageref on input line 44.
-LaTeX Info: Redefining \nameref on input line 44.
+LaTeX Info: Redefining \ref on input line 45.
+LaTeX Info: Redefining \pageref on input line 45.
+LaTeX Info: Redefining \nameref on input line 45.
  (./Thesis.out) (./Thesis.out)
 \@outlinefile=\write3
 \openout3 = `Thesis.out'.
@@ -573,10 +573,10 @@ LaTeX Info: Redefining \nameref on input line 44.
 ------------------------------------------------------------------------------
  Title Page
 ------------------------------------------------------------------------------
-<Figures/monash-logo.jpg, id=172, 2370.8575pt x 469.755pt>
+<Figures/monash-logo.jpg, id=168, 2370.8575pt x 469.755pt>
 File: Figures/monash-logo.jpg Graphic file (type jpg)
 <use Figures/monash-logo.jpg>
-Package pdftex.def Info: Figures/monash-logo.jpg  used on input line 71.
+Package pdftex.def Info: Figures/monash-logo.jpg  used on input line 72.
 (pdftex.def)             Requested size: 417.47307pt x 82.7101pt.
 [1
 
@@ -634,60 +634,41 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ------------------------------------------------------------------------------
  Table of Contents
 ------------------------------------------------------------------------------
-(./Thesis.toc [8
-
-
-])
+(./Thesis.toc)
 \tf@toc=\write4
 \openout4 = `Thesis.toc'.
 
- [9]
-------------------------------------------------------------------------------
- List of Figures
-------------------------------------------------------------------------------
-(./Thesis.lof [10
+ [8
 
 
 ]
-Overfull \hbox (12.36581pt too wide) in paragraph at lines 7--7
- \OT1/cmr/m/n/10.95 men-tum trans-port fol-low-ing the pre-scrip-tion of [][]Sp
-ada et al.[][] ([][]2016[][]). Coloured 
- []
-
-[11]
-Overfull \hbox (4.18759pt too wide) in paragraph at lines 23--23
- [][] [][][]\OT1/cmr/m/n/10.95 The LAM-OST chro-mo-spher-i-cally ac-tive and \O
-T1/cmr/m/sl/10.95 Ke-pler \OT1/cmr/m/n/10.95 ro-tat-ing closeby, main- 
- []
-
-
-Overfull \hbox (2.32556pt too wide) in paragraph at lines 23--23
- \OML/cmm/m/it/10.95 R[]$ \OT1/cmr/m/n/10.95 colour coloured by $[][] \OML/cmm/
-m/it/10.95 R[]$\OT1/cmr/m/n/10.95 . It is un-clear from this whether $[][] \OML
-/cmm/m/it/10.95 R[]$ 
- []
-
-)
+------------------------------------------------------------------------------
+ List of Figures
+------------------------------------------------------------------------------
+(./Thesis.lof)
 \tf@lof=\write5
 \openout5 = `Thesis.lof'.
 
- [12]
+ [9
+
+
+]
 ------------------------------------------------------------------------------
  List of Tables
 ------------------------------------------------------------------------------
-[13
+[10
 
 ] (./Thesis.lot)
 \tf@lot=\write6
 \openout6 = `Thesis.lot'.
 
- [14
+ [11
 
 ]
 ------------------------------------------------------------------------------
  Abbreviations
 ------------------------------------------------------------------------------
-[15
+[12
 
 
 
@@ -695,7 +676,7 @@ m/it/10.95 R[]$\OT1/cmr/m/n/10.95 . It is un-clear from this whether $[][] \OML
 ------------------------------------------------------------------------------
  Constants
 ------------------------------------------------------------------------------
-[16
+[13
 
 
 
@@ -703,7 +684,7 @@ m/it/10.95 R[]$\OT1/cmr/m/n/10.95 . It is un-clear from this whether $[][] \OML
 ------------------------------------------------------------------------------
  Symbols
 ------------------------------------------------------------------------------
-[17
+[14
 
 
 
@@ -716,46 +697,491 @@ Chapter 1.
 
 
 
-] [2] [3] [4]
+]
+
+Package natbib Warning: Citation `elvey_contours_1929' on page 2 undefined on i
+nput line 46.
+
+
+Package natbib Warning: Citation `struve_stellar_1930' on page 2 undefined on i
+nput line 46.
+
+
+Package natbib Warning: Citation `struve_axial_1930' on page 2 undefined on inp
+ut line 46.
+
+
+Package natbib Warning: Citation `eddington_conditions_1918' on page 2 undefine
+d on input line 50.
+
+
+Package natbib Warning: Citation `eddington_internal_1926' on page 2 undefined 
+on input line 50.
+
+
+Package natbib Warning: Citation `eddington_internal_1929' on page 2 undefined 
+on input line 50.
+
+
+Package natbib Warning: Citation `milne_equilibrium_1923' on page 2 undefined o
+n input line 50.
+
+
+Package natbib Warning: Citation `von_zeipel_radiative_1924' on page 2 undefine
+d on input line 50.
+
+
+Package natbib Warning: Citation `maeder_evolution_2000' on page 2 undefined on
+ input line 55.
+
+
+Package natbib Warning: Citation `heger_presupernova_2000' on page 2 undefined 
+on input line 55.
+
+
+Package natbib Warning: Citation `charbonnel_lithium_1994' on page 2 undefined 
+on input line 55.
+
+[2]
+
+Package natbib Warning: Citation `skumanich_time_1972' on page 3 undefined on i
+nput line 66.
+
+
+Package natbib Warning: Citation `borucki_kepler_2010' on page 3 undefined on i
+nput line 67.
+
+
+Package natbib Warning: Citation `beck_kepler_2011' on page 3 undefined on inpu
+t line 67.
+
+
+Package natbib Warning: Citation `lu_bridging_2022' on page 3 undefined on inpu
+t line 67.
+
+
+Package natbib Warning: Citation `distefano_gaia_2022' on page 3 undefined on i
+nput line 67.
+
+[3]
+
+Package natbib Warning: Citation `li_asteroseismology_2020' on page 4 undefined
+ on input line 79.
+
+
+Package natbib Warning: Citation `li_asteroseismology_2020-1' on page 4 undefin
+ed on input line 79.
+
+[4]
+
+Package natbib Warning: Citation `albrecht_banana_2011' on page 5 undefined on 
+input line 97.
+
+
+Package natbib Warning: Citation `albrecht_banana_2013' on page 5 undefined on 
+input line 97.
+
+
+Package natbib Warning: Citation `deheuvels_seismic_2014' on page 5 undefined o
+n input line 109.
+
 
 LaTeX Warning: Reference `sec:asteroseismology' on page 5 undefined on input li
 ne 113.
 
 [5]
-<Figures/intro_figures/rot_comp.png, id=700, 1084.05pt x 867.24pt>
+
+Package natbib Warning: Citation `hall_weakened_2021' on page 6 undefined on in
+put line 119.
+
+
+Package natbib Warning: Citation `hall_weakened_2021' on page 6 undefined on in
+put line 120.
+
+
+Package natbib Warning: Citation `mcquillan_rotation_2014' on page 6 undefined 
+on input line 125.
+
+
+Package natbib Warning: Citation `mcquillan_rotation_2014' on page 6 undefined 
+on input line 127.
+
+
+Package natbib Warning: Citation `santos_surface_2021' on page 6 undefined on i
+nput line 127.
+
+
+Package natbib Warning: Citation `santos_surface_2021' on page 6 undefined on i
+nput line 127.
+
+
+Package natbib Warning: Citation `lu_bridging_2022' on page 6 undefined on inpu
+t line 127.
+
+
+Package natbib Warning: Citation `distefano_gaia_2022' on page 6 undefined on i
+nput line 127.
+
+<Figures/intro_figures/rot_comp.png, id=303, 1084.05pt x 867.24pt>
 File: Figures/intro_figures/rot_comp.png Graphic file (type png)
 <use Figures/intro_figures/rot_comp.png>
 Package pdftex.def Info: Figures/intro_figures/rot_comp.png  used on input line
  131.
 (pdftex.def)             Requested size: 417.47307pt x 333.97446pt.
 
+Package natbib Warning: Citation `mcquillan_rotation_2014' on page 6 undefined 
+on input line 132.
+
+
+Package natbib Warning: Citation `distefano_gaia_2022' on page 6 undefined on i
+nput line 132.
+
+
+Package natbib Warning: Citation `lu_bridging_2022' on page 6 undefined on inpu
+t line 132.
+
+
+Package natbib Warning: Citation `mcquillan_rotation_2014' on page 6 undefined 
+on input line 132.
+
+
+Package natbib Warning: Citation `distefano_gaia_2022' on page 6 undefined on i
+nput line 132.
+
+
+Package natbib Warning: Citation `lu_bridging_2022' on page 6 undefined on inpu
+t line 132.
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[6] [7 <./Figures/intro_figures/rot_comp.png>] [8]
-<Figures/intro_figures/pms_evo.png, id=750, 1161.33875pt x 782.925pt>
+
+Package natbib Warning: Citation `distefano_determination_2012' on page 6 undef
+ined on input line 137.
+
+
+Package natbib Warning: Citation `distefano_gaia_2022' on page 6 undefined on i
+nput line 140.
+
+[6] [7 <./Figures/intro_figures/rot_comp.png>]
+
+Package natbib Warning: Citation `mcquillan_rotation_2014' on page 8 undefined 
+on input line 152.
+
+
+Package natbib Warning: Citation `distefano_gaia_2022' on page 8 undefined on i
+nput line 154.
+
+
+Package natbib Warning: Citation `eggenberger_angular_2012' on page 8 undefined
+ on input line 167.
+
+[8]
+
+Package natbib Warning: Citation `gallet_improved_2013' on page 9 undefined on 
+input line 171.
+
+<Figures/intro_figures/pms_evo.png, id=325, 1161.33875pt x 782.925pt>
 File: Figures/intro_figures/pms_evo.png Graphic file (type png)
 <use Figures/intro_figures/pms_evo.png>
 Package pdftex.def Info: Figures/intro_figures/pms_evo.png  used on input line 
 177.
 (pdftex.def)             Requested size: 417.47307pt x 281.44661pt.
- [9 <./Figures/intro_figures/pms_evo.png>]
-<Figures/intro_figures/cluster_kepler.png, id=821, 1149.29375pt x 839.135pt>
+
+Package natbib Warning: Citation `herbst_stellar_2002' on page 9 undefined on i
+nput line 178.
+
+
+Package natbib Warning: Citation `henderson_time-series_2012' on page 9 undefin
+ed on input line 178.
+
+
+Package natbib Warning: Citation `affer_rotation_2013' on page 9 undefined on i
+nput line 178.
+
+
+Package natbib Warning: Citation `irwin_monitor_2008' on page 9 undefined on in
+put line 178.
+
+
+Package natbib Warning: Citation `moraux_monitor_2013' on page 9 undefined on i
+nput line 178.
+
+
+Package natbib Warning: Citation `irwin_monitor_2008' on page 9 undefined on in
+put line 178.
+
+
+Package natbib Warning: Citation `hartman_large_2010' on page 9 undefined on in
+put line 178.
+
+
+Package natbib Warning: Citation `irwin_monitor_2009' on page 9 undefined on in
+put line 178.
+
+
+Package natbib Warning: Citation `meibom_slar_2009' on page 9 undefined on inpu
+t line 178.
+
+
+Package natbib Warning: Citation `hartman_deep_2009' on page 9 undefined on inp
+ut line 178.
+
+
+Package natbib Warning: Citation `delorme_stellar_2011' on page 9 undefined on 
+input line 178.
+
+
+Package natbib Warning: Citation `delorme_stellar_2011' on page 9 undefined on 
+input line 178.
+
+
+Package natbib Warning: Citation `meibom_kepler_2011' on page 9 undefined on in
+put line 178.
+
+
+Package natbib Warning: Citation `gallet_improved_2013' on page 9 undefined on 
+input line 178.
+
+
+Package natbib Warning: Citation `herbst_stellar_2002' on page 9 undefined on i
+nput line 178.
+
+
+Package natbib Warning: Citation `henderson_time-series_2012' on page 9 undefin
+ed on input line 178.
+
+
+Package natbib Warning: Citation `affer_rotation_2013' on page 9 undefined on i
+nput line 178.
+
+
+Package natbib Warning: Citation `irwin_monitor_2008' on page 9 undefined on in
+put line 178.
+
+
+Package natbib Warning: Citation `moraux_monitor_2013' on page 9 undefined on i
+nput line 178.
+
+
+Package natbib Warning: Citation `irwin_monitor_2008' on page 9 undefined on in
+put line 178.
+
+
+Package natbib Warning: Citation `hartman_large_2010' on page 9 undefined on in
+put line 178.
+
+
+Package natbib Warning: Citation `irwin_monitor_2009' on page 9 undefined on in
+put line 178.
+
+
+Package natbib Warning: Citation `meibom_slar_2009' on page 9 undefined on inpu
+t line 178.
+
+
+Package natbib Warning: Citation `hartman_deep_2009' on page 9 undefined on inp
+ut line 178.
+
+
+Package natbib Warning: Citation `delorme_stellar_2011' on page 9 undefined on 
+input line 178.
+
+
+Package natbib Warning: Citation `delorme_stellar_2011' on page 9 undefined on 
+input line 178.
+
+
+Package natbib Warning: Citation `meibom_kepler_2011' on page 9 undefined on in
+put line 178.
+
+
+Package natbib Warning: Citation `gallet_improved_2013' on page 9 undefined on 
+input line 178.
+
+
+Package natbib Warning: Citation `spina_how_2020' on page 9 undefined on input 
+line 184.
+
+
+Package natbib Warning: Citation `curtis_when_2020' on page 9 undefined on inpu
+t line 184.
+
+[9 <./Figures/intro_figures/pms_evo.png>]
+<Figures/intro_figures/cluster_kepler.png, id=334, 1149.29375pt x 839.135pt>
 File: Figures/intro_figures/cluster_kepler.png Graphic file (type png)
 <use Figures/intro_figures/cluster_kepler.png>
 Package pdftex.def Info: Figures/intro_figures/cluster_kepler.png  used on inpu
 t line 189.
 (pdftex.def)             Requested size: 417.47307pt x 304.80284pt.
- [10 <./Figures/intro_figures/cluster_kepler.png>] [11]
-<Figures/intro_figures/kepler_rot_dist.png, id=870, 867.24pt x 578.16pt>
+
+
+Package natbib Warning: Citation `mcquillan_rotation_2014' on page 10 undefined
+ on input line 192.
+
+
+Package natbib Warning: Citation `curtis_when_2020' on page 10 undefined on inp
+ut line 192.
+
+
+Package natbib Warning: Citation `mcquillan_rotation_2014' on page 10 undefined
+ on input line 192.
+
+
+Package natbib Warning: Citation `curtis_when_2020' on page 10 undefined on inp
+ut line 192.
+
+
+Package natbib Warning: Citation `skumanich_time_1972' on page 10 undefined on 
+input line 198.
+
+
+Package natbib Warning: Citation `heger_presupernova_1998' on page 10 undefined
+ on input line 211.
+
+
+Package natbib Warning: Citation `maeder_evolution_2000' on page 10 undefined o
+n input line 211.
+
+
+Package natbib Warning: Citation `maeder_physics_2009' on page 10 undefined on 
+input line 211.
+
+[10 <./Figures/intro_figures/cluster_kepler.png>]
+
+Package natbib Warning: Citation `spada_competing_2020' on page 11 undefined on
+ input line 218.
+
+
+Package natbib Warning: Citation `spada_competing_2020' on page 11 undefined on
+ input line 221.
+
+[11]
+
+Package natbib Warning: Citation `johnstone_stellar_2015' on page 12 undefined 
+on input line 229.
+
+
+Package natbib Warning: Citation `johnstone_stellar_2015-1' on page 12 undefine
+d on input line 229.
+
+
+Package natbib Warning: Citation `gallet_improved_2013' on page 12 undefined on
+ input line 229.
+
+
+Package natbib Warning: Citation `wright_stellar-activity-rotation_2011' on pag
+e 12 undefined on input line 230.
+
+
+Package natbib Warning: Citation `spada_competing_2020' on page 12 undefined on
+ input line 232.
+
+
+Package natbib Warning: Citation `gallet_improved_2013' on page 12 undefined on
+ input line 232.
+
+
+Package natbib Warning: Citation `mcquillan_rotation_2014' on page 12 undefined
+ on input line 235.
+
+<Figures/intro_figures/kepler_rot_dist.png, id=347, 867.24pt x 578.16pt>
 File: Figures/intro_figures/kepler_rot_dist.png Graphic file (type png)
 <use Figures/intro_figures/kepler_rot_dist.png>
 Package pdftex.def Info: Figures/intro_figures/kepler_rot_dist.png  used on inp
 ut line 240.
 (pdftex.def)             Requested size: 417.47307pt x 278.31645pt.
- [12]
-[13 <./Figures/intro_figures/kepler_rot_dist.png>] [14]
-<Figures/intro_figures/ztf_comp.png, id=949, 750.805pt x 399.4925pt>
+
+Package natbib Warning: Citation `mcquillan_rotation_2014' on page 12 undefined
+ on input line 242.
+
+
+Package natbib Warning: Citation `mcquillan_rotation_2014' on page 12 undefined
+ on input line 242.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package natbib Warning: Citation `mcquillan_rotation_2014' on page 12 undefined
+ on input line 247.
+
+
+Package natbib Warning: Citation `davenport_rotating_2017' on page 12 undefined
+ on input line 247.
+
+
+Package natbib Warning: Citation `davenport_rotating_2017' on page 12 undefined
+ on input line 248.
+
+
+Package natbib Warning: Citation `davenport_rotating_2018' on page 12 undefined
+ on input line 250.
+
+[12]
+
+Package natbib Warning: Citation `gordon_stellar_2021' on page 13 undefined on 
+input line 254.
+
+
+Package natbib Warning: Citation `angus_exploring_2020' on page 13 undefined on
+ input line 258.
+
+
+Package natbib Warning: Citation `douglas_poking_2017' on page 13 undefined on 
+input line 260.
+
+
+Package natbib Warning: Citation `douglas_k2_2019' on page 13 undefined on inpu
+t line 260.
+
+
+Package natbib Warning: Citation `curtis_temporary_2019' on page 13 undefined o
+n input line 260.
+
+
+Package natbib Warning: Citation `curtis_when_2020' on page 13 undefined on inp
+ut line 260.
+
+[13 <./Figures/intro_figures/kepler_rot_dist.png>]
+
+Package natbib Warning: Citation `reinhold_transition_2019' on page 14 undefine
+d on input line 264.
+
+
+Package natbib Warning: Citation `spada_angular_2016' on page 14 undefined on i
+nput line 265.
+
+
+Package natbib Warning: Citation `reinhold_transition_2019' on page 14 undefine
+d on input line 265.
+
+
+Package natbib Warning: Citation `curtis_when_2020' on page 14 undefined on inp
+ut line 266.
+
+
+Package natbib Warning: Citation `noyes_rotation_1984' on page 14 undefined on 
+input line 269.
+
+
+Package natbib Warning: Citation `montesinos_new_2001' on page 14 undefined on 
+input line 269.
+
+
+Package natbib Warning: Citation `augustson_rossby_2019' on page 14 undefined o
+n input line 269.
+
+
+Package natbib Warning: Citation `lu_bridging_2022' on page 14 undefined on inp
+ut line 281.
+
+
+Package natbib Warning: Citation `amard_first_2019' on page 14 undefined on inp
+ut line 283.
+
+[14]
+<Figures/intro_figures/ztf_comp.png, id=369, 750.805pt x 399.4925pt>
 File: Figures/intro_figures/ztf_comp.png Graphic file (type png)
 <use Figures/intro_figures/ztf_comp.png>
 Package pdftex.def Info: Figures/intro_figures/ztf_comp.png  used on input line
@@ -763,39 +1189,362 @@ Package pdftex.def Info: Figures/intro_figures/ztf_comp.png  used on input line
 (pdftex.def)             Requested size: 417.47307pt x 222.13547pt.
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Package natbib Warning: Citation `lu_bridging_2022' on page 15 undefined on inp
+ut line 287.
 
-[15]
+
+Package natbib Warning: Citation `lu_bridging_2022' on page 15 undefined on inp
+ut line 287.
+
+
+Package natbib Warning: Citation `mcquillan_rotation_2014' on page 15 undefined
+ on input line 291.
+
+
+Package natbib Warning: Citation `lanzafame_rotational_2015' on page 15 undefin
+ed on input line 295.
+
+
+Package natbib Warning: Citation `spada_competing_2020' on page 15 undefined on
+ input line 295.
+
+
+Package natbib Warning: Citation `angus_exploring_2020' on page 15 undefined on
+ input line 296.
+
+
+Package natbib Warning: Citation `curtis_when_2020' on page 15 undefined on inp
+ut line 301.
+
+[15 <./Figures/intro_figures/ztf_comp.png>]
+
+Package natbib Warning: Citation `reinhold_fast_2013' on page 16 undefined on i
+nput line 312.
+
+
+Package natbib Warning: Citation `reinhold_transition_2019' on page 16 undefine
+d on input line 312.
+
+
+Package natbib Warning: Citation `mcquillan_rotation_2014' on page 16 undefined
+ on input line 314.
+
 
 LaTeX Warning: Reference `sec:stellar_spot_brightness_modulations' on page 16 u
 ndefined on input line 314.
 
-[16 <./Figures/intro_figures/ztf_comp.png>] [17] [18] [19]
+
+Package natbib Warning: Citation `reinhold_transition_2019' on page 16 undefine
+d on input line 317.
+
+
+Package natbib Warning: Citation `vaughan_survey_1980' on page 16 undefined on 
+input line 321.
+
+
+Package natbib Warning: Citation `lockwood_patterns_2007' on page 16 undefined 
+on input line 322.
+
+
+Package natbib Warning: Citation `reinhold_transition_2019' on page 16 undefine
+d on input line 322.
+
+
+Package natbib Warning: Citation `reinhold_transition_2019' on page 16 undefine
+d on input line 323.
+
+[16]
+
+Package natbib Warning: Citation `cao_starspots_2022' on page 17 undefined on i
+nput line 326.
+
+
+Package natbib Warning: Citation `cao_core-envelope_2023' on page 17 undefined 
+on input line 331.
+
+
+Package natbib Warning: Citation `mcquillan_rotation_2014' on page 17 undefined
+ on input line 346.
+
+
+Package natbib Warning: Citation `van_saders_forward_2019' on page 17 undefined
+ on input line 346.
+
+[17]
+
+Package natbib Warning: Citation `van_saders_forward_2019' on page 18 undefined
+ on input line 348.
+
+
+Package natbib Warning: Citation `david_further_2022' on page 18 undefined on i
+nput line 352.
+
+
+Package natbib Warning: Citation `david_further_2022' on page 18 undefined on i
+nput line 355.
+
+
+Package natbib Warning: Citation `metcalfe_precise_2010' on page 18 undefined o
+n input line 366.
+
+
+Package natbib Warning: Citation `bedding_gravity_2011' on page 18 undefined on
+ input line 366.
+
+
+Package natbib Warning: Citation `mcquillan_rotation_2014' on page 18 undefined
+ on input line 369.
+
+
+Package natbib Warning: Citation `ceillier_surface_2017' on page 18 undefined o
+n input line 369.
+
+
+Package natbib Warning: Citation `deheuvels_seismic_2014' on page 18 undefined 
+on input line 369.
+
+
+Package natbib Warning: Citation `gehan_core_2018' on page 18 undefined on inpu
+t line 369.
+
+
+Package natbib Warning: Citation `deheuvels_seismic_2020' on page 18 undefined 
+on input line 369.
+
+
+Package natbib Warning: Citation `fellay_asteroseismology_2021' on page 18 unde
+fined on input line 369.
+
+[18]
+
+Package natbib Warning: Citation `hall_weakened_2021' on page 19 undefined on i
+nput line 385.
+
+[19]
+
+Package natbib Warning: Citation `maeder_evolution_2000' on page 20 undefined o
+n input line 390.
+
 
 Package natbib Warning: Citation `heger_2000' on page 20 undefined on input lin
 e 390.
 
-<Figures/intro_figures/qualitative_evo.png, id=1070, 719.68875pt x 466.74374pt>
 
+Package natbib Warning: Citation `mosser_spin_2012' on page 20 undefined on inp
+ut line 398.
+
+
+Package natbib Warning: Citation `deheuvels_seismic_2014' on page 20 undefined 
+on input line 398.
+
+
+Package natbib Warning: Citation `deheuvels_seismic_2015' on page 20 undefined 
+on input line 398.
+
+
+Package natbib Warning: Citation `hermes_white_2017' on page 20 undefined on in
+put line 398.
+
+
+Package natbib Warning: Citation `gehan_core_2018' on page 20 undefined on inpu
+t line 398.
+
+
+Package natbib Warning: Citation `deheuvels_seismic_2020' on page 20 undefined 
+on input line 398.
+
+<Figures/intro_figures/qualitative_evo.png, id=401, 719.68875pt x 466.74374pt>
 File: Figures/intro_figures/qualitative_evo.png Graphic file (type png)
 <use Figures/intro_figures/qualitative_evo.png>
 Package pdftex.def Info: Figures/intro_figures/qualitative_evo.png  used on inp
 ut line 401.
 (pdftex.def)             Requested size: 417.47307pt x 270.75429pt.
 
+Package natbib Warning: Citation `spada_angular_2016' on page 20 undefined on i
+nput line 402.
+
+
+Package natbib Warning: Citation `fuller_slowing_2019' on page 20 undefined on 
+input line 402.
+
+
+Package natbib Warning: Citation `spada_angular_2016' on page 20 undefined on i
+nput line 402.
+
+
+Package natbib Warning: Citation `fuller_slowing_2019' on page 20 undefined on 
+input line 402.
+
+
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[20] [21 <./Figures/intro_figures/qualitative_evo.png>] [22]
-<Figures/intro_figures/deheuvels_disparity_without.png, id=1184, 531.9875pt x 2
-68.00125pt>
+
+Package natbib Warning: Citation `deheuvels_seismic_2020' on page 20 undefined 
+on input line 408.
+
+
+Package natbib Warning: Citation `beck_fast_2012' on page 20 undefined on input
+ line 409.
+
+
+Package natbib Warning: Citation `deheuvels_seismic_2014' on page 20 undefined 
+on input line 412.
+
+
+Package natbib Warning: Citation `deheuvels_seismic_2014' on page 20 undefined 
+on input line 413.
+
+
+Package natbib Warning: Citation `spada_angular_2016' on page 20 undefined on i
+nput line 413.
+
+
+Package natbib Warning: Citation `moyano_asteroseismology_2022' on page 20 unde
+fined on input line 413.
+
+
+Package natbib Warning: Citation `fuller_asteroseismology_2015' on page 20 unde
+fined on input line 414.
+
+
+Package natbib Warning: Citation `spada_angular_2016' on page 20 undefined on i
+nput line 414.
+
+
+Package natbib Warning: Citation `ouazzani_gamma_2018' on page 20 undefined on 
+input line 414.
+
+
+Package natbib Warning: Citation `eggenberger_asteroseismology_2019' on page 20
+ undefined on input line 414.
+
+
+Package natbib Warning: Citation `gehan_core_2018' on page 20 undefined on inpu
+t line 415.
+
+
+Package natbib Warning: Citation `mosser_spin_2012' on page 20 undefined on inp
+ut line 415.
+
+
+Package natbib Warning: Citation `mosser_spin_2012' on page 20 undefined on inp
+ut line 416.
+
+
+Package natbib Warning: Citation `gehan_core_2018' on page 20 undefined on inpu
+t line 416.
+
+
+Package natbib Warning: Citation `moyano_asteroseismology_2022' on page 20 unde
+fined on input line 416.
+
+
+Package natbib Warning: Citation `cantiello_angular_2014' on page 20 undefined 
+on input line 417.
+
+
+Package natbib Warning: Citation `moyano_asteroseismology_2022' on page 20 unde
+fined on input line 417.
+
+
+Package natbib Warning: Citation `cantiello_angular_2014' on page 20 undefined 
+on input line 418.
+
+
+Package natbib Warning: Citation `den_hartogh_constraining_2019' on page 20 und
+efined on input line 418.
+
+
+Package natbib Warning: Citation `cantiello_angular_2014' on page 20 undefined 
+on input line 419.
+
+[20]
+
+Package natbib Warning: Citation `spada_angular_2016' on page 21 undefined on i
+nput line 424.
+
+
+Package natbib Warning: Citation `deheuvels_seismic_2014' on page 21 undefined 
+on input line 424.
+
+[21 <./Figures/intro_figures/qualitative_evo.png>]
+
+Package natbib Warning: Citation `zahn_circulation_1992' on page 22 undefined o
+n input line 430.
+
+
+Package natbib Warning: Citation `maeder_stellar_1998' on page 22 undefined on 
+input line 430.
+
+
+Package natbib Warning: Citation `eggenberger_geneva_2008' on page 22 undefined
+ on input line 430.
+
+
+Package natbib Warning: Citation `eggenberger_effects_2010' on page 22 undefine
+d on input line 431.
+
+
+Package natbib Warning: Citation `deheuvels_seismic_2014' on page 22 undefined 
+on input line 435.
+
+
+Package natbib Warning: Citation `moyano_asteroseismology_2022' on page 22 unde
+fined on input line 437.
+
+
+Package natbib Warning: Citation `mosser_spin_2012' on page 22 undefined on inp
+ut line 437.
+
+
+Package natbib Warning: Citation `gehan_core_2018' on page 22 undefined on inpu
+t line 437.
+
+
+Package natbib Warning: Citation `den_hartogh_constraining_2019' on page 22 und
+efined on input line 441.
+
+
+Package natbib Warning: Citation `gehan_core_2018' on page 22 undefined on inpu
+t line 442.
+
+<Figures/intro_figures/deheuvels_disparity_without.png, id=418, 531.9875pt x 26
+8.00125pt>
 File: Figures/intro_figures/deheuvels_disparity_without.png Graphic file (type 
 png)
 <use Figures/intro_figures/deheuvels_disparity_without.png>
 Package pdftex.def Info: Figures/intro_figures/deheuvels_disparity_without.png 
  used on input line 445.
 (pdftex.def)             Requested size: 417.47307pt x 210.316pt.
-<Figures/intro_figures/deheuvels_disparity_with.png, id=1197, 520.94624pt x 503
-.8825pt>
+
+Package natbib Warning: Citation `deheuvels_seismic_2014' on page 22 undefined 
+on input line 450.
+
+
+Package natbib Warning: Citation `eggenberger_asteroseismology_2019' on page 22
+ undefined on input line 450.
+
+
+Package natbib Warning: Citation `eggenberger_asteroseismology_2019' on page 22
+ undefined on input line 450.
+
+
+Package natbib Warning: Citation `deheuvels_seismic_2014' on page 22 undefined 
+on input line 450.
+
+
+Package natbib Warning: Citation `eggenberger_asteroseismology_2019' on page 22
+ undefined on input line 450.
+
+
+Package natbib Warning: Citation `eggenberger_asteroseismology_2019' on page 22
+ undefined on input line 450.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Figures/intro_figures/deheuvels_disparity_with.png, id=419, 520.94624pt x 503.
+8825pt>
 File: Figures/intro_figures/deheuvels_disparity_with.png Graphic file (type png
 )
 <use Figures/intro_figures/deheuvels_disparity_with.png>
@@ -803,178 +1552,1199 @@ Package pdftex.def Info: Figures/intro_figures/deheuvels_disparity_with.png  us
 ed on input line 455.
 (pdftex.def)             Requested size: 417.47307pt x 403.79852pt.
 
+Package natbib Warning: Citation `eggenberger_asteroseismology_2019' on page 22
+ undefined on input line 457.
+
+
+Package natbib Warning: Citation `eggenberger_asteroseismology_2019' on page 22
+ undefined on input line 457.
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/intro_figures/rgb_core_rot_without.png, id=1204, 804.00375pt x 594.22p
-t>
+<Figures/intro_figures/rgb_core_rot_without.png, id=422, 804.00375pt x 594.22pt
+>
 File: Figures/intro_figures/rgb_core_rot_without.png Graphic file (type png)
 <use Figures/intro_figures/rgb_core_rot_without.png>
 Package pdftex.def Info: Figures/intro_figures/rgb_core_rot_without.png  used o
 n input line 463.
 (pdftex.def)             Requested size: 417.47307pt x 308.54283pt.
 
+Package natbib Warning: Citation `gehan_core_2018' on page 22 undefined on inpu
+t line 468.
+
+
+Package natbib Warning: Citation `moyano_asteroseismology_2022' on page 22 unde
+fined on input line 468.
+
+
+Package natbib Warning: Citation `moyano_asteroseismology_2022' on page 22 unde
+fined on input line 468.
+
+
+Package natbib Warning: Citation `gehan_core_2018' on page 22 undefined on inpu
+t line 468.
+
+
+Package natbib Warning: Citation `moyano_asteroseismology_2022' on page 22 unde
+fined on input line 468.
+
+
+Package natbib Warning: Citation `moyano_asteroseismology_2022' on page 22 unde
+fined on input line 468.
+
+
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/intro_figures/rgb_core_rot.png, id=1217, 781.92125pt x 594.22pt>
+<Figures/intro_figures/rgb_core_rot.png, id=423, 781.92125pt x 594.22pt>
 File: Figures/intro_figures/rgb_core_rot.png Graphic file (type png)
 <use Figures/intro_figures/rgb_core_rot.png>
 Package pdftex.def Info: Figures/intro_figures/rgb_core_rot.png  used on input 
 line 473.
 (pdftex.def)             Requested size: 417.47307pt x 317.25627pt.
 
+Package natbib Warning: Citation `moyano_asteroseismology_2022' on page 22 unde
+fined on input line 475.
+
+
+Package natbib Warning: Citation `moyano_asteroseismology_2022' on page 22 unde
+fined on input line 475.
+
+
 LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package natbib Warning: Citation `barker_angular_2019' on page 22 undefined on 
+input line 481.
+
+
+Package natbib Warning: Citation `barker_angular_2020' on page 22 undefined on 
+input line 481.
+
+
+Package natbib Warning: Citation `goldreich_differential_1967' on page 22 undef
+ined on input line 482.
+
+
+Package natbib Warning: Citation `fricke_rotation_1967' on page 22 undefined on
+ input line 482.
+
+
+Package natbib Warning: Citation `ruediger_astrophysical_2014' on page 22 undef
+ined on input line 486.
+
+
+Package natbib Warning: Citation `rudiger_diffusive_2015' on page 22 undefined 
+on input line 486.
+
+
+Package natbib Warning: Citation `spruit_dynamo_2002' on page 22 undefined on i
+nput line 486.
+
+
+Package natbib Warning: Citation `rudiger_diffusive_2015' on page 22 undefined 
+on input line 487.
+
+
+Package natbib Warning: Citation `fuller_slowing_2019' on page 22 undefined on 
+input line 489.
+
+
+Package natbib Warning: Citation `eggenberger_asteroseismology_2019' on page 22
+ undefined on input line 489.
+
+
+Package natbib Warning: Citation `den_hartogh_constraining_2019' on page 22 und
+efined on input line 489.
+
+[22]
+
+Package natbib Warning: Citation `spada_angular_2016' on page 23 undefined on i
+nput line 492.
+
+
+Package natbib Warning: Citation `mosser_spin_2012' on page 23 undefined on inp
+ut line 493.
+
+
+Package natbib Warning: Citation `moyano_asteroseismology_2022' on page 23 unde
+fined on input line 494.
+
+
+Package natbib Warning: Citation `gehan_core_2018' on page 23 undefined on inpu
+t line 494.
+
+
+Package natbib Warning: Citation `spada_angular_2016' on page 23 undefined on i
+nput line 495.
+
+
+Package natbib Warning: Citation `pincon_can_2017' on page 23 undefined on inpu
+t line 498.
+
+
+Package natbib Warning: Citation `belkacem_angular_2015' on page 23 undefined o
+n input line 498.
 
 [23 <./Figures/intro_figures/deheuvels_disparity_without.png>]
 
-LaTeX Warning: Reference `sec:magnetic_inst' on page 24 undefined on input line
- 486.
+Package natbib Warning: Citation `eggenberger_asteroseismology_2019' on page 24
+ undefined on input line 513.
 
-[24 <./Figures/intro_figures/deheuvels_disparity_with.png>] [25 <./Figures/intr
-o_figures/rgb_core_rot_without.png>] [26 <./Figures/intro_figures/rgb_core_rot.
-png>] [27] [28]
-<Figures/intro_figures/subgiant_surface.png, id=1348, 728.7225pt x 353.32pt>
+[24 <./Figures/intro_figures/deheuvels_disparity_with.png>]
+
+Package natbib Warning: Citation `gough_effect_1990' on page 25 undefined on in
+put line 520.
+
+
+Package natbib Warning: Citation `garaud_rotationally_2002' on page 25 undefine
+d on input line 521.
+
+
+Package natbib Warning: Citation `strugarek_magnetic_2011' on page 25 undefined
+ on input line 521.
+
+
+Package natbib Warning: Citation `charbonnel_deep_2008' on page 25 undefined on
+ input line 522.
+
+
+Package natbib Warning: Citation `charbonnel_influence_2005' on page 25 undefin
+ed on input line 523.
+
+
+Package natbib Warning: Citation `balbus_stability_1994' on page 25 undefined o
+n input line 524.
+
+
+Package natbib Warning: Citation `arlt_differential_2003' on page 25 undefined 
+on input line 524.
+
+
+Package natbib Warning: Citation `menou_magnetorotational_2006' on page 25 unde
+fined on input line 524.
+
+
+Package natbib Warning: Citation `fuller_asteroseismology_2015' on page 25 unde
+fined on input line 524.
+
+
+Package natbib Warning: Citation `fuller_slowing_2019' on page 25 undefined on 
+input line 524.
+
+
+Package natbib Warning: Citation `moyano_asteroseismology_2022' on page 25 unde
+fined on input line 524.
+
+[25 <./Figures/intro_figures/rgb_core_rot_without.png>]
+
+Package natbib Warning: Citation `ahlborn_asteroseismic_2020' on page 26 undefi
+ned on input line 529.
+
+[26 <./Figures/intro_figures/rgb_core_rot.png>]
+
+Package natbib Warning: Citation `li_asteroseismology_2020' on page 27 undefine
+d on input line 536.
+
+
+Package natbib Warning: Citation `li_asteroseismology_2020-1' on page 27 undefi
+ned on input line 536.
+
+
+Package natbib Warning: Citation `hatt_catalogue_2023' on page 27 undefined on 
+input line 538.
+
+
+Package natbib Warning: Citation `santos_surface_2021' on page 27 undefined on 
+input line 545.
+
+
+Package natbib Warning: Citation `mcquillan_rotation_2014' on page 27 undefined
+ on input line 555.
+
+[27]
+<Figures/intro_figures/subgiant_surface.png, id=464, 728.7225pt x 353.32pt>
 File: Figures/intro_figures/subgiant_surface.png Graphic file (type png)
 <use Figures/intro_figures/subgiant_surface.png>
 Package pdftex.def Info: Figures/intro_figures/subgiant_surface.png  used on in
 put line 561.
 (pdftex.def)             Requested size: 417.47307pt x 202.40804pt.
- [29 <./Figures/intro_figures/subgiant_surface.png>]
-<Figures/intro_figures/rgb_surface.png, id=1375, 727.71875pt x 705.63625pt>
+
+
+Package natbib Warning: Citation `santos_surface_2021' on page 28 undefined on 
+input line 563.
+
+
+Package natbib Warning: Citation `mcquillan_rotation_2014' on page 28 undefined
+ on input line 563.
+
+
+Package natbib Warning: Citation `santos_surface_2021' on page 28 undefined on 
+input line 563.
+
+
+Package natbib Warning: Citation `santos_surface_2021' on page 28 undefined on 
+input line 563.
+
+
+Package natbib Warning: Citation `mcquillan_rotation_2014' on page 28 undefined
+ on input line 563.
+
+
+Package natbib Warning: Citation `santos_surface_2021' on page 28 undefined on 
+input line 563.
+
+
+Package natbib Warning: Citation `ceillier_surface_2017' on page 28 undefined o
+n input line 567.
+
+
+Package natbib Warning: Citation `santos_surface_2021' on page 28 undefined on 
+input line 569.
+
+
+Package natbib Warning: Citation `tayar_rapid_2015' on page 28 undefined on inp
+ut line 570.
+
+[28 <./Figures/intro_figures/subgiant_surface.png>]
+<Figures/intro_figures/rgb_surface.png, id=474, 727.71875pt x 705.63625pt>
 File: Figures/intro_figures/rgb_surface.png Graphic file (type png)
 <use Figures/intro_figures/rgb_surface.png>
 Package pdftex.def Info: Figures/intro_figures/rgb_surface.png  used on input l
 ine 576.
 (pdftex.def)             Requested size: 417.47307pt x 404.81172pt.
- [30 <./Figures/intro_figures/rgb_surface.png>]
 
-Package natbib Warning: Citation `maeder_diffuse_1996' on page 31 undefined on 
+
+Package natbib Warning: Citation `ceillier_surface_2017' on page 29 undefined o
+n input line 578.
+
+
+Package natbib Warning: Citation `ceillier_surface_2017' on page 29 undefined o
+n input line 578.
+
+
+Package natbib Warning: Citation `ceillier_surface_2017' on page 29 undefined o
+n input line 578.
+
+
+Package natbib Warning: Citation `ceillier_surface_2017' on page 29 undefined o
+n input line 578.
+
+
+Package natbib Warning: Citation `hermes_white_2017' on page 29 undefined on in
+put line 584.
+
+
+Package natbib Warning: Citation `den_hartogh_constraining_2019' on page 29 und
+efined on input line 585.
+
+
+Package natbib Warning: Citation `cantiello_angular_2014' on page 29 undefined 
+on input line 585.
+
+
+Package natbib Warning: Citation `den_hartogh_constraining_2019' on page 29 und
+efined on input line 587.
+
+[29 <./Figures/intro_figures/rgb_surface.png>]
+
+Package natbib Warning: Citation `kippenhahn_rotation_1970' on page 30 undefine
+d on input line 598.
+
+
+Package natbib Warning: Citation `maeder_evolution_2000' on page 30 undefined o
+n input line 598.
+
+
+Package natbib Warning: Citation `kippenhahn_simple_1970' on page 30 undefined 
+on input line 610.
+
+
+Package natbib Warning: Citation `tassoul_theory_1978' on page 30 undefined on 
+input line 614.
+
+
+Package natbib Warning: Citation `zahn_circulation_1992' on page 30 undefined o
+n input line 616.
+
+
+Package natbib Warning: Citation `maeder_diffuse_1996' on page 30 undefined on 
 input line 618.
 
-[31] [32] [33] [34] [35] [36] [37] [38] [39] [40] [41] [42] [43]
 
-Package natbib Warning: Citation `chiosi_1986' on page 44 undefined on input li
+Package natbib Warning: Citation `kippenhahn_circulation_1974' on page 30 undef
+ined on input line 618.
+
+[30]
+
+Package natbib Warning: Citation `von_zeipel_radiative_1924' on page 31 undefin
+ed on input line 625.
+
+
+Package natbib Warning: Citation `von_zeipel_radiative_1924' on page 31 undefin
+ed on input line 626.
+
+
+Package natbib Warning: Citation `kippenhahn_rotational_1977' on page 31 undefi
+ned on input line 626.
+
+
+Package natbib Warning: Citation `kippenhahn_rotational_1977' on page 31 undefi
+ned on input line 628.
+
+
+Package natbib Warning: Citation `maeder_stellar_1999' on page 31 undefined on 
+input line 628.
+
+
+Package natbib Warning: Citation `heger_presupernova_2000' on page 31 undefined
+ on input line 628.
+
+[31]
+
+Package natbib Warning: Citation `maeder_evolution_2000' on page 32 undefined o
+n input line 644.
+
+
+Package natbib Warning: Citation `tassoul_stellar_2000' on page 32 undefined on
+ input line 644.
+
+[32]
+
+Package natbib Warning: Citation `heger_presupernova_2000' on page 33 undefined
+ on input line 669.
+
+
+Package natbib Warning: Citation `endal_evolution_1978' on page 33 undefined on
+ input line 682.
+
+
+Package natbib Warning: Citation `pinsonneault_evolutionary_1989' on page 33 un
+defined on input line 682.
+
+
+Package natbib Warning: Citation `heger_presupernova_1998' on page 33 undefined
+ on input line 682.
+
+
+Package natbib Warning: Citation `zahn_rotational_1974' on page 33 undefined on
+ input line 689.
+
+[33]
+
+Package natbib Warning: Citation `tassoul_theory_1978' on page 34 undefined on 
+input line 700.
+
+
+Package natbib Warning: Citation `kippenhahn_stellar_1990' on page 34 undefined
+ on input line 700.
+
+
+Package natbib Warning: Citation `heger_presupernova_2000' on page 34 undefined
+ on input line 700.
+
+
+Package natbib Warning: Citation `endal_evolution_1978' on page 34 undefined on
+ input line 711.
+
+[34]
+
+Package natbib Warning: Citation `tassoul_theory_1978' on page 35 undefined on 
+input line 716.
+
+
+Package natbib Warning: Citation `heger_presupernova_1998' on page 35 undefined
+ on input line 716.
+
+
+Package natbib Warning: Citation `endal_evolution_1978' on page 35 undefined on
+ input line 724.
+
+
+Package natbib Warning: Citation `charbonnel_lithium_1994' on page 35 undefined
+ on input line 727.
+
+
+Package natbib Warning: Citation `heger_presupernova_2000' on page 35 undefined
+ on input line 727.
+
+
+Package natbib Warning: Citation `maeder_stellar_1997' on page 35 undefined on 
+input line 729.
+
+
+Package natbib Warning: Citation `zahn_circulation_1992' on page 35 undefined o
+n input line 732.
+
+
+Package natbib Warning: Citation `talon_anisotropic_1997' on page 35 undefined 
+on input line 733.
+
+[35]
+
+Package natbib Warning: Citation `eddington_circulating_1925' on page 36 undefi
+ned on input line 739.
+
+
+Package natbib Warning: Citation `sweet_importance_1950' on page 36 undefined o
+n input line 744.
+
+
+Package natbib Warning: Citation `mestel_rotation_1953' on page 36 undefined on
+ input line 744.
+
+
+Package natbib Warning: Citation `mestel_star_1956' on page 36 undefined on inp
+ut line 744.
+
+
+Package natbib Warning: Citation `kippenhahn_stellar_1990' on page 36 undefined
+ on input line 744.
+
+
+Package natbib Warning: Citation `endal_evolution_1978' on page 36 undefined on
+ input line 747.
+
+
+Package natbib Warning: Citation `kippenhahn_circulation_1974' on page 36 undef
+ined on input line 748.
+
+
+Package natbib Warning: Citation `endal_evolution_1978' on page 36 undefined on
+ input line 748.
+
+
+Package natbib Warning: Citation `heger_presupernova_2000' on page 36 undefined
+ on input line 748.
+
+
+Package natbib Warning: Citation `zahn_circulation_1992' on page 36 undefined o
+n input line 750.
+
+
+Package natbib Warning: Citation `chaboyer_effect_1992' on page 36 undefined on
+ input line 751.
+
+
+Package natbib Warning: Citation `kippenhahn_circulation_1974' on page 36 undef
+ined on input line 760.
+
+
+Package natbib Warning: Citation `endal_evolution_1978' on page 36 undefined on
+ input line 760.
+
+
+Package natbib Warning: Citation `heger_presupernova_2000' on page 36 undefined
+ on input line 760.
+
+
+Package natbib Warning: Citation `chaboyer_effect_1992' on page 36 undefined on
+ input line 760.
+
+
+Package natbib Warning: Citation `pinsonneault_evolutionary_1989' on page 36 un
+defined on input line 761.
+
+
+Package natbib Warning: Citation `kippenhahn_circulation_1974' on page 36 undef
+ined on input line 761.
+
+
+Package natbib Warning: Citation `zahn_circulation_1992' on page 36 undefined o
+n input line 765.
+
+
+Package natbib Warning: Citation `maeder_stellar_2003' on page 36 undefined on 
+input line 766.
+
+
+Package natbib Warning: Citation `mathis_transport_2004' on page 36 undefined o
+n input line 766.
+
+
+Package natbib Warning: Citation `mathis_anisotropic_2018' on page 36 undefined
+ on input line 767.
+
+[36]
+
+Package natbib Warning: Citation `endal_evolution_1978' on page 37 undefined on
+ input line 774.
+
+
+Package natbib Warning: Citation `pinsonneault_evolutionary_1989' on page 37 un
+defined on input line 774.
+
+
+Package natbib Warning: Citation `heger_presupernova_2000' on page 37 undefined
+ on input line 774.
+
+
+Package natbib Warning: Citation `talon_anisotropic_1997' on page 37 undefined 
+on input line 776.
+
+
+Package natbib Warning: Citation `heger_presupernova_2000' on page 37 undefined
+ on input line 776.
+
+
+Package natbib Warning: Citation `zahn_circulation_1992' on page 37 undefined o
+n input line 778.
+
+
+Package natbib Warning: Citation `maeder_stellar_1998' on page 37 undefined on 
+input line 783.
+
+
+Package natbib Warning: Citation `goldreich_differential_1967' on page 37 undef
+ined on input line 797.
+
+
+Package natbib Warning: Citation `fricke_rotation_1967' on page 37 undefined on
+ input line 797.
+
+
+Package natbib Warning: Citation `kippenhahn_rotation_1970' on page 37 undefine
+d on input line 799.
+
+[37]
+
+Package natbib Warning: Citation `kippenhahn_circulation_1974' on page 38 undef
+ined on input line 804.
+
+
+Package natbib Warning: Citation `tassoul_theory_1978' on page 38 undefined on 
+input line 804.
+
+
+Package natbib Warning: Citation `heger_presupernova_2000' on page 38 undefined
+ on input line 804.
+
+
+Package natbib Warning: Citation `endal_evolution_1978' on page 38 undefined on
+ input line 813.
+
+
+Package natbib Warning: Citation `fuller_slowing_2019' on page 38 undefined on 
+input line 823.
+
+
+Package natbib Warning: Citation `moyano_asteroseismology_2022' on page 38 unde
+fined on input line 823.
+
+[38]
+
+Package natbib Warning: Citation `spruit_dynamo_2002' on page 39 undefined on i
+nput line 832.
+
+
+Package natbib Warning: Citation `spruit_differential_1999' on page 39 undefine
+d on input line 836.
+
+
+Package natbib Warning: Citation `fuller_asteroseismology_2015' on page 39 unde
+fined on input line 836.
+
+
+Package natbib Warning: Citation `fuller_slowing_2019' on page 39 undefined on 
+input line 836.
+
+
+Package natbib Warning: Citation `spruit_why_1998' on page 39 undefined on inpu
+t line 838.
+
+
+Package natbib Warning: Citation `fuller_slowing_2019' on page 39 undefined on 
+input line 840.
+
+
+Package natbib Warning: Citation `hollerbach_non-axisymmetric_2010' on page 39 
+undefined on input line 844.
+
+
+Package natbib Warning: Citation `mishra_convective_2021' on page 39 undefined 
+on input line 849.
+
+
+Package natbib Warning: Citation `moyano_asteroseismology_2022' on page 39 unde
+fined on input line 849.
+
+[39]
+
+Package natbib Warning: Citation `moyano_asteroseismology_2022' on page 40 unde
+fined on input line 856.
+
+
+Package natbib Warning: Citation `pantillon_angular_2007' on page 40 undefined 
+on input line 863.
+
+
+Package natbib Warning: Citation `kim_angular_2000' on page 40 undefined on inp
+ut line 863.
+
+
+Package natbib Warning: Citation `talon_hydrodynamical_2005' on page 40 undefin
+ed on input line 863.
+
+
+Package natbib Warning: Citation `charbonnel_deep_2008' on page 40 undefined on
+ input line 863.
+
+
+Package natbib Warning: Citation `zahn_differential_1975' on page 40 undefined 
+on input line 867.
+
+
+Package natbib Warning: Citation `charbonnel_influence_2005' on page 40 undefin
+ed on input line 869.
+
+
+Package natbib Warning: Citation `balbus_stability_1994' on page 40 undefined o
+n input line 871.
+
+
+Package natbib Warning: Citation `menou_magnetorotational_2006' on page 40 unde
+fined on input line 871.
+
+
+Package natbib Warning: Citation `belkacem_angular_2015' on page 40 undefined o
+n input line 873.
+
+
+Package natbib Warning: Citation `belkacem_angular_2015' on page 40 undefined o
+n input line 877.
+
+[40]
+
+Package natbib Warning: Citation `zahn_circulation_1992' on page 41 undefined o
+n input line 893.
+
+
+Package natbib Warning: Citation `maeder_stellar_1998' on page 41 undefined on 
+input line 893.
+
+
+Package natbib Warning: Citation `maeder_evolution_2000' on page 41 undefined o
+n input line 893.
+
+
+Package natbib Warning: Citation `eggenberger_geneva_2008' on page 41 undefined
+ on input line 893.
+
+
+Package natbib Warning: Citation `talon_anisotropic_1997' on page 41 undefined 
+on input line 900.
+
+
+Package natbib Warning: Citation `denissenkov_angular_2010' on page 41 undefine
+d on input line 900.
+
+[41]
+
+Package natbib Warning: Citation `endal_evolution_1978' on page 42 undefined on
+ input line 917.
+
+
+Package natbib Warning: Citation `heger_presupernova_2000' on page 42 undefined
+ on input line 917.
+
+
+Package natbib Warning: Citation `chiosi_1986' on page 42 undefined on input li
 ne 929.
 
-[44] [45] [46] [47]
-<Figures/intro_figures/PMS_effect.png, id=1789, 1226.5825pt x 579.16376pt>
+
+Package natbib Warning: Citation `friend_theory_1986' on page 42 undefined on i
+nput line 938.
+
+
+Package natbib Warning: Citation `langer_evolution_1991' on page 42 undefined o
+n input line 938.
+
+
+Package natbib Warning: Citation `heger_presupernova_1998' on page 42 undefined
+ on input line 938.
+
+[42]
+
+Package natbib Warning: Citation `parker_dynamics_1958' on page 43 undefined on
+ input line 969.
+
+
+Package natbib Warning: Citation `schatzman_theory_1962' on page 43 undefined o
+n input line 969.
+
+
+Package natbib Warning: Citation `weber_angular_1967' on page 43 undefined on i
+nput line 971.
+
+[43]
+
+Package natbib Warning: Citation `matt_magnetic_2012' on page 44 undefined on i
+nput line 982.
+
+
+Package natbib Warning: Citation `matt_magnetic_2012' on page 44 undefined on i
+nput line 992.
+
+
+Package natbib Warning: Citation `johnstone_stellar_2015' on page 44 undefined 
+on input line 1000.
+
+[44]
+
+Package natbib Warning: Citation `matt_magnetic_2012' on page 45 undefined on i
+nput line 1008.
+
+
+Package natbib Warning: Citation `gallet_improved_2013' on page 45 undefined on
+ input line 1008.
+
+
+Package natbib Warning: Citation `johnstone_stellar_2015' on page 45 undefined 
+on input line 1008.
+
+
+Package natbib Warning: Citation `pizzolato_stellar_2003' on page 45 undefined 
+on input line 1009.
+
+
+Package natbib Warning: Citation `wright_stellar-activity-rotation_2011' on pag
+e 45 undefined on input line 1009.
+
+
+Package natbib Warning: Citation `nunez_factory_2022' on page 45 undefined on i
+nput line 1009.
+
+
+Package natbib Warning: Citation `soderblom_rotation_1993' on page 45 undefined
+ on input line 1010.
+
+
+Package natbib Warning: Citation `fang_stellar_2018' on page 45 undefined on in
+put line 1010.
+
+
+Package natbib Warning: Citation `fritzewski_detailed_2021' on page 45 undefine
+d on input line 1010.
+
+
+Package natbib Warning: Citation `skumanich_time_1972' on page 45 undefined on 
+input line 1029.
+
+[45]
+
+Package natbib Warning: Citation `heger_presupernova_2000' on page 46 undefined
+ on input line 1036.
+
+
+Package natbib Warning: Citation `maeder_evolution_2000' on page 46 undefined o
+n input line 1036.
+
+<Figures/intro_figures/PMS_effect.png, id=578, 1226.5825pt x 579.16376pt>
 File: Figures/intro_figures/PMS_effect.png Graphic file (type png)
 <use Figures/intro_figures/PMS_effect.png>
 Package pdftex.def Info: Figures/intro_figures/PMS_effect.png  used on input li
 ne 1043.
 (pdftex.def)             Requested size: 417.47307pt x 197.11632pt.
- [48 <./Figures/intro_figures/PMS_effect.png>]
-<Figures/intro_figures/MS_effect.png, id=1805, 1211.52625pt x 582.175pt>
+
+Package natbib Warning: Citation `eggenberger_rotation_2013' on page 46 undefin
+ed on input line 1044.
+
+
+Package natbib Warning: Citation `eggenberger_rotation_2013' on page 46 undefin
+ed on input line 1044.
+
+
+Package natbib Warning: Citation `dumont_lithium_2021' on page 46 undefined on 
+input line 1051.
+
+[46 <./Figures/intro_figures/PMS_effect.png>]
+
+Package natbib Warning: Citation `eggenberger_angular_2012' on page 47 undefine
+d on input line 1060.
+
+<Figures/intro_figures/MS_effect.png, id=588, 1211.52625pt x 582.175pt>
 File: Figures/intro_figures/MS_effect.png Graphic file (type png)
 <use Figures/intro_figures/MS_effect.png>
 Package pdftex.def Info: Figures/intro_figures/MS_effect.png  used on input lin
 e 1067.
 (pdftex.def)             Requested size: 417.47307pt x 200.61075pt.
 
+Package natbib Warning: Citation `eggenberger_rotation_2013' on page 47 undefin
+ed on input line 1068.
+
+
+Package natbib Warning: Citation `eggenberger_rotation_2013' on page 47 undefin
+ed on input line 1068.
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[49] [50 <./Figures/intro_figures/MS_effect.png>])
-(./Chapters/rotational_period_gap_chapter.tex [51]
+[47] [48 <./Figures/intro_figures/MS_effect.png>]
+
+Package natbib Warning: Citation `lagarde_thermohaline_2012' on page 49 undefin
+ed on input line 1091.
+
+
+Package natbib Warning: Citation `lagarde_thermohaline_2012' on page 49 undefin
+ed on input line 1093.
+
+
+Package natbib Warning: Citation `eggenberger_effects_2010' on page 49 undefine
+d on input line 1093.
+
+
+Package natbib Warning: Citation `eggenberger_effects_2010' on page 49 undefine
+d on input line 1097.
+
+
+Package natbib Warning: Citation `lagarde_thermohaline_2012' on page 49 undefin
+ed on input line 1097.
+
+) (./Chapters/rotational_period_gap_chapter.tex [49]
 Chapter 2.
 ------------------------------------------------------------------------------
  2 The Intermediate Period Gap
 ------------------------------------------------------------------------------
-[52
+[50
 
-] [53] [54] [55] [56] [57]
+]
 
-LaTeX Warning: Reference `chap:stellar_spots' on page 58 undefined on input lin
+Package natbib Warning: Citation `reinhold_rotation_2015-1' on page 51 undefine
+d on input line 26.
+
+
+Package natbib Warning: Citation `mcquillan_rotation_2014' on page 51 undefined
+ on input line 28.
+
+
+Package natbib Warning: Citation `mcquillan_rotation_2014' on page 51 undefined
+ on input line 30.
+
+
+Package natbib Warning: Citation `davenport_rotating_2017' on page 51 undefined
+ on input line 30.
+
+
+Package natbib Warning: Citation `davenport_rotating_2018' on page 51 undefined
+ on input line 30.
+
+
+Package natbib Warning: Citation `lu_bridging_2022' on page 51 undefined on inp
+ut line 30.
+
+
+Package natbib Warning: Citation `mcquillan_rotation_2014' on page 51 undefined
+ on input line 34.
+
+
+Package natbib Warning: Citation `davenport_rotating_2018' on page 51 undefined
+ on input line 36.
+
+
+Package natbib Warning: Citation `mcquillan_rotation_2014' on page 51 undefined
+ on input line 41.
+
+
+Package natbib Warning: Citation `davenport_rotating_2018' on page 51 undefined
+ on input line 43.
+
+
+Package natbib Warning: Citation `gordon_stellar_2021' on page 51 undefined on 
+input line 46.
+
+
+Package natbib Warning: Citation `curtis_when_2020' on page 51 undefined on inp
+ut line 46.
+
+
+Package natbib Warning: Citation `curtis_when_2020' on page 51 undefined on inp
+ut line 48.
+
+[51]
+
+Package natbib Warning: Citation `mcquillan_rotation_2014' on page 52 undefined
+ on input line 50.
+
+
+Package natbib Warning: Citation `gordon_stellar_2021' on page 52 undefined on 
+input line 54.
+
+
+Package natbib Warning: Citation `curtis_when_2020' on page 52 undefined on inp
+ut line 55.
+
+
+Package natbib Warning: Citation `spada_competing_2020' on page 52 undefined on
+ input line 55.
+
+
+Package natbib Warning: Citation `lu_bridging_2022' on page 52 undefined on inp
+ut line 56.
+
+
+Package natbib Warning: Citation `santos_surface_2021' on page 52 undefined on 
+input line 58.
+
+
+Package natbib Warning: Citation `mcquillan_rotation_2014' on page 52 undefined
+ on input line 59.
+
+
+Package natbib Warning: Citation `lu_bridging_2022' on page 52 undefined on inp
+ut line 60.
+
+
+Package natbib Warning: Citation `reinhold_transition_2019' on page 52 undefine
+d on input line 64.
+
+
+Package natbib Warning: Citation `reinhold_stellar_2020' on page 52 undefined o
+n input line 64.
+
+[52] [53]
+
+Package natbib Warning: Citation `cao_starspots_2022' on page 54 undefined on i
+nput line 103.
+
+[54]
+
+Package natbib Warning: Citation `mcquillan_rotation_2014' on page 55 undefined
+ on input line 128.
+
+
+LaTeX Warning: Reference `chap:stellar_spots' on page 55 undefined on input lin
 e 131.
 
-[58]
-<Figures/rot_gap_figures/HR.png, id=1941, 878.68275pt x 458.6736pt>
+
+Package natbib Warning: Citation `cao_starspots_2022' on page 55 undefined on i
+nput line 131.
+
+[55]
+
+Package natbib Warning: Citation `cao_starspots_2022' on page 56 undefined on i
+nput line 136.
+
+
+Package natbib Warning: Citation `mcquillan_rotation_2014' on page 56 undefined
+ on input line 137.
+
+
+Package natbib Warning: Citation `mcquillan_rotation_2014' on page 56 undefined
+ on input line 147.
+
+
+Package natbib Warning: Citation `davenport_rotating_2018' on page 56 undefined
+ on input line 151.
+
+[56]
+<Figures/rot_gap_figures/HR.png, id=641, 878.68275pt x 458.6736pt>
 File: Figures/rot_gap_figures/HR.png Graphic file (type png)
 <use Figures/rot_gap_figures/HR.png>
-Package pdftex.def Info: Figures/rot_gap_figures/HR.png  used on input line 159
+Package pdftex.def Info: Figures/rot_gap_figures/HR.png  used on input line 161
 .
 (pdftex.def)             Requested size: 417.47307pt x 217.9212pt.
-<Figures/rot_gap_figures/rotational_dist.png, id=1942, 918.67215pt x 458.6736pt
->
+<Figures/rot_gap_figures/rotational_dist.png, id=642, 918.67215pt x 458.6736pt>
+
 File: Figures/rot_gap_figures/rotational_dist.png Graphic file (type png)
 <use Figures/rot_gap_figures/rotational_dist.png>
 Package pdftex.def Info: Figures/rot_gap_figures/rotational_dist.png  used on i
-nput line 167.
+nput line 169.
 (pdftex.def)             Requested size: 417.47307pt x 208.43785pt.
- [59 <./Figures/rot_gap_figures/HR.png>]
-<Figures/rot_gap_figures/rot_dist_binned.png, id=1956, 804.96735pt x 458.6736pt
->
+
+
+Package natbib Warning: Citation `reinhold_stellar_2020' on page 57 undefined o
+n input line 182.
+
+
+Package natbib Warning: Citation `santos_surface_2021' on page 57 undefined on 
+input line 182.
+
+[57 <./Figures/rot_gap_figures/HR.png> <./Figures/rot_gap_figures/rotational_di
+st.png>]
+<Figures/rot_gap_figures/rot_dist_binned.png, id=654, 804.96735pt x 458.6736pt>
+
 File: Figures/rot_gap_figures/rot_dist_binned.png Graphic file (type png)
 <use Figures/rot_gap_figures/rot_dist_binned.png>
 Package pdftex.def Info: Figures/rot_gap_figures/rot_dist_binned.png  used on i
-nput line 185.
+nput line 187.
 (pdftex.def)             Requested size: 417.47307pt x 237.88174pt.
- [60 <./Figures/rot_gap_figures/rotational_dist.png>]
-<Figures/rot_gap_figures/rot_vs_rper_minima.png, id=1966, 782.56364pt x 2532.58
-17pt>
+ [58 <./Figures/rot_gap_figures/rot_dist_binned.png>]
+<Figures/rot_gap_figures/rot_vs_rper_minima.png, id=667, 782.56364pt x 2532.581
+7pt>
 File: Figures/rot_gap_figures/rot_vs_rper_minima.png Graphic file (type png)
 <use Figures/rot_gap_figures/rot_vs_rper_minima.png>
 Package pdftex.def Info: Figures/rot_gap_figures/rot_vs_rper_minima.png  used o
-n input line 209.
+n input line 211.
 (pdftex.def)             Requested size: 208.73653pt x 675.53639pt.
 
 
-LaTeX Warning: Float too large for page by 60.56331pt on input line 213.
+LaTeX Warning: Float too large for page by 60.56331pt on input line 215.
 
-<Figures/rot_gap_figures/rot_dist_minima_shown.png, id=1967, 661.0296pt x 450.2
-421pt>
+<Figures/rot_gap_figures/rot_dist_minima_shown.png, id=668, 661.0296pt x 450.24
+21pt>
 File: Figures/rot_gap_figures/rot_dist_minima_shown.png Graphic file (type png)
 
 <use Figures/rot_gap_figures/rot_dist_minima_shown.png>
 Package pdftex.def Info: Figures/rot_gap_figures/rot_dist_minima_shown.png  use
-d on input line 217.
+d on input line 219.
 (pdftex.def)             Requested size: 417.47307pt x 284.36163pt.
-
-LaTeX Warning: Reference `colour_rper' on page 61 undefined on input line 230.
-
-[61 <./Figures/rot_gap_figures/rot_dist_binned.png>] [62 <./Figures/rot_gap_fig
-ures/rot_vs_rper_minima.png>]
-<Figures/rot_gap_figures/per_vs_colour.png, id=1979, 833.15265pt x 2532.5817pt>
-
+[59] [60 <./Figures/rot_gap_figures/rot_vs_rper_minima.png>]
+<Figures/rot_gap_figures/per_vs_colour.png, id=680, 833.15265pt x 2532.5817pt>
 File: Figures/rot_gap_figures/per_vs_colour.png Graphic file (type png)
 <use Figures/rot_gap_figures/per_vs_colour.png>
 Package pdftex.def Info: Figures/rot_gap_figures/per_vs_colour.png  used on inp
-ut line 236.
+ut line 238.
 (pdftex.def)             Requested size: 208.73653pt x 634.49641pt.
 
 
-LaTeX Warning: Float too large for page by 19.52333pt on input line 240.
+LaTeX Warning: Float too large for page by 19.52333pt on input line 242.
 
-[63 <./Figures/rot_gap_figures/rot_dist_minima_shown.png>] [64 <./Figures/rot_g
+
+Package natbib Warning: Citation `santos_2021' on page 61 undefined on input li
+ne 249.
+
+[61 <./Figures/rot_gap_figures/rot_dist_minima_shown.png>] [62 <./Figures/rot_g
 ap_figures/per_vs_colour.png>]
-<Figures/rot_gap_figures/rotational_dist_rhk.png, id=1993, 923.73105pt x 458.67
-36pt>
+
+Package natbib Warning: Citation `zhang_magnetic_2020' on page 63 undefined on 
+input line 254.
+
+
+Package natbib Warning: Citation `zhang_magnetic_2020' on page 63 undefined on 
+input line 259.
+
+<Figures/rot_gap_figures/rotational_dist_rhk.png, id=693, 923.73105pt x 458.673
+6pt>
 File: Figures/rot_gap_figures/rotational_dist_rhk.png Graphic file (type png)
 <use Figures/rot_gap_figures/rotational_dist_rhk.png>
 Package pdftex.def Info: Figures/rot_gap_figures/rotational_dist_rhk.png  used 
-on input line 256.
+on input line 271.
 (pdftex.def)             Requested size: 417.47307pt x 207.29005pt.
- [65 <./Figures/rot_gap_figures/rotational_dist_rhk.png>]
-<Figures/rot_gap_figures/rot_vs_rper_rhk_minima.png, id=2000, 847.60664pt x 116
-8.48544pt>
+[63]
+<Figures/rot_gap_figures/rot_vs_rper_rhk_minima.png, id=699, 847.60664pt x 1168
+.48544pt>
 File: Figures/rot_gap_figures/rot_vs_rper_rhk_minima.png Graphic file (type png
 )
 <use Figures/rot_gap_figures/rot_vs_rper_rhk_minima.png>
 Package pdftex.def Info: Figures/rot_gap_figures/rot_vs_rper_rhk_minima.png  us
-ed on input line 273.
+ed on input line 288.
 (pdftex.def)             Requested size: 208.73653pt x 287.75238pt.
- [66 <./Figures/rot_gap_figures/rot_vs_rper_rhk_minima.png>]) [67]
+ [64 <./Figures/rot_gap_figures/rotational_dist_rhk.png>] [65 <./Figures/rot_ga
+p_figures/rot_vs_rper_rhk_minima.png>]
+
+Package natbib Warning: Citation `mcquillan_rotation_2014' on page 66 undefined
+ on input line 315.
+
+
+Package natbib Warning: Citation `mcquillan_rotation_2014' on page 66 undefined
+ on input line 316.
+
+
+Package natbib Warning: Citation `zhang_mangetic_2020' on page 66 undefined on 
+input line 323.
+
+
+LaTeX Warning: Reference `fig:non_rotating_mag_hr' on page 66 undefined on inpu
+t line 325.
+
+
+LaTeX Warning: Reference `fig:rotating_mag_active' on page 66 undefined on inpu
+t line 326.
+
+
+LaTeX Warning: Reference `fig:non_rotating_mag_hr' on page 66 undefined on inpu
+t line 326.
+
+[66]
+<Figures/rot_gap_figures/HR_mag_non.png, id=723, 640.19176pt x 349.5459pt>
+File: Figures/rot_gap_figures/HR_mag_non.png Graphic file (type png)
+<use Figures/rot_gap_figures/HR_mag_non.png>
+Package pdftex.def Info: Figures/rot_gap_figures/HR_mag_non.png  used on input 
+line 331.
+(pdftex.def)             Requested size: 208.73653pt x 113.96909pt.
+
+
+LaTeX Warning: Reference `fig:rotating_mag_active' on page 67 undefined on inpu
+t line 334.
+
+
+LaTeX Warning: Reference `fig:rotating_mag_active' on page 67 undefined on inpu
+t line 334.
+
+
+LaTeX Warning: Reference `fig:pdf_cdf' on page 67 undefined on input line 341.
+
+<Figures/rot_gap_figures/pdf_cdf.png, id=724, 754.13745pt x 453.73515pt>
+File: Figures/rot_gap_figures/pdf_cdf.png Graphic file (type png)
+<use Figures/rot_gap_figures/pdf_cdf.png>
+Package pdftex.def Info: Figures/rot_gap_figures/pdf_cdf.png  used on input lin
+e 350.
+(pdftex.def)             Requested size: 208.73653pt x 125.58412pt.
+
+Package natbib Warning: Citation `santos' on page 67 undefined on input line 35
+9.
+
+
+Package natbib Warning: Citation `zhang' on page 67 undefined on input line 359
+.
+
+
+Package natbib Warning: Citation `mcquillan' on page 67 undefined on input line
+ 359.
+
+
+Package natbib Warning: Citation `Amard et al. (2020)' on page 67 undefined on 
+input line 361.
+
+
+Package natbib Warning: Citation `See et al. (2021)' on page 67 undefined on in
+put line 361.
+
+
+Package natbib Warning: Citation `claytor_2022' on page 67 undefined on input l
+ine 361.
+
+
+! LaTeX Error: Unicode character − (U+2212)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.362  Higher-metallicity ([Fe/H] $\gtrsim$ −
+                                               0.1) stars being detected in ...
+
+? 
+[67 <./Figures/rot_gap_figures/HR_mag_non.png>]
+
+Package natbib Warning: Citation `claytor_2022' on page 68 undefined on input l
+ine 367.
+
+<Figures/rot_gap_figures/detection_efficiency.png, id=731, 880.60995pt x 731.49
+284pt>
+File: Figures/rot_gap_figures/detection_efficiency.png Graphic file (type png)
+<use Figures/rot_gap_figures/detection_efficiency.png>
+Package pdftex.def Info: Figures/rot_gap_figures/detection_efficiency.png  used
+ on input line 373.
+(pdftex.def)             Requested size: 208.73653pt x 173.38535pt.
+[68 <./Figures/rot_gap_figures/pdf_cdf.png>]
+
+LaTeX Warning: Reference `fig:detection_efficiency_rhk' on page 69 undefined on
+ input line 383.
+
+[69 <./Figures/rot_gap_figures/detection_efficiency.png>]) [70]
 ------------------------------------------------------------------------------
  Bibliography
 ------------------------------------------------------------------------------
-(./Thesis.bbl [68
+(./Thesis.bbl [71
 
 
-] [69] [70] [71] [72] [73] [74] [75])
+] [72] [73] [74] [75] [76] [77] [78])
 
 Package natbib Warning: There were undefined citations.
 
-[76] (./Thesis.aux
+[79] (./Thesis.aux
 
 Package natbib Warning: Citation(s) may have changed.
 (natbib)                Rerun to get citations correct.
@@ -986,15 +2756,21 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: BB00930FD307B740158808A6DC15A032;8830.
+
+Package rerunfilecheck Warning: File `Thesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Thesis.out':
+(rerunfilecheck)             Before: 95557F383845BD779A380143CD3EDEFF;8726
+(rerunfilecheck)             After:  2CAAF08F1999EF61A96708D4893D1837;8830.
  ) 
 Here is how much of TeX's memory you used:
- 14902 strings out of 478268
- 247122 string characters out of 5846348
- 546330 words of memory out of 5000000
- 32479 multiletter control sequences out of 15000+600000
- 482995 words of font info for 79 fonts, out of 8000000 for 9000
+ 14930 strings out of 478268
+ 248136 string characters out of 5846348
+ 518646 words of memory out of 5000000
+ 32499 multiletter control sequences out of 15000+600000
+ 483340 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,12n,77p,1314b,718s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
@@ -1019,15 +2795,17 @@ dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/local/texlive/2022/texmf-d
 ist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2022/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2022/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2022/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2022/texmf-dist/fon
-ts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2022/texmf-dist
-/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2022/texmf-dist/f
-onts/type1/public/cm-super/sfrm1095.pfb>
-Output written on Thesis.pdf (94 pages, 18064590 bytes).
+onts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2022/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2022/texmf-dist/font
+s/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2022/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2022/texmf-dist/fonts/t
+ype1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2022/texmf-dist/fon
+ts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2022/texmf-dist/fonts
+/type1/public/cm-super/sfrm1095.pfb>
+Output written on Thesis.pdf (94 pages, 19369139 bytes).
 PDF statistics:
- 2408 PDF objects out of 2487 (max. 8388607)
- 2114 compressed objects within 22 object streams
- 363 named destinations out of 1000 (max. 500000)
- 452 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1308 PDF objects out of 1440 (max. 8388607)
+ 1091 compressed objects within 11 object streams
+ 367 named destinations out of 1000 (max. 500000)
+ 459 words of extra memory for PDF output out of 10000 (max. 10000000)
 

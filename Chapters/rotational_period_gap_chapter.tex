@@ -145,7 +145,9 @@ In this work we will adopt a population study approach to minimise this effect.
 
 The first mechanism we consider is that the rotation period gap reflects a decrease in photometric variability due to a variation in the magnetic field strength of stars near the gap.
 We will begin with the 33,000 stars with rotation periods from \citet{mcquillan_rotation_2014}.
-All stars in this sample lay within the cross-match with \gaia data release 3, which contains precise measurements of the $B_P - R_p$ colour, $G$-band magnitude and distance from parallax.
+While this sample has been superseded by other missions in terms of sensitivity, the increase in sensitvity has \textit{not} increased the number of detected rotation periods with large $B_P - R_P$ (lower mass) where the gap is most apparent.
+It is still the state-of-the-art mission for precise measurement of the rotation periods of low-mass stars near the intermediate period gap.
+All stars in this sample lay within the cross-match with \gaia data release 3, which contains precise measurements of the $B_P - R_P$ colour, $G$-band magnitude and distance from parallax.
 We limit our sample to stars within the nearest 525pc, motivated by the results of \citet{davenport_rotating_2018}.
 While this reduces the sample to 8,594 stars it ensures that the measured $B_P - R_P$ and rotation periods are as accurate as possible.
 % \todo{Add figure of the cuts}
@@ -239,9 +241,21 @@ The variation is \rper{} is, therefore, a physical effect that aligns itself wit
     \label{fig:colour_rper}
 \end{figure}
 
-While it has been well established that the photometric variability of stars decreases towards the intermediate period gap other magnetic activity indicators have not been explored in this regard only the large scale trends with stellar mass and rotation.
-Suppose other magnetic activity indicators vary in the same fashion as \rper{}. 
+
+On first glance the minima in \rper{} surrounding the gap suggests that the rotation period gap is the result of the decreased probability to observe stars at the given rotation period.
+However, the minima values of \rper{} within the gap can be otherwise be detected for other colour stars.
+For example the minima in the $B_P-R_P$ - (0.97-1.14) slice has a \rper{} value of $\sim 4.0$ which can otherwise be easily detected for slower rotating or redder stars.
+This either suggests that (a) the periodic variability drops suddenly to levels where rotation is not measureable at the rotation period gap or (b) the rotational variability drops as a result of the process by which stars cross the gap. 
+ \citet{santos_2021} increased the sensitivity of period detection for \kepler{} lightcurves and did not increase the number of stars observed near the intermediate period gap - suggesting that the drop in photometric variability does not result in a decreased probability to observe stars near the gap.
+This implies that if the drop in photometric variability is not the cause for the dearth of observations near the rotational period gap and rather that the drop in photometric variability is purely coincident with the rotational period gap - suggesting that the mechanism underlying the two observations are one and the same.
+\rper{} \ is not well defined for stars where rotation is not detected- as \rper{} is defined by the photometric variability range over the a rotational period time-scale.
+Therefore we do not know whether the potential stars that lay within the gap, which we cannot observe because of the supposed dramatic decrease in \rper{}, do or do not suddenly decrease in \rper{}.
+
+While it has been well established that the photometric variability of stars decreases towards the intermediate period gap other magnetic activity indicators have not been explored in this regard only the large-scale trends with stellar mass and rotation \citep{zhang_magnetic_2020}.
+Suppose other magnetic activity indicators vary in the same fashion as \rper{} - decreasing to a minima at the rotational period gap. 
 In that case, it is more likely that the decrease in \rper{} towards the gap results from a variation in the magnetic field of stars.
+We will begin by testing whether this is indeed the case.
+
 \citet{zhang_magnetic_2020} extracted the chromospheric magnetic activity indexes, S and $\log \ R^{+}_{HK}$, for 59,816 stars from low-resolution LAMOST spectra in the LAMOST-Kepler program.
 The cross-match of their work with the nearby rotating main sequence we established yielded 1060 stars.
 The stars in the cross-match tend to be the higher mass, brighter, stars with $B_P-R_P<1.8$, where the intermediate period gap is less apparent.
@@ -250,6 +264,7 @@ Given that we could predict the position of the gap for these stars in our earli
 $\log \ R^{+}_{HK}$ provides a more accurate measure of the chromospheric magnetic activity than $S$, which is uncoupled from a radiative contribution, so we adopt $\log \ R^{+}_{HK}$ in this work.
 The resulting rotational distribution of stars are shown in Figure \ref{fig:rot_dist_rhk} coloured by $\log \ R^{+}_{HK}$.
 Due to the smaller number of stars and lower precision of $\log \ R^{+}_{HK}$ than \rper{} it is not clear whether $\log \ R^{+}_{HK}$, like \rper{} decreases towards to the intermediate period gap.
+
 
 \begin{figure}
 \centering
@@ -278,25 +293,176 @@ Because of this we have manually ignored the low-rotational period $\log \ R^{+}
 
 We compare the distributions of \rper{} \ and $\log \ R^{+}_{HK}$ against the log of rotation period in Figure \ref{fig:rot_rper_rhk} and show the found minima in blue and orange solid vertical lines for \rper{} \ and $\log \ R^{+}_{HK}$ respectively.
 Like photometric variability, $\log \ R^{+}_{HK}$ tends to decrease with rotational period - owing to their relation to the strength of the magnetic field.
+We find that generally \rper{} \ and $\log \ R^{+}_{HK}$ are directly tied. 
+Increases and decreases to the median value with rotational period in one tends to align with a similar response in the other.
 
 We show the comparison of the recovered minima from \rper{} using this subset as well as the minima recovered using $\log \ R^{+}_{HK}$ in Figure \ref{fig:indicating_minima}.
 The recovered \rper{} \ minima using the subset lay on top of the \rper{} minima recovered using the full sample.
 Interestingly, we may detect previously unreported minima in $\log \ R^{+}_{HK}$ close to the rotation period gap.
+Excluding the minima recovered in the $B_P-R_P$ - (0.8-0.97) bins, the minima that we recover in $\log \ R^{+}_{HK}$ against logged rotational period are in the same period bin and are close in position to the minima of \rper{} we recover, which we have established aligns with the intermediate period gap.
+The alignment of the minima is also robust to variation in smoothness of the fitted cubic spline - suggesting that the minima are not spurious.
 
-Excluding the minima recovered in the $B_P-R_P$ - (0.8-0.97) bins the minima that we recover in $\log \ R^{+}_{HK}$ against logged rotational period are in the same period bin and are close in position to the minima of \rper{} we recover, which we have established aligns with the intermediate period gap.
-The alignment of the minima is also robust to variation to smoothness of the fitted cubic spline - suggesting that the minima are not spurious.
 
 Measurements of $\log \ R^{+}_{HK}$ are less precise than \rper{}, which is reflected in the relatively larger median absolute deviation.
 The detection of the coincidence in a single slice of $B_P-R_P$ could be explained through this imprecision.
 However, the detection of this in multiple slices of $B_P-R_P$ suggests that the cause of the minima is related.
-We suggest that further study of this relationship is required to confirm the coincidence of the minima with a larger dataset of chromospheric magnetic activity indicators or with other magnetic activity indicators.
+Further study of this relationship is required to confirm the coincidence of the minima with a larger dataset of chromospheric magnetic activity indicators or with other magnetic activity indicators.
+We will assume for now that the rotational period gap does align itself with minima in both \rper{} and $\log \ R^{+}_{HK}$ and explore whether there is a sample of low-magnetic activity, non-detected rotators. 
+
+If the gap contains stars that have dramatically low \rper{} and thus do not have detectable rotation periods, then $\log \ R^{+}_{HK}$ should also dramatically drop within this region.
+Further, if there is a sample of dramatically lower $\log \ R^{+}_{HK}$ stars without detected rotation periods then this sample supports the hypothesis that the intermediate period gap is the result of a decreased probability to observe stars at those rotation periods due to a decrease in stellar activity.
+However, we do not know if stars without detected rotation periods align with the gap nor do we have a way to predict the expected spuriously low $\log \ R^{+}_{HK}$ values that would be required to explain the rotational period gap.
+On the other hand, consider the relation between the detectability of rotation period, the magnetic activity indicators, and colour.
+If, for example, there is a consistent region in ultra low-magnetic activity, below the expected range from the decrease in magnetic activity with stellar age, and colour space where rotational detectability is low, then this suggests that the rotational period gap arises from a sudden drop in magnetic activity and thus a drop in rotational detectability.
+
+We will compare the $\log \ R^{+}_{HK}$  distributions of the \citet{mcquillan_rotation_2014} rotating and non-rotating samples.
+To determine whether a star has a significant rotational period detection \citet{mcquillan_rotation_2014} defines a weight of the significance of the detection of the rotational period $w$ and compares this to a threshold value.
+$w$ is defined in terms of the ACF's local peak height (LPH), the height of the selected peak with respect to the mean of the troughs on either side, the star's temperature and the rotational period.
+For a more thorough description of their method for calculating this value see Section A in the appendix of their work.
+This normalised value is calculated for each star and compared to a threshold value.
+Those that do not pass the threshold were placed into a separate category of stars that do not have a detectable rotation period \footnote{ This is a slight misnomer as \textit{some} of the stars $\sim$ 100,000 stars have detectable rotation periods, but those periods should be treated with some care.}.
+
+We prepare the sample of 99,000 non-rotating stars from their work in the same way that we did for the rotating sample - ensuring they are close by ($<525 pc$), on the main-sequence and redder than $B_P-R_P$  = 0.8 where the rotational period gap is most apparent.
+This leaves us with a sample of 5574 non-rotating close by, main-sequence stars which we can cross match with the LAMOST-\kepler{} \ sample of chromospheric active stars measured in \citet{zhang_mangetic_2020} - reducing the number of stars to 1134 stars.
+The number of stars in this sample similar to the number of stars in the rotating sample.
+We show the resulting HR diagram of stars in Figure \ref{fig:non_rotating_mag_hr} coloured by $\log \ R^{+}_{HK}$.
+Comparing Figures \ref{fig:rotating_mag_active} and \ref{fig:non_rotating_mag_hr} it is clear that non-rotating sample is clearly biased for higher mass stars and does not permeate into the low mass regime, where the gap would be most apparent.
+
+
+\begin{figure}
+\centering
+    \includegraphics[width=\textwidth]{Figures/rot_gap_figures/HR_mag_non.png}
+    \caption{
+    HR diagram of the closeby non-rotating main-sequence sample cross matched with the LAMOST-\kepler{} field coloured by the chromospheric magnetic activity indicator $\log \ R^{+}_{HK}$.
+    Comparing this Figure and Figure \ref{fig:rotating_mag_active} there are very few low mass stars for which the rotation period is not detected.}
+    \label{fig:non_rotating_mag_hr}
+\end{figure}
+
+
+With the rotating and non-rotating LAMOST-\kepler{} samples we can investigate the detectability of rotation as a function of $\log \ R^{+}_{HK}$.
+We expect more magnetically active stars (higher $\log \ R^{+}_{HK}$) to be easer to detect in rotation as \rper{} should increase in turn - however, as we have noted earlier in this work, stars can have their rotation go undetected for a multitude of reasons and the non-detection of rotation will not purely be the result of a lower magnetic activity.
+Figure \ref{fig:pdf_cdf} shows the distribution of rotation detected and rotation non-detected samples with $\log \ R^{+}_{HK}$
+The left panel shows the probability density while the right shows the cumulative probability density function.
+Stars detected in rotation appear to have higher $\log \ R^{+}_{HK}$ than those without detection.
+A Kolmogorov-Smirnov (KS) test returns a $p$-value of $4 \cdot10^{-15}$.
+With this we can reject the null hypothesis that the two samples are drawn from the same underlying distribution with strong statistical significance.
+The non-rotation detected tends to be less magnetically active, in terms of $\log \ R^{+}_{HK}$, than the rotationally detected sample.
+
+\begin{figure}
+\centering
+    \includegraphics[width=textwidth]{Figures/rot_gap_figures/pdf_cdf.png}
+    \caption{
+    	The probability density function (left) and cumulative probability density function (right) of $\log \ R^{+}_{HK}$ separated by whether rotation was or was not detected in the close-by main-sequence LAMOST-\kepler{} crossmatch. 
+	We expect that less magnetically active stars to have a lower detection rate due to the decrease in prominence of stellar spots with lowering magnetic activity. This appears to be supported by the data here as the non-rotation detected sample contains a larger number of low $\log \ R^{+}_{HK}$ stars.}
+    \label{fig:pdf_cdf}
+\end{figure}
+
+The detectability of rotation with fundamental stellar properties (temperature, metallicity etc.) is a well established.
+Cooler stars, especially cooler than 5,200K are detected in period significantly more than hotter stars.
+Cooler stars both tend to have higher magnetic activity, and therefore more spots, and also have larger brightness variations as a result of the same number of spots compared to hotter stars.\citep{santos, zhang, mcquillan}
+\citet{Amard et al.
+(2020),See et al. (2021),claytor_2022} found a trend of period detectability with metallicity.
+ Higher-metallicity ([Fe/H] $\gtrsim$ −0.1) stars being detected in period more frequently than lower-metallicity stars.
+ Avallone, masuda separate the metallicity dependence from age and suggest that this effect arises from the fact that younger, more active stars are enriched by metals from Galactic chemical evolution rather than an effect of the metallicity on the evolution of magnetic activity and probability of rotational observation.
+
+To investigate the detectability of rotation, let us consider the fraction of targets for which we detected periods in bins of colour and $\log \ R^{+}_{HK}$.
+The detection efficiency here is measured from the ratio of the number of stars with a measured rotation rate to the total number of stars in that bin.
+Other works consider \citet{claytor_2022} consider the ratio of stars with highly precise measures of rotation period to those that do not.
+We forgo any cuts to the fractional error on rotational period as we have limited our stars to nearby stars, that have very high precision recovery of stellar rotation period and make no cuts to the number of stars in each bin that we calculate the histogram for. 
+While limiting the minimum number of stars would allow us to clarify large scale trends, we are searching for a subsample of stars with spuriously low magnetic activity with an already small sample size.
+
+\begin{figure}
+\centering
+    \includegraphics[width=\textwidth]{Figures/rot_gap_figures/detection_efficiency.png}
+    \caption{
+    	The detectability of rotation (top) and 2D histogram of stars without detected rotation periods (bottom) across \gaia{} $B_P - R_P$ colour and $\log \ R^{+}_{HK}$ . 
+	Rotation is preferentially measured in stars with higher magnetic activity (larger $\log \ R^{+}_{HK}$) and tends to increase with colour. Low mass stars have a high probability of rotation being measured. Stars with low magnetic activity have a lower probability of rotational observation. Bins with detection efficiency = 0 or 1 contain single stars and are not indicative of trends in the detection efficiency.
+	We do not observe an ultra low magnetic activity population with non detected rotation that would be required to explain the lack of observation of stars in the intermediate period gap.
+	While there is stars with ultra low $\log \ R^{+}_{HK}$  ($<$5.5) in each $B_P-R_P$ bin they can either both rotationally detected or not rotationally detected. The ultra-low magnetic activity is not indicative of their lack of probability of their rotational observation.
+}
+    \label{fig:detection_efficiency_rhk}
+\end{figure}
+
+Figure \ref{fig:detection_efficiency_rhk} shows the detection fraction (top) and a 2D histogram of the non-detected rotation sub sample (bottom) against colour and $\log \ R^{+}_{HK}$. 
+We confirm that rotation is preferentially measured in stars with higher magnetic activity (larger $\log \ R^{+}_{HK}$) and tends to increase with colour. 
+Low mass stars have a high probability of rotation being measured - which is expected from their lower brightness resulting in larger \rper{} for the same magnetic activity and stars with low magnetic activity have a lower probability of rotational observation. 
+Bins with detection efficiency = 0 or 1 contain single stars and are not indicative of trends in the detection efficiency.
+We do not observe an ultra low magnetic activity population with non detected rotation that would be required to explain the lack of observation of stars in the intermediate period gap.
+While there is stars with low, for a given colour bin, and ultra low $\log \ R^{+}_{HK}$  ($<$5.5) in each $B_P-R_P$ bin they can either both rotationally detected or not rotationally detected. 
+The ultra-low magnetic activity is not indicative of their lack of probability of their rotational observation.
+While stars older-slowly rotating stars also tend to have lower $\log \ R^{+}_{HK}$, which may camouflage a population of low $\log \ R^{+}_{HK}$ gap stars, they still tend to have observable rotation periods.
+For the gap to exist the magnetic activity would need to drop to a point where observation of rotation period is impossible, which is not supported by the data here.
+
+
+\section{Where are the gap stars?}
+
+Increasing the detection efficiency of the method used to determine the rotational period of \kepler{} stars has not increased the number of stars within the gap.
+Low-mass stars have a high probability of period detection.
+This suggests that the gap does not arise from a decreased
 
 
 
- %is the result of a decrease to the magnetic activity of
+
+Very few works have analysed the properties distribution of stars in the non-detected rotation \kepler{} stars.
+
+Comparing the distribution of stars with and without period detection in the from the \citet{mcquillan_rotational_2014} sample
+
+\section{A brief investigation into the spectroscopic rotation of stars near the rotational period gap}
 
 
-%There is a negative correlation between rotation period and \rper{} which varies with effective temperature and becomes much more complex for higher-mass stars.
+\section{Discussion and Summary}
+
+In this Section we (1) reconfirm that the minima in \rper{} with rotational period align themselves with the position of the rotational period gap and confirmed that this is not the result of a bias in the colour of stars in bins of constant rotation rate brought about through the shape of a dearth of observations, (2) report the possible detection of minima in $\log \ R^{+}_{HK}$  with rotational period that also align themselves with the rotational period gap and (3) explore evidence for the lack of observation of ultra-low magnetic activity stars with no detected rotation period that would be required to explain the low probability of observing stars within the rotational period gap.
+
+If minima in $\log \ R^{+}_{HK}$ are not spurious then this suggests that the drop in \rper{} and $\log \ R^{+}_{HK}$ arise from the same mechanism.
+Are indirect measures of the magnetic activity of stars but they arise from indirect sources.
+ \rper{} is related to magnetic activity of stars because stars with larger magnetic field strength tend to express larger and and a larger number of stellar spots.
+ Larger spot coverage results in larger variations to the stellar brightness .
+ $\log \ R^{+}_{HK}$ is a measure of the magnetic field strength from the response of the absorption of light by Calcium H and K lines to that magnetic field.
+ \rper{} is arguably more indirect a measure of magnetic field strength than  $\log \ R^{+}_{HK}$, but is more precisely and accurately measured for a much larger number of stars with detected rotation periods.
+ 
+ 
+We found in this work that the two appear to be directly tied.
+Increases and decreases in one with rotation period correspond to the same response in the other.
+The coincidence of the minima with the rotational period gap suggests that the cause of the drop in \rper{} is directly tied to a reduction in magnetic field strength near the gap rather the a variation to the expression of stellar spots or faculae.
+
+From the coincidence of the minima in \rper{} and $\log \ R^{+}_{HK}$ we investigated the hypothesis that stars within the gap suddenly and dramatically drop in magnetic activity to the scale that their rotation periods are undetectable.
+To do this we looked at the rotation detection efficiency of stars relative to colour and $\log \ R^{+}_{HK}$.
+We did not find evidence of an ultra-low magnetic activity sample of stars in the non-rotational period detected \kepler{}-LAMOST crossmatch that would be required for this hypothesis to be true.
+While $\log \ R^{+}_{HK}$  tends to be lower for stars with out detected rotation periods rotation period spuriously low $\log \ R^{+}_{HK}$ stars can still have their rotation periods detected - there is not a subsample of stars below the detector sensitivity.
+
+We cannot discount the possibility is stars within the rotational period gap express $\log \ R^{+}_{HK}$ so small that it falls below the detection threshold of the LAMOST measurements.
+A survey with more sensitive detection of magnetic activity through, say, Zeeman splittings of stellar absorption lines from high resolution spectroscopy would be required to discount this possibility.
+However, this process could easily become cyclical.
+Say we don't observe the required ultra low-magnetic activity through more precise measurements of the magnetic activity - then again the same explanation could be invoked.
+
+
+
+The counter explanation of the decrease to magnetic
+
+
+
+Comparing the distribution of
+
+
+Increases to detector efficiency have also not increased the observation of stars near, nor in, the intermediate period gap.
+The data appears to not support the hypothesis that the intermediate rotational period gap can be explained by a drop in the probability of observation of stars near the gap through a drop in the magnetic activity.
+
+
+
+
+Let us consider now the other
+
+
+
+
+With thanks to Zhang for allowing us to investigate the previously unavailable non-rotating sample
+
+
+ %is the result of a decrease in the magnetic activity of
+
+
+%There is a negative correlation between rotation period and \rper{}, which varies with effective temperature and becomes much more complex for higher-mass stars.
 %Figure \ref{fig:amplitudevsperiod} shows this relation for stars in the \kepler{} and \ktoo{} samples.
 %This Figure may be biased as a result of the necessity of the stars in the data requiring their rotational periods to be observed though we will discuss this limitation.
 %In the top left corner of this Figure we can see there is a clear trend of observed stars from high amplitude, short-period stars, down to low-amplitude, long-period stars.
