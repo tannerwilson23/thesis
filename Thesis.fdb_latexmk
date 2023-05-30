@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex Thesis"] 0 "Thesis.aux" "Thesis.bbl" "Thesis" 0
+["bibtex Thesis"] 1685408553 "Thesis.aux" "Thesis.bbl" "Thesis" 1685408587
   "./mnras.bst" 1685297858 43376 8463aa2cc1948e346d5641ca59bb4619 ""
-  "Thesis.aux" 0 -1 0 "pdflatex"
+  "Thesis.aux" 1685408587 64447 6c3336cf572fd26ff66fb51c2062091d "pdflatex"
   "references.bib" 1685336048 1009332 006477b5db1fa795be1b4eb4f300baa1 ""
   (generated)
   "Thesis.bbl"
   "Thesis.blg"
-["pdflatex"] 1685365934 "Thesis.tex" "Thesis.pdf" "Thesis" 1685365934
+["pdflatex"] 1685408554 "Thesis.tex" "Thesis.pdf" "Thesis" 1685408587
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/jknappen/ec/tcrm0800.tfm" 1136768653 1536 05df9db6aeccc4eea94fec15c9024f79 ""
@@ -150,8 +150,8 @@
   "/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1647878959 4410336 7d30a02e9fa9a16d7d1f8d037ba69641 ""
   "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1675388617 2826430 6422684fc5216ce7dccb4bfbd35ccfa1 ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
-  "Chapters/introduction_chapter.tex" 1685336344 140725 42175a41474dc7e99d55c5b7c30d69a8 ""
-  "Chapters/rotational_period_gap_chapter.tex" 1685365891 53909 0cd546bed7a841ebf5eead729bbb85e6 ""
+  "Chapters/introduction_chapter.tex" 1685408477 140738 da4d8268fc6ab67c08d88986a834e9d2 ""
+  "Chapters/rotational_period_gap_chapter.tex" 1685408496 58735 20fc9373a2cdaa79f53f115c0717d2fd ""
   "Figures/intro_figures/MS_effect.png" 1685297860 71155 e993ab12cca96621f77e79abfae267b0 ""
   "Figures/intro_figures/PMS_effect.png" 1685297860 75803 f71e038651c7e6458992641d61bf0c4b ""
   "Figures/intro_figures/cluster_kepler.png" 1685297860 978926 b68fb644fdcd10ad4b5d797e849d2182 ""
@@ -168,7 +168,7 @@
   "Figures/intro_figures/ztf_comp.png" 1685297862 1139584 103ba857b5925676169a0bab51f07b05 ""
   "Figures/monash-logo.jpg" 1685297858 119502 5cc48b0dadf9f51a7c8879a4f0e5a66a ""
   "Figures/rot_gap_figures/HR.png" 1685297864 1571834 0a318a30af84e9b8569253d022bb3975 ""
-  "Figures/rot_gap_figures/HR_mag_non.png" 1685330126 524214 0d03d7fae93dcc4a3cd3d70587904f59 ""
+  "Figures/rot_gap_figures/HR_mag_and_non_rot.png" 1685408009 1486255 67a011c268f23e84016fca8f8e34e1e2 ""
   "Figures/rot_gap_figures/detection_efficiency.png" 1685364121 459142 9124f7b349767e54997742d24278113b ""
   "Figures/rot_gap_figures/pdf_cdf.png" 1685361750 353498 51aab9fb4c90aaa2c7cccf4c86af1305 ""
   "Figures/rot_gap_figures/per_vs_colour.png" 1685297864 2744640 b28c7b4eb1f5c776f839e07118b83d2f ""
@@ -184,14 +184,14 @@
   "Preamble/Declaration_publications.tex" 1685297858 2963 eb1561ba7c8cc6388134d2d37fa7cba6 ""
   "Preamble/Publications.tex" 1685297858 851 95a6dd85c7a7941df17b886b1de8f432 ""
   "Preamble/copyright.tex" 1685297858 984 2b1fec0c960ca4f8dec0e3df75e431ed ""
-  "Thesis.aux" 1685365933 43527 2c27d37e09aa5032381c14cc4eae065b "pdflatex"
-  "Thesis.bbl" 1685336085 37513 8055308be4f593cceb6c69acb0c071a3 "bibtex Thesis"
+  "Thesis.aux" 1685408587 64447 6c3336cf572fd26ff66fb51c2062091d "pdflatex"
+  "Thesis.bbl" 1685408554 37513 8055308be4f593cceb6c69acb0c071a3 "bibtex Thesis"
   "Thesis.cls" 1685297858 14171 a2b8dcb5a62d384cf9be35e5b850bd3a ""
-  "Thesis.lof" 0 -1 0 "pdflatex"
-  "Thesis.lot" 0 -1 0 "pdflatex"
-  "Thesis.out" 1685365933 8726 95557f383845bd779a380143cd3edeff "pdflatex"
+  "Thesis.lof" 1685408587 13843 ce049360ed4761a122577892ffb0675c "pdflatex"
+  "Thesis.lot" 1685408587 40 b4a64fdfb29ace579b6af2a2fa1bd5bf "pdflatex"
+  "Thesis.out" 1685408587 9819 c57fd622a9296d9db3b9a56cbc6ca244 "pdflatex"
   "Thesis.tex" 1685365927 9588 b731d1b53b98739757ac187a48505442 ""
-  "Thesis.toc" 0 -1 0 "pdflatex"
+  "Thesis.toc" 1685408587 3973 52046ec19da97cfbcba905e91fa0f21f "pdflatex"
   "lstpatch.sty" 1685297858 13431 1e4a9d9086bef9c3bb5a3d827053632c ""
   "vector.sty" 1685297858 2117 72e011c69c8316b0db0782e873339cc6 ""
   (generated)

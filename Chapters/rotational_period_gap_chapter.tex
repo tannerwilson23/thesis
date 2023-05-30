@@ -179,7 +179,7 @@ We then compute the median and median absolute deviation of \rper{} in each colo
 The median is used here to attempt to alleviate the effect of activity cycles on the variance on the magnetic activity and the median absolute deviation establishes the scatter on the measured photometric variability - regions with large median absolute deviation should be treated as less reliable measurements.
 We neglected the regions with few stars ($<$5).
 This removes the spurious stars that have not ascended onto the lower prong of the intermediate period gap, which do not indicate large-scale trends in the data.
-We reconfirm that \rper{} tends to increase with mass, decrease with the rotational period, and decrease towards the rotational period gap \citep{reinhold_stellar_2020,santos_surface_2021}.
+We reconfirm that \rper{} tends to increase with mass, decrease with the rotational period, and decrease towards the rotational period gap \citep{reinhold_stellar_2020, santos_surface_2021}.
 Comparing Figures \ref{fig:prawn} and \ref{fig:binned_rper_full_sample}, we also confirm that the gap aligns itself with a minima in \rper{}.
 
 \begin{figure}
@@ -246,7 +246,7 @@ On first glance the minima in \rper{} surrounding the gap suggests that the rota
 However, the minima values of \rper{} within the gap can be otherwise be detected for other colour stars.
 For example the minima in the $B_P-R_P$ - (0.97-1.14) slice has a \rper{} value of $\sim 4.0$ which can otherwise be easily detected for slower rotating or redder stars.
 This either suggests that (a) the periodic variability drops suddenly to levels where rotation is not measureable at the rotation period gap or (b) the rotational variability drops as a result of the process by which stars cross the gap. 
- \citet{santos_2021} increased the sensitivity of period detection for \kepler{} lightcurves and did not increase the number of stars observed near the intermediate period gap - suggesting that the drop in photometric variability does not result in a decreased probability to observe stars near the gap.
+ \citet{santos_surface_2021} increased the sensitivity of period detection for \kepler{} lightcurves and did not increase the number of stars observed near the intermediate period gap - suggesting that the drop in photometric variability does not result in a decreased probability to observe stars near the gap.
 This implies that if the drop in photometric variability is not the cause for the dearth of observations near the rotational period gap and rather that the drop in photometric variability is purely coincident with the rotational period gap - suggesting that the mechanism underlying the two observations are one and the same.
 \rper{} \ is not well defined for stars where rotation is not detected- as \rper{} is defined by the photometric variability range over the a rotational period time-scale.
 Therefore we do not know whether the potential stars that lay within the gap, which we cannot observe because of the supposed dramatic decrease in \rper{}, do or do not suddenly decrease in \rper{}.
@@ -323,18 +323,18 @@ This normalised value is calculated for each star and compared to a threshold va
 Those that do not pass the threshold were placed into a separate category of stars that do not have a detectable rotation period \footnote{ This is a slight misnomer as \textit{some} of the stars $\sim$ 100,000 stars have detectable rotation periods, but those periods should be treated with some care.}.
 
 We prepare the sample of 99,000 non-rotating stars from their work in the same way that we did for the rotating sample - ensuring they are close by ($<525 pc$), on the main-sequence and redder than $B_P-R_P$  = 0.8 where the rotational period gap is most apparent.
-This leaves us with a sample of 5574 non-rotating close by, main-sequence stars which we can cross match with the LAMOST-\kepler{} \ sample of chromospheric active stars measured in \citet{zhang_mangetic_2020} - reducing the number of stars to 1134 stars.
+This leaves us with a sample of 5574 non-rotating close by, main-sequence stars which we can cross match with the LAMOST-\kepler{} \ sample of chromospheric active stars measured in \citet{zhang_magnetic_2020} - reducing the number of stars to 1134 stars.
 The number of stars in this sample similar to the number of stars in the rotating sample.
-We show the resulting HR diagram of stars in Figure \ref{fig:non_rotating_mag_hr} coloured by $\log \ R^{+}_{HK}$.
-Comparing Figures \ref{fig:rotating_mag_active} and \ref{fig:non_rotating_mag_hr} it is clear that non-rotating sample is clearly biased for higher mass stars and does not permeate into the low mass regime, where the gap would be most apparent.
+We show the resulting HR diagram of stars without rotational detection (bottom) and with rotational detection (top) in Figure \ref{fig:non_rotating_mag_hr} coloured by $\log \ R^{+}_{HK}$.
+Comparing the distributions it is clear that non-rotating sample is clearly biased for higher mass stars and does not permeate into the low mass regime, where the gap would be most apparent.
 
 
 \begin{figure}
 \centering
-    \includegraphics[width=\textwidth]{Figures/rot_gap_figures/HR_mag_non.png}
+    \includegraphics[width=\textwidth]{Figures/rot_gap_figures/HR_mag_and_non_rot.png}
     \caption{
-    HR diagram of the closeby non-rotating main-sequence sample cross matched with the LAMOST-\kepler{} field coloured by the chromospheric magnetic activity indicator $\log \ R^{+}_{HK}$.
-    Comparing this Figure and Figure \ref{fig:rotating_mag_active} there are very few low mass stars for which the rotation period is not detected.}
+    HR diagram of the closeby rotating (top) and non-rotating (bottom) main-sequence sample cross matched with the LAMOST-\kepler{} field coloured by the chromospheric magnetic activity indicator $\log \ R^{+}_{HK}$.
+    Comparing this two samples we observe there are very few low mass stars for which the rotation period is not detected.}
     \label{fig:non_rotating_mag_hr}
 \end{figure}
 
@@ -350,7 +350,7 @@ The non-rotation detected tends to be less magnetically active, in terms of $\lo
 
 \begin{figure}
 \centering
-    \includegraphics[width=textwidth]{Figures/rot_gap_figures/pdf_cdf.png}
+    \includegraphics[width=\textwidth]{Figures/rot_gap_figures/pdf_cdf.png}
     \caption{
     	The probability density function (left) and cumulative probability density function (right) of $\log \ R^{+}_{HK}$ separated by whether rotation was or was not detected in the close-by main-sequence LAMOST-\kepler{} crossmatch. 
 	We expect that less magnetically active stars to have a lower detection rate due to the decrease in prominence of stellar spots with lowering magnetic activity. This appears to be supported by the data here as the non-rotation detected sample contains a larger number of low $\log \ R^{+}_{HK}$ stars.}
@@ -359,15 +359,18 @@ The non-rotation detected tends to be less magnetically active, in terms of $\lo
 
 The detectability of rotation with fundamental stellar properties (temperature, metallicity etc.) is a well established.
 Cooler stars, especially cooler than 5,200K are detected in period significantly more than hotter stars.
-Cooler stars both tend to have higher magnetic activity, and therefore more spots, and also have larger brightness variations as a result of the same number of spots compared to hotter stars.\citep{santos, zhang, mcquillan}
-\citet{Amard et al.
-(2020),See et al. (2021),claytor_2022} found a trend of period detectability with metallicity.
- Higher-metallicity ([Fe/H] $\gtrsim$ −0.1) stars being detected in period more frequently than lower-metallicity stars.
+Cooler stars both tend to have higher magnetic activity, and therefore more spots, and also have larger brightness variations as a result of the same number of spots compared to hotter stars.%\citep{santos, zhang, mcquillan}
+%\citet{Amard et al.
+%(2020),See et al. (2021),claytor_2022} 
+found a trend of period detectability with metallicity.
+ Higher-metallicity ([Fe/H] $\gtrsim$ -0.1) stars being detected in period more frequently than lower-metallicity stars.
  Avallone, masuda separate the metallicity dependence from age and suggest that this effect arises from the fact that younger, more active stars are enriched by metals from Galactic chemical evolution rather than an effect of the metallicity on the evolution of magnetic activity and probability of rotational observation.
 
 To investigate the detectability of rotation, let us consider the fraction of targets for which we detected periods in bins of colour and $\log \ R^{+}_{HK}$.
 The detection efficiency here is measured from the ratio of the number of stars with a measured rotation rate to the total number of stars in that bin.
-Other works consider \citet{claytor_2022} consider the ratio of stars with highly precise measures of rotation period to those that do not.
+Other works consider 
+%\citet{claytor_2022} 
+the ratio of stars with highly precise measures of rotation period to those that do not.
 We forgo any cuts to the fractional error on rotational period as we have limited our stars to nearby stars, that have very high precision recovery of stellar rotation period and make no cuts to the number of stars in each bin that we calculate the histogram for. 
 While limiting the minimum number of stars would allow us to clarify large scale trends, we are searching for a subsample of stars with spuriously low magnetic activity with an already small sample size.
 

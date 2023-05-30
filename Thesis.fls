@@ -889,6 +889,7 @@ OUTPUT Thesis.toc
 INPUT ./Thesis.lof
 INPUT Thesis.lof
 INPUT Thesis.lof
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmsl10.tfm
 OUTPUT Thesis.lof
 INPUT ./Thesis.lot
 INPUT Thesis.lot
@@ -912,7 +913,6 @@ INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm1
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
-INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmsl10.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmbx9.tfm
 INPUT ./Figures/intro_figures/rot_comp.png
 INPUT ./Figures/intro_figures/rot_comp.png
@@ -921,7 +921,6 @@ INPUT ./Figures/intro_figures/rot_comp.png
 INPUT ./Figures/intro_figures/rot_comp.png
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmsl10.tfm
-INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT ./Figures/intro_figures/pms_evo.png
 INPUT ./Figures/intro_figures/pms_evo.png
 INPUT Figures/intro_figures/pms_evo.png
@@ -952,6 +951,7 @@ INPUT ./Figures/intro_figures/qualitative_evo.png
 INPUT Figures/intro_figures/qualitative_evo.png
 INPUT ./Figures/intro_figures/qualitative_evo.png
 INPUT ./Figures/intro_figures/qualitative_evo.png
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT ./Figures/intro_figures/deheuvels_disparity_without.png
 INPUT ./Figures/intro_figures/deheuvels_disparity_without.png
 INPUT Figures/intro_figures/deheuvels_disparity_without.png
@@ -1041,11 +1041,11 @@ INPUT Figures/rot_gap_figures/rot_vs_rper_rhk_minima.png
 INPUT ./Figures/rot_gap_figures/rot_vs_rper_rhk_minima.png
 INPUT ./Figures/rot_gap_figures/rot_vs_rper_rhk_minima.png
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmti9.tfm
-INPUT ./Figures/rot_gap_figures/HR_mag_non.png
-INPUT ./Figures/rot_gap_figures/HR_mag_non.png
-INPUT Figures/rot_gap_figures/HR_mag_non.png
-INPUT ./Figures/rot_gap_figures/HR_mag_non.png
-INPUT ./Figures/rot_gap_figures/HR_mag_non.png
+INPUT ./Figures/rot_gap_figures/HR_mag_and_non_rot.png
+INPUT ./Figures/rot_gap_figures/HR_mag_and_non_rot.png
+INPUT Figures/rot_gap_figures/HR_mag_and_non_rot.png
+INPUT ./Figures/rot_gap_figures/HR_mag_and_non_rot.png
+INPUT ./Figures/rot_gap_figures/HR_mag_and_non_rot.png
 INPUT ./Figures/rot_gap_figures/pdf_cdf.png
 INPUT ./Figures/rot_gap_figures/pdf_cdf.png
 INPUT Figures/rot_gap_figures/pdf_cdf.png

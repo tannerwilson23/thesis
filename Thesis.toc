@@ -9,41 +9,44 @@
 
 \contentsline {chapter}{Acknowledgements}{vii}{dummy.6}%
 
-\contentsline {chapter}{List of Figures}{ix}{dummy.8}%
-\contentsline {chapter}{List of Tables}{x}{dummy.10}%
-\contentsline {chapter}{Abbreviations}{xii}{dummy.12}%
-\contentsline {chapter}{Constants}{xiii}{dummy.15}%
-\contentsline {chapter}{Symbols}{xiv}{dummy.18}%
+\contentsline {chapter}{List of Figures}{x}{dummy.8}%
+\contentsline {chapter}{List of Tables}{xiv}{dummy.10}%
+\contentsline {chapter}{Abbreviations}{xvi}{dummy.12}%
+\contentsline {chapter}{Constants}{xvii}{dummy.15}%
+\contentsline {chapter}{Symbols}{xviii}{dummy.18}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.21}%
 \contentsline {section}{\numberline {1.1}History of observation of rotation}{2}{section.23}%
 \contentsline {section}{\numberline {1.2}Evolution of rotation}{5}{section.30}%
 \contentsline {subsection}{\numberline {1.2.1}Birth - Terminal age main sequence}{5}{subsection.31}%
-\contentsline {subsection}{\numberline {1.2.2}Post-main-sequence}{18}{subsection.42}%
-\contentsline {section}{\numberline {1.3}Effects of rotation}{30}{section.52}%
-\contentsline {subsection}{\numberline {1.3.1}Hydrostatic effects}{30}{subsection.53}%
-\contentsline {subsection}{\numberline {1.3.2}Increased mixing in stars}{31}{subsection.54}%
-\contentsline {subsubsection}{\numberline {1.3.2.1}Dynamical shear instability}{33}{subsubsection.58}%
-\contentsline {subsubsection}{\numberline {1.3.2.2}Solberg-H\o iland instability}{34}{subsubsection.60}%
-\contentsline {subsubsection}{\numberline {1.3.2.3}Secular shear instability}{34}{subsubsection.62}%
-\contentsline {subsubsection}{\numberline {1.3.2.4}Meridional circulation}{36}{subsubsection.65}%
-\contentsline {subsubsection}{\numberline {1.3.2.5}Goldreich-Shubert-Fricke instability}{37}{subsubsection.68}%
-\contentsline {subsection}{\numberline {1.3.3}Magneto-rotational instabilities}{38}{subsection.71}%
-\contentsline {subsubsection}{\numberline {1.3.3.1}Tayler instability and the Spruit Dynamo}{38}{subsubsection.72}%
-\contentsline {subsubsection}{\numberline {1.3.3.2}Azimuthal Magnetorotational instability}{39}{subsubsection.73}%
-\contentsline {subsection}{\numberline {1.3.4}Other angular momentum transport mechanisms}{40}{subsection.74}%
-\contentsline {subsection}{\numberline {1.3.5}Implementation of diffusive processes in models of rotating stellar evolution}{41}{subsection.75}%
-\contentsline {subsubsection}{\numberline {1.3.5.1}Transport of Angular momentum}{41}{subsubsection.76}%
-\contentsline {subsubsection}{\numberline {1.3.5.2}Transport of Elements}{42}{subsubsection.79}%
-\contentsline {subsection}{\numberline {1.3.6}Stellar Winds}{42}{subsection.81}%
-\contentsline {subsection}{\numberline {1.3.7}Summary - Effects of rotation on low-mass evolution}{46}{subsection.92}%
-\contentsline {subsubsection}{\numberline {1.3.7.1}Pre-main sequence}{46}{subsubsection.93}%
-\contentsline {subsubsection}{\numberline {1.3.7.2}Main sequence}{47}{subsubsection.95}%
-\contentsline {subsubsection}{\numberline {1.3.7.3}Post-main sequence}{48}{subsubsection.97}%
-\contentsline {section}{\numberline {1.4}Todo}{49}{section.98}%
-\contentsline {chapter}{\numberline {2}The Intermediate Period Gap}{50}{chapter.99}%
-\contentsline {section}{\numberline {2.1}Intoduction}{51}{section.101}%
-\contentsline {subsection}{\numberline {2.1.1}Stellar activity indicators}{54}{subsection.102}%
-\contentsline {section}{\numberline {2.2}The decrease in photometric variability of stars near the intermediate period gap}{56}{section.103}%
+\contentsline {subsection}{\numberline {1.2.2}Post-main-sequence}{19}{subsection.42}%
+\contentsline {section}{\numberline {1.3}Effects of rotation}{31}{section.52}%
+\contentsline {subsection}{\numberline {1.3.1}Hydrostatic effects}{31}{subsection.53}%
+\contentsline {subsection}{\numberline {1.3.2}Increased mixing in stars}{32}{subsection.54}%
+\contentsline {subsubsection}{\numberline {1.3.2.1}Dynamical shear instability}{34}{subsubsection.58}%
+\contentsline {subsubsection}{\numberline {1.3.2.2}Solberg-H\o iland instability}{35}{subsubsection.60}%
+\contentsline {subsubsection}{\numberline {1.3.2.3}Secular shear instability}{36}{subsubsection.62}%
+\contentsline {subsubsection}{\numberline {1.3.2.4}Meridional circulation}{37}{subsubsection.65}%
+\contentsline {subsubsection}{\numberline {1.3.2.5}Goldreich-Shubert-Fricke instability}{39}{subsubsection.68}%
+\contentsline {subsection}{\numberline {1.3.3}Magneto-rotational instabilities}{40}{subsection.71}%
+\contentsline {subsubsection}{\numberline {1.3.3.1}Tayler instability and the Spruit Dynamo}{40}{subsubsection.72}%
+\contentsline {subsubsection}{\numberline {1.3.3.2}Azimuthal Magnetorotational instability}{41}{subsubsection.73}%
+\contentsline {subsection}{\numberline {1.3.4}Other angular momentum transport mechanisms}{42}{subsection.74}%
+\contentsline {subsection}{\numberline {1.3.5}Implementation of diffusive processes in models of rotating stellar evolution}{43}{subsection.75}%
+\contentsline {subsubsection}{\numberline {1.3.5.1}Transport of Angular momentum}{43}{subsubsection.76}%
+\contentsline {subsubsection}{\numberline {1.3.5.2}Transport of Elements}{44}{subsubsection.79}%
+\contentsline {subsection}{\numberline {1.3.6}Stellar Winds}{44}{subsection.81}%
+\contentsline {subsection}{\numberline {1.3.7}Summary - Effects of rotation on low-mass evolution}{48}{subsection.92}%
+\contentsline {subsubsection}{\numberline {1.3.7.1}Pre-main sequence}{48}{subsubsection.93}%
+\contentsline {subsubsection}{\numberline {1.3.7.2}Main sequence}{49}{subsubsection.95}%
+\contentsline {subsubsection}{\numberline {1.3.7.3}Post-main sequence}{50}{subsubsection.97}%
+\contentsline {section}{\numberline {1.4}Todo}{51}{section.98}%
+\contentsline {chapter}{\numberline {2}The Intermediate Period Gap}{52}{chapter.99}%
+\contentsline {section}{\numberline {2.1}Intoduction}{53}{section.101}%
+\contentsline {subsection}{\numberline {2.1.1}Stellar activity indicators}{57}{subsection.102}%
+\contentsline {section}{\numberline {2.2}The decrease in photometric variability of stars near the intermediate period gap}{58}{section.103}%
+\contentsline {section}{\numberline {2.3}Where are the gap stars?}{73}{section.116}%
+\contentsline {section}{\numberline {2.4}A brief investigation into the spectroscopic rotation of stars near the rotational period gap}{73}{section.117}%
+\contentsline {section}{\numberline {2.5}Discussion and Summary}{73}{section.118}%
 \vspace {2em}
 \vspace {2em}
-\contentsline {chapter}{Bibliography}{71}{dummy.116}%
+\contentsline {chapter}{Bibliography}{76}{dummy.119}%
