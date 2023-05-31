@@ -2,13 +2,17 @@ This is BibTeX, Version 0.99d (TeX Live 2022)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: Thesis.aux
 The style file: mnras.bst
+Reallocated field_info (elt_size=4) to 10967 items from 5000.
 Database file #1: references.bib
+Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Warning--I didn't find a database entry for "maeder_diffuse_1996"
 Warning--I didn't find a database entry for "chiosi_1986"
+Warning--I didn't find a database entry for "santos_surface_2020"
 Warning--I didn't find a database entry for ""
 Warning--I didn't find a database entry for "mcquillan_rotational_2014"
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--empty publisher in aerts_asteroseismology_2010
 "ArXiv e-prints" is a string literal, `journal' is a missing field
 ---they aren't the same literal types for entry charbonnel_deep_2008
 while executing---line 1822 of file mnras.bst
@@ -27,45 +31,46 @@ while executing---line 1822 of file mnras.bst
 ---they aren't the same literal types for entry johnstone_stellar_2015
 while executing---line 1822 of file mnras.bst
 Warning--empty publisher in kippenhahn_stellar_1990
-You've used 155 entries,
+Warning--empty publisher in unno_nonradial_1989
+You've used 216 entries,
             2881 wiz_defined-function locations,
-            1872 strings with 53806 characters,
-and the built_in function-call counts, 73198 in all, are:
-= -- 5838
-> -- 5604
-< -- 393
-+ -- 2470
-- -- 862
-* -- 8837
-:= -- 11814
+            2280 strings with 74452 characters,
+and the built_in function-call counts, 101405 in all, are:
+= -- 8068
+> -- 7728
+< -- 535
++ -- 3417
+- -- 1176
+* -- 12259
+:= -- 16328
 add.period$ -- 0
-call.type$ -- 155
-change.case$ -- 310
-chr.to.int$ -- 153
-cite$ -- 157
-duplicate$ -- 3506
-empty$ -- 3507
-format.name$ -- 1346
-if$ -- 12555
-int.to.chr$ -- 3
+call.type$ -- 216
+change.case$ -- 432
+chr.to.int$ -- 213
+cite$ -- 220
+duplicate$ -- 4904
+empty$ -- 4899
+format.name$ -- 1846
+if$ -- 17396
+int.to.chr$ -- 4
 int.to.str$ -- 0
-missing$ -- 155
-newline$ -- 482
-num.names$ -- 1086
-pop$ -- 737
+missing$ -- 215
+newline$ -- 668
+num.names$ -- 1505
+pop$ -- 1031
 preamble$ -- 1
-purify$ -- 620
+purify$ -- 864
 quote$ -- 0
-skip$ -- 2107
+skip$ -- 2954
 stack$ -- 0
-substring$ -- 4042
-swap$ -- 1715
-text.length$ -- 623
+substring$ -- 5540
+swap$ -- 2395
+text.length$ -- 869
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1383
-warning$ -- 2
-while$ -- 1172
+type$ -- 1923
+warning$ -- 4
+while$ -- 1618
 width$ -- 0
-write$ -- 1563
+write$ -- 2177
 (There were 6 error messages)
