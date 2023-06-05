@@ -3,8 +3,6 @@
 \newcommand\rper{$R_{\rm{per}}$}
 
 
-
-
 \chapter{The Intermediate Period Gap}
 
 \section*{Abstract}
@@ -16,7 +14,11 @@ This dearth of observations is known as the intermediate period gap.
 The position of this gap varies with the colour of the stars.
 Various mechanisms have been proposed to explain the dearth of observations from stars physically "jumping" the gap through enhanced wind-braking, to stars above and below the gap representing two populations of stars, to the gap representing a minima of probability to observe rotation rate.
 The exact cause of the dearth of observations is currently unknown.
-In this Chapter we discuss the various hypotheses of the mechanism underlying the intermediate period gap and discuss our work to determine the likelihood of each of these mechanisms being at play.
+In this Chapter, we show that the gap aligns itself with minima in both the photometric variability range and magnetic activity indicator $\log R^{+}_{\rm{HK}}$.
+This suggests that the minima of photometric variability and $\log R^{+}_{\rm{HK}}$ result from the same mechanism.
+We also suggest that there is no subsample of stars with uncharacteristically low magnetic activity in the sample of stars without detection rotation periods.
+Further, we argue that the number of stars with undetected rotation periods is unlikely to fill the dearth of observations.
+We propose that the data suggests that the gap does not represent a minima of observation of stellar rotation through photometric variability.
 
 \newpage
 
@@ -26,9 +28,10 @@ Measurement of the rotational period of samples of stars allows us to understand
 For example, the mass-dependent core-envelope coupling and decoupling of young stars have only recently been observed by measuring the rotational period of stars with age through the rotational period distribution of clusters \citep{reinhold_rotation_2015-1}.
 An unexplained feature of the rotational period distribution of low-mass main-sequence stars comes in the form of what is known as the intermediate period gap.
 The intermediate period gap represents a minimum of observations of stars with particular rotation periods dependent on temperature, first observed by \citet{mcquillan_rotation_2014}.
-The period that the gap appears increases with decreasing temperature/mass.
-The gap is robust between different photometric observation missions \citep{mcquillan_rotation_2014,davenport_rotating_2017,davenport_rotating_2018,lu_bridging_2022}, multiple period detection methods and varies its position in period with respect to mass. 
+The feature is selection function independent - the gap is robust between different photometric observation missions \citep{mcquillan_rotation_2014,davenport_rotating_2017,davenport_rotating_2018,lu_bridging_2022}, multiple period detection methods and varies its position in period with respect to mass. 
 This suggests that the lack of observation of stars is not a quirk in the data or the data analysis process but a physical feature of the stars we are observing.
+The quality cuts made to the samples of stars where rotation is attempted to be measured do not appear to be biased away from detecting gap stars.
+
 
 Multiple mechanisms have been proposed to explain the intermediate period gap.
 \citet{mcquillan_rotation_2014} first proposed that the gap represents bimodal bursty star formation in the local \kepler field.
@@ -61,29 +64,6 @@ They did not find more stars in or around the intermediate period gap than \cite
 They tentatively found that the relation between kinematic age and Rossby number of stars above and below the gap is discontinuous (see Figure 11 in their work).
 While this result supports the hypothesis that stars could have gone through a phase of rapid spin-down and jumped over the gap, more precise measurement of kinematic ages for more stars is required to support this claim.
 
-
-
-
-
-
-However, the photometric variability also increases
-
-
-In this work we interchangably use the terms probability of observation of rotation, detectability of rotation period here.
-The detectability of rotation period is dependent on a number of factors on a star to star basis
-
-
-The detectability of rotation with fundamental stellar properties (temperature, metallicity etc.) has been previously investigated.
-Cooler stars, especially cooler than 5,200K are detected in period significantly more than hotter stars.
-Cooler stars both tend to have higher magnetic activity, and therefore more spots, and also have larger brightness variations as a result of the same level of surface spot activity compared to hotter stars \citep{ mcquillan_rotation_2014, santos_surface_2020, zhang_magnetic_2020}
-A relation with metallicity has also been investigatied \citep{amard_evidence_2020,see_photometric_2021,claytor_recovery_2022}.
-Higher-metallicity ([Fe/H] $\gtrsim$ -0.1) stars being detected in period more frequently than lower-metallicity stars.
- \citep{avallone_rotation_2022, masuda_detectability_2022} separate the metallicity dependence from age and suggest that this effect arises from the fact that younger, more active stars are enriched by metals from Galactic chemical evolution rather than an effect of the metallicity on the evolution of magnetic activity and probability of rotational observation.
-
-
-
-
-
 On the other hand, \citet{reinhold_transition_2019} and \citet{reinhold_stellar_2020} proposed that a transition from dark spot creates the gap - to bright facula dominance in the activity cycle of a star.
 In this work, they differentiate between the rotation brightness modulation and brightness modulation from the stellar activity cycle.
 Stellar activity modulation refers to the long-term evolution of average brightness due to stellar spots and faculae rather than variations on the rotational time scale.
@@ -91,15 +71,8 @@ They suggest that as a star spins down and the magnetic field topology changes, 
 In such a scenario, the photometric variability amplitude decreases in because of the partial cancellation by the increase and decrease in brightness from the faculae and spots, respectively.
 Hence, the stars with small photometric variability will not be detected.
 This hypothesis is supported by the gap aligning with a line of constant Rossby number - indicative of common magnetic field evolution between these stars - and by the photometric variability reaching a local minimum surrounding the gap.
-
-
-
 The authors do not appear to suggest a reason for spot-dominated stars appearing above the gap nor a mechanism for the increase in rotational photometric variation amplitude above the gap.
 Further, the variability levels on both sides of the gap are not close to the detection limit: periods are detected for stars with similar properties at much lower \rper{} values.
-
-
-
-
 
 If the gap aligned itself with a line of constant rotation in only one mission, then the mechanism underlying the gap could be more readily explained through the selection function of said mission.
 These factors suggest that the intermediate period gap represents a function of stellar evolution or an unaccounted-for problem in observing rotation periods through photometric oscillations from stellar spots.
@@ -127,7 +100,34 @@ It is entirely possible, but likely not probable, that gap stars have been previ
 On the other hand, gap stars may not be otherwise peculiar - chemically or, say, in terms of magnetic activity.
 If indeed they are not otherwise peculiar, then, oxymoronically, the reason for their lack of observation raises more questions about the mechanism underlying the gap.
 
-\subsection{Stellar activity indicators}
+
+In this work, we will use the terms probability of observation of rotation and detectability of rotation period.
+While they are related, they are distinct terms.
+The detectability of rotation requires a relatively short cadence, on the time scale of days-weeks, observations with distinct variability in the light curve due to spots, or faculae.
+It is dependent on a number of factors on a star-to-star basis, including the inclination angle, wherein the magnetic activity cycle observations are made, where faculae and spots are distributed on the surface of the star and the lifetimes of these surface features relative to the rotation period of the star. \citep{aigrain_hare_2015, reinhold_spot_2018, reinhold_where_2021}.
+On the other hand, the probability of observation of rotation refers to a more stellar parameter-based average statistic under the comparison of the set of stars with and without detection rotation periods.
+The detectability of rotation with fundamental stellar properties (temperature, metallicity, stellar age etc.) has been previously investigated.
+Cooler stars, especially cooler than 5,200K are detected in period significantly more than hotter stars.
+Cooler stars both tend to have higher magnetic activity, and therefore more spots, and also have larger brightness variations as a result of the same level of surface spot activity compared to hotter stars \citep{ mcquillan_rotation_2014, santos_surface_2020, zhang_magnetic_2020}
+A relation with metallicity has also been investigatied \citep{amard_evidence_2020,see_photometric_2021,claytor_recovery_2022}.
+Higher-metallicity ([Fe/H] $\gtrsim$ -0.1) stars being detected in period more frequently than lower-metallicity stars.
+ \citep{avallone_rotation_2022, masuda_detectability_2022} separate the metallicity dependence from age and suggest that this effect arises from the fact that younger, more active stars are enriched by metals from Galactic chemical evolution rather than an effect of the metallicity on the evolution of magnetic activity and probability of rotational observation.
+Older stars tend to have a lower probability of observation - their rotation periods are long and thus require a longer baseline of observations and they tend to have weaker magnetic fields and thus express a smaller number of stellar spots.
+Many stars cannot have their rotation periods measured, purely from the effect of the inclination angle on the detectability of rotation
+If a star is pole-on, even if a star expresses surface features close to the axis of rotation, no variance in the brightness of that star will be detected.
+Increasing the sensitivity of telescopes, and methods of determining rotation periods, increase the number of stars that can have their rotation periods detected but this number is bounded by the subsample of stars that cannot have their rotation measured.
+While the distribution of the inclination angle of stars is biased toward equator-on observations, a non-zero population of stars will never have their rotation periods detected through photometric variability.
+
+ 
+This Chapter is structured as follows. In Section \ref{sec:act_ind} we will introduce the so-called magnetic activity indicators. 
+In Section \ref{minima_rper} we reconfirm that the gap aligns itself with a minima in photometric variability range, then in Section \ref{minima_rhk} we show that this minima aligns itself with a minima in $\log R^{+}_{\rm{HK}}$.
+We then show, in Section \ref{sec:low_activity_gap}, that the sample of stars with undetected rotation does not contain a subsample of stars with magnetic activity low enough to fall below the rotation-detection threshold.
+In Section \ref{sec:no_gap_stars} we show that the number of stars required for the dearth of observations to no longer be considered a dearth requires a larger number of stars than the number of stars within the undetected sample.
+Finally in Section \ref{sec:sum_dis} we summarise and discuss the implications of our work on proposed mechanisms to explain the intermediate period gap.
+
+
+\section{Stellar activity indicators}
+\label{sec:act_ind}
 
 Stellar magnetism is a complex component of stellar evolution that is hard to model.
 Links between magnetism and mass, metallicity, age, convection, and rotation have been identified \citep{cao_starspots_2022}.
@@ -171,7 +171,8 @@ The magnetic activity also varies with the stellar magnetic cycle of a star, wit
 Therefore, a single temporal measurement of magnetic activity must be treated with care.
 In this work we will adopt a population study approach to minimise this effect.
 
-\section{The decrease in photometric variability of stars near the intermediate period gap}
+\section{The gap aligns with a minima in photometric variability}
+\label{sec:minima_rper}
 
 The first mechanism we consider is that the rotation period gap reflects a decrease in photometric variability due to a variation in the magnetic field strength of stars near the gap.
 We will begin with the 33,000 stars with rotation periods from \citet{mcquillan_rotation_2014}.
@@ -281,6 +282,9 @@ This implies that if the drop in photometric variability is not the cause for th
 \rper{} \ is not well defined for stars where rotation is not detected- as \rper{} is defined by the photometric variability range over the a rotational period time-scale.
 Therefore we do not know whether the potential stars that lay within the gap, which we cannot observe because of the supposed dramatic decrease in \rper{}, do or do not suddenly decrease in \rper{}.
 
+\section{The gap aligns with a minima in $\log R^{+}_{\rm{HK}}$ }
+\label{sec:minima_rhk}
+
 While it has been well established that the photometric variability of stars decreases towards the intermediate period gap other magnetic activity indicators have not been explored in this regard only the large-scale trends with stellar mass and rotation \citep{zhang_magnetic_2020}.
 Suppose other magnetic activity indicators vary in the same fashion as \rper{} - decreasing to a minima at the rotational period gap. 
 In that case, it is more likely that the decrease in \rper{} towards the gap results from a variation in the magnetic field of stars.
@@ -310,8 +314,6 @@ This cut-off was chosen because of the reduced number of stars in the sample but
 The median and median absolute deviation of both $\log \ R^{+}_{HK}$ and \rper{} \ in these slices was then calculated, which we then fit with cubic splines against the log of rotation period.
 We have repeated this method on \rper{} \ here because we are using a subset of the original stars and to compare the recovered minima from the subset more accurately - this also allows us to confirm the accuracy of the fit of our minima in the first test.
 The minima of the cubic spline fits are then calculated again using the first and second derivatives.
-Due to the smaller number of stars in the sample, we have ignored minima that align with bins with less than four stars. 
-Because of this we have manually ignored the low-rotational period $\log \ R^{+}_{HK}$ minima in the $B_P - R_P$ = (0.97- 1.14) and (1.14 - 1.31) slices.
 
 \begin{figure}
 \centering
@@ -323,8 +325,7 @@ Because of this we have manually ignored the low-rotational period $\log \ R^{+}
 
 We compare the distributions of \rper{} \ and $\log \ R^{+}_{HK}$ against the log of rotation period in Figure \ref{fig:rot_rper_rhk} and show the found minima in blue and orange solid vertical lines for \rper{} \ and $\log \ R^{+}_{HK}$ respectively.
 Like photometric variability, $\log \ R^{+}_{HK}$ tends to decrease with rotational period - owing to their relation to the strength of the magnetic field.
-We find that generally \rper{} \ and $\log \ R^{+}_{HK}$ are directly tied. 
-Increases and decreases to the median value with rotational period in one tends to align with a similar response in the other.
+We find that, generally, \rper{} \ and $\log \ R^{+}_{HK}$ are directly tied - increases and decreases to the median value with rotational period in one tends to align with a similar response in the other.
 
 We show the comparison of the recovered minima from \rper{} using this subset as well as the minima recovered using $\log \ R^{+}_{HK}$ in Figure \ref{fig:indicating_minima}.
 The recovered \rper{} \ minima using the subset lay on top of the \rper{} minima recovered using the full sample.
@@ -338,6 +339,9 @@ The detection of the coincidence in a single slice of $B_P-R_P$ could be explain
 However, the detection of this in multiple slices of $B_P-R_P$ suggests that the cause of the minima is related.
 Further study of this relationship is required to confirm the coincidence of the minima with a larger dataset of chromospheric magnetic activity indicators or with other magnetic activity indicators.
 We will assume for now that the rotational period gap does align itself with minima in both \rper{} and $\log \ R^{+}_{HK}$ and explore whether there is a sample of low-magnetic activity, non-detected rotators. 
+
+\section{Do we observe a subsample of low-magnetic activity gap stars?}
+\label{sec:low_activity_gap}
 
 If the gap contains stars that have dramatically low \rper{} and thus do not have detectable rotation periods, then $\log \ R^{+}_{HK}$ should also dramatically drop within this region.
 Further, if there is a sample of dramatically lower $\log \ R^{+}_{HK}$ stars without detected rotation periods then this sample supports the hypothesis that the intermediate period gap is the result of a decreased probability to observe stars at those rotation periods due to a decrease in stellar activity.
@@ -416,81 +420,89 @@ While stars older-slowly rotating stars also tend to have lower $\log \ R^{+}_{H
 For the gap to exist the magnetic activity would need to drop to a point where observation of rotation period is impossible, which is not supported by the data here.
 
 
-Alternatively, only observe stars at the minimum of their activity cycles
+\section{The lack of observation of stars that could fill the intermediate period gap}
+\label{sec:no_gap_stars}
+
+
+In this work we have suggested that the data does not support the hypothesis that the rotational period gap is in-fact full of stars without detectable rotation periods.
+If the gap is indeed full of stars without detectable rotation periods then, if we assume that the selection functions of both the time-series photometric missions (\kepler{}, \ktoo{}, \tess) nor the works that have attempted to measure the rotation periods of stars from the data collected in those missions is not biased towards not observing or measuring the rotation periods of stars in the gap then the gap stars should permeate the sample of stars without detected rotation periods.
+Further, for the gap to be full of stars there must be enough stars without detected rotation periods to fill the dearth of observations.
+In this Section we will determine whether this is indeed the case.
+
+We compare the distribution of stars in the \citet{mcquillan_rotational_2014} \kepler{} rotating and undetected rotating samples.
+While \citet{santos_surface_2019} has increased the sensitivity of rotational detection of stars in the \kepler{} sample this has not increased the number of observations of stars within or near the gap nor significantly increased the number of low-mass ($B_P-R_P$ $>$1.7) stars with detected rotation periods.
+Our analysis will be focussed on very low mass stars where the gap is most apparent - where \citet{mcquillan_rotational_2014} remains the state-of-the-art.
+We make no quality cuts to the data to ensure we are not preferentially selecting for stars that could/could not possibly fill the gap.
+
+In their work \citet{mcquillan_rotational_2014} differentiates between rotation-detected and non-rotation-detected stars using the threshold described in the previous section. 
+Low-mass stars with low-significance reported rotation periods in the undetected rotation catalogue are disproportionately distributed close to the gap, especially near $B_P-R_P$ = 1. 
+Although these stars do not fill the gap, they have low $w$ and therefore seemingly support the hypothesis that the gap represents a minimum detectability of rotation period.
+However, if we compare the distribution of the number of stars in the rotation detected and undetected samples with colour, as we have shown in Figure \ref{fig:n_det_nondet}, we observe that stars with detectable rotation periods outnumber stars with undetectable rotation periods at lower masses ($B_P-R_P$ $>$1.3), despite the overall 3:1 ratio of the entire detectable to undetectable catalogues.
+Further in the inset of this Figure, where we compare the distributions where the gap is most apparent, we see that the proportion of stars with undetectable rotation periods to stars with detectable rotation periods decreases with decreasing mass, to a minimum of 1:10 undetectable to detectable rotation periods at the lowest masses.
+However, this result in itself does not confirm whether the stars in the undetected rotational period sample fill the gap.
+We instead determine how many stars would be required to fill the gap, or rather for the dearth in observations to be undetectable in the low mass range where the proportion of stars between the samples is largest and where the gap is most apparent ($B_P-R_P$ $>$1.5).
+
+
+To find the number of stars required for the dearth of observations to be no longer considered a dearth we first separate the sample with detected rotation into bins of $B_P - R_P$ (colour) from 1.5-2.2 of size 0.045 (15 bins).
+In each colour interval, we then split the data into log rotational period intervals of width 0.07 dex between 1.0 and 1.7 dex (10 bins) - which correspond to 10 and 50 days, respectively.
+We then calculate the number of stars in each slice of log period for a given colour range and remove bins with only 1 star from our analysis.
+In FIgure \ref{fig:n_col} we show the number of stars in each slice (scatter points) against $\log_{10}$ of the rotation period for each colour range indicated in brackets to which we have fit a cubic spline (dashed)
+From the cubic spline, we can use the first and second derivatives of the spline to accurately determine the position of the local minima in density, which is indicated by the solid vertical black line.
+The calculation of the position of the minima is again an automated process as carried out in the previous Sections.
+To calculate the number of stars required for the dearth/minima to be no longer apparent we compare the number of stars in the closest scatter point to the minima to the average of the two scatter points surrounding it.
+While this approach is admittedly naive, it assumes all of the stars will be in the bin closest to the minima rather than being distributed throughout the dearth region, it places a lower bound on the stars required to be observed for the gap to be filled and accounts for the decrease in the number of stars observed at lower masses.
+
+In Figure \ref{fig:stars_not_fill} we compare the number of stars required to fill the gap to the number of stars without detected rotation periods in each colour range.
+We find that the number of stars required to fill the gap is approximately constant at N $\sim$ 20.
+This suggests that the number of stars required gap is independent of the total number of stars observed in that mass range.
+If the gap is full of stars without detectable rotation periods we expect the proportion of stars required to fill the gap to increase proportionate to the total number of stars (detected and non-detected rotation) but this is not the case.
+The number of stars required to fill the gap is much smaller than the number of stars without detected rotation periods for $B_P-R_P<1.8$.
+As colour increases and the number of observed stars decreases the number of stars required to fill the gap becomes the majority of stars without detected rotation periods.
+This suggests that for the gap to be full of stars with undetected rotational period stars, all of the stars in the undetected rotational period sample would need to be in this small rotational period range and only a very small number of stars with undetected rotation are the result of noise or inclination effects.
+
+
+Two conclusions could be drawn from this result.
+The gap is full of stars with undetectable rotation but most to all of the stars with undetectable rotation must lay within the gap for this to be true.
+The other is that the stars in the gap do not exist - they pass through the gap so quickly that stars with rotation periods that would place them in the gap evolve so quickly that their rotation periods are rarely observed.
+The data appears to favour the latter, supporting the hypothesis that the gap is caused by the sudden onset of strong magnetic braking.
+
+\begin{figure}
+\centering
+    \includegraphics[width=0.5\textwidth]{Figures/rot_gap_figures/hist_obs.png}
+    \caption{A histogram of the distribution of $B_P-R_P$ colour of stars with (green) and without (red) detected rotation periods. \textbf{Inset:} A zoom-in of the distribution for $B_P-R_P>1.5$ where the rotational period gap is most apparent. The distribution in colour of stars with and without detected rotation periods vary. The undetected rotation sample is strongly biased towards stars with $B_P-R_P$ close to 1, comparative to the lower-mass stars where the number of stars drops quickly. Despite the $\sim$3:1 ratio of the number of stars with undetected rotation periods to those with detected rotation periods, the number of stars without detected rotation periods drops below those with detected rotation at $B_P-R_P>1.3$.
+    	}
+    \label{fig:n_det_nondet}
+\end{figure}
 
 
 
-\section{Where are the gap stars?}
+\begin{figure}
+\centering
+    \includegraphics[width=\textwidth]{Figures/rot_gap_figures/n_col.png}
+    \caption{
+    	Number of stars in each bin against $\log_10$ of the rotation period in bins of colour \gaia{} $B_P-R_P$ (indicated in brackets). Here we have fitted a cubic spline to the number of stars in each bin and calculated minima using the first and second derivatives of the fitted cubic spline. The minima in number of stars are shown by solid vertical blue lines. These minima are the rotational period gap.
+}
+    \label{fig:n_col}
+\end{figure}
 
 
-
-The morphology of the solar light curve (as it would be observed in the Total Solar Irradiance or in the broadband spectral passband like those of CoRoT, Kepler, or TESS) changes significantly depending on the phase of the solar activity cycle. While it appears to be quite regular at 11 yr cycle minima when activity is low, the regularity disappears at periods of intermediate and high solar activity (Lanza & Shkolnik 2014; Aigrain et al. 2015; He et al. 2015). In particular, Amazo-Gómez et al. (2020) showed that if the Sun were observed by Kepler, the standard frequency analysis tools would most probably fail to detect the correct rotation period (unless observations are done during epochs of low solar activity). The causes of this inability are manifold: solar rotational variability is mainly brought about by spots (see, e.g., Shapiro et al. 2016). The relatively short lifetimes of sunspots from days to weeks (see, e.g., Solanki 2003) implies that most of the spots transit the visible solar disk only once, which leads to irregularities in the solar light curve, and hampers the detection of the solar rotation period. Furthermore, the brightness changes of dark spots and bright faculae partly compensate each other, which decreases the amplitude of the rotational signal, further hindering the period determination (Shapiro et al. 2017; Nèmec et al. 2020; Witzke et al. 2020). The exception from this general tendency are epochs of low solar activity with a small number of active regions. At these times the rotational variability is attributed to long-lived facular features and the light curve pattern becomes more periodic.
-
-stars are more spot dominated the faster they are rotating. The rotational period gap is not the result of a transition.
-
-
-
-
-Recent works to increase the rotational period detection sensitivity have increased the number of stars with observed rotation periods.
-
-Stars surrounding the gap have uncharacteristically low \rper{}, despite their relatively fast rotation.
-The probability of rotational detection drops with \rper{}, resulting in a decreased probability to observe stars near the rotatational period gap.
-However, the decreased probability to 
-
-While the number of stars surrounding the gap has increased,
-However, increases to the detection efficiency have not yielded a larger sample of rotation periods of star with rotation periods that would place them within the intermediate period gap.
-
-Very few works have analysed the properties distribution of stars without detected rotation in the \kepler{} sample.
+\begin{figure}
+\centering
+    \includegraphics[width=0.5\textwidth]{Figures/rot_gap_figures/stars_donot_fullgap.png}
+    \caption{
+    	The number of stars required to fill the gap (black scatter points) against the number of stars with undetected rotation periods against $B_P-R_P$. The number of stars required to fill the intermediate period gap is roughly constant at N $\sim$ 20. While the number of stars without detected rotation greatly outnumbers the number required to fill the gap below $B_P-R_P \sim 1.8$, the two are almost equal for lower mass stars.
+}
+    \label{fig:stars_not_fill}
+\end{figure}
 
 
-The probability of observation of rotation of stars is expected to drop with decreased photometric variability - smaller variability amplitudes are harder to differentiate from noise.
-The photometric variability of stars is dependent on the expression of stellar spots.
-For two stars of the same colour, as magnetic field strength and thus the expression of stellar spots - in both size and number of expressed stellar spots - increases the photometric variability is expected to also increase.
-The photometric variability also varies with the relative inclination of a stars rotational axis relative to the observer and the position of stellar spots on its surface.
-A rotational axis (pole-on) star will not express any photometric variability as it rotates - despite expressing stellar spots - and as the angle between the rotational axis and the observation axis decreases a star will express larger photometric variability.
-While stars are more likely to be equator on, we cannot discount the possibility that stars without detected rotational period, purely arise from the relative inclination of those stars.
-As a result even that most active stars, in a spot coverage sense, will not have detectable rotation periods.
-
-
-
-
-Low-mass stars with reported rotation periods in the undetected rotation catalogue are disproportionately distributed close to the gap, especially near $B_P-R_P$ = 1. 
-Although these stars do not fill the gap, they have low $w$ and therefore support the hypothesis that the gap represents a minimum detectability of rotation period.
-This can be seen when the undetected rotation catalogue and detected rotation catalogue are overlaid, as shown in Figure \ref{fig:overlay}.
-
-On the other hand, stars with detectable rotation periods outnumber stars with undetectable rotation periods at lower masses ($B_P-R_P$ $>$1.2), despite the overall 3:1 ratio of the entire detectable to undetectable catalogues.
-This is shown in Figure \ref{detectabletoundectable_bprp}.
-Further, the proportion of stars with undetectable rotation periods to stars with detectable rotation periods decreases with decreasing mass, to a minimum of 1:10 undetectable to detectable rotation periods at the lowest masses.
-
-
-
-Two conclusions can be drawn from this result.
-In the first the stars that would fill the gap do not exist - they pass through the gap so quickly that stars with rotation periods that would place them in the gap evolve so quickly that their rotation periods are rarely observed.
-Consider the scenario where full catalogue (detectable and undetectable) is not biased not to include gap stars, and that all of the stars in the undetected catalogue are the result of the gap representing a minima of detectability of rotation period, rather than an inclination angle effect or just the result of random noise.
-Even in these (generous) conditions it is unlikely that the small number of stars are able to fill the gap consistently.
-This appears to suggest that the gap is instead the result of modified spin-down in which stars are quickly braking through the gap.
-
-
-Comparing the distribution of stars with and without period detection in the from the \citet{mcquillan_rotational_2014} sample
-
-
-This suggests that there are no stars within the rotational period gap.
-
-
-
- used to determine the rotational period of \kepler{}
-Low-mass stars have a high probability of period detection.
-This suggests that the gap does not arise from a decreased
-
-
-
-
-
-
-\section{A brief investigation into the spectroscopic rotation of stars near the rotational period gap}
+%\section{A spectroscopic rotation of stars near the rotational period gap}
 
 
 \section{Discussion and Summary}
+\label{sec:disc_sum}
+
+
 
 In this Section we (1) reconfirm that the minima in \rper{} with rotational period align themselves with the position of the rotational period gap and confirmed that this is not the result of a bias in the colour of stars in bins of constant rotation rate brought about through the shape of a dearth of observations, (2) report the possible detection of minima in $\log \ R^{+}_{HK}$  with rotational period that also align themselves with the rotational period gap and (3) explore evidence for the lack of observation of ultra-low magnetic activity stars with no detected rotation period that would be required to explain the low probability of observing stars within the rotational period gap.
 
@@ -518,7 +530,11 @@ Say we don't observe the required ultra low-magnetic activity through more preci
 
 
 
-The counter explanation of the decrease to magnetic
+An alternative explanation for the coincidence of the minima comes from the
+
+Alternatively, only observe stars at the minimum of their activity cycles
+
+
 
 
 
@@ -531,12 +547,29 @@ The data appears to not support the hypothesis that the intermediate rotational 
 
 
 
-Let us consider now the other
+It is not uncommon for rotation to not be detected
+During periods of low activity, such as the 11-year cycle minima, the light curve exhibits a fairly regular pattern. 
+However, this regularity disappears during periods of intermediate and high solar activity, as indicated by studies conducted by Lanza & Shkolnik (2014), Aigrain et al. (2015), and He et al. (2015).
+Amazo-Gómez et al. (2020) demonstrated that if the Sun were observed using the Kepler telescope, standard frequency analysis tools would likely fail to detect the correct rotation period, except during periods of low solar activity. Several factors contribute to this challenge. The primary source of solar rotational variability is the presence of spots, as explained in works like Shapiro et al. (2016). However, since sunspots typically have short lifetimes ranging from days to weeks (Solanki 2003), most of them traverse the visible solar disk only once. This irregularity in their appearance creates complexities in the solar light curve and makes it difficult to determine the solar rotation period accurately.
+Moreover, the brightness variations caused by dark spots and bright faculae partially offset each other, reducing the amplitude of the rotational signal. This further complicates the determination of the rotation period, as discussed in Shapiro et al. (2017), Nèmec et al. (2020), and Witzke et al. (2020). However, an exception to this general trend occurs during periods of low solar activity when the number of active regions is small. 
+
+
+Variability in colour another possible explanation. big star spots
+
+
+The delicate balance of sample size vs where the gap is most apparent.
+
+
+todo:update numbers and text for bin sizes etc.
+
 
 
 
 
 With thanks to Zhang for allowing us to investigate the previously unavailable non-rotating sample
+
+
+
 
 
  %is the result of a decrease in the magnetic activity of
