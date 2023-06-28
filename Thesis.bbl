@@ -596,6 +596,9 @@ Montesinos B.,  Thomas J.~H.,  Ventura P.,   Mazzitelli I.,  2001, \mn@doi
 Moraux E.,  et~al., 2013, \mn@doi [Astronomy and Astrophysics]
   {10.1051/0004-6361/201321508}, 560, A13
 
+\bibitem[\protect\citeauthoryear{Morton}{Morton}{2015}]{morton_isochrones_2015}
+Morton T.~D.,  2015, Astrophysics Source Code Library, p. ascl:1503.010
+
 \bibitem[\protect\citeauthoryear{Mosser et~al.,}{Mosser
   et~al.}{2012}]{mosser_spin_2012}
 Mosser B.,  et~al., 2012, \mn@doi [Astronomy \& Astrophysics]
@@ -660,6 +663,11 @@ Reinhold T.,  Hekker S.,  2020, \mn@doi [Astronomy \& Astrophysics]
   Reiners}{2013}]{reinhold_fast_2013}
 Reinhold T.,  Reiners A.,  2013, \mn@doi [Astronomy and Astrophysics]
   {10.1051/0004-6361/201321161}, 557, A11
+
+\bibitem[\protect\citeauthoryear{Reinhold, Reiners  \& Basri}{Reinhold
+  et~al.}{2013}]{reinhold_rotation_2013}
+Reinhold T.,  Reiners A.,   Basri G.,  2013, \mn@doi [Astronomy \&
+  Astrophysics] {10.1051/0004-6361/201321970}, 560, A4
 
 \bibitem[\protect\citeauthoryear{Reinhold, Bell, Kuszlewicz, Hekker  \&
   Shapiro}{Reinhold et~al.}{2019}]{reinhold_transition_2019}
