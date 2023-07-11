@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.2.3)  26 JUN 2023 13:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.2.3)  11 JUL 2023 17:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -487,32 +487,72 @@ LaTeX Info: Redefining \addtolength on input line 81.
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 27.
 
+(/usr/local/texlive/2022/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2022/01/29 v0.5u Insert pages of external PDF documents (AM)
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2020/10/14 v3.0a eso-pic (RN)
+\ESO@tempdima=\dimen189
+\ESO@tempdimb=\dimen190
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1356.
+Package xcolor Info: Model `RGB' extended on input line 1368.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
+))
+\AM@pagewidth=\dimen191
+\AM@pageheight=\dimen192
+\AM@fboxrule=\dimen193
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2022/01/29 v0.5u Pdfpages driver for pdfTeX (AM)
+)
+\pdfpages@includegraphics@status=\count314
+\AM@pagebox=\box60
+\AM@global@opts=\toks34
+\AM@pagecnt=\count315
+\AM@toc@title=\toks35
+\c@AM@survey=\count316
+\AM@templatesizebox=\box61
+)
 (/usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count314
-\l__pdf_internal_box=\box60
+\l__color_backend_stack_int=\count317
+\l__pdf_internal_box=\box62
 )
 (./Thesis.aux)
 \openout1 = `Thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
@@ -527,30 +567,21 @@ Package caption Info: End \AtBeginDocument code.
 
 (/usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count315
-\scratchdimen=\dimen189
-\scratchbox=\box61
-\nofMPsegments=\count316
-\nofMParguments=\count317
-\everyMPshowfont=\toks34
-\MPscratchCnt=\count318
-\MPscratchDim=\dimen190
-\MPnumerator=\count319
-\makeMPintoPDFobject=\count320
-\everyMPtoPDFconversion=\toks35
+\scratchcounter=\count318
+\scratchdimen=\dimen194
+\scratchbox=\box63
+\nofMPsegments=\count319
+\nofMParguments=\count320
+\everyMPshowfont=\toks36
+\MPscratchCnt=\count321
+\MPscratchDim=\dimen195
+\MPnumerator=\count322
+\makeMPintoPDFobject=\count323
+\everyMPtoPDFconversion=\toks37
 )
-\c@lstlisting=\count321
- (/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2021/12/07 v1.3c Standard LaTeX Color (DPC)
-
-(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-cfg/color.cfg
-File: color.cfg 2016/01/02 v1.6 sample color configuration
-)
-Package color Info: Driver file: pdftex.def on input line 149.
-)
-Package hyperref Info: Link coloring ON on input line 46.
-
-(/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
+\c@lstlisting=\count324
+Package hyperref Info: Link coloring ON on input line 47.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/refcount/refcount.sty
@@ -560,23 +591,31 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count322
+\c@section@level=\count325
 )
-LaTeX Info: Redefining \ref on input line 46.
-LaTeX Info: Redefining \pageref on input line 46.
-LaTeX Info: Redefining \nameref on input line 46.
+LaTeX Info: Redefining \ref on input line 47.
+LaTeX Info: Redefining \pageref on input line 47.
+LaTeX Info: Redefining \nameref on input line 47.
  (./Thesis.out) (./Thesis.out)
 \@outlinefile=\write3
 \openout3 = `Thesis.out'.
 
 
+(/usr/local/texlive/2022/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)
 ------------------------------------------------------------------------------
  Title Page
 ------------------------------------------------------------------------------
-<Figures/monash-logo.jpg, id=168, 2370.8575pt x 469.755pt>
+<Figures/monash-logo.jpg, id=196, 2370.8575pt x 469.755pt>
 File: Figures/monash-logo.jpg Graphic file (type jpg)
 <use Figures/monash-logo.jpg>
-Package pdftex.def Info: Figures/monash-logo.jpg  used on input line 73.
+Package pdftex.def Info: Figures/monash-logo.jpg  used on input line 74.
 (pdftex.def)             Requested size: 417.47307pt x 82.7101pt.
 [1
 
@@ -640,41 +679,63 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ------------------------------------------------------------------------------
  Table of Contents
 ------------------------------------------------------------------------------
-(./Thesis.toc)
+(./Thesis.toc [9
+
+
+])
 \tf@toc=\write4
 \openout4 = `Thesis.toc'.
 
- [9
-
-
-]
+ [10]
 ------------------------------------------------------------------------------
  List of Figures
 ------------------------------------------------------------------------------
-(./Thesis.lof)
-\tf@lof=\write5
-\openout5 = `Thesis.lof'.
-
- [10
+(./Thesis.lof [11
 
 
 ]
+Overfull \hbox (12.36581pt too wide) in paragraph at lines 7--7
+ \OT1/cmr/m/n/10.95 men-tum trans-port fol-low-ing the pre-scrip-tion of [][]Sp
+ada et al.[][] ([][]2016[][]). Coloured 
+ []
+
+[12]
+Overfull \hbox (4.18759pt too wide) in paragraph at lines 25--25
+ [][] [][][]\OT1/cmr/m/n/10.95 The LAM-OST chro-mo-spher-i-cally ac-tive and \O
+T1/cmr/m/sl/10.95 Ke-pler \OT1/cmr/m/n/10.95 ro-tat-ing closeby, main- 
+ []
+
+
+Overfull \hbox (15.29086pt too wide) in paragraph at lines 27--27
+ \OT1/cmr/m/n/10.95 main-sequence sam-ple cross-matched with the LAMOST-\OT1/cm
+r/m/sl/10.95 Kepler \OT1/cmr/m/n/10.95 field coloured 
+ []
+
+[13] [14]
+
+LaTeX Warning: Reference `fig:comp_fig' on page xv undefined on input line 35.
+
+)
+\tf@lof=\write5
+\openout5 = `Thesis.lof'.
+
+ [15]
 ------------------------------------------------------------------------------
  List of Tables
 ------------------------------------------------------------------------------
-[11
+[16
 
 ] (./Thesis.lot)
 \tf@lot=\write6
 \openout6 = `Thesis.lot'.
 
- [12
+ [17
 
 ]
 ------------------------------------------------------------------------------
  Abbreviations
 ------------------------------------------------------------------------------
-[13
+[18
 
 
 
@@ -682,7 +743,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ------------------------------------------------------------------------------
  Constants
 ------------------------------------------------------------------------------
-[14
+[19
 
 
 
@@ -690,7 +751,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ------------------------------------------------------------------------------
  Symbols
 ------------------------------------------------------------------------------
-[15
+[20
 
 
 
@@ -703,473 +764,800 @@ Chapter 1.
 
 
 
-]
-
-Package natbib Warning: Citation `elvey_contours_1929' on page 2 undefined on i
-nput line 46.
-
-
-Package natbib Warning: Citation `struve_stellar_1930' on page 2 undefined on i
-nput line 46.
-
-
-Package natbib Warning: Citation `struve_axial_1930' on page 2 undefined on inp
-ut line 46.
-
-
-Package natbib Warning: Citation `eddington_conditions_1918' on page 2 undefine
-d on input line 50.
-
-
-Package natbib Warning: Citation `eddington_internal_1926' on page 2 undefined 
-on input line 50.
-
-
-Package natbib Warning: Citation `eddington_internal_1929' on page 2 undefined 
-on input line 50.
-
-
-Package natbib Warning: Citation `milne_equilibrium_1923' on page 2 undefined o
-n input line 50.
-
-
-Package natbib Warning: Citation `von_zeipel_radiative_1924' on page 2 undefine
-d on input line 50.
-
-
-Package natbib Warning: Citation `maeder_evolution_2000' on page 2 undefined on
- input line 55.
-
-
-Package natbib Warning: Citation `heger_presupernova_2000' on page 2 undefined 
-on input line 55.
-
-
-Package natbib Warning: Citation `charbonnel_lithium_1994' on page 2 undefined 
-on input line 55.
-
-[2]
-
-Package natbib Warning: Citation `skumanich_time_1972' on page 3 undefined on i
-nput line 66.
-
-
-Package natbib Warning: Citation `borucki_kepler_2010' on page 3 undefined on i
-nput line 67.
-
-
-Package natbib Warning: Citation `beck_kepler_2011' on page 3 undefined on inpu
-t line 67.
-
-
-Package natbib Warning: Citation `lu_bridging_2022' on page 3 undefined on inpu
-t line 67.
-
-
-Package natbib Warning: Citation `distefano_gaia_2022' on page 3 undefined on i
-nput line 67.
-
-[3]
-
-Package natbib Warning: Citation `li_asteroseismology_2020' on page 4 undefined
- on input line 79.
-
-
-Package natbib Warning: Citation `li_asteroseismology_2020-1' on page 4 undefin
-ed on input line 79.
-
-[4]
-
-Package natbib Warning: Citation `albrecht_banana_2011' on page 5 undefined on 
-input line 97.
-
-
-Package natbib Warning: Citation `albrecht_banana_2013' on page 5 undefined on 
-input line 97.
-
-
-Package natbib Warning: Citation `deheuvels_seismic_2014' on page 5 undefined o
-n input line 109.
-
+] [2] [3] [4]
 
 LaTeX Warning: Reference `sec:asteroseismology' on page 5 undefined on input li
 ne 113.
 
 [5]
-
-Package natbib Warning: Citation `hall_weakened_2021' on page 6 undefined on in
-put line 119.
-
-
-Package natbib Warning: Citation `hall_weakened_2021' on page 6 undefined on in
-put line 120.
-
-
-Package natbib Warning: Citation `mcquillan_rotation_2014' on page 6 undefined 
-on input line 125.
-
-
-Package natbib Warning: Citation `mcquillan_rotation_2014' on page 6 undefined 
-on input line 127.
-
-
-Package natbib Warning: Citation `santos_surface_2021' on page 6 undefined on i
-nput line 127.
-
-
-Package natbib Warning: Citation `santos_surface_2021' on page 6 undefined on i
-nput line 127.
-
-
-Package natbib Warning: Citation `lu_bridging_2022' on page 6 undefined on inpu
-t line 127.
-
-
-Package natbib Warning: Citation `distefano_gaia_2022' on page 6 undefined on i
-nput line 127.
-
-<Figures/intro_figures/rot_comp.png, id=308, 1084.05pt x 867.24pt>
+<Figures/intro_figures/rot_comp.png, id=861, 1084.05pt x 867.24pt>
 File: Figures/intro_figures/rot_comp.png Graphic file (type png)
 <use Figures/intro_figures/rot_comp.png>
 Package pdftex.def Info: Figures/intro_figures/rot_comp.png  used on input line
  131.
 (pdftex.def)             Requested size: 417.47307pt x 333.97446pt.
 
-Package natbib Warning: Citation `mcquillan_rotation_2014' on page 6 undefined 
-on input line 132.
-
-
-Package natbib Warning: Citation `distefano_gaia_2022' on page 6 undefined on i
-nput line 132.
-
-
-Package natbib Warning: Citation `lu_bridging_2022' on page 6 undefined on inpu
-t line 132.
-
-
-Package natbib Warning: Citation `mcquillan_rotation_2014' on page 6 undefined 
-on input line 132.
-
-
-Package natbib Warning: Citation `distefano_gaia_2022' on page 6 undefined on i
-nput line 132.
-
-
-Package natbib Warning: Citation `lu_bridging_2022' on page 6 undefined on inpu
-t line 132.
-
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-Package natbib Warning: Citation `distefano_determination_2012' on page 6 undef
-ined on input line 137.
-
-
-Package natbib Warning: Citation `distefano_gaia_2022' on page 6 undefined on i
-nput line 140.
-
-[6] [7 <./Figures/intro_figures/rot_comp.png>]
-
-Package natbib Warning: Citation `mcquillan_rotation_2014' on page 8 undefined 
-on input line 152.
-
-
-Package natbib Warning: Citation `distefano_gaia_2022' on page 8 undefined on i
-nput line 154.
-
-
-Package natbib Warning: Citation `eggenberger_angular_2012' on page 8 undefined
- on input line 167.
-
-[8]
-
-Package natbib Warning: Citation `gallet_improved_2013' on page 9 undefined on 
-input line 171.
-
-<Figures/intro_figures/pms_evo.png, id=330, 1161.33875pt x 782.925pt>
+[6] [7 <./Figures/intro_figures/rot_comp.png>] [8]
+<Figures/intro_figures/pms_evo.png, id=909, 1161.33875pt x 782.925pt>
 File: Figures/intro_figures/pms_evo.png Graphic file (type png)
 <use Figures/intro_figures/pms_evo.png>
 Package pdftex.def Info: Figures/intro_figures/pms_evo.png  used on input line 
 177.
 (pdftex.def)             Requested size: 417.47307pt x 281.44661pt.
-
-Package natbib Warning: Citation `herbst_stellar_2002' on page 9 undefined on i
-nput line 178.
-
-
-Package natbib Warning: Citation `henderson_time-series_2012' on page 9 undefin
-ed on input line 178.
-
-
-Package natbib Warning: Citation `affer_rotation_2013' on page 9 undefined on i
-nput line 178.
-
-
-Package natbib Warning: Citation `irwin_monitor_2008' on page 9 undefined on in
-put line 178.
-
-
-Package natbib Warning: Citation `moraux_monitor_2013' on page 9 undefined on i
-nput line 178.
-
-
-Package natbib Warning: Citation `irwin_monitor_2008' on page 9 undefined on in
-put line 178.
-
-
-Package natbib Warning: Citation `hartman_large_2010' on page 9 undefined on in
-put line 178.
-
-
-Package natbib Warning: Citation `irwin_monitor_2009' on page 9 undefined on in
-put line 178.
-
-
-Package natbib Warning: Citation `meibom_slar_2009' on page 9 undefined on inpu
-t line 178.
-
-
-Package natbib Warning: Citation `hartman_deep_2009' on page 9 undefined on inp
-ut line 178.
-
-
-Package natbib Warning: Citation `delorme_stellar_2011' on page 9 undefined on 
-input line 178.
-
-
-Package natbib Warning: Citation `delorme_stellar_2011' on page 9 undefined on 
-input line 178.
-
-
-Package natbib Warning: Citation `meibom_kepler_2011' on page 9 undefined on in
-put line 178.
-
-
-Package natbib Warning: Citation `gallet_improved_2013' on page 9 undefined on 
-input line 178.
-
-
-Package natbib Warning: Citation `herbst_stellar_2002' on page 9 undefined on i
-nput line 178.
-
-
-Package natbib Warning: Citation `henderson_time-series_2012' on page 9 undefin
-ed on input line 178.
-
-
-Package natbib Warning: Citation `affer_rotation_2013' on page 9 undefined on i
-nput line 178.
-
-
-Package natbib Warning: Citation `irwin_monitor_2008' on page 9 undefined on in
-put line 178.
-
-
-Package natbib Warning: Citation `moraux_monitor_2013' on page 9 undefined on i
-nput line 178.
-
-
-Package natbib Warning: Citation `irwin_monitor_2008' on page 9 undefined on in
-put line 178.
-
-
-Package natbib Warning: Citation `hartman_large_2010' on page 9 undefined on in
-put line 178.
-
-
-Package natbib Warning: Citation `irwin_monitor_2009' on page 9 undefined on in
-put line 178.
-
-
-Package natbib Warning: Citation `meibom_slar_2009' on page 9 undefined on inpu
-t line 178.
-
-
-Package natbib Warning: Citation `hartman_deep_2009' on page 9 undefined on inp
-ut line 178.
-
-
-Package natbib Warning: Citation `delorme_stellar_2011' on page 9 undefined on 
-input line 178.
-
-
-Package natbib Warning: Citation `delorme_stellar_2011' on page 9 undefined on 
-input line 178.
-
-
-Package natbib Warning: Citation `meibom_kepler_2011' on page 9 undefined on in
-put line 178.
-
-
-Package natbib Warning: Citation `gallet_improved_2013' on page 9 undefined on 
-input line 178.
-
-
-Package natbib Warning: Citation `spina_how_2020' on page 9 undefined on input 
-line 184.
-
-
-Package natbib Warning: Citation `curtis_when_2020' on page 9 undefined on inpu
-t line 184.
-
-[9 <./Figures/intro_figures/pms_evo.png>]
-<Figures/intro_figures/cluster_kepler.png, id=340, 1149.29375pt x 839.135pt>
+ [9 <./Figures/intro_figures/pms_evo.png>]
+<Figures/intro_figures/cluster_kepler.png, id=981, 1149.29375pt x 839.135pt>
 File: Figures/intro_figures/cluster_kepler.png Graphic file (type png)
 <use Figures/intro_figures/cluster_kepler.png>
 Package pdftex.def Info: Figures/intro_figures/cluster_kepler.png  used on inpu
 t line 189.
 (pdftex.def)             Requested size: 417.47307pt x 304.80284pt.
-
-
-Package natbib Warning: Citation `mcquillan_rotation_2014' on page 10 undefined
- on input line 192.
-
-
-Package natbib Warning: Citation `curtis_when_2020' on page 10 undefined on inp
-ut line 192.
-
-
-Package natbib Warning: Citation `mcquillan_rotation_2014' on page 10 undefined
- on input line 192.
-
-
-Package natbib Warning: Citation `curtis_when_2020' on page 10 undefined on inp
-ut line 192.
-
-
-Package natbib Warning: Citation `skumanich_time_1972' on page 10 undefined on 
-input line 198.
-
-
-Package natbib Warning: Citation `heger_presupernova_1998' on page 10 undefined
- on input line 211.
-
-
-Package natbib Warning: Citation `maeder_evolution_2000' on page 10 undefined o
-n input line 211.
-
-
-Package natbib Warning: Citation `maeder_physics_2009' on page 10 undefined on 
-input line 211.
-
-[10 <./Figures/intro_figures/cluster_kepler.png>]
-
-Package natbib Warning: Citation `spada_competing_2020' on page 11 undefined on
- input line 218.
-
-
-Package natbib Warning: Citation `spada_competing_2020' on page 11 undefined on
- input line 221.
-
-[11]
-
-Package natbib Warning: Citation `johnstone_stellar_2015' on page 12 undefined 
-on input line 229.
-
-
-Package natbib Warning: Citation `johnstone_stellar_2015-1' on page 12 undefine
-d on input line 229.
-
-
-Package natbib Warning: Citation `gallet_improved_2013' on page 12 undefined on
- input line 229.
-
-
-Package natbib Warning: Citation `wright_stellar-activity-rotation_2011' on pag
-e 12 undefined on input line 230.
-
-
-Package natbib Warning: Citation `spada_competing_2020' on page 12 undefined on
- input line 232.
-
-
-Package natbib Warning: Citation `gallet_improved_2013' on page 12 undefined on
- input line 232.
-
-
-Package natbib Warning: Citation `mcquillan_rotation_2014' on page 12 undefined
- on input line 235.
-
-<Figures/intro_figures/kepler_rot_dist.png, id=352, 867.24pt x 578.16pt>
+ [10 <./Figures/intro_figures/cluster_kepler.png>] [11]
+<Figures/intro_figures/kepler_rot_dist.png, id=1030, 867.24pt x 578.16pt>
 File: Figures/intro_figures/kepler_rot_dist.png Graphic file (type png)
 <use Figures/intro_figures/kepler_rot_dist.png>
 Package pdftex.def Info: Figures/intro_figures/kepler_rot_dist.png  used on inp
 ut line 240.
 (pdftex.def)             Requested size: 417.47307pt x 278.31645pt.
-
-Package natbib Warning: Citation `mcquillan_rotation_2014' on page 12 undefined
- on input line 242.
-
-
-Package natbib Warning: Citation `mcquillan_rotation_2014' on page 12 undefined
- on input line 242.
+ [12]
+[13 <./Figures/intro_figures/kepler_rot_dist.png>] [14]
+<Figures/intro_figures/ztf_comp.png, id=1109, 750.805pt x 399.4925pt>
+File: Figures/intro_figures/ztf_comp.png Graphic file (type png)
+<use Figures/intro_figures/ztf_comp.png>
+Package pdftex.def Info: Figures/intro_figures/ztf_comp.png  used on input line
+ 286.
+(pdftex.def)             Requested size: 417.47307pt x 222.13547pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+[15]
 
-Package natbib Warning: Citation `mcquillan_rotation_2014' on page 12 undefined
- on input line 247.
+LaTeX Warning: Reference `sec:stellar_spot_brightness_modulations' on page 16 u
+ndefined on input line 314.
 
+[16 <./Figures/intro_figures/ztf_comp.png>] [17] [18] [19]
+<Figures/intro_figures/qualitative_evo.png, id=1231, 719.68875pt x 466.74374pt>
 
-Package natbib Warning: Citation `davenport_rotating_2017' on page 12 undefined
- on input line 247.
-
-
-Package natbib Warning: Citation `davenport_rotating_2017' on page 12 undefined
- on input line 248.
-
-
-Package natbib Warning: Citation `davenport_rotating_2018' on page 12 undefined
- on input line 250.
-
-[12]
-
-Package natbib Warning: Citation `gordon_stellar_2021' on page 13 undefined on 
-input line 254.
-
-
-Package natbib Warning: Citation `angus_exploring_2020' on page 13 undefined on
- input line 258.
-
-
-Package natbib Warning: Citation `douglas_poking_2017' on page 13 undefined on 
-input line 260.
-
-
-Package natbib Warning: Citation `douglas_k2_2019' on page 13 undefined on inpu
-t line 260.
+File: Figures/intro_figures/qualitative_evo.png Graphic file (type png)
+<use Figures/intro_figures/qualitative_evo.png>
+Package pdftex.def Info: Figures/intro_figures/qualitative_evo.png  used on inp
+ut line 401.
+(pdftex.def)             Requested size: 417.47307pt x 270.75429pt.
+ [20] [21 <./Figures/intro_figures/qualitative_evo.png>] [22]
+<Figures/intro_figures/deheuvels_disparity_without.png, id=1344, 531.9875pt x 2
+68.00125pt>
+File: Figures/intro_figures/deheuvels_disparity_without.png Graphic file (type 
+png)
+<use Figures/intro_figures/deheuvels_disparity_without.png>
+Package pdftex.def Info: Figures/intro_figures/deheuvels_disparity_without.png 
+ used on input line 445.
+(pdftex.def)             Requested size: 417.47307pt x 210.316pt.
+<Figures/intro_figures/deheuvels_disparity_with.png, id=1357, 520.94624pt x 503
+.8825pt>
+File: Figures/intro_figures/deheuvels_disparity_with.png Graphic file (type png
+)
+<use Figures/intro_figures/deheuvels_disparity_with.png>
+Package pdftex.def Info: Figures/intro_figures/deheuvels_disparity_with.png  us
+ed on input line 455.
+(pdftex.def)             Requested size: 417.47307pt x 403.79852pt.
 
 
-Package natbib Warning: Citation `curtis_temporary_2019' on page 13 undefined o
-n input line 260.
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Figures/intro_figures/rgb_core_rot_without.png, id=1364, 804.00375pt x 594.22p
+t>
+File: Figures/intro_figures/rgb_core_rot_without.png Graphic file (type png)
+<use Figures/intro_figures/rgb_core_rot_without.png>
+Package pdftex.def Info: Figures/intro_figures/rgb_core_rot_without.png  used o
+n input line 463.
+(pdftex.def)             Requested size: 417.47307pt x 308.54283pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Figures/intro_figures/rgb_core_rot.png, id=1377, 781.92125pt x 594.22pt>
+File: Figures/intro_figures/rgb_core_rot.png Graphic file (type png)
+<use Figures/intro_figures/rgb_core_rot.png>
+Package pdftex.def Info: Figures/intro_figures/rgb_core_rot.png  used on input 
+line 473.
+(pdftex.def)             Requested size: 417.47307pt x 317.25627pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[23 <./Figures/intro_figures/deheuvels_disparity_without.png>] [24 <./Figures/i
+ntro_figures/deheuvels_disparity_with.png>] [25 <./Figures/intro_figures/rgb_co
+re_rot_without.png>] [26 <./Figures/intro_figures/rgb_core_rot.png>] [27]
+[28]
+<Figures/intro_figures/subgiant_surface.png, id=1514, 728.7225pt x 353.32pt>
+File: Figures/intro_figures/subgiant_surface.png Graphic file (type png)
+<use Figures/intro_figures/subgiant_surface.png>
+Package pdftex.def Info: Figures/intro_figures/subgiant_surface.png  used on in
+put line 561.
+(pdftex.def)             Requested size: 417.47307pt x 202.40804pt.
+ [29 <./Figures/intro_figures/subgiant_surface.png>]
+<Figures/intro_figures/rgb_surface.png, id=1541, 727.71875pt x 705.63625pt>
+File: Figures/intro_figures/rgb_surface.png Graphic file (type png)
+<use Figures/intro_figures/rgb_surface.png>
+Package pdftex.def Info: Figures/intro_figures/rgb_surface.png  used on input l
+ine 576.
+(pdftex.def)             Requested size: 417.47307pt x 404.81172pt.
+ [30 <./Figures/intro_figures/rgb_surface.png>] [31] [32] [33] [34] [35] [36] [
+37] [38] [39] [40]
+[41] [42] [43] [44] [45] [46] [47]
+<Figures/intro_figures/PMS_effect.png, id=1963, 1226.5825pt x 579.16376pt>
+File: Figures/intro_figures/PMS_effect.png Graphic file (type png)
+<use Figures/intro_figures/PMS_effect.png>
+Package pdftex.def Info: Figures/intro_figures/PMS_effect.png  used on input li
+ne 1041.
+(pdftex.def)             Requested size: 417.47307pt x 197.11632pt.
+ [48 <./Figures/intro_figures/PMS_effect.png>]
+<Figures/intro_figures/MS_effect.png, id=1979, 1211.52625pt x 582.175pt>
+File: Figures/intro_figures/MS_effect.png Graphic file (type png)
+<use Figures/intro_figures/MS_effect.png>
+Package pdftex.def Info: Figures/intro_figures/MS_effect.png  used on input lin
+e 1065.
+(pdftex.def)             Requested size: 417.47307pt x 200.61075pt.
 
 
-Package natbib Warning: Citation `curtis_when_2020' on page 13 undefined on inp
-ut line 260.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-[13 <./Figures/intro_figures/kepler_rot_dist.png>]
-! Interruption.
-<argument> ...\__shipout_drop_firstpage_specials: 
-                                                  \set@typeset@protect \hook...
-l.262 
-      
-? 
-! Emergency stop.
-<argument> ...\__shipout_drop_firstpage_specials: 
-                                                  \set@typeset@protect \hook...
-l.262 
-      
-End of file on the terminal!
+[49] [50 <./Figures/intro_figures/MS_effect.png>])
+(./Chapters/subgiant_astero_original.tex [51]
+Chapter 2.
+------------------------------------------------------------------------------
+ 2 Constraining the Rotation Profile in a Low-Luminosity Subgiant with a Surfac
+e Rotation Measurement
+------------------------------------------------------------------------------
+[52
 
- 
+]
+<Chapters/stad771-TW-subgiant.pdf, id=2021, 597.50627pt x 785.21959pt>
+File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
+<use Chapters/stad771-TW-subgiant.pdf>
+Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf  used on input line 1
+8.
+(pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
+File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
+<use Chapters/stad771-TW-subgiant.pdf>
+Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf  used on input line 1
+8.
+(pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
+<Chapters/stad771-TW-subgiant.pdf, id=2024, page=1, 597.50627pt x 785.21959pt>
+File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
+<use Chapters/stad771-TW-subgiant.pdf, page 1>
+Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page1 used on input
+ line 18.
+(pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
+File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
+<use Chapters/stad771-TW-subgiant.pdf, page 1>
+Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page1 used on input
+ line 18.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
+<use Chapters/stad771-TW-subgiant.pdf, page 1>
+Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page1 used on input
+ line 18.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
+<use Chapters/stad771-TW-subgiant.pdf, page 1>
+Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page1 used on input
+ line 18.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
+<use Chapters/stad771-TW-subgiant.pdf, page 1>
+Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page1 used on input
+ line 18.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+ [53 <./Chapters/stad771-TW-subgiant.pdf>]
+<Chapters/stad771-TW-subgiant.pdf, id=2087, page=2, 597.50627pt x 785.21959pt>
+File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
+<use Chapters/stad771-TW-subgiant.pdf, page 2>
+Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page2 used on input
+ line 18.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
+<use Chapters/stad771-TW-subgiant.pdf, page 2>
+Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page2 used on input
+ line 18.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
+<use Chapters/stad771-TW-subgiant.pdf, page 2>
+Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page2 used on input
+ line 18.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+ [54 <./Chapters/stad771-TW-subgiant.pdf>]
+<Chapters/stad771-TW-subgiant.pdf, id=2096, page=3, 597.50627pt x 785.21959pt>
+File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
+<use Chapters/stad771-TW-subgiant.pdf, page 3>
+Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page3 used on input
+ line 18.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
+<use Chapters/stad771-TW-subgiant.pdf, page 3>
+Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page3 used on input
+ line 18.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
+<use Chapters/stad771-TW-subgiant.pdf, page 3>
+Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page3 used on input
+ line 18.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+ [55 <./Chapters/stad771-TW-subgiant.pdf>]
+<Chapters/stad771-TW-subgiant.pdf, id=2126, page=4, 597.50627pt x 785.21959pt>
+File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
+<use Chapters/stad771-TW-subgiant.pdf, page 4>
+Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page4 used on input
+ line 18.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
+<use Chapters/stad771-TW-subgiant.pdf, page 4>
+Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page4 used on input
+ line 18.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
+<use Chapters/stad771-TW-subgiant.pdf, page 4>
+Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page4 used on input
+ line 18.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+ [56 <./Chapters/stad771-TW-subgiant.pdf>]
+<Chapters/stad771-TW-subgiant.pdf, id=2139, page=5, 597.50627pt x 785.21959pt>
+File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
+<use Chapters/stad771-TW-subgiant.pdf, page 5>
+Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page5 used on input
+ line 18.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
+<use Chapters/stad771-TW-subgiant.pdf, page 5>
+Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page5 used on input
+ line 18.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
+<use Chapters/stad771-TW-subgiant.pdf, page 5>
+Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page5 used on input
+ line 18.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+ [57 <./Chapters/stad771-TW-subgiant.pdf>]
+<Chapters/stad771-TW-subgiant.pdf, id=2148, page=6, 597.50627pt x 785.21959pt>
+File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
+<use Chapters/stad771-TW-subgiant.pdf, page 6>
+Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page6 used on input
+ line 18.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
+<use Chapters/stad771-TW-subgiant.pdf, page 6>
+Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page6 used on input
+ line 18.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
+<use Chapters/stad771-TW-subgiant.pdf, page 6>
+Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page6 used on input
+ line 18.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+ [58 <./Chapters/stad771-TW-subgiant.pdf>]
+<Chapters/stad771-TW-subgiant.pdf, id=2167, page=7, 597.50627pt x 785.21959pt>
+File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
+<use Chapters/stad771-TW-subgiant.pdf, page 7>
+Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page7 used on input
+ line 18.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
+<use Chapters/stad771-TW-subgiant.pdf, page 7>
+Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page7 used on input
+ line 18.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
+<use Chapters/stad771-TW-subgiant.pdf, page 7>
+Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page7 used on input
+ line 18.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+ [59 <./Chapters/stad771-TW-subgiant.pdf>]
+<Chapters/stad771-TW-subgiant.pdf, id=2172, page=8, 597.50627pt x 785.21959pt>
+File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
+<use Chapters/stad771-TW-subgiant.pdf, page 8>
+Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page8 used on input
+ line 18.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
+<use Chapters/stad771-TW-subgiant.pdf, page 8>
+Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page8 used on input
+ line 18.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
+<use Chapters/stad771-TW-subgiant.pdf, page 8>
+Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page8 used on input
+ line 18.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+ [60 <./Chapters/stad771-TW-subgiant.pdf>]
+<Chapters/stad771-TW-subgiant.pdf, id=2193, page=9, 597.50627pt x 785.21959pt>
+File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
+<use Chapters/stad771-TW-subgiant.pdf, page 9>
+Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page9 used on input
+ line 18.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
+<use Chapters/stad771-TW-subgiant.pdf, page 9>
+Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page9 used on input
+ line 18.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
+<use Chapters/stad771-TW-subgiant.pdf, page 9>
+Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page9 used on input
+ line 18.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+ [61 <./Chapters/stad771-TW-subgiant.pdf>])
+(./Chapters/stellar_spot_original.tex
+Chapter 3.
+------------------------------------------------------------------------------
+ 3 Stellar spots cause measurable variations in atmospheric metallicity
+------------------------------------------------------------------------------
+[62
+
+]
+<Chapters/stad1875-TW-SS.pdf, id=2213, 597.50627pt x 785.21959pt>
+File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
+<use Chapters/stad1875-TW-SS.pdf>
+Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf  used on input line 14.
+(pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
+File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
+<use Chapters/stad1875-TW-SS.pdf>
+Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf  used on input line 14.
+(pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
+<Chapters/stad1875-TW-SS.pdf, id=2216, page=1, 597.50627pt x 785.21959pt>
+File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
+<use Chapters/stad1875-TW-SS.pdf, page 1>
+Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page1 used on input line
+ 14.
+(pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
+File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
+<use Chapters/stad1875-TW-SS.pdf, page 1>
+Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page1 used on input line
+ 14.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
+<use Chapters/stad1875-TW-SS.pdf, page 1>
+Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page1 used on input line
+ 14.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
+<use Chapters/stad1875-TW-SS.pdf, page 1>
+Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page1 used on input line
+ 14.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
+<use Chapters/stad1875-TW-SS.pdf, page 1>
+Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page1 used on input line
+ 14.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+ [63 <./Chapters/stad1875-TW-SS.pdf>]
+<Chapters/stad1875-TW-SS.pdf, id=2260, page=2, 597.50627pt x 785.21959pt>
+File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
+<use Chapters/stad1875-TW-SS.pdf, page 2>
+Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page2 used on input line
+ 14.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
+<use Chapters/stad1875-TW-SS.pdf, page 2>
+Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page2 used on input line
+ 14.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
+<use Chapters/stad1875-TW-SS.pdf, page 2>
+Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page2 used on input line
+ 14.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+ [64 <./Chapters/stad1875-TW-SS.pdf>]
+<Chapters/stad1875-TW-SS.pdf, id=2280, page=3, 597.50627pt x 785.21959pt>
+File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
+<use Chapters/stad1875-TW-SS.pdf, page 3>
+Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page3 used on input line
+ 14.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
+<use Chapters/stad1875-TW-SS.pdf, page 3>
+Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page3 used on input line
+ 14.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
+<use Chapters/stad1875-TW-SS.pdf, page 3>
+Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page3 used on input line
+ 14.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+
+[65 <./Chapters/stad1875-TW-SS.pdf>]
+<Chapters/stad1875-TW-SS.pdf, id=2291, page=4, 597.50627pt x 785.21959pt>
+File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
+<use Chapters/stad1875-TW-SS.pdf, page 4>
+Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page4 used on input line
+ 14.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
+<use Chapters/stad1875-TW-SS.pdf, page 4>
+Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page4 used on input line
+ 14.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
+<use Chapters/stad1875-TW-SS.pdf, page 4>
+Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page4 used on input line
+ 14.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+ [66 <./Chapters/stad1875-TW-SS.pdf>]
+<Chapters/stad1875-TW-SS.pdf, id=2302, page=5, 597.50627pt x 785.21959pt>
+File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
+<use Chapters/stad1875-TW-SS.pdf, page 5>
+Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page5 used on input line
+ 14.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
+<use Chapters/stad1875-TW-SS.pdf, page 5>
+Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page5 used on input line
+ 14.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
+<use Chapters/stad1875-TW-SS.pdf, page 5>
+Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page5 used on input line
+ 14.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+
+[67 <./Chapters/stad1875-TW-SS.pdf>]
+<Chapters/stad1875-TW-SS.pdf, id=2314, page=6, 597.50627pt x 785.21959pt>
+File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
+<use Chapters/stad1875-TW-SS.pdf, page 6>
+Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page6 used on input line
+ 14.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
+<use Chapters/stad1875-TW-SS.pdf, page 6>
+Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page6 used on input line
+ 14.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
+<use Chapters/stad1875-TW-SS.pdf, page 6>
+Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page6 used on input line
+ 14.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+ [68 <./Chapters/stad1875-TW-SS.pdf>]
+<Chapters/stad1875-TW-SS.pdf, id=2323, page=7, 597.50627pt x 785.21959pt>
+File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
+<use Chapters/stad1875-TW-SS.pdf, page 7>
+Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page7 used on input line
+ 14.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
+<use Chapters/stad1875-TW-SS.pdf, page 7>
+Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page7 used on input line
+ 14.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
+<use Chapters/stad1875-TW-SS.pdf, page 7>
+Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page7 used on input line
+ 14.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+
+[69 <./Chapters/stad1875-TW-SS.pdf>]
+<Chapters/stad1875-TW-SS.pdf, id=2332, page=8, 597.50627pt x 785.21959pt>
+File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
+<use Chapters/stad1875-TW-SS.pdf, page 8>
+Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page8 used on input line
+ 14.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
+<use Chapters/stad1875-TW-SS.pdf, page 8>
+Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page8 used on input line
+ 14.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
+<use Chapters/stad1875-TW-SS.pdf, page 8>
+Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page8 used on input line
+ 14.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+ [70 <./Chapters/stad1875-TW-SS.pdf>]
+<Chapters/stad1875-TW-SS.pdf, id=2342, page=9, 597.50627pt x 785.21959pt>
+File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
+<use Chapters/stad1875-TW-SS.pdf, page 9>
+Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page9 used on input line
+ 14.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
+<use Chapters/stad1875-TW-SS.pdf, page 9>
+Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page9 used on input line
+ 14.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
+<use Chapters/stad1875-TW-SS.pdf, page 9>
+Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page9 used on input line
+ 14.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+
+[71 <./Chapters/stad1875-TW-SS.pdf>])
+(./Chapters/rotational_peropd_gap_chapter_update.tex
+Chapter 4.
+------------------------------------------------------------------------------
+ 4 The Intermediate Period Gap
+------------------------------------------------------------------------------
+[72
+
+] [73] [74] [75] [76] [77] [78] [79] [80] [81]
+<Figures/rot_gap_figures/HR.png, id=2509, 878.68275pt x 458.6736pt>
+File: Figures/rot_gap_figures/HR.png Graphic file (type png)
+<use Figures/rot_gap_figures/HR.png>
+Package pdftex.def Info: Figures/rot_gap_figures/HR.png  used on input line 199
+.
+(pdftex.def)             Requested size: 417.47307pt x 217.9212pt.
+<Figures/rot_gap_figures/rotational_dist.png, id=2510, 918.67215pt x 458.6736pt
+>
+File: Figures/rot_gap_figures/rotational_dist.png Graphic file (type png)
+<use Figures/rot_gap_figures/rotational_dist.png>
+Package pdftex.def Info: Figures/rot_gap_figures/rotational_dist.png  used on i
+nput line 207.
+(pdftex.def)             Requested size: 417.47307pt x 208.43785pt.
+
+
+Package natbib Warning: Citation `basri_double_2018 ' on page 82 undefined on i
+nput line 221.
+
+[82 <./Figures/rot_gap_figures/HR.png> <./Figures/rot_gap_figures/rotational_di
+st.png>]
+<Figures/rot_gap_figures/rot_dist_binned.png, id=2525, 804.96735pt x 458.6736pt
+>
+File: Figures/rot_gap_figures/rot_dist_binned.png Graphic file (type png)
+<use Figures/rot_gap_figures/rot_dist_binned.png>
+Package pdftex.def Info: Figures/rot_gap_figures/rot_dist_binned.png  used on i
+nput line 226.
+(pdftex.def)             Requested size: 417.47307pt x 237.88174pt.
+ [83 <./Figures/rot_gap_figures/rot_dist_binned.png>]
+<Figures/rot_gap_figures/rot_vs_rper_minima.png, id=2536, 782.56364pt x 2532.58
+17pt>
+File: Figures/rot_gap_figures/rot_vs_rper_minima.png Graphic file (type png)
+<use Figures/rot_gap_figures/rot_vs_rper_minima.png>
+Package pdftex.def Info: Figures/rot_gap_figures/rot_vs_rper_minima.png  used o
+n input line 253.
+(pdftex.def)             Requested size: 208.73653pt x 675.53639pt.
+
+
+LaTeX Warning: Float too large for page by 60.56331pt on input line 257.
+
+<Figures/rot_gap_figures/rot_dist_minima_shown.png, id=2537, 620.19705pt x 426.
+8748pt>
+File: Figures/rot_gap_figures/rot_dist_minima_shown.png Graphic file (type png)
+
+<use Figures/rot_gap_figures/rot_dist_minima_shown.png>
+Package pdftex.def Info: Figures/rot_gap_figures/rot_dist_minima_shown.png  use
+d on input line 261.
+(pdftex.def)             Requested size: 417.47307pt x 287.3399pt.
+[84] [85 <./Figures/rot_gap_figures/rot_vs_rper_minima.png>]
+<Figures/rot_gap_figures/per_vs_colour.png, id=2548, 833.15265pt x 2532.5817pt>
+
+File: Figures/rot_gap_figures/per_vs_colour.png Graphic file (type png)
+<use Figures/rot_gap_figures/per_vs_colour.png>
+Package pdftex.def Info: Figures/rot_gap_figures/per_vs_colour.png  used on inp
+ut line 279.
+(pdftex.def)             Requested size: 208.73653pt x 634.49641pt.
+
+
+LaTeX Warning: Float too large for page by 19.52333pt on input line 283.
+
+[86 <./Figures/rot_gap_figures/rot_dist_minima_shown.png>] [87 <./Figures/rot_g
+ap_figures/per_vs_colour.png>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 294.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\mathop' on input line 294.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\mathgroup' on input line 294.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\symoperators' on input line 294.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ifnextchar' on input line 294.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 294.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 294.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 294.
+
+
+Overfull \hbox (8.17258pt too wide) in paragraph at lines 302--306
+[][][]\OT1/cmr/m/n/10.95 Zhang et al.[][] ([][]2020[][]) ex-tracted the chro-mo
+-spheric mag-netic ac-tiv-ity in-dexes, S and $[]  \OML/cmm/m/it/10.95 R[]$\OT1
+/cmr/m/n/10.95 ,
+ []
+
+[88]
+<Figures/rot_gap_figures/rotational_dist_rhk.png, id=2574, 923.73105pt x 458.67
+36pt>
+File: Figures/rot_gap_figures/rotational_dist_rhk.png Graphic file (type png)
+<use Figures/rot_gap_figures/rotational_dist_rhk.png>
+Package pdftex.def Info: Figures/rot_gap_figures/rotational_dist_rhk.png  used 
+on input line 314.
+(pdftex.def)             Requested size: 417.47307pt x 207.29005pt.
+<Figures/rot_gap_figures/rot_vs_rper_rhk_minima.png, id=2577, 809.1831pt x 1140
+.54105pt>
+File: Figures/rot_gap_figures/rot_vs_rper_rhk_minima.png Graphic file (type png
+)
+<use Figures/rot_gap_figures/rot_vs_rper_rhk_minima.png>
+Package pdftex.def Info: Figures/rot_gap_figures/rot_vs_rper_rhk_minima.png  us
+ed on input line 330.
+(pdftex.def)             Requested size: 417.47307pt x 588.4381pt.
+ [89 <./Figures/rot_gap_figures/rotational_dist_rhk.png>] [90 <./Figures/rot_ga
+p_figures/rot_vs_rper_rhk_minima.png>] [91]
+<Figures/rot_gap_figures/HR_mag_and_non_rot.png, id=2600, 858.44714pt x 723.061
+36pt>
+File: Figures/rot_gap_figures/HR_mag_and_non_rot.png Graphic file (type png)
+<use Figures/rot_gap_figures/HR_mag_and_non_rot.png>
+Package pdftex.def Info: Figures/rot_gap_figures/HR_mag_and_non_rot.png  used o
+n input line 374.
+(pdftex.def)             Requested size: 417.47307pt x 351.63318pt.
+ [92]
+<Figures/rot_gap_figures/pdf_cdf.png, id=2609, 754.13745pt x 453.73515pt>
+File: Figures/rot_gap_figures/pdf_cdf.png Graphic file (type png)
+<use Figures/rot_gap_figures/pdf_cdf.png>
+Package pdftex.def Info: Figures/rot_gap_figures/pdf_cdf.png  used on input lin
+e 393.
+(pdftex.def)             Requested size: 417.47307pt x 251.17519pt.
+ [93 <./Figures/rot_gap_figures/HR_mag_and_non_rot.png>]
+<Figures/rot_gap_figures/detection_efficiency.png, id=2617, 880.60995pt x 731.4
+9284pt>
+File: Figures/rot_gap_figures/detection_efficiency.png Graphic file (type png)
+<use Figures/rot_gap_figures/detection_efficiency.png>
+Package pdftex.def Info: Figures/rot_gap_figures/detection_efficiency.png  used
+ on input line 409.
+(pdftex.def)             Requested size: 417.47307pt x 346.78185pt.
+ [94 <./Figures/rot_gap_figures/pdf_cdf.png>]
+[95 <./Figures/rot_gap_figures/detection_efficiency.png>]
+<Figures/rot_gap_figures/hist_obs.png, id=2635, 677.1699pt x 450.2421pt>
+File: Figures/rot_gap_figures/hist_obs.png Graphic file (type png)
+<use Figures/rot_gap_figures/hist_obs.png>
+Package pdftex.def Info: Figures/rot_gap_figures/hist_obs.png  used on input li
+ne 446.
+(pdftex.def)             Requested size: 417.47307pt x 277.57394pt.
+ [96]
+<Figures/rot_gap_figures/n_col.png, id=2641, 782.56364pt x 1168.48544pt>
+File: Figures/rot_gap_figures/n_col.png Graphic file (type png)
+<use Figures/rot_gap_figures/n_col.png>
+Package pdftex.def Info: Figures/rot_gap_figures/n_col.png  used on input line 
+464.
+(pdftex.def)             Requested size: 417.47307pt x 623.3595pt.
+
+
+LaTeX Warning: Float too large for page by 8.38641pt on input line 469.
+
+[97 <./Figures/rot_gap_figures/hist_obs.png>]
+<Figures/rot_gap_figures/stars_donot_fullgap.png, id=2648, 723.78406pt x 450.24
+21pt>
+File: Figures/rot_gap_figures/stars_donot_fullgap.png Graphic file (type png)
+<use Figures/rot_gap_figures/stars_donot_fullgap.png>
+Package pdftex.def Info: Figures/rot_gap_figures/stars_donot_fullgap.png  used 
+on input line 483.
+(pdftex.def)             Requested size: 417.47307pt x 259.691pt.
+ [98] [99 <./Figures/rot_gap_figures/n_col.png>] [100 <./Figures/rot_gap_figure
+s/stars_donot_fullgap.png>]
+[101] [102]
+
+LaTeX Warning: Reference `fig:compar_diff_rot' on page 103 undefined on input l
+ine 589.
+
+[103] [104] [105]
+<Figures/rot_gap_figures/comparison_diffrot.png, id=2753, 670.30424pt x 457.830
+44pt>
+File: Figures/rot_gap_figures/comparison_diffrot.png Graphic file (type png)
+<use Figures/rot_gap_figures/comparison_diffrot.png>
+Package pdftex.def Info: Figures/rot_gap_figures/comparison_diffrot.png  used o
+n input line 645.
+(pdftex.def)             Requested size: 417.47307pt x 285.14433pt.
+<Figures/rot_gap_figures/comparison_observed_rot_periods.png, id=2762, 764.0143
+4pt x 524.80064pt>
+File: Figures/rot_gap_figures/comparison_observed_rot_periods.png Graphic file 
+(type png)
+<use Figures/rot_gap_figures/comparison_observed_rot_periods.png>
+Package pdftex.def Info: Figures/rot_gap_figures/comparison_observed_rot_period
+s.png  used on input line 654.
+(pdftex.def)             Requested size: 417.47307pt x 286.7594pt.
+<Figures/rot_gap_figures/comp_dist.png, id=2765, 1232.08305pt x 911.44514pt>
+File: Figures/rot_gap_figures/comp_dist.png Graphic file (type png)
+<use Figures/rot_gap_figures/comp_dist.png>
+Package pdftex.def Info: Figures/rot_gap_figures/comp_dist.png  used on input l
+ine 663.
+(pdftex.def)             Requested size: 417.47307pt x 308.83028pt.
+
+
+LaTeX Warning: Reference `fig:comp_fig' on page 106 undefined on input line 666
+.
+
+
+LaTeX Warning: Reference `fig:comp_fig' on page 106 undefined on input line 666
+.
+
+<Figures/rot_gap_figures/comp_hist.png, id=2772, 1290.86266pt x 911.44514pt>
+File: Figures/rot_gap_figures/comp_hist.png Graphic file (type png)
+<use Figures/rot_gap_figures/comp_hist.png>
+Package pdftex.def Info: Figures/rot_gap_figures/comp_hist.png  used on input l
+ine 672.
+(pdftex.def)             Requested size: 417.47307pt x 294.76978pt.
+[106 <./Figures/rot_gap_figures/comparison_diffrot.png>]
+
+Package natbib Warning: Citation `reinhold_transition_2018' on page 107 undefin
+ed on input line 687.
+
+[107 <./Figures/rot_gap_figures/comparison_observed_rot_periods.png>] [108 <./F
+igures/rot_gap_figures/comp_dist.png>] [109 <./Figures/rot_gap_figures/comp_his
+t.png>] [110] [111] [112] [113]) (./Thesis.bbl [114] [115
+
+] [116] [117] [118]
+[119] [120] [121] [122] [123] [124])
+
+Package natbib Warning: There were undefined citations.
+
+[125] (./Thesis.aux)
+
+LaTeX Warning: There were undefined references.
+
+Package rerunfilecheck Info: File `Thesis.out' has not changed.
+(rerunfilecheck)             Checksum: 889A9C879F69F446A0E1C65A1AA44385;11077.
+ ) 
 Here is how much of TeX's memory you used:
- 13994 strings out of 478268
- 222150 string characters out of 5846348
- 510615 words of memory out of 5000000
- 31868 multiletter control sequences out of 15000+600000
- 482486 words of font info for 77 fonts, out of 8000000 for 9000
+ 16375 strings out of 478268
+ 274691 string characters out of 5846348
+ 605625 words of memory out of 5000000
+ 33805 multiletter control sequences out of 15000+600000
+ 484587 words of font info for 85 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,12n,77p,1298b,449s stack positions out of 10000i,1000n,20000p,200000b,200000s
-!  ==> Fatal error occurred, no output PDF file produced!
+ 75i,18n,77p,1731b,804s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
+}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
+</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><
+/usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></u
+sr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></u
+sr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
+r/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb><
+/usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
+usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></u
+sr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr
+/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/l
+ocal/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/loc
+al/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local
+/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/t
+exlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/tex
+live/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texli
+ve/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/
+2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/202
+2/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2022/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2022/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/local/texlive/2022/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2022/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2022/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2022/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2022/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2022/texmf-dist/font
+s/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2022/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2022/texmf-dist/fonts/t
+ype1/public/amsfonts/euler/eurm10.pfb></usr/local/texlive/2022/texmf-dist/fonts
+/type1/public/mathabx-type1/mathb8.pfb></usr/local/texlive/2022/texmf-dist/font
+s/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2022/texmf-dist/
+fonts/type1/public/amsfonts/symbols/msam7.pfb></usr/local/texlive/2022/texmf-di
+st/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2022/texmf-dist
+/fonts/type1/public/cm-super/sfrm1095.pfb>
+Output written on Thesis.pdf (146 pages, 38837830 bytes).
+PDF statistics:
+ 3324 PDF objects out of 3580 (max. 8388607)
+ 2803 compressed objects within 29 object streams
+ 465 named destinations out of 1000 (max. 500000)
+ 670 words of extra memory for PDF output out of 10000 (max. 10000000)
+

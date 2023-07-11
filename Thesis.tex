@@ -27,6 +27,7 @@
 \hypersetup{urlcolor=blue, colorlinks=true}  % Colours hyperlinks in blue, but this can be distracting if there are many links.
 \usepackage{amsmath}
 \usepackage{amssymb}
+\usepackage{pdfpages}
 
 \newcommand\project[1]{\textsl{#1}}
 \newcommand\corot{\project{CoRoT}}
@@ -181,41 +182,34 @@ $\omega$ & angular frequency & rads$^{-1}$ \\
 \fancyhead{}  % Clears all page headers and footers
 \rhead{\thepage}  % Sets the right side header to show the page number
 \lhead{}  % Clears the left side page header
+
 \input{Chapters/introduction_chapter} % Introduction
 
-% \input{Chapters/subgiant_inversions_chapter}
+\input{Chapters/subgiant_astero_original.tex}
  
-%\input{Chapters/stellar_spot_metallicity_chapter}
+\input{Chapters/stellar_spot_original.tex}
 
-\input{Chapters/rotational_period_gap_chapter} 
+\input{Chapters/rotational_peropd_gap_chapter_update} 
 
 %\input{Chapters/conclusion_chapter}
 
- % Experimental Setup
 
-%\input{Chapters/Chapter4} % Experiment 1
-
-%\input{Chapters/Chapter5} % Experiment 2
-
-%\input{Chapters/Chapter6} % Results and Discussion
-
-%\input{Chapters/Chapter7} % Conclusion
 
 %% ----------------------------------------------------------------
 % Now begin the Appendices, including them as separate files
-
-\addtocontents{toc}{\vspace{2em}} % Add a gap in the Contents, for aesthetics
-
-\appendix % Cue to tell LaTeX that the following 'chapters' are Appendices
-
-% \input{Appendices/AppendixA}	% Appendix Title
-
-%\input{Appendices/AppendixB} % Appendix Title
-
-%\input{Appendices/AppendixC} % Appendix Title
-
-\addtocontents{toc}{\vspace{2em}}  % Add a gap in the Contents, for aesthetics
-\backmatter
+%
+%\addtocontents{toc}{\vspace{2em}} % Add a gap in the Contents, for aesthetics
+%
+%\appendix % Cue to tell LaTeX that the following 'chapters' are Appendices
+%
+%% \input{Appendices/AppendixA}	% Appendix Title
+%
+%%\input{Appendices/AppendixB} % Appendix Title
+%
+%%\input{Appendices/AppendixC} % Appendix Title
+%
+%\addtocontents{toc}{\vspace{2em}}  % Add a gap in the Contents, for aesthetics
+%\backmatter
 
 %% ----------------------------------------------------------------
 \label{Bibliography}

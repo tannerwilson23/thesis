@@ -328,12 +328,11 @@ Interestingly, we may detect previously unreported minima in $\log \ R^{+}_{HK}$
 Excluding the minima recovered in the $B_P-R_P$ - (0.8-0.97) bins, the minima that we recover in $\log \ R^{+}_{HK}$ against logged rotational period are in the same period bin and are close in position to the minima of \rper{} we recover, which we have established aligns with the intermediate period gap.
 The alignment of the minima is also robust to variation in the smoothness of the fitted cubic spline - suggesting that the minima are not spurious.
 
-
 Measurements of $\log \ R^{+}_{HK}$ are less precise than \rper{}, which is reflected in the relatively larger median absolute deviation.
 The detection of the coincidence in a single slice of $B_P-R_P$ could be explained through this imprecision.
 However, the detection of this in multiple slices of $B_P-R_P$ suggests that the cause of the minima is related.
 Further study of this relationship is required to confirm the coincidence of the minima with a larger dataset of chromospheric magnetic activity indicators or with other magnetic activity indicators.
-We will assume for now that the rotational period gap does align itself with minima in both \rper{} and $\log \ R^{+}_{HK}$ and explore whether there is a sample of low-magnetic activity, non-detected rotators. 
+We will assume for now that the rotational period gap does align itself with minima in both \rper{} and $\log \ R^{+}_{HK}$ and explore whether there is a sample of low-magnetic activity, non-detected rotators.
 
 \section{Do we observe a sample of low-magnetic activity gap stars?}
 \label{sec:low_activity_gap}
@@ -349,7 +348,7 @@ To determine whether a star has a significant rotational period detection \citet
 $w$ is defined in terms of the ACF's local peak height (LPH), the height of the selected peak with respect to the mean of the troughs on either side, the star's temperature and the rotational period.
 For a more thorough description of their method for calculating this value see Section A in the appendix of their work.
 This normalised value is calculated for each star and compared to a threshold value.
-Those that do not pass the threshold were placed into a separate category of stars that do not have a detectable rotation period \footnote{ This is a slight misnomer as \textit{some} of the stars $\sim$ 100,000 stars have detectable rotation periods, but those periods should be treated with some care.}.
+Those that do not pass the threshold were placed into a separate category of stars that do not have a detectable rotation period \footnote{This is a slight misnomer as \textit{some} of the stars $\sim$ 100,000 stars have detectable rotation periods, but those periods should be treated with some care.}.
 
 We prepare the sample of 99,000 non-rotating stars from their work in the same way that we did for the rotating sample - ensuring they are close by ($<525 pc$), on the main-sequence and redder than $B_P-R_P$  = 0.8 where the rotational period gap is most apparent.
 This leaves us with a sample of 5574 non-rotating close by, main-sequence stars which we can cross match with the LAMOST-\kepler{} \ sample of chromospheric active stars measured in \citet{zhang_magnetic_2020} - reducing the number of stars to 1134 stars.
@@ -397,7 +396,7 @@ While limiting the minimum number of stars would allow us to clarify large scale
     \includegraphics[width=\textwidth]{Figures/rot_gap_figures/detection_efficiency.png}
     \caption{
     	The detectability of rotation (top) and 2D histogram of stars without detected rotation periods (bottom) across \gaia{} $B_P - R_P$ colour and $\log \ R^{+}_{HK}$ . 
-	Rotation is preferentially measured in stars with higher magnetic activity (larger $\log \ R^{+}_{HK}$) and tends to increase with colour. Low mass stars have a high probability of rotation being measured. Stars with low magnetic activity have a lower probability of rotational observation. Bins with detection efficiency = 0 or 1 contain single stars and are not indicative of trends in the detection efficiency.
+	Rotation is preferentially measured in stars with higher magnetic activity (larger $\log \ R^{+}_{HK}$) and tends to increase with colour. Low-mass stars have a high probability of rotation being measured. Stars with low magnetic activity have a lower probability of rotational observation. Bins with detection efficiency = 0 or 1 contain single stars and are not indicative of trends in the detection efficiency.
 	We do not observe an ultra low magnetic activity population with non detected rotation that would be required to explain the lack of observation of stars in the intermediate period gap.
 	While there is stars with ultra low $\log \ R^{+}_{HK}$  ($<$5.5) in each $B_P-R_P$ bin they can either both rotationally detected or not rotationally detected. The ultra-low magnetic activity is not indicative of their lack of probability of their rotational observation.
 }
@@ -419,10 +418,10 @@ For the gap to exist the magnetic activity would need to drop to a point where o
 \label{sec:no_gap_stars}
 
 
-In this work we have suggested that the data does not support the hypothesis that the rotational period gap is in-fact full of stars without detectable rotation periods.
+In this work, we have suggested that the data does not support the hypothesis that the rotational period gap is in-fact full of stars without detectable rotation periods.
 If the gap is indeed full of stars without detectable rotation periods then, if we assume that the selection functions of both the time-series photometric missions (\kepler{}, \ktoo{}, \tess) nor the works that have attempted to measure the rotation periods of stars from the data collected in those missions is not biased towards not observing or measuring the rotation periods of stars in the gap then the gap stars should permeate the sample of stars without detected rotation periods.
 Further, for the gap to be full of stars there must be enough stars without detected rotation periods to fill the dearth of observations.
-In this Section we will determine whether this is indeed the case.
+In this Section, we will determine whether this is indeed the case.
 
 We compare the distribution of stars in the \citet{mcquillan_rotational_2014} \kepler{} rotating and undetected rotating samples.
 While \citet{santos_surface_2019} has increased the sensitivity of rotational detection of stars in the \kepler{} sample this has not increased the number of observations of stars within or near the gap nor significantly increased the number of low-mass ($B_P-R_P$ $>$1.7) stars with detected rotation periods.
@@ -436,7 +435,6 @@ However, if we compare the distribution of the number of stars in the rotation d
 Further in the inset of this Figure, where we compare the distributions where the gap is most apparent, we see that the proportion of stars with undetectable rotation periods to stars with detectable rotation periods decreases with decreasing mass, to a minimum of 1:10 undetectable to detectable rotation periods at the lowest masses.
 However, this result in itself does not confirm whether the stars in the undetected rotational period sample fill the gap.
 We instead determine how many stars would be required to fill the gap, or rather for the dearth in observations to be undetectable in the low mass range where the proportion of stars between the samples is largest and where the gap is most apparent ($B_P-R_P$ $>$1.5).
-
 
 To find the number of stars required for the dearth of observations to be no longer considered a dearth we first separate the sample with detected rotation into bins of $B_P - R_P$ (colour) from 1.5-2.2 of size 0.045 (15 bins).
 In each colour interval, we then split the data into log rotational period intervals of width 0.07 dex between 1.0 and 1.7 dex (10 bins) - which correspond to 10 and 50 days, respectively.
@@ -515,27 +513,31 @@ The observed average rotation period of the former will be larger than the latte
 Further, because the position of expressed spots on a stellar surface is stochastic, at different times different rotation periods can be observed.
 if multiple significant peaks in the periodogram of the stellar light curve are observed then the scale of differential rotation can be measured.
 
-\citet{reinhold_rotation_2013} measured performed this exact analysis.
-We limit our sample to stars within the nearest 525pc and limit Gaia DR3 magnitudes and colours using $M_G$ $>$ 0, ensuring the stars are close by main-sequence stars with accurate colour and rotation period measurements.
-They looked for multiple significant peaks in the periodogram of the light curve of \kepler{} stars.
-In most cases, they were able to detect two peaks.
-The most significant peak ($P_1$) - which was attributed to the "true" rotation period of the star - and a second peak close to $P_1$ ($P_2$) - which they attributed to differential rotation.
-Attributing these two periods to differential rotation they found that the relative shear increases with the rotation period, and slightly decreases with effective temperature.
-We limit our sample to stars that have only detected two peaks.
-
-In Figure \ref{fig:comp_prawn} we compare the most significant peak period $P_1$ (left, blue) and the second most significant peak period $P_2$ (right, orange).
-Comparing their recovered rotation periods to other works, compare the left panel of Figure \ref{fig:comp_prawn} and Figure \ref{fig:rotational_dist}, we observe that $P_1$ is generally taken as the average rotation rate of a star and $P_2$ is ignored.
-The rotational period gap disappears in the $P_2$ rotational period distribution.
-In their work, $P_1$ and $P_2$ are distinguished by their peak height and $P_1$ can be greater or smaller than $P_2$.
-
-\begin{figure}
-\centering
-    \includegraphics[width=0.5\textwidth]{Figures/rot_gap_figures/prawn_p1_p2.png}
-    \caption{
-    	The number of stars required to fill the gap (black scatter points) against the number of stars with undetected rotation periods against $B_P-R_P$. The number of stars required to fill the intermediate period gap is roughly constant at N $\sim$ 20. While the number of stars without detected rotation greatly outnumbers the number required to fill the gap below $B_P-R_P \sim 1.8$, the two are almost equal for lower mass stars.
-}
-    \label{fig:comp_prawn}
-\end{figure}
+Claims of measurement of differential rotation through multiple peaks in the periodogram of the stellar lightcurve should be treated with caution.
+ \citet{reinhold_rotation_2013} attempted to measure the differential rotation of \kepler{} stars through measurement of multiple peaks in the periodogram.
+ \citet{aigrain_} showed, however, that, using this method, only $\approx$ 5\% of the measurements of differential rotation accurately describe the latitudinal differential rotation of stars with realistic noise.
+ We believe, however, that the effect of differential rotation on the observed rotation period of stars in the \kepler{} sample is understated, and infact latitudinal differential rotation may be the cause of the intermediate period gap.
+ 
+ 
+%We limit their sample to stars within the nearest 525pc and limit Gaia DR3 magnitudes and colours using $M_G$ $>$ 0, ensuring the stars are close by main-sequence stars with accurate colour and rotation period measurements.
+%They looked for multiple significant peaks in the periodogram of the light curve of \kepler{} stars.
+%In most cases, they were able to detect two peaks.
+%The most significant peak ($P_1$) - which was attributed to the "true" rotation period of the star - and a second peak close to $P_1$ ($P_2$) - which they attributed to differential rotation.
+%Attributing these two periods to differential rotation they found that the relative shear increases with the rotation period, and slightly decreases with effective temperature.
+%
+%In Figure \ref{fig:comp_prawn} we compare the most significant peak period $P_1$ (left, blue) and the second most significant peak period $P_2$ (right, orange).
+%Comparing their recovered rotation periods to other works, compare the left panel of Figure \ref{fig:comp_prawn} and Figure \ref{fig:rotational_dist}, we observe that $P_1$ is generally taken as the average rotation rate of a star and $P_2$ is ignored.
+%The rotational period gap disappears in the $P_2$ rotational period distribution.
+%In their work, $P_1$ and $P_2$ are distinguished by their peak height and $P_1$ can be greater or smaller than $P_2$.
+%
+%\begin{figure}
+%\centering
+%    \includegraphics[width=0.5\textwidth]{Figures/rot_gap_figures/prawn_p1_p2.png}
+%    \caption{
+%    	The number of stars required to fill the gap (black scatter points) against the number of stars with undetected rotation periods against $B_P-R_P$. The number of stars required to fill the intermediate period gap is roughly constant at N $\sim$ 20. While the number of stars without detected rotation greatly outnumbers the number required to fill the gap below $B_P-R_P \sim 1.8$, the two are almost equal for lower mass stars.
+%}
+%    \label{fig:comp_prawn}
+%\end{figure}
 
 We propose the following mechanism to explain gap.
 Well below the gap, stars have a latitudinally flat rotation profile \cite{}.
@@ -595,25 +597,27 @@ The other two relations we adopt reflect two cases for the transition of the sca
 These are:
 $\frac{|\Delta\Omega|}{\Omega}$ \left\{
 \begin{array}{ll}
-      0.25/(0.45^4) R_o^4& R_o\leq 0.45 \\
-     0.25  & 0.45\leq R_o\leq 2 \\
-      0.25/(2^2) R_o^2& 2\leq R_o \\
+      0.2/(0.45^4) R_o^4& R_o\leq 0.45 \\
+     0.2  & 0.45\leq R_o\leq 2 \\
+      0.2/(2^2) R_o^2& 2\leq R_o \\
 \end{array} 
 \right 
 and
 $\frac{|\Delta\Omega|}{\Omega}$ \left\{
 \begin{array}{ll}
-      0.35/(0.5^6) R_o^6& R_o\leq 0.45 \\
-     0.35  & 0.45\leq R_o\leq 2 \\
-      0.35/(2^2) R_o^2 & 2\leq R_o \\
+      0.2(0.5^6) R_o^6& R_o\leq 0.45 \\
+     0.2  & 0.45\leq R_o\leq 2 \\
+      0.2/(2^2) R_o^2 & 2\leq R_o \\
 \end{array} 
 \right 
-where the prefactors $0.25/(0.45^4)$, $0.25/(2^4)$,  $0.35/(0.45^6)$, and $0.35/(2^2) $ ensure continuity.
+where the prefactors $0.2/(0.45^4)$, $0.2/(2^4)$,  $0.2/(0.45^6)$, and $0.2/(2^2) $ ensure continuity.
 We have chosen these two relations to investigate the effect of the steepness of the relation between differential rotation and $R_o$ on the observed rotational period distribution.
 The relations we investigate in this work are shown in Figure \ref{fig:compar_diff_rot}, where we show the relation determined in \citet{saar_2011} (orange), the range of the scale of differential rotation suggested by \citet{brun_2022} and the two steeper relations (green and purple respectively) relations we adopt in this work.
 
-Here we assume that have solar-like differential rotation profile below $R_o = 2$ - the sign of $\frac{\Delta \Omega}/{\Omega}$ is positive - and above this $R_o$ the star instantly transitions to anti-solar like - the sign becomes negative.
-From this we calculate the differential rotation by multiplying this factor by the equator rotation rate.
+Here we assume that have solar-like differential rotation profile below $R_o = 2$ - the sign of $\frac{\Delta \Omega}/{\Omega}$ is positive - and above this $R_o$ the star instantly transitions to anti-solar like - the sign becomes negative. 
+From this, we calculate the differential rotation by multiplying this factor by the equator rotation rate.
+While the instantaneous nature of this transformation may not be physical, the transition from solar-like to anti-solar-like differential rotation will have the same effect - an increase in the density of stars with observed rotational periods near the transition.
+This is, in effect, a parameter space study, where we wish to investigate the qualitative effect of differential rotation on the observed rotation period distribution .
 
 We adopt a second-order solar-like differential rotation profile with the rotation rate with inclination:
 \begin{equation}
@@ -621,14 +625,21 @@ We adopt a second-order solar-like differential rotation profile with the rotati
 \end{equation}
 where the prefactor 1/\sin^2(60\degrees)} ensures continuity.
 
-We can then calculate the average observed rotation rate.
+We can then calculate the average observed rotation rate from the integral of the rotation rate given a distribution of stellar spots on the surface of a star divided by the surface area of the star where the stellar spots are expressed.
 Here we are assuming that all stars in our sample are viewed equator-on.
 While this is not the case for all stars, the rotational period gap is not an effect of the observation angle.
-Further, inclination angles are uniformly distributed in $\cos{i}$, and stars must be viewed close to equator for their rotation periods to be measurable (see \Section{sec:intro}) - therefore most stars with observed rotation profile are close to equator-on.
-We assume the stellar spots are uniformly distributed between the latitudes of $10\degrees$ and $55\degrees$ from the equator to qualitatively represent the butterfly patterns observed for the Sun.
+Further, inclination angles are uniformly distributed in $\cos{i}$, and stars must be viewed close to the equator for their rotation periods to be measurable (see \Section{sec:intro}) - therefore most stars with observed rotation profile are close to equator-on.
+
+The distribution of stellar spots on the surfaces of these stars requires some thought.
+While the probability distribution of stellar spots of the Sun is well known, this distribution does not account for the variation of the distribution of spots with mass, equator rotation rate or differential rotation.
+ \citet{granzer_2003} performed magnetohydrodynamic simulations of rotating low-mass stars in the Pleiades and determined the distribution of stellar spots of stars of various masses and rotation rates (see Figure 3. in their work).
+ We adapt their findings to suit the work we complete here.
+ We take the sparse grid of grid of equator rotation rates and stellar masses and measure the maximum and minimum latitudes that stellar spots are expressed for those models.
+ In this work, we assume that stellar spots are uniformly distributed between the maximum and minimum latitudes that stellar spots are expressed.
+ While this assumption is explicitly contradicted by their work, their grid is sparse and we cannot easily interpolate between distributions of stellar spots.
+ Furthermore, the stellar spot distributions can be both skewed towards the equator and the pole, dependent on the mass and rotation rate of the model - any shape of distribution that we assume does not fit the range of the data in their work.
 How the distribution of stellar spots varies with the evolution of a star is unknown - broadly, the closer that spots are distributed to the equator the closer the observed rotation rate will be to the equator rotation rate.
-Fast-rotating stars have been observed to have stellar spots distributed uniformly across their surfaces which results in a larger decrease in the average rotation period across the surfaces of stars following the onset of solar-like differential rotation.
-We will discuss this effect on the conclusions we draw here in Section \ref{sec:disc}.
+We, therefore, linearly interpolate in mass and equator rotation rate, the maximum and minimum latitudes between where stellar spots are uniformly distributed and take that as the distibution of stellar spots on the surface of each star.
 
 If star spots are uniformly distributed between the latitudes then the observed rotation rate is simply the average rotation rate between the edges of the latitudes where they are expressed.
 We calculate this from the integral of the rotation rate divided by the surface area that the spots are expressed within i.e.
@@ -642,26 +653,25 @@ Because the rotation profile is symmetric about the equator of rotation we only 
 
 We compare the effect of each of the chosen relations between differential rotation and $R_o$ on the observed rotation period of $0.7 M_{\odot}$ star in Figure \ref{fig:comp_per}.
 The growth of differential rotation below $R_o<0.45$ is observed at $P_{\rm{rot, injected}}$ < 20 d.
-The steeper relations of $R_o$ with differential rotation in this range result in a quicker growth in observed rotation periods for the same injected period.
-The steeper the growth of the observed rotational period the lower the number of stars that would be observed with that rotational period.
-The transition from solar-like to anti-solar-like rotation ($P_{\rm{rot, injected}}$ =70 d) results in an instantaneous transition from observed rotational periods greater than the injected value, to an observed rotational period less than the injected value.
-In reality, this transition would not be instantaneous, however, the effect on the number of stars observed with a given rotation period would be the same - an increase in the number of stars observed around where the transition from solar-like to anti-solar-like occurs.
+Steeper relations of $R_o$ with differential rotation in this range result in a quicker growth in observed rotation periods for the same injected period.
+The steeper the growth of the observed rotational period the lower the number of stars that would be observed with that rotational period, while the transition from solar-like to anti-solar-like rotation ($P_{\rm{rot, injected}}$ =70 d) results in an instantaneous transition from observed rotational periods greater than the injected value, to an observed rotational period less than the injected value.
 
 Under these assumptions, the observed rotation period under each relation of differential rotation and $R_o$ of the stars in our synthetic sample can be calculated.
 The resulting distributions of stars (blue, orange, green and purple) relative to the observed distribution of \kepler{} rotational periods measured in \citet{mcquillan_rotational_2014} (black) are shown in Figure \ref{fig:comp_dist}.
 Here, the colour of each distribution corresponds to the same colour showing the relation between differential rotation and $R_o$ in Figure \ref{fig:compar_dif_rot} and blue corresponds to the injected, or flat rotation profile observed, rotational period.
 For clarity, we have also shown the 2D histograms of the distributions in Figure \ref{fig:com_hist} where the effects are more recognisable.
 
-Comparing the rotational distributions of the under these differential rotation relations we observe that a dearth of observations can be created if the scale of differential rotation grows swiftly.
-In the extreme case, here exemplified where the differential rotation grows with $R_o^6$ (bottom right corner of Figures \ref{fig:comp_dist} and  \ref{fig:comp_hist}), can create a distinct gap of observations.
+Comparing the rotational distributions of the under these differential rotation relations we observe that a dearth of observations occurs when a transition from latitudinally flat to solar-like differential rotation at $R_o = 0.45$ is introduced to the calculation of the observed rotation rate of stars.
+Further, the increased density of observation of stars above the intermediate period gap in the \kepler{} sample is reproduced under this model - unlike a model of extreme magnetic braking to explain the gap.
+The distinctness, or rather the decrease in density of stars within the gap, increases with the power on $R_o< 0.45$, however, qualitatively, the decreased density of stars within the gap is, qualitatively, most accurately reflected by the observationally prescribed relation between $R_o$ and scale of differential rotation found in \citet{saar_2011}.
 
-
- also aligns itself with the rotational period gap, suggesting 
-
+We also find an over-density of stars where the transition from solar-like to anti-solar-like latitudinal differential rotation occurs ($\log P_{\rm{rot}} = 1.2$, $T_{\rm{eff}} = 6000K$).
+While the observed \kepler{} rotation periods do contain a high density of stars near this location, we are hesitant to suggest whether this feature is the result of this transition or from the selection function of \kepler{} observations being biased towards higher mass, brighter, stars.
+Further, given the small number of nearby, old ($\>$3Gyr) clusters in the \kepler{} field, and the evolution of rotational spin-down with variations to the latitudinal differential rotation, we believe that the cluster tuned isochrones used in this work to determine the rotational periods of stars, are less reliable for these stars.
 
 \begin{figure}
 \centering
-    \includegraphics[width=0.5\textwidth]{Figures/rot_gap_figures/comparison_diffrot.png}
+    \includegraphics[width=\textwidth]{Figures/rot_gap_figures/comparison_diffrot.png}
     \caption{
     	The various relationships between latitudinal differential rotation and the stellar $R_o$ adopted in this work. We compare between the observationally derived relation from \citet{saar_2011} (orange) and two steeper relations for $R_o<0.45$, $|\Delta \Omega|/\Omega \propto R_o^4$ (green) and $|\Delta \Omega|/\Omega \propto R_o^6$ (purple). The scale of differential rotation is greater for the latter two relations and we have an increase to the scale of differential rotation for $R_o>2$. All three relations are consistent with the magnetohydrodynamic investigations into stellar differential rotation from \citet{brun_2022}.
 }
@@ -670,7 +680,7 @@ In the extreme case, here exemplified where the differential rotation grows with
 
 \begin{figure}
 \centering
-    \includegraphics[width=0.5\textwidth]{Figures/rot_gap_figures/comparison_observed_rot_periods.png}
+    \includegraphics[width=\textwidth]{Figures/rot_gap_figures/comparison_observed_rot_periods.png}
     \caption{
     	The effect of the differential rotation on the observed rotational period of a 0.7 $M_{\odot}$ star. Here the colour of the relations corresponds to the adopted differential rotation relation in Figure \ref{fig:compar_diffrot} compared to the observed rotation profile of a latitudinally flat rotating star. At $R_o<0.45$ for injected rotation periods ($P_{\rm{rot, injected}}$) less than 20 days. It is evident that steeper relations between $R_o$ and differential rotation lead to more rapid growth in observed rotation periods for the same injected period. Moreover, a steeper growth in the observed rotational period corresponds to a lower number of observed stars with that particular rotation period. The transition from solar-like to anti-solar-like rotation, occurring at $P_{\rm{rot, injected}}$ = 70 days, results in an instantaneous shift in observed rotational periods from being greater than the injected value to being less than the injected value.
 }
@@ -679,10 +689,10 @@ In the extreme case, here exemplified where the differential rotation grows with
 
 \begin{figure}
 \centering
-    \includegraphics[width=0.5\textwidth]{Figures/rot_gap_figures/comp_dist.png}
+    \includegraphics[width=\textwidth]{Figures/rot_gap_figures/comp_dist.png}
     \caption{
-    	The observed rotational period distributions of the synthetic sample of stars given various relations between latitudinal differential rotation and $R_o$ overlayed over the observed distribution of rotational periods of the \kepler{} sample from \citet{mcquillan_2014} (black). Here, the coloured observed rotational period distributions correspond to the various differential rotation relations adopted in this work, as seen in Figure \ref{fig:compar_diffrot}. The latitudinally flat (blue, top left) sample reflects the injected rotational periods of our sample considered in this work. We observe that in this synthetic sample of stars there is no intermediate period gap. If we include the effects of differential rotation on the observed rotational periods of stars, we find that as the steepness of the relation between $|\Delta \Omega|/\Omega$ increases (where in order of increasing steepness we have the orange, green and purple distributions) we observe the creation of a dearth of observations at the transition between latitudinally flat ($R_o<0.45$) and solar-like rotation precisely at the location of the intermediate period gap. We also find that the transition from solar-like to anti-solar-like differential rotation we obtain an over-density of stars consistent with the overdensity
-}
+    	The observed rotational period distributions of the synthetic sample of stars given various relations between latitudinal differential rotation and $R_o$ overlayed over the observed distribution of rotational periods of the \kepler{} sample from \citet{mcquillan_2014} (black). Here, the coloured observed rotational period distributions correspond to the various differential rotation relations adopted in this work, as seen in Figure \ref{fig:compar_diffrot}. The latitudinally flat (blue, top left) sample reflects the injected rotational periods of our sample considered in this work. We observe that in this synthetic sample of stars, without differential rotation, there is no intermediate period gap. If we include the effects differential rotation on the observed rotation period, a dearth of observations at the transition between latitudinally flat ($R_o<0.45$) and solar-like rotation occurs precisely at the location of the intermediate period gap. 
+ Further, we find that as the steepness of the relation between $|\Delta \Omega|/\Omega$ increases (where in order of increasing steepness we have the orange, green and purple distributions) the gap becomes more distinct - fewer stars are observed within the gap. We also find that as a result of the transition from solar-like to anti-solar-like differential rotation, we obtain an over-density of stars consistent with the overdensity of slow-rotating stars near 6000K. See \ref{fig:comp_fig} for 2D histograms of the distribution of rotation periods in these panels.}
     \label{fig:comp_dist}
 \end{figure}
 
@@ -690,8 +700,7 @@ In the extreme case, here exemplified where the differential rotation grows with
 \centering
     \includegraphics[width=0.5\textwidth]{Figures/rot_gap_figures/comp_hist.png}
     \caption{
-    	The number of stars required to fill the gap (black scatter points) against the number of stars with undetected rotation periods against $B_P-R_P$. The number of stars required to fill the intermediate period gap is roughly constant at N $\sim$ 20. While the number of stars without detected rotation greatly outnumbers the number required to fill the gap below $B_P-R_P \sim 1.8$, the two are almost equal for lower mass stars.
-}
+    	A 2D histogram of the synthetic observed rotational period distribution assuming various relations between the scale of differential rotation and $R_o$. Here, the panels correspond to the same panels in Figure \ref{fig:comp_dist}.}
     \label{fig:comp_hist}
 \end{figure}
 
@@ -776,16 +785,17 @@ The photometric variability increase is expected under an increase to  $\log R^{
 The proposition that the rotational period gap represents a minima of detectability of stars is not favoured by the data.
 Increases to detector efficiency have also not increased the observation of stars near, nor in, the intermediate period gap as each model proposed to explain the minima of detectability of rotation period predicts.
 The coincidence of the minima in \rper{} with minima in $\log R^{+}_{\rm{HK}}$ along with the lack of a population of low or high $\log R^{+}_{\rm{HK}}$ stars with low detectability suggests that minima in \rper{} cannot be explained by a spot-faculae transition nor a selection effect for stars with low or high magnetic activity near the rotational period gap.
-Furthermore, the number of stars required to fill the gap is larger than the number of stars without detectable rotation periods.
-Recent works have also tentatively shown that the kinematic ages of stars above and below the rotation period gap have comparable kinematic ages \citep{lu_bridging_2022}.
+Furthermore, we found that for the gap to be explained by a lack of detection of rotational period, stars within the gap must make up the majority of stars in the \kepler{} non-detected rotational period sample.
+This explanation is unlikely due to the large number of factors by which rotation is not observed for all stars - inclination effects, noise drowning the rotational period signal etc.
+Recent works have also tentatively shown that the kinematic ages of stars above and below the rotation period gap have comparable kinematic ages \citep{lu_bridging_2022} - suggesting that there is not a missing sample of stars that fill the gap.
 
-The only alternative mechanism that has been proposed and is not disfavoured by the data arises from the onset of sudden magnetic braking whereby stars jump the gap.
+The only alternative mechanism that has been proposed in the literature and is not disfavoured by the data arises from the onset of sudden magnetic braking whereby stars "jump" the gap.
 However, this explanation is complicated by the fact that we do not know the mechanism underlying the sudden magnetic braking.
 As stars evolve toward the gap, their core and envelope have undergo recoupling, slowing their spin-down.
 \citet{cao_core_2023} suggest that the process of core-envelope recoupling with significant angular momentum flux (See Section 4. of their work) between the core and the surface enhances the magnetic dynamo of stars, inducing larger photometric variability from greater spot coverage.
 The decrease in photometric variability towards the gap can be explained under this framework if the enhancement of the magnetic dynamo is dependent on the scale of the radial shear between the core and the dynamo which decreases towards the magnetic activity gap.
 
-Two mechanisms could be invoked to explain the sudden enhanced spin-down: core-envelope decoupling or enhanced magnetic spin-down.
+Two mechanisms could be invoked to explain the sudden enhanced spin-down: core-envelope re-decoupling or enhanced magnetic spin-down.
 Conceivably the core and the surface of the star can again decouple at the rotational period gap; the surface spins down at a much faster rate than below the gap resulting in the apparent dearth of observations.
 It is, however, not clear the effect that this decoupling would have above the gap.
 If the core and envelope are strongly decoupled above the gap then angular momentum transport between the core and surface is likely to reoccur, supported by the relatively flat radial rotation profile observed for the Sun and other solar-age stars \citep{hall}.
@@ -794,16 +804,34 @@ Further \rper{} increases with rotation period above the gap, suggesting instead
 For this to be the case the core-surface radial shear must grow and the core and surface must remain decoupled until recoupling enhances the magnetic dynamo.
 However, the gap is only apparent for a small rotational period range and the density of stars with observed rotation periods above and below the gap are consistent - suggesting that the decoupling is not slowly counteracted by core-envelope recoupling resulting in the enhanced \rper{} away from the gap.
 
-
 Enhanced magnetic angular momentum loss is another possible explanation for the gap.
 The magnetic braking of a star is dependent on the rotation rate, mass loss rate and the strength of the magnetic field.
 Stars near and just above the gap are rotating slower and have smaller magnetic activity indicators than stars below the gap.
-Further, we found that stars just above the gap tend to be observed with abnormally lower $\log R^{+}_{\rm{HK}}$ than the typical decrease with increasing rotation rate.
+Further, we found that stars just above the gap do not show signifcant enhancement in  $\log R^{+}_{\rm{HK}}$.
 If the sudden increase in magnetic braking arises from enhancement to the magnetic field, it is not reflected in the magnetic activity of stars near the gap.
 The only other variable to consider here is increased mass loss.
 The mass loss rates estimates are particularly imprecise, however, to reflect the change in rotation period of stars passing through the gap we speculate that the mass loss rate would need to be enhanced by several orders of magnitude. 
 That significant mass loss is not reflected in any other measurements of stars surrounding the gap, nor is there a known mechanism by which the enhanced mass loss would occur.
-Currently, there is no known mechanism for said enhanced magnetic braking to arise.
+As a result, currently, there is no known mechanism for said enhanced magnetic braking to arise.
+
+Finally, in this work we developed a model to predict the observed/average rotation period of stars given surface latitudinal differential rotation.
+Observational and magnetohydrodynamical models of surface differential rotation with $R_o$ agree - suggesting that surface differential rotation grows from latitudinally flat to solar-like differentially rotating at a $R_o \approx 0.5$.
+We found that introducing this differential rotation to our calculation of the average surface rotation period of stars produces a lower density of observations where the differential rotation grows.
+
+The Sun is believed to be currently transitioning from solar-like to anti-solar-like differential rotation.
+This
+As a result of this transition the average, observed, rotation period will 
+Furthermore, we believe that the transition from solar-like to anti-solar-like differential rotation at $R_o \approx 2$ results in the high density of stars observed near the solar rotation period and colour.
+
+ 
+ 
+If indeed the rotational period gap arises from the transition from latitudinally flat to solar-like differential rotation then a contradiction arises in our method.
+We have assumed here that the rotational periods we generate are the equator rotation rates of those stars.
+We then claim that the measured rotation periods of stars are biased by the introduction of differential rotation to the surfaces of those stars - then the cluster-tuned rotation periods must be tuned from the observed (biased by differential rotation) surface rotation rates.
+However, the clusters used to tune the stellar spin-down rates of stars in this work have ages that place their rotational period distributions below the intermediate period gap, further the only star used to tune the stellar spin-down that is above the gap is the Sun.
+The rotational periods used to generate this sample are interpolated between the rotational period gap and the rotational period of the Sun.
+
+
 
 
 A self-consistent model to explain the
@@ -826,12 +854,11 @@ Spot lifetimes? See figure 15 of basri, new 2015
 We show that relative facular area decreases
 with stellar rotation rate., akaz0-gomez 2020
 
-under the framework
 
 
 
-the latitudinal stuff
-may be biased by the fact that the rotating isochrones are biased by the fact that they are tuned to the observations of clusters of stars. If the rotational period measurements are biased by this fact then they are indeed not the equator rotation rates of stars.
+With thanks to Zhang for allowing us to investigate the previously unavailable non-rotating sample
+
 
 
 

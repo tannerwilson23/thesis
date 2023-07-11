@@ -1,31 +1,13 @@
 This is BibTeX, Version 0.99d (TeX Live 2022)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: Thesis.aux
-White space in argument---line 439 of file Thesis.aux
- : \citation{reinhold_stellar_2020,basri
- :                                       and nguyen ,santos_surface_2021}
-I'm skipping whatever remains of this command
-White space in argument---line 485 of file Thesis.aux
- : \citation{brun
- :                2022}
+White space in argument---line 489 of file Thesis.aux
+ : \citation{reinhold_stellar_2020,basri_double_2018
+ :                                                   ,santos_surface_2021}
 I'm skipping whatever remains of this command
 The style file: mnras.bst
 Database file #1: references.bib
-Warning--I didn't find a database entry for "maeder_diffuse_1996"
-Warning--I didn't find a database entry for "chiosi_1986"
-Warning--I didn't find a database entry for "reinhold_spot_2018"
-Warning--I didn't find a database entry for "santos_surface_2020"
-Warning--I didn't find a database entry for "citeme"
-Warning--I didn't find a database entry for "mcquillan_rotational_2014"
-Warning--I didn't find a database entry for "santos_surface_2019"
-Warning--I didn't find a database entry for "hall"
-Warning--I didn't find a database entry for "benomar"
-Warning--I didn't find a database entry for "bazot"
-Warning--I didn't find a database entry for ""
-Warning--I didn't find a database entry for "saar_2011"
-Warning--I didn't find a database entry for "brun_2022"
-Warning--I didn't find a database entry for "noraz"
-Warning--I didn't find a database entry for "cao_core_2023"
+Warning--I didn't find a database entry for "reinhold_transition_2018"
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 "ArXiv e-prints" is a string literal, `journal' is a missing field
@@ -46,45 +28,57 @@ while executing---line 1822 of file mnras.bst
 ---they aren't the same literal types for entry johnstone_stellar_2015
 while executing---line 1822 of file mnras.bst
 Warning--empty publisher in kippenhahn_stellar_1990
-You've used 164 entries,
+`series' is a missing field, not a string, for entry saar_starspots_2011
+while executing---line 1822 of file mnras.bst
+"" is a string literal, not an integer, for entry saar_starspots_2011
+while executing---line 1822 of file mnras.bst
+`series' is a missing field, not a string, for entry saar_starspots_2011
+while executing---line 1822 of file mnras.bst
+`series' is a missing field, not a string, for entry saar_starspots_2011
+while executing---line 1822 of file mnras.bst
+"" is a string literal, not an integer, for entry saar_starspots_2011
+while executing---line 1822 of file mnras.bst
+`series' is a missing field, not a string, for entry saar_starspots_2011
+while executing---line 1822 of file mnras.bst
+You've used 178 entries,
             2881 wiz_defined-function locations,
-            1945 strings with 56403 characters,
-and the built_in function-call counts, 77649 in all, are:
-= -- 6220
-> -- 5916
-< -- 412
-+ -- 2604
-- -- 910
-* -- 9351
-:= -- 12500
+            2030 strings with 60273 characters,
+and the built_in function-call counts, 85120 in all, are:
+= -- 6800
+> -- 6498
+< -- 454
++ -- 2842
+- -- 1013
+* -- 10257
+:= -- 13673
 add.period$ -- 0
-call.type$ -- 164
-change.case$ -- 328
-chr.to.int$ -- 162
-cite$ -- 166
-duplicate$ -- 3732
-empty$ -- 3720
-format.name$ -- 1416
-if$ -- 13354
+call.type$ -- 178
+change.case$ -- 356
+chr.to.int$ -- 176
+cite$ -- 180
+duplicate$ -- 4081
+empty$ -- 4085
+format.name$ -- 1567
+if$ -- 14678
 int.to.chr$ -- 3
 int.to.str$ -- 0
-missing$ -- 164
-newline$ -- 509
-num.names$ -- 1146
-pop$ -- 779
+missing$ -- 177
+newline$ -- 551
+num.names$ -- 1256
+pop$ -- 854
 preamble$ -- 1
-purify$ -- 656
+purify$ -- 712
 quote$ -- 0
-skip$ -- 2264
+skip$ -- 2482
 stack$ -- 0
-substring$ -- 4315
-swap$ -- 1838
-text.length$ -- 660
+substring$ -- 4736
+swap$ -- 2052
+text.length$ -- 722
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1464
+type$ -- 1590
 warning$ -- 2
-while$ -- 1240
+while$ -- 1350
 width$ -- 0
-write$ -- 1653
-(There were 8 error messages)
+write$ -- 1794
+(There were 13 error messages)
