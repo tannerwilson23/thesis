@@ -1,6 +1,4 @@
-\newcommand{\todo}[1]{\textcolor{red}{#1}}
-
-\chapter{Summary, Conclusions and Future Work}
+ \chapter{Summary, Conclusions and Future Work}
 \label{chap:conc}
 
 \section{Summary}
@@ -9,7 +7,7 @@ Rotation is an often overlooked area of stellar astrophysics and astronomy due t
 That being said, over the previous decades, our understanding of the evolution of rotation and its impact on stellar evolution has grown dramatically.
 With every observation of rotation that we make we are learning that our simple implementations and parameterisations in stellar evolution codes do not necessarily account for a number of misunderstood mechanisms underlying the evolution of rotating stars.
 We are also learning that rotation can have impacts on the observations that we are able to make of stars.
-This is the direct result of the growth of the data boom that we find ourselves in due to the sheer number of stars we have precisely photometrically observed over long-period baselines through missions such as \kepler, \ktoo and \tess.
+This is the direct result of the growth of the data boom that we find ourselves in due to the sheer number of stars we have precisely photometrically observed over long-period baselines through missions such as \kepler \citep{borucki_kepler_2010}, \ktoo \citep{howell_k2_2014} and \tess \citep{ricker_transiting_2014}..
 
 Indeed, this thesis does not provide an exhaustive list of every single effect that rotation has on stellar evolution, nor every gap in our knowledge of its effects.
 In this work, we have attempted to provide novel ways to improve our understanding of rotation, without the requirement of more data.
@@ -58,8 +56,8 @@ In this work, we have presented representative studies that provide methods for 
 All of these works have further applications for the wider rotational astronomic community.
 
 The application of a surface rotation prior to inference of the internal rotation profiles of low-luminosity subgiants is a novel way to further constrain the internal rotation profiles of stars without the requirement of more data.
-Without this method, see e.g. \citet{albhorn} who suggest precise measurement of up to $\ell = 10$ mode rotational splittings are required for inference of the internal rotation profile of post-main-sequence stars using only the rotational splittings, inference of the internal rotation profile of stars will require extremely long baseline observations of a number of subgiants.
-While plans are being made for longer-baseline asteroseismic missions \citep{haydn, plato, roman} the length of the missions required for such investigations (on the order of 10s of years) appear unfeasible - given the recent track record of the length of observational missions.
+Without this method, see e.g. \citet{ahlborn_asteroseismic_2020} who suggest precise measurement of up to $\ell = 10$ mode rotational splittings are required for inference of the internal rotation profile of post-main-sequence stars using only the rotational splittings, inference of the internal rotation profile of stars will require extremely long baseline observations of a number of subgiants.
+While plans are being made for longer-baseline asteroseismic missions \citep{rauer_plato_2014, akeson_wide_2019, miglio_haydn_2021} the length of the missions required for such investigations (on the order of 10s of years) appear unfeasible - given the recent track record of the length of observational missions.
 We, therefore, propose that this method be applied to our observations of post-main-sequence stars with measured rotational splittings.
 As we discuss in the conclusion of Chapter \ref{chap:subgiant_ast}, this method can be applied to any star with observed rotational splittings and a measurement of the surface rotation rate.
 This can either come in the form of surface rotational period measurements from the active regions of stars, as was adopted in that work and is a by-product of time series-based photometric observation missions, or through spectroscopic $v \sin{i}$.
@@ -81,9 +79,9 @@ The relative effect of faculae is, comparatively, unknown.
 Algebraically, in the model we adopt, a star with a large fractional coverage of cool spots is the same as a star with a small fractional coverage of hot faculae.
 This suggests that whether you adopt spots or faculae, scatter to inferred stellar parameters will be introduced.
 
-To speculate: the contribution of spots and faculae could be disentangled from the stellar spectra using the method we adopt in this paper.
+The contribution of spots and faculae could be disentangled from the stellar spectra using the method we adopt in this paper.
 The cancellation of the contribution to the stellar flux from spots by faculae, and vice versa, is a proposed mechanism underlying the intermediate period gap that we are currently unable to investigate.
-However, with a 3-temperature stellar spectra model of the stellar atmosphere, we could determine whether this is indeed the case.
+However, with a 3-temperature stellar spectra model of the stellar atmosphere, we could possibly determine whether this is indeed the case.
 We propose an investigation into the feasibility of using the reduced goodness of fit between a single and 3-temperature contribution stellar spectra of the same effective temperature of stars using a single and 3-temperature contribution model of the stellar spectra.
 
 While this method cannot be used to directly image the stellar spots on the surfaces of stars, it can be used to determine the fractional spot coverage and the relative effect that they may have on observed variations to the stellar flux.
@@ -111,16 +109,18 @@ A number of stars, especially low-luminosity subgiants, from whom we can determi
 We have shown in this work that the internal rotation profile shape of these stars cannot be measured with current measurements of the rotational splittings.
 Further, the feasibility of determining the internal rotation profile of these stars, without dedicated long-term photometric missions is low.
 That being said, the data boom we are currently experiencing, in regard to photometric data, does not appear to be slowing.
-The \TESS{} photometric mission has, at the time of writing, been collecting short cadence data for over 4 years.
+The \tess{} photometric mission has, at the time of writing, been collecting short cadence data for over 4 years.
 High-resolution observations of stars have been made that will bring with them a new observing field of stars through which we will be able to measure surface rotation periods, as well as rotational splittings, especially within its continuous viewing zones.
-With this data more and more stars have their surface rotation periods \citep{claytor__2023} and rotational splittings determined.
+With this data more and more stars have their surface rotation periods \citep{claytor_recovery_2023} and rotational splittings determined.
 With the accurate measurement of those quantities, and application of our proposed method to place stronger constraints on the internal rotation profile of these stars with a surface rotation rate constraint, a population inference approach appears as the approach to answering the post-main sequence angular momentum transport problem.
 
-Proposals have been made for targeted high-precision asteroseismically-focussed missions: PLAnetary Transits and Oscillations of stars (PLATO) \citep{}, the High-precision AsteroseismologY of DeNse stellar fields (HAYDN) mission \citep{}.
-With these missions, our understanding of the nature of the rotation of stars will grow.
-Both from a larger sample of stars with more precise photometric observations and with longer baselines, which will result in more stars with a larger number of and more precise measurements of rotational splittings, as well as a larger sample of stars with photometrically measured surface rotation rates.
+The future of precise measurement of stellar rotation comes in the form of space-based high-cadence photometric missions.
+The Nancy Grace Roman telescope \citep{akeson_wide_2019}, originally known as WFIRST, is a space-based photometric mission that will observe large patches of the sky with a faster cadence than both the \kepler and \tess{} missions.
+The telescope is expected to launch in 2026 and it will be some time before the baseline is long enough to infer stellar rotation.
+Proposals have been made for targeted high-precision asteroseismically focussed missions: PLAnetary Transits and Oscillations of stars (PLATO) \citep{rauer_plato_2014}, the High-precision AsteroseismologY of DeNse stellar fields (HAYDN) mission \citep{miglio_haydn_2021}.
+When, or if, these missions are launched, our understanding of the nature of the rotation of stars will grow.
+This will be both from a larger sample of stars with more precise photometric observations and with longer baselines, which will result in more stars with a larger number of and more precise measurements of rotational splittings, as well as a larger sample of stars with photometrically measured surface rotation rates.
 
+As we have discussed within this thesis, there are problems underlying stellar rotation that we do not yet have the answers for, though we are making progress in answering them.
 We will not speculate what the next problems in the low-mass stellar rotation will be, but with this level of data, we are certainly focussing on 2nd and 3rd-order effects of rotation which will no doubt improve our understanding of the evolution of rotation in stars and the effects that it has on the observations that we make.
-
-
 

@@ -33,6 +33,11 @@ Ahlborn F.,  Bellinger E.~P.,  Hekker S.,  Basu S.,   Angelou G.~C.,  2020,
 Aigrain S.,  et~al., 2015, Monthly Notices of the Royal Astronomical Society,
   450, 3211
 
+\bibitem[\protect\citeauthoryear{Akeson et~al.,}{Akeson
+  et~al.}{2019}]{akeson_wide_2019}
+Akeson R.,  et~al., 2019, The Wide Field Infrared Survey Telescope: 100 Hubbles
+  for the 2020s (\mn@eprint {arXiv} {1902.05569})
+
 \bibitem[\protect\citeauthoryear{Albrecht, Winn, Carter, Snellen  \& de
   Mooij}{Albrecht et~al.}{2011}]{albrecht_banana_2011}
 Albrecht S.,  Winn J.~N.,  Carter J.~A.,  Snellen I. A.~G.,   de Mooij E.
@@ -75,6 +80,10 @@ Augustson K.~C.,  Brun A.~S.,   Toomre J.,  2019, \mn@doi [The Astrophysical
   et~al.}{2022}]{avallone_rotation_2022}
 Avallone E.~A.,  et~al., 2022, The Astrophysical Journal, 930, 7
 
+\bibitem[\protect\citeauthoryear{Baglin}{Baglin}{2003}]{baglin_corot_2003}
+Baglin A.,  2003, \mn@doi [Advances in Space Research]
+  {10.1016/S0273-1177(02)00624-5}, 31, 345
+
 \bibitem[\protect\citeauthoryear{Balbus \& Hawley}{Balbus \&
   Hawley}{1994}]{balbus_stability_1994}
 Balbus S.,  Hawley J.,  1994, \mn@doi [Monthly Notices of The Royal
@@ -91,6 +100,12 @@ Barker A.~J.,  Jones C.~A.,   Tobias S.~M.,  2019, \mn@doi [Monthly Notices of
 Barker A.~J.,  Jones C.~A.,   Tobias S.~M.,  2020, \mn@doi [Monthly Notices of
   the Royal Astronomical Society] {10.1093/mnras/staa1327}, 495, 1468
 
+\bibitem[\protect\citeauthoryear{{Basri} \& {Nguyen}}{{Basri} \&
+  {Nguyen}}{2018}]{basri_double_2018}
+{Basri} G.,  {Nguyen} H.~T.,  2018, \mn@doi [Astrophysical Journal]
+  {10.3847/1538-4357/aad3b6}, \href
+  {https://ui.adsabs.harvard.edu/abs/2018ApJ...863..190B} {863, 190}
+
 \bibitem[\protect\citeauthoryear{{Bazot}, {Benomar}, {Christensen-Dalsgaard},
   {Gizon}, {Hanasoge}, {Nielsen}, {Petit}  \& {Sreenivasan}}{{Bazot}
   et~al.}{2019}]{bazot_latitudinal_2019}
@@ -98,11 +113,6 @@ Barker A.~J.,  Jones C.~A.,   Tobias S.~M.,  2020, \mn@doi [Monthly Notices of
   {Hanasoge} S.,  {Nielsen} M.,  {Petit} P.,   {Sreenivasan} K.~R.,  2019,
   \mn@doi [Astronomy \& Astrophysics] {10.1051/0004-6361/201834594}, \href
   {https://ui.adsabs.harvard.edu/abs/2019A&A...623A.125B} {623, A125}
-
-\bibitem[\protect\citeauthoryear{Beck et~al.,}{Beck
-  et~al.}{2011}]{beck_kepler_2011}
-Beck P.~G.,  et~al., 2011, \mn@doi [Science] {10.1126/science.1201939}, 332,
-  205
 
 \bibitem[\protect\citeauthoryear{Beck et~al.,}{Beck
   et~al.}{2012}]{beck_fast_2012}
@@ -466,6 +476,11 @@ Hermes J.~J.,  et~al., 2017, \mn@doi [The Astrophysical Journal Supplement
 Hollerbach R.,  Teeluck V.,   Rudiger G.,  2010, \mn@doi [Physical Review
   Letters] {10.1103/PhysRevLett.104.044502}, 104, 044502
 
+\bibitem[\protect\citeauthoryear{Howell et~al.,}{Howell
+  et~al.}{2014}]{howell_k2_2014}
+Howell S.~B.,  et~al., 2014, \mn@doi [Publications of the Astronomical Society
+  of the Pacific] {10.1086/676406}, 126, 398
+
 \bibitem[\protect\citeauthoryear{Irwin, Hodgkin, Aigrain, Bouvier, Hebb  \&
   Moraux}{Irwin et~al.}{2008}]{irwin_monitor_2008}
 Irwin J.,  Hodgkin S.,  Aigrain S.,  Bouvier J.,  Hebb L.,   Moraux E.,  2008,
@@ -658,6 +673,11 @@ Mestel L.,  Spitzer Jr. L.,  1956, \mn@doi [Monthly Notices of the Royal
 Metcalfe T.~S.,  et~al., 2010, \mn@doi [The Astrophysical Journal]
   {10.1088/0004-637X/723/2/1583}, 723, 1583
 
+\bibitem[\protect\citeauthoryear{Miglio et~al.,}{Miglio
+  et~al.}{2021}]{miglio_haydn_2021}
+Miglio A.,  et~al., 2021, \mn@doi [Experimental Astronomy]
+  {10.1007/s10686-021-09711-1}, 51, 963
+
 \bibitem[\protect\citeauthoryear{Milne}{Milne}{1923}]{milne_equilibrium_1923}
 Milne E.~A.,  1923, \mn@doi [Monthly Notices of the Royal Astronomical Society]
   {10.1093/mnras/83.3.118}, 83, 118
@@ -731,6 +751,12 @@ Pinsonneault M.~H.,  Kawaler S.~D.,  Sofia S.,   Demarque P.,  1989, \mn@doi
 Pizzolato N.,  Maggio A.,  Micela G.,  Sciortino S.,   Ventura P.,  2003,
   \mn@doi [Astronomy and Astrophysics] {10.1051/0004-6361:20021560}, 397, 147
 
+\bibitem[\protect\citeauthoryear{{Rauer} et~al.,}{{Rauer}
+  et~al.}{2014}]{rauer_plato_2014}
+{Rauer} H.,  et~al., 2014, \mn@doi [Experimental Astronomy]
+  {10.1007/s10686-014-9383-4}, \href
+  {https://ui.adsabs.harvard.edu/abs/2014ExA....38..249R} {38, 249}
+
 \bibitem[\protect\citeauthoryear{Reinhold \& Hekker}{Reinhold \&
   Hekker}{2020}]{reinhold_stellar_2020}
 Reinhold T.,  Hekker S.,  2020, \mn@doi [Astronomy \& Astrophysics]
@@ -751,6 +777,11 @@ Reinhold T.,  Bell K.~J.,  Kuszlewicz J.,  Hekker S.,   Shapiro A.~I.,  2019,
 Reinhold T.,  Shapiro A.~I.,  Witzke V.,  N{\`e}mec N.-E.,  I{\c s}ık E.,
   Solanki S.~K.,  2021, \mn@doi [The Astrophysical Journal Letters]
   {10.3847/2041-8213/abde46}, 908, L21
+
+\bibitem[\protect\citeauthoryear{Ricker et~al.,}{Ricker
+  et~al.}{2014}]{ricker_transiting_2014}
+Ricker G.~R.,  et~al., 2014, \mn@doi [Journal of Astronomical Telescopes,
+  Instruments, and Systems] {10.1117/1.jatis.1.1.014003}, 1, 014003
 
 \bibitem[\protect\citeauthoryear{R{\"u}diger, Schultz, Stefani  \&
   Mond}{R{\"u}diger et~al.}{2015}]{rudiger_diffusive_2015}
@@ -865,6 +896,10 @@ Vaughan A.~H.,  Preston G.~W.,  1980, \mn@doi [Publications of the Astronomical
   Davis}{1967}]{weber_angular_1967}
 Weber E.~J.,  Davis Jr. L.,  1967, \mn@doi [The Astrophysical Journal]
   {10.1086/149138}, 148, 217
+
+\bibitem[\protect\citeauthoryear{{Wilson}}{{Wilson}}{1963}]{wilson_probable_1963}
+{Wilson} O.~C.,  1963, \mn@doi [Astrophysical Journal] {10.1086/147689}, \href
+  {https://ui.adsabs.harvard.edu/abs/1963ApJ...138..832W} {138, 832}
 
 \bibitem[\protect\citeauthoryear{Wilson \& Casey}{Wilson \&
   Casey}{2023}]{tanner_ss}

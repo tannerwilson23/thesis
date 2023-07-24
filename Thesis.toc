@@ -18,37 +18,43 @@
 \contentsline {chapter}{Symbols}{xx}{dummy.19}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.22}%
 \contentsline {section}{\numberline {1.1}History of observation of rotation}{2}{section.24}%
-\contentsline {section}{\numberline {1.2}Evolution of rotation}{5}{section.31}%
-\contentsline {subsection}{\numberline {1.2.1}Birth - Terminal age main sequence}{5}{subsection.32}%
-\contentsline {subsection}{\numberline {1.2.2}Post-main-sequence}{19}{subsection.43}%
-\contentsline {section}{\numberline {1.3}Effects of rotation}{31}{section.53}%
-\contentsline {subsection}{\numberline {1.3.1}Hydrostatic effects}{31}{subsection.54}%
-\contentsline {subsection}{\numberline {1.3.2}Increased mixing in stars}{32}{subsection.55}%
-\contentsline {subsubsection}{\numberline {1.3.2.1}Dynamical shear instability}{34}{subsubsection.59}%
-\contentsline {subsubsection}{\numberline {1.3.2.2}Solberg-H\o iland instability}{35}{subsubsection.61}%
-\contentsline {subsubsection}{\numberline {1.3.2.3}Secular shear instability}{36}{subsubsection.63}%
-\contentsline {subsubsection}{\numberline {1.3.2.4}Meridional circulation}{37}{subsubsection.66}%
-\contentsline {subsubsection}{\numberline {1.3.2.5}Goldreich-Shubert-Fricke instability}{39}{subsubsection.69}%
-\contentsline {subsection}{\numberline {1.3.3}Magneto-rotational instabilities}{40}{subsection.72}%
-\contentsline {subsubsection}{\numberline {1.3.3.1}Tayler instability and the Spruit Dynamo}{40}{subsubsection.73}%
-\contentsline {subsubsection}{\numberline {1.3.3.2}Azimuthal Magnetorotational instability}{41}{subsubsection.74}%
-\contentsline {subsection}{\numberline {1.3.4}Other angular momentum transport mechanisms}{42}{subsection.75}%
-\contentsline {subsection}{\numberline {1.3.5}Implementation of diffusive processes in models of rotating stellar evolution}{43}{subsection.76}%
-\contentsline {subsubsection}{\numberline {1.3.5.1}Transport of Angular momentum}{43}{subsubsection.77}%
-\contentsline {subsubsection}{\numberline {1.3.5.2}Transport of Elements}{44}{subsubsection.80}%
-\contentsline {subsection}{\numberline {1.3.6}Stellar Winds}{44}{subsection.82}%
-\contentsline {subsection}{\numberline {1.3.7}Summary - Effects of rotation on low-mass evolution}{48}{subsection.93}%
-\contentsline {subsubsection}{\numberline {1.3.7.1}Pre-main sequence}{48}{subsubsection.94}%
-\contentsline {subsubsection}{\numberline {1.3.7.2}Main sequence}{49}{subsubsection.96}%
-\contentsline {subsubsection}{\numberline {1.3.7.3}Post-main sequence}{50}{subsubsection.98}%
-\contentsline {section}{\numberline {1.4}Todo}{51}{section.99}%
-\contentsline {chapter}{\numberline {2}Constraining the Rotation Profile in a Low-Luminosity Subgiant with a Surface Rotation Measurement}{52}{chapter.100}%
-\contentsline {chapter}{\numberline {3}Stellar spots cause measurable variations in atmospheric metallicity}{62}{chapter.101}%
-\contentsline {chapter}{\numberline {4}The Intermediate Period Gap}{72}{chapter.102}%
-\contentsline {section}{\numberline {4.1}Introduction}{74}{section.104}%
-\contentsline {section}{\numberline {4.2}Stellar magnetic activity indicators}{78}{section.106}%
-\contentsline {section}{\numberline {4.3}The gap aligns with a minima in photometric variability}{81}{section.108}%
-\contentsline {section}{\numberline {4.4}The gap aligns with a minima in $\qopname \relax o{log}R^{+}_{\rm {HK}}$ }{88}{section.115}%
-\contentsline {section}{\numberline {4.5}Is there a sample of low-magnetic activity stars without rotational period detection?}{92}{section.118}%
-\contentsline {section}{\numberline {4.6}Latitudinal differential rotation}{98}{section.126}%
-\contentsline {section}{\numberline {4.7}Summary, Discussion, and Future Work}{106}{section.138}%
+\contentsline {section}{\numberline {1.2}Evolution of rotation}{5}{section.32}%
+\contentsline {subsection}{\numberline {1.2.1}Birth - Terminal age main sequence}{5}{subsection.33}%
+\contentsline {subsection}{\numberline {1.2.2}Post-main-sequence}{19}{subsection.44}%
+\contentsline {section}{\numberline {1.3}Effects of rotation}{31}{section.54}%
+\contentsline {subsection}{\numberline {1.3.1}Hydrostatic effects}{31}{subsection.55}%
+\contentsline {subsection}{\numberline {1.3.2}Increased mixing in stars}{33}{subsection.56}%
+\contentsline {subsubsection}{\numberline {1.3.2.1}Dynamical shear instability}{35}{subsubsection.60}%
+\contentsline {subsubsection}{\numberline {1.3.2.2}Solberg-H\o iland instability}{35}{subsubsection.62}%
+\contentsline {subsubsection}{\numberline {1.3.2.3}Secular shear instability}{36}{subsubsection.64}%
+\contentsline {subsubsection}{\numberline {1.3.2.4}Meridional circulation}{37}{subsubsection.67}%
+\contentsline {subsubsection}{\numberline {1.3.2.5}Goldreich-Shubert-Fricke instability}{39}{subsubsection.70}%
+\contentsline {subsection}{\numberline {1.3.3}Magneto-rotational instabilities}{40}{subsection.73}%
+\contentsline {subsubsection}{\numberline {1.3.3.1}Tayler instability and the Spruit Dynamo}{40}{subsubsection.74}%
+\contentsline {subsubsection}{\numberline {1.3.3.2}Azimuthal Magnetorotational instability}{41}{subsubsection.75}%
+\contentsline {subsection}{\numberline {1.3.4}Other angular momentum transport mechanisms}{42}{subsection.76}%
+\contentsline {subsection}{\numberline {1.3.5}Implementation of diffusive processes in models of rotating stellar evolution}{43}{subsection.77}%
+\contentsline {subsubsection}{\numberline {1.3.5.1}Transport of Angular momentum}{43}{subsubsection.78}%
+\contentsline {subsubsection}{\numberline {1.3.5.2}Transport of Elements}{44}{subsubsection.81}%
+\contentsline {subsection}{\numberline {1.3.6}Stellar Winds}{45}{subsection.83}%
+\contentsline {subsection}{\numberline {1.3.7}Summary - Effects of rotation on low-mass evolution}{48}{subsection.94}%
+\contentsline {subsubsection}{\numberline {1.3.7.1}Pre-main sequence}{48}{subsubsection.95}%
+\contentsline {subsubsection}{\numberline {1.3.7.2}Main sequence}{50}{subsubsection.97}%
+\contentsline {subsubsection}{\numberline {1.3.7.3}Post-main sequence}{51}{subsubsection.99}%
+\contentsline {section}{\numberline {1.4}Todo}{51}{section.100}%
+\contentsline {chapter}{\numberline {2}Constraining the Rotation Profile in a Low-Luminosity Subgiant with a Surface Rotation Measurement}{53}{chapter.101}%
+\contentsline {chapter}{\numberline {3}Stellar spots cause measurable variations in atmospheric metallicity}{63}{chapter.102}%
+\contentsline {chapter}{\numberline {4}The Intermediate Period Gap}{73}{chapter.103}%
+\contentsline {section}{\numberline {4.1}Introduction}{75}{section.105}%
+\contentsline {section}{\numberline {4.2}Stellar magnetic activity indicators}{79}{section.107}%
+\contentsline {section}{\numberline {4.3}The gap aligns with a minima in photometric variability}{82}{section.109}%
+\contentsline {section}{\numberline {4.4}The gap aligns with a minima in $\qopname \relax o{log}R^{+}_{\rm {HK}}$ }{89}{section.116}%
+\contentsline {section}{\numberline {4.5}Is there a sample of low-magnetic activity stars without rotational period detection?}{93}{section.119}%
+\contentsline {section}{\numberline {4.6}Latitudinal differential rotation}{99}{section.127}%
+\contentsline {section}{\numberline {4.7}Summary, Discussion, and Future Work}{107}{section.139}%
+\contentsline {chapter}{\numberline {5}Summary, Conclusions and Future Work}{116}{chapter.141}%
+\contentsline {section}{\numberline {5.1}Summary}{116}{section.142}%
+\contentsline {section}{\numberline {5.2}Conclusions}{117}{section.143}%
+\contentsline {section}{\numberline {5.3}Future Work}{119}{section.145}%
+\contentsline {subsection}{\numberline {5.3.1}Applications of our work}{119}{subsection.146}%
+\contentsline {subsection}{\numberline {5.3.2}The future of asteroseismology and observation of stellar rotation through photometric modulation}{122}{subsection.147}%

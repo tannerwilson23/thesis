@@ -1,13 +1,13 @@
 This is BibTeX, Version 0.99d (TeX Live 2022)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: Thesis.aux
-White space in argument---line 489 of file Thesis.aux
- : \citation{reinhold_stellar_2020,basri_double_2018
- :                                                   ,santos_surface_2021}
-I'm skipping whatever remains of this command
 The style file: mnras.bst
+Reallocated field_info (elt_size=4) to 10076 items from 5000.
 Database file #1: references.bib
+Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Warning--I didn't find a database entry for "reinhold_transition_2018"
+Warning--I didn't find a database entry for "aigrain_testing_2015"
+Warning--I didn't find a database entry for "claytor_recovery_2023"
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 "ArXiv e-prints" is a string literal, `journal' is a missing field
@@ -40,45 +40,45 @@ while executing---line 1822 of file mnras.bst
 while executing---line 1822 of file mnras.bst
 `series' is a missing field, not a string, for entry saar_starspots_2011
 while executing---line 1822 of file mnras.bst
-You've used 178 entries,
+You've used 185 entries,
             2881 wiz_defined-function locations,
-            2030 strings with 60273 characters,
-and the built_in function-call counts, 85120 in all, are:
-= -- 6800
-> -- 6498
-< -- 454
-+ -- 2842
-- -- 1013
-* -- 10257
-:= -- 13673
+            2084 strings with 68418 characters,
+and the built_in function-call counts, 87921 in all, are:
+= -- 7058
+> -- 6652
+< -- 466
++ -- 2924
+- -- 1021
+* -- 10621
+:= -- 14084
 add.period$ -- 0
-call.type$ -- 178
-change.case$ -- 356
-chr.to.int$ -- 176
-cite$ -- 180
-duplicate$ -- 4081
-empty$ -- 4085
-format.name$ -- 1567
-if$ -- 14678
+call.type$ -- 185
+change.case$ -- 370
+chr.to.int$ -- 183
+cite$ -- 187
+duplicate$ -- 4231
+empty$ -- 4241
+format.name$ -- 1601
+if$ -- 15159
 int.to.chr$ -- 3
 int.to.str$ -- 0
-missing$ -- 177
-newline$ -- 551
-num.names$ -- 1256
-pop$ -- 854
+missing$ -- 183
+newline$ -- 572
+num.names$ -- 1292
+pop$ -- 887
 preamble$ -- 1
-purify$ -- 712
+purify$ -- 740
 quote$ -- 0
-skip$ -- 2482
+skip$ -- 2569
 stack$ -- 0
-substring$ -- 4736
-swap$ -- 2052
-text.length$ -- 722
+substring$ -- 4926
+swap$ -- 2100
+text.length$ -- 750
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1590
+type$ -- 1653
 warning$ -- 2
-while$ -- 1350
+while$ -- 1396
 width$ -- 0
-write$ -- 1794
-(There were 13 error messages)
+write$ -- 1864
+(There were 12 error messages)

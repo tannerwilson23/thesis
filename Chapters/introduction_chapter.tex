@@ -64,10 +64,10 @@ Unlike the spectroscopic technique - where the inclination angle modulates the r
 
 Ground-based time-domain photometric surveys have yielded numerous rotation period measurements for stars in young clusters.
 However, the limited precision of the telescopes and low cadence of time-sampling achievable from the ground are insufficient to detect rotational modulation in older, less active stars.
-For many years, the Mount Wilson program monitored the emission in the cores of the Ca II H\& K lines for a large number of low-mass stars over a 20-year period (\citep{wilson}).
+For many years, the Mount Wilson program monitored the emission in the cores of the Ca II H\& K lines for a large number of low-mass stars over a 20-year period \citep{wilson_probable_1963}.
 The cadence of observations by this mission was on the order of days and resultingly became the main source of rotation period measurements for field stars.
-This changed with the advent of space-based photometric missions such as \corot, \kepler and \tess.
-These missions have collectively gathered sub-mMag precision photometry with short cadence observations (time scales between observations on the scale of minutes) over baselines from months to years, which have resulted in the largest high-precision catalogues of rotational periods of low-mass main-sequence stars available \citep{mcquillan_etc}.
+This changed with the advent of space-based photometric missions such as \corot \citep{baglin_corot_2003}, \kepler \citep{borucki_kepler_2010, howell_k2_2014} and \tess \citep{ricker_transiting_2014}.
+These missions have collectively gathered sub-mMag precision photometry with short cadence observations (time scales between observations on the scale of minutes) over baselines from months to years, which have resulted in the largest high-precision catalogues of rotational periods of low-mass main-sequence stars available \citep{mcquillan_rotation_2014}.
 
 Determining the rotation period of a star from stellar spots requires intermittent photometric measurements of stars - known as long-cadence observations - over the time scale of months. 
 On the other hand, measurements made on the order of minutes - known as short cadence observations - reveal the internal structure of stars.
@@ -363,16 +363,16 @@ Under the weakened magnetic braking model \citet{david_further_2022} suggest tha
 Below this mass regime, stars appear to continue to lose angular momentum through wind braking following the Skumanich relation.
 This results in stars with large rotational periods when they enter the post-main-sequence.
 
-
-\subsubsection{Latitudinal differential rotation}
-
-Another facet of differential rotation is latitudinal rotation.
-This is the observation that the rotation profiles of stars differentially rotate dependent on latitude.
-As we touched on earlier this was first discovered in the Sun, where the equator was found to be rotating with a period of 25 days at the equator and 38 days at its poles.
-The Sun is rotating equator-fast and therefore has a solar-like rotation profile.
-The inverse of this is stars that are rotating with equator-slow latitudinal differential rotation profiles, known as anti-solar-like rotation profiles.
-
-The latitudinal differential rotation of stars is difficult to measure.
+%\todo write me
+%\subsubsection{Latitudinal differential rotation}
+%
+%Another facet of differential rotation is latitudinal rotation.
+%This is the observation that the rotation profiles of stars differentially rotate dependent on latitude.
+%As we touched on earlier this was first discovered in the Sun, where the equator was found to be rotating with a period of 25 days at the equator and 38 days at its poles.
+%The Sun is rotating equator-fast and therefore has a solar-like rotation profile.
+%The inverse of this is stars that are rotating with equator-slow latitudinal differential rotation profiles, known as anti-solar-like rotation profiles.
+%
+%The latitudinal differential rotation of stars is difficult to measure and we will discuss the techniques adopted to measure differential rotation in more detail later in this 
 
 
 
@@ -1116,48 +1116,48 @@ Observation and identification of non-radial oscillation modes for red giants wi
 This highlights that rotation increases the size of the convective core and changes the chemical composition of the radiative zone.
 
 
-\section{How is rotation measured?}
-\label{sec:how_rot_measured}
-
-
-Rotation can be measured in a variety of ways.
-In this Section we will outline how those measurements are made and their advantages and disadvantages.
-
-\subsection{Periodic brightness variations due to stellar spots}
-\label{sec:periodic_brightness_meas}
-
-The rotational modulation of magnetically active regions on the surfaces of active stars produce quasi-periodic variations in the disk-integrated flux.
-These brightness variations can be used to measure rotation periods for these stars.
-The measurement of rotational periods of stars using these variations is therefore a signal-processing problem by which a number of techniques have been adopted.
-
-\subsubsection{Periodogram method}
-
-
-
-
-\subsubsection{Autocorrelation Function method}
-
-\subsubsection{Gaussian Processes recovery of rotation periods}
-
-
-\subsubsection{Deep learning recovery of rotation periods}
-
-
-\subsection{Differential rotation}
-Surface differential rotation can be inferred using a two different spectroscopic techniques. 
-The first technique is Doppler imaging (Vogt & Penrod 1983).
-The location of individual spots has varying effects on the spectral line profile.
-Provided a star is rotating at a sufficiently high rate, the distribution of stellar spots on the surface of a star can be estimated. (Collier Cameron, Donati & Semel 2002). 
-Then, time series Doppler images provide measurements of differential rotation to be measured.
-
-The second technique is the Fourier transform method (Reiners & Schmitt 2002). In the
-FT method, the Doppler shift at different latitudes due to rotation
-can be inferred from the FT of the line profiles. Note that the star
-does not need to have starspots for this method to be used, though
-the presence of starspots might affect the results. A spectrum with
-very high S/N and high resolution is required. The method is limited to stars with projected rotational velocities in excess of about
-20 km s−1, which is the case for stars below the rotational period gap The big advantage is that latitudinal differential rotation
-can be measured from a single exposure. 
+%\section{How is rotation measured?}
+%\label{sec:how_rot_measured}
+%
+%
+%Rotation can be measured in a variety of ways.
+%In this Section we will outline how those measurements are made and their advantages and disadvantages.
+%
+%\subsection{Periodic brightness variations due to stellar spots}
+%\label{sec:periodic_brightness_meas}
+%
+%The rotational modulation of magnetically active regions on the surfaces of active stars produce quasi-periodic variations in the disk-integrated flux.
+%These brightness variations can be used to measure rotation periods for these stars.
+%The measurement of rotational periods of stars using these variations is therefore a signal-processing problem by which a number of techniques have been adopted.
+%
+%\subsubsection{Periodogram method}
+%
+%
+%
+%
+%\subsubsection{Autocorrelation Function method}
+%
+%\subsubsection{Gaussian Processes recovery of rotation periods}
+%
+%
+%\subsubsection{Deep learning recovery of rotation periods}
+%
+%
+%\subsection{Differential rotation}
+%%Surface differential rotation can be inferred using a two different spectroscopic techniques. 
+%%The first technique is Doppler imaging (Vogt & Penrod 1983).
+%The location of individual spots has varying effects on the spectral line profile.
+%Provided a star is rotating at a sufficiently high rate, the distribution of stellar spots on the surface of a star can be estimated. (Collier Cameron, Donati & Semel 2002). 
+%Then, time series Doppler images provide measurements of differential rotation to be measured.
+%
+%The second technique is the Fourier transform method (Reiners & Schmitt 2002). In the
+%FT method, the Doppler shift at different latitudes due to rotation
+%can be inferred from the FT of the line profiles. Note that the star
+%does not need to have starspots for this method to be used, though
+%the presence of starspots might affect the results. A spectrum with
+%very high S/N and high resolution is required. The method is limited to stars with projected rotational velocities in excess of about
+%20 km s−1, which is the case for stars below the rotational period gap The big advantage is that latitudinal differential rotation
+%can be measured from a single exposure. 
 
 % 
 % \subsubsection{ACF}
