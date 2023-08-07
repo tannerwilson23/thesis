@@ -224,22 +224,22 @@
 \newcommand*{\DEPARTMENT}[1]{\def\DEPTNAME{#1}}
 \newcommand*{\subject}[1]{\def\subjectname{#1}}
 \newcommand*{\keywords}[1]{\def\keywordnames{#1}}
-\supervisor  {}
+\supervisor  {Andrew Casey}
 \examiner    {}
 \degree      {Doctor of Philosophy}
-\authors     {}
-\university  {\texorpdfstring{\href{University Web Site URL Here (include http://)}
+\authors     {Tanner Wilson}
+\university  {\texorpdfstring{\href{https://www.monash.edu/}
                 {Monash University}}
                 {Monash University}}
-\UNIVERSITY  {\texorpdfstring{\href{University Web Site URL Here (include http://)}
+\UNIVERSITY  {\texorpdfstring{\href{https://www.monash.edu/}
                 {Monash University}}
                 {Monash University}}
-\school  {\texorpdfstring{\href{School Web Site URL Here (include http://)}
-                {School of Information Technology}}
-                {School of Information Technology}}
-\SCHOOL  {\texorpdfstring{\href{School Web Site URL Here (include http://)}
-                {School of Information Technology}}
-                {School of Information Technology}}
+\school  {\texorpdfstring{\href{https://research.monash.edu/en/organisations/school-of-physics-and-astronomy}
+                {School of Physics and Astronomy}}
+                {School of Physics and Astronomy}}
+\SCHOOL  {\texorpdfstring{\href{https://research.monash.edu/en/organisations/school-of-physics-and-astronomy}
+                {School of Physics and Astronomy}}
+                {School of Physics and Astronomy}}
 \group       {\texorpdfstring{\href{Research Group Web Site URL Here (include http://)}
                 {Research Group Name}}
                 {Research Group Name}}

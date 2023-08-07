@@ -1,0 +1,724 @@
+%
+%
+%
+%
+%\subsubsection{Autocorrelation Function method}
+%
+%\subsubsection{Gaussian Processes recovery of rotation periods}
+%
+%
+%\subsubsection{Deep learning recovery of rotation periods}
+%
+%
+%\subsection{Differential rotation}
+%%Surface differential rotation can be inferred using a two different spectroscopic techniques. 
+%%The first technique is Doppler imaging (Vogt & Penrod 1983).
+%The location of individual spots has varying effects on the spectral line profile.
+%Provided a star is rotating at a sufficiently high rate, the distribution of stellar spots on the surface of a star can be estimated. (Collier Cameron, Donati & Semel 2002). 
+%Then, time series Doppler images provide measurements of differential rotation to be measured.
+%
+%The second technique is the Fourier transform method (Reiners & Schmitt 2002). In the
+%FT method, the Doppler shift at different latitudes due to rotation
+%can be inferred from the FT of the line profiles. Note that the star
+%does not need to have starspots for this method to be used, though
+%the presence of starspots might affect the results. A spectrum with
+%very high S/N and high resolution is required. The method is limited to stars with projected rotational velocities in excess of about
+%20 km s−1, which is the case for stars below the rotational period gap The big advantage is that latitudinal differential rotation
+%can be measured from a single exposure. 
+
+% 
+% \subsubsection{ACF}
+
+% \subsection{Spectroscopic rotational broadenings}
+
+% \subsection{Asteroseismology}
+% \label{sec:asteroseismology}
+
+% \subsection{Duvall Law Derivation}
+
+% Solar/stellar oscillations represent a discrete set of observations that are sensitive to its structure and rotation. This allows us to invert the structure of a star. With a solar model, differences between its mode frequencies and observation modes are weighted averages of the differences between the Sun's structure and that of the reference model; The frequency differences can then be used to infer those structural differences. Early inversions of the Sun's structure and rotation were made using inversions described by Duvall's law \citep{duvall_jr_frequencies_1988}.\\
+
+% Duvall's law is supplemented by analyses that linearise the full set of oscillation equations describing the stellar oscillations about a theoretical reference mode.
+% The $n,\ell,m$ rotational splitting is given by:
+%    \begin{equation}
+%     \delta_{n,\ell,m} (\Omega) = m \beta_{n,\ell} \int^R_0 K_{n,\ell}(r) \Omega(r) \,\text{d}r
+%     \label{eqn:splitting}
+% \end{equation}
+% where, $\delta_{n,\ell,m}$ is the $n,\ell,m$ rotational splitting of the star, $K_{n,\ell}$ is the rotational kernel of the $n,\ell$ mode (determined by the stellar model), $m$ describes the spherical harmonic order, $\Omega(r)$ is the 1D rotation profile along the radial axis and $\beta_{n,\ell}$ is a normalisation constant and $R$ is the outermost radius of the star. A more thorough interpretation of the effects of rotation \citep[See][]{aerts_asteroseismology_2010} ignores the asymptotic effects and follows the perturbation in both the horizontal and radial directions. They find a general form that is dependent on the latitudinal differential rotation.
+% In practice asteroseismic constraints to latitudinal differential rotation are limited to the Sun and some solar analogues \citep{bazot}. For the sake of brevity we will focus on only radial differential rotation in the derivation of rotational splittings.
+
+   
+% As a result of space-based observations from missions like \corot{} and \kepler{} , it is now possible to measure mode splittings of stars other than the Sun. However Duvall's analysis does not hold for mixed-mode oscillations and thus the generalised form is required to probe the core properties. Here we present a derivation of the asymptotic Duvall relation.
+
+% Can derive the asymptotic expression for the rotational splitting of p-mode frequencies very simply. Following the plane wave treatment.
+% Assume hydrostatic equilibrium and consider the equation of motion.
+% \todo{define div}
+% \begin{equation}
+%     \rho \frac{\partial \vec{v}}{\partial t} + \rho \vec{v} \ \cdot \ \nabla \vec{v} = \nabla p +\rho \vec{g}
+%     \label{eqn:eom}
+% \end{equation}
+% For now we will ignore the full equations of stellar hydrostatic equilibrium.\\
+% Now consider an Eulerian perturbation about the equilibrium state
+% \begin{equation}
+%     p(\vec{r},t) = p_0(\vec{r}) + p' (\vec{r},t)
+% \end{equation}
+% It can be convenient to use the Langrangian perturbation. In the reference frame following the motion: if an element of gas is moved from $\vec{r_0}$ to $\vec{r_0}$ + $\delta\vec{r}$ the change is pressure is given as:\\
+% \begin{equation}
+%     \delta p (\vec{r}) = p(\vec{r_0} + \delta \vec{r}) - p_0(\vec{r_0}) + \delta r \cdot \nabla p_0 - p_0(r_0)
+%      = p'(r_0) + \delta \vec{r} \cdot \nabla p_0 
+% \end{equation}
+% Note that the velocity is given by the time derivative of the displacement $\vec{\delta r}$,
+% \begin{equation}
+%     \vec{v} = \frac{\partial \vec{\delta r}}{\partial t}
+% \end{equation}
+% Equations for the perturbation are obtained by inserting these expressions into the full equations and neglect quantities of higher-order terms. The equation of motion becomes
+% \begin{equation}
+%     \rho_0 \frac{\partial^2 \delta\vec{r}}{\partial t^2} = \rho_0 \frac{\partial \vec{v}}{\partial t} = - \nabla p' + \rho_0 \vec{g}' + \rho ' \vec{g_0}
+% \end{equation}
+% Where, $\vec{g}' = -\nabla \Phi' (\Phi')$ satisfies the perturbed Possion's equation. And the continuity equation becomes 
+% \begin{equation}
+%     \frac{\partial \rho '}{\partial t} + \dive (\rho_0 \vec{v}) = 0
+%     \label{eom_int}
+% \end{equation}
+% or by integrating with respect to time
+% \begin{equation}
+%     \rho' + \dive (\roh \vec{\delta r}) = 0
+%     \label{eqn:ce}
+% \end{equation}
+% \subsubsection{Acoustic Waves}
+% As the simplest equilibrium situation, consider the spatially homogeneous case. All derivatives of equilibrium quantities vanish. Here all derivatives of equilibrium quantities vanish. According to the equation of motion: gravity must be negligible. Such a situation clearly cannot be realized exactly. Consider the case where the equilibrium structure varies slowly compared with the oscillations and this becomes a reasonable approximation. Also neglect the perturbation to the gravitational potential and assume adiabatic approximation:
+% \begin{equation}
+%     \delta p = \frac{\Gamma_{1,0} p_0}{\rho_0} \delta \rho
+% \end{equation}
+% Equation \ref{eqn:eom} gives:
+% \begin{equation}
+%     \rho_0 \frac{\partial^2 \delta\vec{r}}{\partial t^2} = -\nabla p'
+% \end{equation}
+% Or by taking the divergence:
+% \begin{equation}
+%     \rho_0 \frac{\partial ^2}{\partial t^2} (\dive \ \vec{\delta r}) = - \nabla^2 p'
+%     \label{eqn:3.43}
+% \end{equation}
+% div \vec{$\delta$ r} can be eliminated using the continuity equation \ref{eqn:ce}, and $p$' can be expressed in terms of $\rho$' using the adiabatic relation:
+% \begin{equation}
+%     \frac{\partial^2 \rho}{\partial t^2} = \frac{\Gamma_{1,0} p_0}{\rho_0} \nabla^2 \rho' = c_0^2 \nable^2 \rho'
+%     \label{eqn:relation}
+% \end{equation}
+% Where
+% \begin{equation}
+%     c_0^2 = \frac{\Gamma_{1,0} p_0}{\rho_0}
+% \end{equation}
+% Is the sound speed. This equation has the form of the wave equation and has solutions in the form of plane waves:
+% \begin{equation}
+%     \rho' = a \exp [i (\vec{k} \cdot \vec{r} - \omega t)]
+% \end{equation}
+% By substituting this into \ref{eqn:relation} we obtain:
+% \begin{equation}
+%     -\omega^2 \rho' = c_0^2 \dive (i \vec{k} \rho ') = -c_0^2 \vert \vec{k} \vert ^2 \rho'
+% \end{equation}
+% This is a solution provided $\omega$ satisfies the dispersion relation
+% \begin{equation}
+%     \omega^2 = c_0^2 \vert \vec{k} \vert ^2
+%     \label{eqn:nondisp}
+% \end{equation}
+
+% \subsubsection{The effect of rotation}
+
+% We need to reconsider the derivation of the perturbation equations and include the effects of a velocity field. Assume that the equillibrium structure is stationary so all time derivatives vanish. Even with this assumption the determination of the equilibrium structure is non-trivial, owing to distortion caused by the velocity fields (e.g.
+% due to centrifugal effects in a rotating star). However if we assume that the velocity $\vec{v_0}$ in the equilibrium state is sufficiently slow that terms quadratic in $\vec{v_0}$ can be neglected. The continuity equation \ref{eqn:ce} gives, because of the assumed stationarity:
+% \begin{equation}
+%     \dive (\rho_0 \vec{v_0}) = 0
+%     \label{eqn:assum}
+% \end{equation}
+
+% Also the equation of motion (\ref{eqn:eom}) reduces to:
+% \begin{equation}
+%     0= -\nabla p_0 + \rho_0 \vec{g}_0
+% \end{equation}
+% Equation of hydrostatic support is unchanged.
+% The velocity at a given point in space can be written:
+% \begin{equation}
+%     \vec{v} = \vec{v_0} + \vec{v}'
+% \end{equation}
+% Where $\vec{v}$ is the Eulerian velocity perturbation. The displacement $\vec{\delta r}$ is determined relative to the moving equillibrium fluid; related to the velocity perturbation by:
+% \begin{equation}
+%     \frac{\der \vec{\delta r}}{\der t} = \vec{\delta v} = \vec{v}' + (\delta r \cdot \nabla) \vec{v_0}
+%     \label{eqn:8.6}
+% \end{equation}
+% Where $\vec{v}$ is the Lagrangian velocity perturbation and d/dt is the material time derivative. Furthermore:
+% \begin{equation}
+%     \frac{\der \vec{\delta r}}{\der t} = \frac{\partial \vec{\delta r}}{\partial t} + (\vec{v} \cdot \nabla) \delta r
+%     \label{eqn:8.7}
+% \end{equation}
+% Using both of these equations the perturbed continuity equation can be written
+% \begin{equation}
+%     0 = \frac{\partial \rho ' }{\partial t} + \dive (\rho' \vec{v_0} + \rho_0 \vec{v'})
+% \end{equation}
+% \begin{equation}
+%     0 = \frac{\partial}{\partial t} [\rho' + \dive (\rho_0 \delta r)] + \dive [\rho' \vec{v_0} + \rho_0 [ (\vec{v_0} \cdot \nabla)\vec{\delta r} - (\delta r \cdot \nabla)\vec{v_0}]]
+% \end{equation}
+% After some massaging, using \ref{eqn:assum} this can be reduced to:
+% \begin{equation}
+%     \frac{\partial A}{\partial t} + \dive (A \vec{v_0}) = 0
+% \end{equation}
+% Where
+% \begin{equation}
+%     A = \rho' + \dive (\rho_0 \vec{\delta r})
+% \end{equation}
+% This may also be written using Equation \ref{eqn:assum}
+% \begin{equation}
+%     \rho_0 \frac{\der}{\der t} \left(\frac{A}{\rho_0}\right) =0
+% \end{equation}
+% From which we can conclude that A = 0 and as such Equation \ref{eom_int} holds. This may now be written from Equation \ref{eqn:8.6}:
+% \begin{equation}
+%     \rho_0 \frac{\der \vec{\delta r}}{\der t} = - \nabla p' + \rho \vec{g}' + \rho' \vec{g_0}
+% \end{equation}
+% Or using Equation \ref{eqn:8.7}:
+% \begin{equation}
+%     \rho_0 \frac{\partial ^2 \vec{\delta r}}{\partial t^2} + 2 \rho_0 (\vec{v_0} \cdot \nabla) \left( \frac{\partial \vec{\delta r}}{\partial t}\right) = - \nabla p' + \rho_0 \vec{g}' + \rho' \vec{g_0}
+% \end{equation}
+% which replaces Equation \ref{eqn:3.43}. As the equilibrium structure is independent of time we may still separate the time dependence as an oscillatory term ($\exp (-i \omega t)$). Using solutions of this form the equations of motion become:
+% \begin{equation}
+%     - \omega^2 \rho_0 \vec{\delta r} - 2 i \omega \rho_0 (\vec{v_0} \cdot \nabla) \vec{\delta r} = -\nabla p' + \rho_0 \vec{g'} + \rho' \vec{g_0}
+% \end{equation}
+% Where the first term on the LHS corresponds to the Coriolis force and is neglected in this work. Using the acoustic wave approximations as before we obtain the dispersion relation for a plane sound wave as:
+% \begin{equation}
+%     \omega^2  c^2 \vert \vec{k} \vert^2 + 2 m \omega \Omega
+%     \label{eqn:disp}
+% \end{equation}
+% This is treated as a perturbation to the Duvall relation.
+% \subsubsection{The Duvall relation}
+% One of the most important results of asymptotic analysis is the Duvall relation \citep{duvall_jr_frequencies_1988} from analysis of observed frequencies of solar oscillation. Starting with the dispersion relation for a plane sound wave, neglecting self-gravity, in a slowly rotating star. First consider the non-rotating case. Take Equation \ref{eqn:nondisp} as our dispersion relation and writing $\vert \vec{k}\vert^2 = k_r^2 + k_h^2$. Where $k_h$ is the length of the horizontal component of the wave vector and $k_r$ is the radial component. For a wave corresponding to a mode oscillation, $k_h$ is given by:
+% \begin{equation}
+%     \frac{\ell (\ell +1)}{r^2} = k_h^2
+% \end{equation}
+% Dropping subscripts on equilibrium quantities $k_r^2$ can be written 
+% \begin{equation}
+%     k_r^2 = \frac{\omega^2}{c^2} - \frac{L^2}{r^2}
+% \end{equation}
+% Where $L^2 = \ell (\ell + 1)$. The condition for a standing wave is roughly that:
+% \begin{equation}
+%     \int ^R _{r_{t}} k_r \der r = n \pi
+%     \label{eqn:standing}
+% \end{equation}
+% Where $r_{t}$ is the inner turning point of the oscillation mode. A more careful analysis shows that $n$ should be replaced with $n+\alpha$ where $\alpha$ takes care of the behaviour near the lower turning point $r_{t}$ and at the surface. We can combine these into the Duvall relation:
+% \begin{equation}
+%     \int ^R _{r_{t}} \left( 1 - \frac{L^2}{\omega^2} \frac{c^2}{r^2} \right)^{1/2} \frac{\der r}{c} = \frac{(n + \alpha \pi)}{\omega}
+% \end{equation}
+% \subsubsection{Effect of a perturbation on acoustic-mode frequencies}
+% Variations on the Duvall law from small perturbation reflect more general expressions. These perturbations can come in the form of changes to gravitational potential, changes in model/sound speed and rotation. Starting with the dispersion relation for a plane sound wave, with the addition of some \textbf{radial} perturbation $\delta_r a(r)$:
+% \begin{equation}
+%     \omega^2 = c^2 \vert \vec{k}\vert^2 + \delta_r a(r)
+% \end{equation}
+% Following the same analysis as above $k_r^2$ can be written as:
+% \begin{equation}
+%     k_r = \left(\frac{\omega^2}{c^2} - \frac{L^2}{r^2} - \frac{1}{c^2} \delta_r a\right)^{1/2}
+% \end{equation}
+% Expanding this and taking first order terms
+% \begin{equation}
+%     k_r \simeq \frac{\omega}{c} \left[ \left(1-\frac{L^2 c^2}{\omega^2 r^2}\right)^{1/2} - \frac{1}{2\omega^2} \left(1 - \frac{L^2 c^2}{\omega^2 r^2}\right)^{-1/2} \delta_r a \right]
+% \end{equation}
+% Substituting this into Equation \ref{eqn:standing}, using the $\alpha$ term to correct for boundary effects, we obtain \begin{equation}
+% \frac{(n+\alpha) \pi}{\omega} \simeq \int^R _{r_t}   \left( 1 - \frac{L^2 c^2}{\omega^2 r^2}\right)^{1/2} \frac{\der r}{c} - \frac{1}{2 \omega^2} \int^R _{r_t}  \left(1 - \frac{L^2 c^2}{\omega^2 r^2}\right)^{-1/2} \delta_r a \frac{\der r}{c}
+% \end{equation}
+% If we neglect the term in $\delta_r a $ we retain the Duvall law. This reflects a perturbation on the Duvall law.
+% We can now find the effect on the oscillation frequencies of the perturbation. Assume that the result is to change the frequency from $\omega$ to $\omega + \delta \omega$. $\alpha$ here is generally a function of $\omega$ by multiplying the perturbed Duvall law by $\omega$ and  perturbing is we obtain:
+% \begin{align}
+% \pi \frac{\der \alpha}{\der \omega} \delta \omega &= \delta \omega \int^R _{r_t}  \left( 1 - \frac{L^2 c^2}{\omega^2 r^2}\right)^{1/2} \frac{\der r}{c} + \omega \int^R _{r_t}  \left( 1- \frac{L^2 c^2}{\omga^2 r^2}\right)^{-1/2} \frac{L^2 c^2}{\omega^2 r^2} \frac{\delta \omega}{\omega}\frac{\der r}{c}\\
+% &-\frac{1}{2 \omega} \int^R_{r_t}  \left( 1 - \frac{L^2 c^2}{\omega^2 r^2} \right)^{-1/2} \delta_r a \frac{\der r}{c}
+% \label{eqn:modifiedduvall}
+% \end{align}
+% From this we obtain the generalised expression:
+% \begin{equation}
+%     S \frac{\delta \omega}{\omega} \simeq \frac{1}{2 \omega^2} \int^R _{r_t}  \left(1 - \frac{L^2 c^2}{\omega^2 r^2}\right)^{-1/2} \delta_r a \frac{\der r}{c}
+% \end{equation}
+% where
+% \begin{equation}
+%     S = \int^R _{r_t}  \left( 1 - \frac{L^2 c^2}{\omega^2 r^2}\right)^{-1/2} \frac{\der r}{c} - \pi \frac{\der \alpha}{\der \omega}
+% \end{equation}
+
+% \subsubsection{Effect of rotation on the Duvall relation}
+% Assume a radial rotation profile and that is is small the modified rotation Duvall relation can be written:
+% \begin{equation}
+%     \pi \frac{n+\alpha}{\omega} = \int^R_{r_t} \left(1 - \frac{L^2 c^2}{\omega^2 r^2}\right)^{1/2} \frac{\der r}{c} - \frac{m}{\omega} \int^R_{r_t}  \left(1 - \frac{L^2 c^2}{\omega^2 r^2}\right)^{-1/2} \Omega(r) \frac{\der r}{c}
+% \end{equation}
+% Furthermore the rotational splitting can be described by the following
+% \begin{equation}
+%     S \delta \omega \simeq m \int^R _{r_t} \left(1 - \frac{L^2 c^2}{\omega^2 r^2}\right)^{-1/2} \Omega(r) \frac{\der r}{c}
+%     \label{eqn:final}
+% \end{equation}
+% \subsubsection{Inverting the Duvall relation}
+% Given Equation \ref{eqn:final} it is straight forward to consider $(1 - L^2c^2/r^2\omega^2)$ as a Kernel like (weighting) term. Inverting the stellar rotation profile from here requires either forward modelling or an inversion technique such as optimised local averages, regularised least square or forward modelling to obtain the rotation profile.\\
+% For higher-order p modes Equation \ref{eqn:final} can be further simplified and $(1 - L^2c^2/r^2\omega^2)$ can be crudely approximated by 1. The rotational splitting relation be written:
+% \begin{equation}
+%     \delta_{n,\ell,m} \simeq m \frac{\int^R _{r_t}\Omega (r)\frac{\der r}{c}}{\int^R _{r_t}\frac{\der r}{c}}
+% \end{equation}
+% This is dependent on the model/structure of the star but is straight forward to forward model and obtain the stellar structure. The inversion is dependent on the observed modes and thus the evolutionary state of the star.
+
+
+% \subsection{Average core and surface rotation rates}
+
+%  Inverting a stellar rotation profile given measured rotational splittings is an ill-posed problem. 
+%  State-of-the-art methods involve the use of linear inversion techniques. Examples of these methods include regularised least squares \citep[RLS;][]{christensen-dalsgaard_comparison_1990}, which has proven successful for the case of the Sun, and Optimally Localised Averages \citep[OLA;][]{pijpers_faster_1992,pijpers_sola_1994},
+% which has also been used to accurately infer the core and surface rotation rates of stars other than the Sun. 
+% Both methods rely on having a good best-fitting model to describe the sensitivity of modes to rotation at different radii. The sensitivity of rotational splittings to differing parts of a star is shown by the rotation kernels. Observational uncertainties enter any given inversion technique both from the asteroseismic rotational splittings and constraints on the stellar model. The oscillation frequencies and spectroscopic constraints underpin these uncertainties; the uncertainty in the constraints is due to the precision of the stellar model and thus the rotational kernels.\\
+
+% OLA inversions are limited by the fact that they rely on extremely low resolution rotation profiles. Often only two measured points are available. This is a necessary condition as OLA becomes numerically unstable with increased resolution, yet is insufficient to describe the rotational gradient throughout a star.
+% RLS inversions differ in that they are able to provide a mean rotational profile of a star owing to the rotational splitting. 
+% However, between the well-constrained core and surface rotation rates, the mean rotational profile is limited by the regularising smoothing constant. 
+% RLS can only inform the mean rotational profile according to this smoothing parameter and the inferred core and surface rotational rates are dependent on this regularisation.
+%  Further constraints on the method of increased angular momentum transport post main-sequence could be implied through higher resolution inversions of the rotational profile.
+
+
+% \subsection{OLA}
+% \subsubsection{MOLA}
+% \subsubsection{SOLA}
+
+
+
+
+
+% \bibliography{references}
+%
+%
+%\section{Effects of rotation}
+%\label{sec:effects}
+%
+%Within the previous Section, we discussed the evolution of rotation from birth to remnants of evolution.
+%While we now have an understanding of this evolution, we still need to clarify the effects of rotation on stellar evolution.
+%
+%\subsection{Hydrostatic effects}
+%
+%The effects of rotation on stellar evolution are varied and complex.
+%In general, the hydrostatic effects of rotation have only minimal effects on the internal evolution of stars \citep{kippenhahn_rotation_1970,maeder_evolution_2000}.
+%Especially the low-mass, slowly rotating stars we consider in this work.
+%In this Section, we review how some of these effects are treated in current models of stellar evolution, the resulting changes to stellar evolution brought about by these effects and their observable consequences.
+%We will begin by discussing the effects of stellar rotation on hydrostatic equilibrium.
+%
+%
+%As a star rotates, its equilibrium configuration deviates from the non-rotating hydrostatic equilibrium due to centrifugal forces. 
+%Rotation-induced centrifugal forces induce deviations from spherical symmetry.
+%Only if the rotation energy of a star approaches a significant fraction of the gravitational potential energy will observable triaxial deformation occurs.
+%Low-mass stars usually rotate slowly, so these effects are rarely seen.
+%
+%The four equations of stellar structure need to account for this change to the equilibrium configuration.
+%\citet{kippenhahn_simple_1970} devised the method to account for this where a conservative potential exists.
+%In this method, they replace the notion of spherical stratification of non-rotating stars with a rotationally deformed shellular stratification where the structural variables - e.g. pressure ($P$), density ($\rho$), temperature ($T$), chemical abundances - are constant on an equipotential.
+%The equipotential in this prescription is defined as 
+%$\Psi = \Phi + \frac{1}{2}\Omega^2 r^2 \sin^2 \theta$, the non-rotating gravitational potential modulated by the centrifugal force, where $Phi$ is the gravitational potential, $\theta$ the latitude relative to the rotational axis and $\Omega$ the angular rotation rate.
+%This method applies only when a conservative potential exists, i.e. when the angular velocity distribution is cylindrically symmetric \citep{tassoul_theory_1978}.
+%The internal rotation generally evolves towards rotation laws that are non-conservative.
+%For example, \citet{zahn_circulation_1992} suggests that turbulence is anisotropic, with a stronger transport horizontally than vertically. 
+%This results in a constant rotation rate on isobars and does not fall into the conservative case.
+%\citet{maeder_diffusive_1996} revise \citet{kippenhahn_circulation_1974}'s method and prescribe a consistent description of shellular rotation on isobars which is valid for slow rotation.
+%On these isobars, the non-rotating stellar variables and angular momentum are constant. 
+%This allows models of rotating stellar evolution to be kept one-dimensional.
+%
+%The equations of stellar structure are mainly affected by rotation through a few key concepts.
+%Centrifugal forces reduce effective gravity for all points in the star that are not on the axis of rotation.
+%The centrifugal forces vary with radial distance and latitude, resulting in equipotentials closer together along the rotational axis than the equatorial axis.
+%Radiative flux varies with local effective gravity \citep{von_zeipel_radiative_1924}.
+%This results in gravitational darkening \citep{von_zeipel_radiative_1924, kippenhahn_rotational_1977} - stars are higher temperature and have larger temperature and radiation flux along the rotational axis compared to the equatorial axis.
+%Gravity darkening of slowly rotating stars (rotation rates much slower than the break-up velocity like those considered in this work) is very small - $<<$0.1\% variation in luminosity and temperature across their surfaces.
+%Stars close to critical rotation rate should be treated with care \citep{kippenhahn_rotational_1977,maeder_stellar_1999,heger_presupernova_2000}.
+%
+%\subsection{Increased mixing in stars}
+%
+%Rotation can extend the mixing regions in stars - allowing mixing between the radiative core and convective envelope - and increase the mixing efficiency through meridional circulation and rotational instabilities.
+%
+%For convenience, throughout the following Section, we make use of the following gradients:
+%\begin{equation}
+%    \nabla_{\textnormal{ad}} := \left(\frac{\partial \ln T}{\partial \ln P}\right)_{\textnormal{ad}}, \ \  \nabla_{\mu} := \frac{\der \ln \mu}{ \der \ln P}, \ \ \nabla := \frac{\der \ln T}{\der \ln P}
+%\end{equation}
+%\begin{equation}
+%    \delta := -\left(\frac{\partial\ln \rho}{\partial \ln T}\right)_{\mu,P}, \ \  \varphi := \left(\frac{\partial \ln \rho}{\partial \ln \mu}\right)_{P,T},
+%\end{equation}
+%where $\mu$ is the mean molecular weight at a given position in a star. The subscript "ad" refers to the gradient if we adiabatically transported a fluid element along a path.
+%$\nabla$ is simply the temperature gradient relative to the pressure gradient, $\nabla_{\textnormal{ad}}$ is our temperature gradient relative to the pressure gradient along an adiabat, that is, the temperature gradient that arises from adiabatically transporting fluid elements along $P$, $\nabla_{\mu}$ is the composition gradient with relative to the changing pressure, $\delta$ is the density gradient relative to the temperature along paths of constant $\mu$ and $P$ and $\varphi$ is the density gradient relative to the mean molecular weight along paths of constant $P$ and $T$.
+%
+%In non-rotating stars, mixing can be simplified by whether a region in a star is convective, semi-convective, radiative or undergoing thermohaline mixing \citep[These concepts will not be discussed at length in this work. See][ for good overviews of these concepts.]{maeder_evolution_2000,tassoul_stellar_2000}
+%Convective regions are well mixed and have no chemical gradients, as convection acts on local dynamical time scales, while radiative regions are not well mixed and are generally chemically stratified.
+%Semi-convective regions are thermally unstable regions stabilised against convection by a gradient in composition.
+%Thermohaline mixing arises when an unstable gradient in composition (mean molecular weight) is only partially stabilised by thermal stability.
+%Semi-convection and thermohaline mixing act on longer time scales than convection; their effective diffusion coefficient is smaller.
+%The conditions required for semi-convection and thermohaline mixing are well discussed in the works referenced above.
+%Here we will focus on convective and radiative regions for simplicity.
+%Whether a region is convective or radiative is defined by whether the Brunt-V\"{a}is\"{a}l\"{a} frequency, the characteristic oscillation frequency of a displaced particle of fluid in a stratified density medium is positive or negative.
+%\begin{equation}
+%    N^2 = \frac{g \delta}{H_\textnormal{P}}\left(\nabla_{\textnormal{ad}} - \nabla + \frac{\varphi}{\delta} \nabla_{\mu}\right), 
+%\end{equation}
+%where $H_P$ is the local pressure scale height ( $H_{P
+%} = \frac{P}{\rho g}$ in hydrostatic equillibrium, where $P$ is local pressure, $\rho$ is local density and $g$ local effective gravity).
+%Rotation can overcome the pressure, density and mean molecular weight gradients to push mixing into previously stable regions through rotational instabilities.
+%
+%When we discuss the Brunt-V\"{a}is\"{a}l\"{a} frequency, it is worth thinking of the characteristic oscillations of mass parcels.
+%When the Brunt-V\"{a}is\"{a}l\"{a} frequency is negative, the oscillations grow exponentially, leading to enhanced mixing.
+%The mixing process is treated as essentially instantaneous in models.
+%When it is positive, the oscillations are bounded, and mixing does not occur.
+%On the other hand, when the Brunt-V\"{a}is\"{a}l\"{a} frequency is negative but very close to zero, the oscillations grow slower than in the case of convection.
+%While some instabilities act on dynamical time scales, we do not treat diffusion due to instabilities as if they were convective.
+%In that way, we separate the effect of instabilities by their contribution to the total effective diffusion at every point in a star.
+%
+%Here we will briefly discuss a non-exhaustive list of rotational instabilities and how they impact the mixing of stars.
+%Most of these instabilities are not expected to arise during the low-mass ($<$8$M_{sol}$) main-sequence evolution due to the small angular momentum gradients of main-sequence stars, as discussed in the previous Section.
+%However, they are influential during evolutionary periods where strong rotational gradients arise: during the post-main-sequence or core envelope decoupling as suggested in some models of young-main sequence evolution \citep{heger_presupernova_2000}.
+%
+%
+%We separate the instabilities by the timescale. 
+%They act upon dynamic and secular instabilities.
+%We expect secular instabilities to act on during the main sequence when rotational gradients are small and evolutionary times scales are long.
+%On the other hand, strong rotational gradients arise during the post-main-sequence.
+%Dynamical instabilities also act on shorter timescales than evolutionary timescales in the post-main-sequence
+%As a result, dynamical instabilities are mainly expected to play a role during the post-main-sequence.
+%
+%\subsubsection{Dynamical shear instability}
+%
+%The dynamical shear instability arises when the energy that can be gained from a shear flow (a rotational gradient) is comparable to the work that must be done to displace a mass element adiabatically. 
+%This means the instability is inhibited by density gradients but is very effective along isobars \citep{endal_evolution_1978,pinsonneault_evolutionary_1989,heger_presupernova_1998}, supporting the shellular isobaric representation of rotation in stellar models.
+%
+%The condition for stability is dependent on the local rotational gradient modulating the Brunt-V\"{a}is\"{a}l\"{a} frequency:
+%\begin{equation}
+%    Ri = \frac{g \delta}{H_P}\left(\nabla_{\textnormal{ad}} - \nabla + \frac{\varphi}{\delta}\nabla_{\mu}\right)\left(g \frac{d \ln r}{d \Omega}\right)^2 > Ri_C,
+%    \label{eqn:richoooo}
+%\end{equation}
+%where $\omega$ is the angular rotation rate and $Ri_C$ is the critical Richardson number = 1/4 \citep{zahn_rotational_1974}. 
+%The region is considered stable if $Ri>Ri_C$, and the diffusion coefficient is 0.
+%When unstable, the diffusion coefficient is proportional to the extent to which the rotational gradient overcomes the chemical and temperature gradients, $Ri/Ri_C$, the spatial extent of the unstable region, and the local dynamical timescale.
+%
+%\subsubsection{Solberg-H\o iland instability}
+%
+%The Solberg-H\o iland instability occurs when introducing the centrifugal force to the net force on an adiabatically displaced mass element overcomes the thermal and chemical gradient stabilities.
+%The condition for stability is given by:
+%\begin{equation}
+%    R_{SH} = \frac{g \delta}{H_P}\left[ \nabla_{ad} - \nabla + \frac{\varphi}{\delta} \nabla_{\mu} \right] + \frac{1}{r^3}\frac{\der}{\der r}\left(r^2\Omega\right)^2\geq 0,
+%\end{equation}
+%The second term in the equation accounts for the introduction of rotation, where the specific angular momentum ($j$) is $r^2\Omega$ \citep{tassoul_theory_1978,kippenhahn_stellar_1990,heger_presupernova_2000}. 
+%Under no rotation (or no angular momentum gradient), we recover the Brunt-V\"{a}is\"{a}l\"{a} frequency.
+%
+%For the Solberg-H\o iland instability to occur, the second term in the equation must be negative and, therefore, only occurs in regions of decreasing angular momentum (a negative rotation gradient with respect to radius).
+%The diffusion coefficient associated with this instability increases with $R_{SH}$ - the more the angular momentum gradient overcomes the thermal stability, the greater the mixing effect -the spatial extent of the unstable region, the local dynamical timescale.
+%
+%\subsubsection{Secular shear instability}
+%
+%When thermal dissipation is significant, the restoring force of buoyancy is reduced, and the strict criteria for the dynamical shear instability to act can be relaxed.
+%Due to this process requiring thermal dissipation, it operates on the relatively slower (secular) thermal-time scale, hence its name.
+%
+%\citet{endal_evolution_1978} suggest two stability conditions against secular shear instability. The first is a modulation to the thermal stability component of the Brunt-V\"{a}is\"{a}l\"{a} frequency by a product of the Reynolds number - a dimensionless fluid flow number - and Prandtl number ($P_E$):
+%\begin{equation}
+%    R_{is,1} = P_E \frac{g \delta}{H_P}\left(\nabla_{\textnormal{ad}} - \nabla \right)\left(g \frac{\der \ln r}{\der \Omega}\right)^2 > Ri_C,
+%    \label{eq:ssi1}
+%\end{equation}
+%where $P_E = \frac{P_r R_{e,c}}{8}$. $R_{e,c}$ is the critical Reynolds number of the flow of material, and $Pr$ is the Prandtl number, the ratio of the thermal diffusion timescale to the angular momentum diffusion timescale \citep[See][and references therein for a more thorough explanation of these quantities and their implementation in models of stellar rotation]{tassoul_theory_1978,heger_presupernova_1998}.
+%
+%The second condition is the mean molecular weight component of the dynamical shear instability, which is not affected by the relaxation of thermal adjustment
+%\begin{equation}
+%    R_{is,2} = \nabla_{\mu} \frac{g \varphi}{H_P}\left(g \frac{\der \ln r}{\der \Omega}\right)^2 > Ri_C.
+%\end{equation}
+%The need for the inclusion of this term is debated, however.
+%
+%\citet{endal_evolution_1978} suggest that the diffusion coefficient scales with the characteristic velocity of the secular shear instability, the characteristic scale height - the combination of which provides the characteristic timescale - and either $R_{is,1}$ and $R_{is,2}$ whichever violates the criteria more.
+%
+%Many works have shown that the molecular gradient inhibits mixing by up two orders of magnitude than observations suggest.
+%Those who include the term include a factor on $\nabla_{\mu}$ of order $<$0.05 to account for this \citep{charbonnel_lithium_1994,heger_presupernova_2000}.
+%
+%\citet{maeder_stellar_1997} argues that the regions where molecular gradients are strong enough to inhibit mixing from the secular shear instability, near the core, are generally semi-convective and experience some mixing/turbulence already.
+%They suggest that in a semi-convection region (or in any zone with other sources of turbulence), some fraction of the local energy excess in the shear is degraded by turbulence to change the local entropy gradient. 
+%They hypothesise that this turbulence will affect the shear energy and molecular gradient and calculate a diffusion coefficient under this assumption. 
+%They find that the diffusion coefficient is consistent with the semi-convective diffusion coefficient when turbulence overcomes the shear and towards $K/R_{is,1}$ when semi-convection is negligible \citep[Consistent with the results of][]{zahn_circulation_1992}.
+%\citet{talon_anisotropic_1997}, on the other hand, account for the mixing effect of horizontal diffusion from semi-convection on the restoring force produced by the molecular gradient, which reduces its stabilising effect.
+%Both works result in the diffusion of elements consistent with observations without adding new factors.
+%
+%
+%
+%\subsubsection{Meridional circulation}
+%Meridional circulation \citep{eddington_circulating_1925} arises from gravity darkening.
+%Excess flux along the rotational axis heats material more than along the equator.
+%This drives the large-scale circulation of material from the pole to the equator.
+%This results in angular momentum transport and chemical transport.
+%Early theoretical considerations of meridional circulation were not physically consistent.
+%They predict inverse circulation (from the equator to the axis of rotation) close to the surface, and they did not conserve angular momentum \citep{sweet_importance_1950, mestel_rotation_1953, mestel_star_1956, kippenhahn_stellar_1990}.
+%
+%Meridional circulation can be treated differently for the transport of elements and the transport of angular momentum.
+%\citet{endal_evolution_1978} derived a
+%In this prescription, the diffusion coefficient scales with the Eddington-Sweet velocity and the extent of the region where the process is in effect \citep[See][]{kippenhahn_circulation_1974, endal_evolution_1978,heger_presupernova_2000}.
+%
+%On the other hand, \citet{zahn_circulation_1992} determined that energy conservation, gravity and angular momentum much be calculated simultaneously for a self-consistent and physically possible solution to be found.
+%\citet{chaboyer_effect_1992} showed that if the horizontal component of turbulence is large, the effects of meridional circulation on the transport of elements is equivalent to a diffusion process with diffusion coefficient $D_{\text{mr}}$.
+%\begin{equation}
+%    D_{\text{mr}} = \frac{\left| r U(r)\right|^2}{30 D_h}
+%    \label{eq:mr_d}
+%\end{equation}
+%$D_h$ is the coefficient of horizontal turbulence, $U(r)$ is the vertical component of the meridional circulation velocity, and $r$ is the radius at which the components are calculated.
+%While diffusion from horizontal turbulence is required for meridional circulation to be treated as a diffusive process, it is also inhibited.
+%
+%Measurements of the Lithium-7 abundance in the sun support this prescription.
+%The difference between the derived diffusion coefficients from \citet{kippenhahn_circulation_1974,endal_evolution_1978, heger_presupernova_2000} and \citet{chaboyer_effect_1992} prescriptions is approximately a factor of 30 scaling.
+%\citet{pinsonneault_evolutionary_1989} found that a scaling of 0.046 ($\sim$ 1/30) of the \citet{kippenhahn_circulation_1974} diffusion coefficient is required to reproduce the observed Lithium-7 abundances.
+%Indeed the two prescriptions are appropriate with sufficient scaling.
+%
+%Prescriptions for horizontal diffusivity ($D_h$) are lacking in physical motivation.
+%\citet{zahn_circulation_1992} suggests  $\left|rU(r)\right|$ is an adequate prescription.
+%\citet{maeder_stellar_2003} derived an expression with respect to energy considerations, while \citet{mathis_transport_2004} adapted a prescription from laboratory experiments.
+%\citet{mathis_anisotropic_2018} suggest that the anisotropy of turbulent transport scales as  $N^4\tau^2/(2\omega^2)$ , where $N$ and $\omega$ are the Brunt-V\"{a}is\"{a}l\"{a} and rotation frequencies and $\tau$ the time scale characterising the source of the turbulence.  
+%Their results all generally agree though this does not suggest that they are the correct formalisation of horizontal diffusion.
+%
+%Angular momentum transport by meridional circulation can be treated as an advective or diffusive process.
+%Consider the path of a fluid element along a meridional eddy.
+%Meridional circulation describes a rise of material along the rotational axis, descending at the equator.
+%This results in the transport of angular momentum \textit{against} the angular momentum gradient.
+%On the other hand, implementing angular momentum transport as a wholely diffusive process is numerically simpler \citep{endal_evolution_1978,pinsonneault_evolutionary_1989,heger_presupernova_2000}.
+%The two implementations may deviate in regions where meridional circulation dominates.
+%The two implementations obtain similar results along the main-sequence \citep{talon_anisotropic_1997,heger_presupernova_2000} where the evolutionary timescale is long enough for meridional circulation to be impactful.
+%
+%\citet{zahn_circulation_1992} derived the radial component of the velocity of meridional circulation ($U(r)$) under the effects of thermal and molecular weight gradients.
+%\begin{equation}
+%    U(r) = \frac{1}{H_P C_P T \left[ \nabla_{\text{ad}} - \nabla + \left( \varphi / \delta \right)\nabla_{\mu}\right]} \left( \frac{L}{M} \left(E_{\Omega} + E_{\mu}\right) \right),
+%    \label{eq:mr_u}
+%\end{equation}
+%where $C_P$ is the specific heat and $E_{\Omega}$ and $E_{\mu}$ are terms dependent on up to the third order derivatives of the rotational distribution and molecular mass distribution \citep[See][]{maeder_stellar_1998}.
+%This prescription for meridional circulation resolves the inverse circulation of earlier prescriptions and conserves angular momentum.
+%
+%% Meridional circulation acts on the circularisation timescale:
+%% \begin{equation}
+%%     t_{\text{circ}} \simeq \frac{R}{U}
+%% \end{equation}
+%% where $R$ and $U$ are characteristic radii of circulation and characteristic circulation velocity timescales, respectively.
+%% The circularisation time scale is on the order of the secular (thermal) timescales discussed in relevance to the secular instabilities.
+%
+%
+%
+%\subsubsection{Goldreich-Shubert-Fricke instability}
+%
+%The Goldreich-Shubert-Fricke (GSF) instability arises when a fluid is unstable to axisymmetric displacements \citep{goldreich_differential_1967,fricke_rotation_1967}.
+%Stars tend to be inviscid, $P_R$ $<<$ 1.
+%Under this assumption \citet{kippenhahn_rotation_1970} derives two conditions for stability.
+%The first is the secular analogue of the Solberg-H\o iland condition for stability under the assumption that the stability from the temperature gradient is removed by thermal conduction
+%\begin{equation}
+%    \frac{\partial j}{\partial r} \geq 0.
+%\end{equation}
+%The second is an analogue to the Taylor-Proudman theorem for slowly rotating incompressible fluid \citet{kippenhahn_circulation_1974,tassoul_theory_1978, heger_presupernova_2000}.
+%\begin{equation}
+%    \frac{\partial \Omega}{\partial z} = 0,
+%\end{equation}
+%where $z$ is the distance along the rotational axis.
+%Fluids are well mixed along equipotentials.
+%As discussed concerning the Von-Zeipal effect, equipotentials are closer along the rotational axis.
+%Along an equipotential, if the rotation rate gradient is non-zero, then fluid will be mixed along said equipotential until the rotation profile is conservative.
+%Stability favours uniform rotation on equipotentials, which is incompatible with shellular rotation except under solid-body rotation.
+%The GSF instability, therefore, tends to enforce uniform rotation on thermal timescales \citep{endal_evolution_1978}.
+%
+%The GSF instability demands mixing from meridional circulation and thus, like meridional circulation, acts on the circularisation timescale.
+%
+%\subsection{Magneto-rotational instabilities}
+%\label{sec:magneto_rotational_instabilities}
+%
+%The role of magneto-rotational instabilities in the rotation of stars is debated.
+%In this Section, we will discuss the theory behind a few of these instabilities and their effects in reference to the post-main-sequence rotational evolution.
+%
+%Models of post-main-sequence rotational evolution with magnetorotational angular momentum transport suggest that the rotational profile of stars that have undergone significant angular momentum transport track include a strong rotational gradient following the H-burning shell \citep{fuller_slowing_2019,moyano_asteroseismology_2022}.
+%
+%\subsubsection{Tayler instability and the Spruit Dynamo}
+%
+%The Tayler instability arises from the interaction between rotation and magnetic fields in a conducting fluid. 
+%If the magnetic field is aligned with the rotation axis, the Coriolis force tends to twist the field lines into a helical shape.
+%This can lead to a buildup of tension in the field lines, which can trigger a series of instabilities that amplify the magnetic field.
+%The end result is a complex pattern of magnetic fields that can drive large-scale flows in the fluid.
+%
+%The Spruit dynamo, on the other hand, arises from the interaction between rotation and shear flows in a rotating fluid \citep{spruit_dynamo_2002}.
+%A radial gradient in the rotation rate can generate a shearing motion that can stretch and amplify the magnetic field lines.
+%This process can lead to the buildup of magnetic energy and the generation of large-scale magnetic fields.
+%
+%Combining these two mechanisms can lead to forming a self-sustaining magnetic dynamo in rotating stars \citep{spruit_differential_1999}. The Tayler instability can amplify the magnetic field on small scales, while the Spruit dynamo can amplify the magnetic field on large scales. The resulting magnetic fields can drive large-scale flows in the fluid, which in turn can modify the rotation rate and generate new instabilities \citep{fuller_asteroseismology_2015,fuller_slowing_2019}
+%
+%The instability could be effective even if the initial field strength is small \citep{spruit_why_1998}.
+%Unfortunately, little is known about the initial field's strength and the efficiency of instabilities in amplifying the magnetic field.
+%\citet{fuller_slowing_2019} suggests that the Tayler-Spruit instability could play a role in the post-main-sequence angular momentum transport problem discussed in Section \ref{sec:evolution}.
+%
+%\subsubsection{Azimuthal Magnetorotational instability}
+%
+%The azimuthal magnetorotational instability (AMRI) is a type of instability that can arise in rotating, magnetised plasmas \citep{hollerbach_non-axisymmetric_2010}. 
+%It is a variation of the more well-known magnetorotational instability (MRI), which occurs when a weak magnetic field is present in a rotating fluid or plasma.
+%
+%The AMRI occurs when the magnetic field is not aligned with the rotation axis but is instead perpendicular to it. 
+%This can happen in astrophysical systems where the magnetic field is generated by a dynamo mechanism or is inherited from the system's initial conditions.
+%In such cases, the AMRI can become the dominant instability, driving large-scale fluid motions and enhancing the transport of angular momentum \citep{mishra_convective_2021,moyano_asteroseismology_2022}.
+%
+%The basic idea behind the AMRI is that the magnetic field can act as a free energy source that fluid motions can tap. 
+%If the magnetic field is perpendicular to the rotation axis, it can introduce a new length scale into the system, leading to a wider range of unstable modes. 
+%This can result in the growth of perturbations not present in the MRI, leading to more complex dynamics.
+%
+%The AMRI's strength depends on a star's internal degree of differential rotation.
+%\citet{moyano_asteroseismology_2022} has discussed the role of the AMRI in relation to the post-main-sequence angular momentum transport problem.
+%They suggest that a consistent prescription of the AMRI dependent on the degree of internal differential rotation could explain the observed core and surface rotation rates of subgiants and red giants that have not reached the red giant bump.
+%
+%\subsection{Other angular momentum transport mechanisms}
+%
+%Here we describe other angular momentum transport mechanisms that are not instabilities but may play a role in the evolution of stellar rotation.
+% 
+%One of these mechanisms is angular momentum transport by internal gravity waves (IGWs) \citep{pantillon_angular_2007, kim_angular_2000,talon_hydrodynamical_2005, charbonnel_deep_2008}
+%IGWs are internal propagation waves that can carry angular momentum from the core to the surface of stars.
+%
+%Buoyancy forces in a stratified fluid drive internal gravity waves. 
+%In a rotating fluid, these waves can become distorted by the Coriolis force, leading to the angular momentum transfer between different fluid layers. The wave motion can induce a net angular momentum flux, leading to changes in the rotation rate \citep{zahn_differential_1975}.
+%
+%One key aspect of this theory is the identification of the so-called "critical layers", which are regions where the wave frequency matches the local rotation frequency. These layers can lead to a resonance between the wave and the rotation, leading to enhanced transport of angular momentum \citep{charbonnel_influence_2005}.
+%
+%The characteristic rotation profile that would suggest IGWs are at play is a strong rotational gradient tracking the H-burning shell \citep{balbus_stability_1994, menou_magnetorotational_2006}.
+%
+%Another mechanism that may play a role in post-main-sequence angular momentum transport is the transport of material by mixed modes \citep{belkacem_angular_2015}.
+%Comparative to the main sequence, post-main sequence stars express mixed modes when only pressure (p) waves propagate in the surface (convective) region.
+%Mixed modes are gravity (g) modes that are usually constrained to the radiative core that have coupled with p modes.
+%
+%\citet{belkacem_angular_2015} suggests this process can extract angular momentum from the core of subgiants and red giants.
+%
+%The efficiency of this angular momentum transport mechanism grows with the radial differential rotation gradient within stars and is thus strongest for red giants.
+%Their results of this work suggest that while this mechanism may be at play, it is not strong enough to account for the observed core and surface rotation rates of subgiants.
+%
+%\subsection{Implementation of diffusive processes in models of rotating stellar evolution}
+%
+%\subsubsection{Transport of Angular momentum}
+%
+%Angular momentum is transported by convection, mixing by instabilities and meridional circulation.
+%The equation for the transport of angular momentum between shells, as an advective process, is
+%\begin{equation}
+%    \rho \frac{\text{d}}{\text{dt}}\left(r^2 \Omega \left( r \right)\right)_{M_r} = \frac{1}{5r^2}\frac{\partial}{\partial r}\left(\rho r^4 \Omega \left( r \right)
+% \ U\left(r\right)\right) + \frac{1}{r^2}\frac{\partial}{\partial r} \left(\rho \left( D_{\text{tot}}\right) r^4 \frac{\partial \Omega\left( r \right)}{\partial r}\right),
+% \label{eq:amt}
+%\end{equation}
+%where subscript $M_r$ is the mass coordinate at a radius ($r$), $rho$ is the local density, $U(r)$ is given by Equation \ref{eq:mr_u}, $r^2\omega$ is the angular momentum, and $D_{\text{tot}}$ is the sum of the diffusion coefficients from the various diffusion processes discussed in the previous Section. The factor of 1/5 comes from the integration with respect to latitude \citep{zahn_circulation_1992,maeder_stellar_1998,maeder_evolution_2000,eggenberger_geneva_2008}.
+%
+%The first term on the right-hand side accounts for angular momentum transport by meridional circulation. 
+%The second accounts for the transport of angular momentum by mixing processes.
+%If meridional circulation is treated as a diffusive process then the first term is lost and the sum of the diffusion coefficients gains a meridional circulation term from Equation \ref{eq:mr_d}.
+%
+%Equation \ref{eq:amt} is subject to the boundary conditions at a star's core and surface.
+%The core is subject to the boundary condition that $\frac{\partial \omega}{\partial r}$ = 0 \citep{talon_anisotropic_1997,denissenkov_angular_2010}.
+%The surface boundary condition can be treated in several ways.
+%One way is to treat the boundary condition the same as the core, where no angular momentum is lost from the surface.
+%On the other hand, the surface can be treated as an angular momentum sink.
+%Mass loss by winds and the coupling of the mass loss to the magnetic field transport angular momentum away from the surface of a star.
+%In the latter scenario
+%\begin{equation}
+%    \rho \frac{\text{d}}{\text{dt}}\left(r^2 \Omega \left( r \right)\right)_{\text{surf.}} = \Dot{j}_{\text{winds}}.
+%\end{equation}
+%
+%The rotation profile of a star is not chosen.
+%Generally speaking, the initial condition is a flat rotation profile at the zero-age-main-sequence, which can evolve with time due to angular momentum transport by meridional circulation, diffusive processes, and contraction or expansion.
+%These processes' rotation profile changes are then accounted for by the angular momentum transport mechanisms - which are dependent on the rotation profile.
+%As a result, a self-consistent solution for the evolution of the rotation profile is created.
+%
+%\subsubsection{Transport of Elements}
+%
+%Unlike angular momentum transport, the transport of elements can be treated as a diffusive process \citep{endal_evolution_1978,heger_presupernova_2000}
+%
+%Under this assumption, change is mass fraction $X_i$ of chemical species $i$ is
+%\begin{equation}
+%    \left(\frac{\der X_i}{\der t}\right)_{M_r} = \left(\frac{\partial}{\partial M_r}\right)_t \left[ \left(4\pi r^2 \rho \right)^2 D_{chem} \left(\frac{\partial X_i}{\partial M_r}\right)_t\right] + \left(\frac{\der X_i }  { \der t}\right)_{nuc},
+%\end{equation}
+%where subscripts denote where each component is calculated, $M_r$ is the mass coordinate at a radius ($r$), $rho$ is the local density, $D_{chem}$ is the total mixing coefficient from turbulent diffusion processes and the effective diffusion coefficient from meridional circulation ($D_{chem} = D_{tot} + D_{MR}$). 
+%
+%The first term reflects the mixing of elements, and the second accounts for the change in elemental abundances from nuclear reactions.
+%
+%\subsection{Stellar Winds}
+%
+%Mass loss can significantly affect the evolution of stars, especially in massive stars.
+%Rotation enhances the loss of mass through stellar winds of stars.
+%% Early prescription of mass loss of rotating stars was based on observations of O and B (massive) stars by de Jager et al. (1988) and Lamers & Cassinelli (1996). 
+%% Vardya (1985) discovered a significant increase in mass flux for OB stars with rotation by a factor of 2-3 orders of magnitude. 
+%% However, Nieuwenhuijzen & de Jager (1988) suggested that this correlation is mainly due to the distribution of mass loss rates (M˙) and rotation velocities (vrot) over the HR diagram. 
+%% They found that the M˙ rates increase only slightly with rotation for O- and B-type stars after considering the effects of L, Teff, and vrot. 
+%% Although Vardya's result may not be incorrect, Nieuwenhuijzen & de Jager's (1988) data for OB stars show a noticeable correlation between mass flux and vrot. These authors also noted that the equatorial M˙ rates of Be stars are 10$^2$ times larger than those of regular B stars with fast rotation. Therefore, a unified description of the large changes in M˙ rates from low to high vrot values should be considered for both regular B stars and Be stars.
+%\citet{friend_theory_1986, langer_evolution_1991, heger_presupernova_1998} suggest that the mass loss rate of rotating stars scales with rotation rate according to
+%\begin{equation}
+%    \Dot{M}(\Omega) := \Dot{M}(\Omega = 0) \left( \frac{1}{1- \nu_{\text{frac}}}\right)^{\xi},
+%\end{equation}
+%where $\xi \approx$ 0.43,
+%\begin{equation}
+%    \nu_{\text{frac}} := \frac{\nu}{\nu_{\text{crit}}},
+%\end{equation}
+%is the ratio of the equatorial surface rotation rate to the critical (break-up) rotation rate
+%\begin{equation}
+%    \nu_{\text{crit}}^2 := \frac{G m}{r} \left(1 - \Gamma\right),
+%\end{equation}
+%for a body with mass $m$ at radius $r$. $G$ is the gravitational constant and 
+%\begin{equation}
+%    \Gamma := \frac{\kappa L}{4 \pi c G m},
+%\end{equation}
+%is the Eddington factor where $\kappa$ is the opacity, $L$ is the luminosity of the object, and $c$ is the speed of light.
+%
+%Under this prescription, the effect of rotation on mass loss for low-mass and slowly rotating stars is negligible and requires a separate prescription for mass loss without rotation.
+%
+%Massive stars (>1.3 M$_{\odot}$) do not have convective surfaces.
+%A convective surface is required for a strong surface magnetic dynamo.
+%The stellar winds of massive stars do not, therefore, coupled with a magnetic field and the angular momentum loss by stellar winds is simply
+%\begin{equation}
+%    \Dot{J} = \Dot{M} j_{\text{surf}} = \Dot{M} \Omega(R) R^2,
+%    \label{eqn:jdot}
+%\end{equation}
+%where $j_{\text{surf}}$ is the specific surface angular momentum, $\Omega(R)$ is the rotation rate at the surface of the star, and $R$ is the surface radius.
+%
+%Stars with convective surfaces do have a surface magnetic dynamo.
+%Surface angular momentum loss must be treated with slightly more care.
+%\citet{parker_dynamics_1958,schatzman_theory_1962} recognised that a rotating magnetised star that loses mass through ionised winds will lose more angular momentum through winds than a non-magnetised star.
+%The enhanced spin-down results from the material in the wind having a larger specific angular momentum than the material in the star.
+%This is because of the angular momentum contained in the stresses of the magnetic field \cite{weber_angular_1967}. 
+%As the ionised wind propagates from the surface of the star, the angular momentum held in the magnetic field is transferred to the gas, removing angular momentum from the system.
+%
+%One could also consider this process relative to Equation \ref{eqn:jdot}.
+%Within that model, the specific angular momentum of the wind at the equator is $\Omega(R) R^2$.
+%In the presence of a magnetic field, the wind torque is equivalent to what it would be if the material along the equator was held in corotation with the surface of the star to the Alfv'en radius, $R_A$, and then released. 
+%In this case, the angular momentum per unit mass lost in the wind in the equatorial plane is $\Omega R_A^2$.
+%$R_A>R$, and as a result, angular momentum loss is enhanced.
+%
+%
+%The rate of a star's loss of angular momentum depends on several factors, including the magnetic field, wind mass loss rate, mass and radius of the star, and angular velocity. 
+%There are difficulties in relating wind torque to these factors, and many models have used a formula by Kawaler that has limitations. A more realistic formula was proposed by \citep{matt_magnetic_2012}, based on 2D magnetohydrodynamic wind models that solve Alfvén surface self-consistently. 
+%% Creating rotational evolution models using these torque formulae is tricky and requires knowledge of various factors. To explain the fast spin-down of young rapidly rotating stars, higher magnetic field strengths and mass loss rates are needed, and the wind torque must depend on Ω³. 
+%% However, a weaker dependence is required above a certain threshold for the slow spin-down of the most rapidly rotating stars. This threshold is lower for low-mass stars. This threshold is due to the saturation of wind mass loss rates and magnetic field strengths at high rotation rates.
+%
+%In the absence of internal angular momentum transport the spin-down rate of a star is given by
+%\begin{equation}
+%    \frac{\der \Omega}{\der t} = \frac{1}{I} \left(\tau_w - \frac{\der I}{\der t} \Omega\right),
+%\end{equation}
+%where $I$ is the moment of inertia of a star, $\tau_w = \der J/ \der t$ is the torque on the star by the stellar wind and $J$ is the star's angular momentum.
+%
+%\citet{matt_magnetic_2012} prescribe the torque by winds based upon the 2D magnetohydrodynamic simulations.
+%They find that the torque is related to the mass ($M$), radius ($R$), equatorial surface rotation rate ($\Omega$), equatorial magnetic dipole field strength ($B_{\text{dip}}$) and mass loss rate ($\Dot{M}$) of a star as
+%\begin{equation}
+%    \tau = K_1 ^2 B_{\text{dip}}^{4m} \Dot{M}^{1-2m} R^{4m+2} \frac{\Omega}{\left(K_2 ^2 \nu_{\text{esc}} ^2 + \Omega^2 R^2\right)^m},
+%    \label{eqn:torque}
+%\end{equation}
+%where $K_1 = 1.3$, $K_2 = 0.0506$, and $m = 0.21777$ are tuned parameters obtained in their work, and $\nu_{\text{esc}}$ is the surface escape velocity ($\nu_{\text{esc}} = \sqrt{2GM/R}$).
+%
+%\citet{johnstone_stellar_2015} suggest that the dipole magnetic field strength and mass loss rate can be highly uncertain and are not well constrained by observations.
+%They introduce a free parameter scaling to $\tau$ by setting
+%\begin{equation}
+%    \tau_w = K_{\tau}\tau.
+%\end{equation}
+%They found that $K_{\tau} = 11$ was required to match observations of the spin-down of the sun.
+%
+%The use of Equation \ref{eqn:torque} requires a prescription of the mass loss rate and equatorial dipole magnetic field strength.
+%\citet{matt_magnetic_2012, gallet_improved_2013, johnstone_stellar_2015} suggest that the mass loss and magnetic field strength must saturate below a certain Rossby number ($Ro$) = 0.1.
+%Observations of other magnetic activity indicators support this: coronal emission \citep{pizzolato_stellar_2003, wright_stellar-activity-rotation_2011,nunez_factory_2022} as well
+%as chromospheric diagnostics \citep{soderblom_rotation_1993,fang_stellar_2018, fritzewski_detailed_2021}.
+%
+%They argue that the wind torque's dependence on rotation rate in the saturated regime must be weaker than in the unsaturated regime.
+%They tune their angular momentum loss to open cluster rotation distribution measurements in the unsaturated regime.
+%They find mass loss increases with increased rotation rate and decreases with mass: $\Dot{M} \propto \Omega^{1.33} M^{-3.36}$.
+%In the saturated regime $\Dot{M}$ scales with mass and takes the value of $\Dot{M}$ at the saturating $\Omega$.
+%They also assume that $B_{\text{dip}}$ scales with the Rossby number and find that, in the unsaturated regime, $B_{\text{dip}} \propto \left(\Omega \tau_{\text{conv}}\right)^{1.32}$, where $\tau_{\text{conv}}$ is the convective turnover timescale which varies with mass.
+%In the saturated regime, the dipole field strength remains at the strength at the saturating $\Omega$.
+%
+%Under these assumptions, and assuming $R \propto M^{0.8}$ then the mass dependence in the unsaturated regime disappears, and the wind torque is prescribed relative to solar wind torque by
+%\begin{equation}
+%    \tau_{\text{w}} = \tau_{\text{w},\odot} \left(\frac {\Omega}{\Omega_{\odot}} \right)^{2.89},
+%\end{equation}
+%where $\tau_{\text{w},\odot} = -7.15 \times 10^{30}$ erg $s^-1$ is the current solar wind torque.
+%In the saturated regime, the mass dependence remains and is prescribed as
+%\begin{equation}
+%    \tau_{\text{w}} = \tau_{\text{w},\odot} 15^{1.89} \left(\frac{\Omega}{\Omega_{\odot}} \right) \left( \frac{M}{M_{\odot}} \right)^{4.42}.
+%\end{equation}
+%Under these prescriptions, and a constant internal angular momentum transport from the core to the surface, this prescription qualitatively agrees with the rotational distributions of young clusters.
+%The wind dependence decreases for unsaturated, slower rotating, older stars, and the rotational rate evolution is consistent with the observed Skumanich relation \citep{skumanich_time_1972}.
+%That being said, our understanding of the evolution of stellar winds on the main sequence is still being determined, primarily because of limited knowledge about stellar winds and the wide range of rotation rates observed at young ages.
+%Without strong prescriptions of stellar winds, comparing observations with internal angular momentum transport models lose their informative value.

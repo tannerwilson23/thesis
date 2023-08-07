@@ -1,3 +1,4 @@
+\let\cleardoublepage=\clearpage
 
 \chapter{Constraining the Rotation Profile in a Low-Luminosity Subgiant with a Surface Rotation Measurement}
 \label{chap:subgiant_ast}
@@ -10,13 +11,156 @@ This chapter was originally published as:
 \begin{quote}
 	\citet{tanner_ast}
 \end{quote}
-and is presented in the form that it was published in.
+and is presented in the form that it was published \update{in accordance with Monash University's thesis by submission guidelines.}
 
 
-\newpage
+%add figures and captions for the figure and table lists. but hide them.
+
+\includepdf[pages =1, pagecommand={}, scale=0.9,offset=65 -50,fitpaper=true]{Chapters/stad771-TW-subgiant.pdf}
+
+\includepdf[pages =2, pagecommand={}, scale=0.9,offset=65 -50,fitpaper=true]{Chapters/stad771-TW-subgiant.pdf}
 
 
-\includepdf[pages =-, pagecommand={}, scale=0.9,offset=70 -50]{Chapters/stad771-TW-subgiant.pdf}
+\includepdf[pages =3, scale=0.9,offset=65 -45, pagecommand={ 
+\begin{figure}
+    \resizebox{!}{0cm}{\begin{minipage}{\textwidth}
+    \includegraphics[width=\textwidth]{Figures/subgiant_chapter_figures/staradif.png}
+    \caption[Rotational kernels for the best-fitting model of KIC 12508433.]{}
+    \end{minipage}}
+\end{figure}
+\begin{figure}
+\resizebox{!}{0cm}{\begin{minipage}{\textwidth}
+    \includegraphics[width=0.5\textwidth]{Figures/subgiant_chapter_figures/rots.png}
+    \caption[Three rotation profiles used in the mock data experiments.]{}
+    \label{fig:5rotprof}
+        \end{minipage}}
+\end{figure}
+\begin{table}
+ \resizebox{!}{0cm}{\begin{minipage}{\textwidth}
+% \begin{tabular}{|l|c|c|}
+% \hline
+%                                                  & \thestar{} & Model                  \\ \hline
+%$M\,(M_{\odot}$)                                   & $1.20~\pm~0.16$             & $1.293$              \\
+%$R\,(R_{\odot})$                                   & $2.20~\pm~0.10$             & $2.277$             \\
+%$L\,(L_{\odot}$)                                   & $3.25~\pm~0.45$             & $4.065$ \\
+%$\log{g}(\ \mathrm{cm} \mathrm{s}^{-2})$                                      & $3.83~\pm~0.04$             & $3.834$ \\
+%$T_{\mathrm{eff,spec}}\,(\mathrm{K})$ & $5248~\pm~130$              & $5434$     \\
+%$[\mathrm{Fe/H}]$ (dex)                                & $0.25~\pm~ 0.23$            & $0.06$ \\
+%\hline
+%\end{tabular}
+\caption[Measured properties and best-fit stellar model parameters of KIC 12508433.]{}
+\label{tab:kictab}
+    \end{minipage}}
+\end{table}
+}]{Chapters/stad771-TW-subgiant.pdf}
+
+\includepdf[pages =4, pagecommand={}, scale=0.9,offset=65 -50,fitpaper=true]{Chapters/stad771-TW-subgiant.pdf}
+
+\includepdf[pages =5, pagecommand={
+\begin{figure}
+\centering
+\resizebox{!}{0cm}{\begin{minipage}{\textwidth}
+    \includegraphics[width=0.95\textwidth]{Figures/subgiant_chapter_figures/combined_results.png}
+    \caption[Normalised posterior density following sampling for each \textit{mock} rotational splitting experiment.]{} 
+            \end{minipage}}
+\end{figure}}, scale=0.9,offset=65 -50,fitpaper=true]{Chapters/stad771-TW-subgiant.pdf}
+
+
+\includepdf[pages =6, pagecommand={
+\begin{figure}
+\centering
+\resizebox{!}{0cm}{\begin{minipage}{\textwidth}
+    \includegraphics[width=0.5\textwidth]{Figures/subgiant_chapter_figures/12_corner.png}
+    \caption[Posterior distributions of the core rotation rate $\Omega_c$, the surface rotation rate $\Omega_s$, and the discontinuity position $p$ given the observed $l=\{1,2\}$ rotational splittings of KIC 12508433 and assuming a rotation profile with a step function.]{}
+    \label{fig:kic-corner}
+                \end{minipage}}
+\end{figure}
+\begin{figure}
+\resizebox{!}{0cm}{\begin{minipage}{\textwidth}
+    \includegraphics[width=0.5\textwidth]{Figures/subgiant_chapter_figures/22_corner.png}
+    \caption[Posteriors on step profile parameters given the rotational splittings of KIC 12508433 and informed prior on surface rotation rate from \citep{garcia_rotation_2014}.]{}
+                    \end{minipage}}
+\end{figure}
+\begin{table}
+ \resizebox{!}{0cm}{\begin{minipage}{\textwidth}
+%\begin{tabular}{|c|c|c|c|}
+%\hline
+%                                     & $\Omega_c/2\pi$ (nHz)                         & $\Omega_s/2\pi$ (nHz)                        & $p$ ($r/R$)                                              \\ \hline
+%\citet{deheuvels_seismic_2014} (OLA)             & $532\pm79$                                    & $213\pm26$                                   & …                                                 \\ \hline
+%Sampling - Flat $\Omega_s$ Prior     & $524${\raisebox{0.5ex}{\tiny$^{+36}_{-34}$}}  & $141${\raisebox{0.5ex}{\tiny$^{+51}_{-79}$}}  & $0.45${\raisebox{0.5ex}{\tiny$^{+0.22}_{-0.26}$}} \\ \hline
+%Sampling - Informed $\Omega_s$ Prior & $525${\raisebox{0.5ex}{\tiny$^{+39}_{-35}$}} & $175${\raisebox{0.5ex}{\tiny$^{+19}_{-21}$}} & $0.29${\raisebox{0.5ex}{\tiny$^{+0.13}_{-0.12}$}} \\ \hline
+%\end{tabular}%
+\caption[Best-fitting rotation profile parameters given observed $\ell = 1$ and $2$ rotational splittings of KIC 12508433 from optimally localised averages (OLA) \citep{deheuvels_seismic_2014} and forward modelling with flat and informed ($\Omega_s/2\pi = 172 \pm 21$ nHz) priors.]{}
+    \end{minipage}}
+\end{table}}, scale=0.9,offset=65 -50,fitpaper=true]{Chapters/stad771-TW-subgiant.pdf}
+
+
+\includepdf[pages =7, pagecommand={}, scale=0.9,offset=65 -50]{Chapters/stad771-TW-subgiant.pdf}
+
+\includepdf[pages =8, pagecommand={
+\begin{figure*}
+\centering
+\resizebox{!}{0cm}{\begin{minipage}{\textwidth}
+    \includegraphics[width=0.5\textwidth]{Figures/subgiant_chapter_figures/10.05_corner.png}
+    \caption{
+    Posterior distributions using mock data generated with a step function aligned with the H burning shell ($r/R = 0.05$, purple profile in Figure~\ref{fig:5rotprof}). True values are indicated in purple. There is considerable multi-modality and degeneracy present.}
+    \label{fig:mock_posterior_005_uniform}
+                        \end{minipage}}
+\end{figure*}
+\begin{figure*}
+\centering
+\resizebox{!}{0cm}{\begin{minipage}{\textwidth}
+    \includegraphics[width=0.5\textwidth]{Figures/subgiant_chapter_figures/10.2_corner.png}
+    \caption{Posterior distributions using mock data generated with a step function in the radiative region ($r/R = 0.2$, blue profile in Figure~\ref{fig:5rotprof}) and realistic uncertainties. True values in blue.}
+    \label{fig:mock_posterior_020_uniform}
+                        \end{minipage}}
+\end{figure*}
+\begin{figure*}
+\centering
+\resizebox{!}{0cm}{\begin{minipage}{\textwidth}
+    \includegraphics[width=0.5\textwidth]{Figures/subgiant_chapter_figures/10.5_corner.png}
+    \caption{Posterior distributions using mock data generated with a step function at the BCZ ($r/R = 0.5$; red profile in Figure~\ref{fig:5rotprof}), and realistic uncertainties. True values in red.}
+    \label{fig:mock_posterior_050_uniform}
+                        \end{minipage}}
+\end{figure*}
+\begin{figure*}
+\centering
+\resizebox{!}{0cm}{\begin{minipage}{\textwidth}
+    \includegraphics[width=0.5\textwidth]{Figures/subgiant_chapter_figures/20.05_corner.png}
+    \caption[Posterior distributions using mock data generated with a step profile at the g-mode cavity, with realistic uncertainties, and a 10\% prior on surface rotation $\Omega_s$.]{Posterior distributions using mock data generated with a step profile at the g-mode cavity ($r/R = 0.05$; purple profile in Figure~\ref{fig:5rotprof}), with realistic uncertainties, and a 10\% prior on surface rotation $\Omega_s$. There is still degeneracy between $p$ and the rotation parameters (e.g., Figure~\ref{fig:mock_posterior_005_uniform}), but the prior has collapsed all other modes.}
+    \label{fig:mock_posterior_005_reject}
+                        \end{minipage}}
+\end{figure*}
+}, scale=0.9,offset=65 -50]{Chapters/stad771-TW-subgiant.pdf}
+
+\includepdf[pages =9, pagecommand={
+\begin{figure*}
+\centering
+\resizebox{!}{0cm}{\begin{minipage}{\textwidth}
+    \includegraphics[width=0.5\textwidth]{Figures/subgiant_chapter_figures/20.2_corner.png}
+    \caption[Posterior distributions using mock data generated with a step profile in the radiative region ($r/R = 0.20$; blue profile in Figure~\ref{fig:5rotprof}), with realistic uncertainties, and a 10\% prior on surface rotation $\Omega_s$.]{Posterior distributions using mock data generated with a step profile in the radiative region ($r/R = 0.20$; blue profile in Figure~\ref{fig:5rotprof}), with realistic uncertainties, and a 10\% prior on surface rotation $\Omega_s$ (compare with Figure~\ref{fig:mock_posterior_020_uniform}).}
+    \label{fig:mock_posterior_020_reject}
+                        \end{minipage}}
+\end{figure*}
+\begin{figure*}
+\centering
+\resizebox{!}{0cm}{\begin{minipage}{\textwidth}
+    \includegraphics[width=0.5\textwidth]{Figures/subgiant_chapter_figures/20.5_corner.png}
+    \caption[Posterior distributions using mock data generated with a step profile at the BCZ ($r/R = 0.50$; red profile in Figure~\ref{fig:5rotprof}), with realistic uncertainties, and a 10\% prior on surface rotation $\Omega_s$.]{Posterior distributions using mock data generated with a step profile at the BCZ ($r/R = 0.50$; red profile in Figure~\ref{fig:5rotprof}), with realistic uncertainties, and a 10\% prior on surface rotation $\Omega_s$ (compare with Figure~\ref{fig:mock_posterior_050_uniform}).}
+    \label{fig:mock_posterior_050_reject}
+                        \end{minipage}}
+\end{figure*}
+}, scale=0.9,offset=65 -50]{Chapters/stad771-TW-subgiant.pdf}
+
+
+
+
+
+
+
+
+
+
 
 
 

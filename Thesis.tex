@@ -39,7 +39,20 @@
 \newcommand\ZTF{\project{ZTF}}
 \newcommand\gaia{\project{Gaia}}
 
+\newcommand{\tamb}{$T_{\text{amb}}$}
+\newcommand{\tspot}{$T_{\text{spot}}$}
+\newcommand{\xspot}{$x_{\text{spot}}$}
+\newcommand{\fspot}{$f_{\text{spot}}$}
+\newcommand{\teff}{$T_{\text{eff}}$}
+\newcommand{\vsini}{$v \sin{i}$}
+\newcommand{\logg}{$\log{g}$}
+\newcommand{\deltafe}{$\Delta$[Fe/H]}
+\newcommand{\feh}{$\left[\rm{Fe/H}\right]$}
+\newcommand{\Kappa}{\mathcal{K}}
+
+
 \newcommand{\todo}[1]{\textcolor{red}{#1}}
+\newcommand{\update}[1]{\textbf{#1}}
 
 
 
@@ -62,7 +75,7 @@
 % Change your thesis title and your information here
 \title  {Problems in Low Mass Stellar Rotation}
 \authors  {\texorpdfstring
-            {\href{your web site or email address}{Tanner A. Wilson }}
+            {\href{tanner.wilson@monash.edu}{Tanner A. Wilson }}
             {Tanner A. Wilson}
             }
 \addresses  {\groupname\\\deptname\\\univname}  % Do not change this here, instead these must be set in the "Thesis.cls" file, please look through it instead
@@ -88,6 +101,9 @@
 \input{Preamble/copyright.tex}
 \clearpage  % copyright ended, start a new page
 
+%\input{Preamble/quote_page.tex}
+%\clearpage
+
 \input{Preamble/Abstract.tex}
 
 \clearpage  % Abstract ended, start a new page
@@ -107,16 +123,14 @@
 \input{Preamble/Publications.tex}
 \clearpage  % Declaration ended, now start a new page
 
-%% ----------------------------------------------------------------
-% Preface Page required for the Thesis, your institution may give you a different text to place here
-\input{Preamble/Preface.tex}
-\clearpage  % Preface ended, now start a new page
 
 %% ----------------------------------------------------------------
 % The Acknowledgements page, for thanking everyone
 \setstretch{1.3}  % Reset the line-spacing to 1.3 for body text (if it has changed)
 \input{Preamble/Acknowledgements.tex}
 \clearpage  % End of the Acknowledgements
+
+
 %% ----------------------------------------------------------------
 
 \pagestyle{fancy}  %The page style headers have been "empty" all this time, now use the "fancy" headers as defined before to bring them back
@@ -130,11 +144,21 @@
 \lhead{\emph{List of Figures}}  % Set the left side page header to "List if Figures"
 
 \listoffigures % Write out the List of Figures
-\todo{Write shortened figure list names.}
 
 %% ----------------------------------------------------------------
 \lhead{\emph{List of Tables}}  % Set the left side page header to "List of Tables"
 \listoftables  % Write out the List of Tables
+
+%% ----------------------------------------------------------------
+%\setstretch{1.5}  % Set the line spacing to 1.5, this makes the following tables easier to read
+%\clearpage  % Start a new page
+%\lhead{\emph{Abbreviations}}  % Set the left side page header to "Abbreviations"
+%\listofsymbols{ll}  % Include a list of Abbreviations (a table of two columns)
+%{
+%% \textbf{Acronym} & \textbf{W}hat (it) \textbf{S}tands \textbf{F}or \\
+%\textbf{LAH} & \textbf{L}ist \textbf{A}bbreviations \textbf{H}ere \\
+%
+%}
 
 %% ----------------------------------------------------------------
 \setstretch{1.5}  % Set the line spacing to 1.5, this makes the following tables easier to read
@@ -143,31 +167,15 @@
 \listofsymbols{ll}  % Include a list of Abbreviations (a table of two columns)
 {
 % \textbf{Acronym} & \textbf{W}hat (it) \textbf{S}tands \textbf{F}or \\
-\textbf{LAH} & \textbf{L}ist \textbf{A}bbreviations \textbf{H}ere \\
-
+\textbf{TESS} & \textbf{T}ransiting \textbf{E}xoplanet \textbf{S}urvey \textbf{Satellite}\\
+\textbf{ZTF} & \textbf{Z}wicky \textbf{T}ransient \textbf{F}acility\\
+\textbf{MS} & \textbf{M}ain \textbf{S}equence\\
+\textbf{ZAMS} & \textbf{Z}ero \textbf{A}ge \textbf{M}ain \textbf{S}equence\\
+\textbf{RGB} &\textbf{R}ed \textbf{G}iant \textbf{B}ranch\\
 }
 
 %% ----------------------------------------------------------------
-\clearpage  % Start a new page
-\lhead{\emph{Constants}}  % Set the left side page header to "Physical Constants"
-\listofconstants{lrcl}  % Include a list of Physical Constants (a four column table)
-{
-% Constant Name & Symbol & = & Constant Value (with units) \\
-Speed of Light & $c$ & $=$ & $2.997\ 924\ 58\times10^{8}\ \mbox{ms}^{-\mbox{s}}$ (exact)\\
 
-}
-
-%% ----------------------------------------------------------------
-\clearpage  %Start a new page
-\lhead{\emph{Symbols}}  % Set the left side page header to "Symbols"
-\listofnomenclature{lll}  % Include a list of Symbols (a three column table)
-{
-% symbol & name & unit \\
-$a$ & distance & m \\
-$P$ & power & W (Js$^{-1}$) \\
-& & \\ % Gap to separate the Roman symbols from the Greek
-$\omega$ & angular frequency & rads$^{-1}$ \\
-}
 %% ----------------------------------------------------------------
 % End of the pre-able, contents and lists of things
 
@@ -184,13 +192,13 @@ $\omega$ & angular frequency & rads$^{-1}$ \\
 \lhead{}  % Clears the left side page header
 
 \input{Chapters/introduction_chapter} % Introduction
-
+%
 \input{Chapters/subgiant_astero_original.tex}
- 
+% 
 \input{Chapters/stellar_spot_original.tex}
-
+%
 \input{Chapters/rotational_peropd_gap_chapter_update} 
-
+%
 \input{Chapters/conclusion_chapter}
 
 
