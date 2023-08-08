@@ -1,4 +1,4 @@
-PWD /Users/tawil10/Downloads/Tanner Wilson Thesis
+PWD /Users/tawil10/Documents/GitHub/thesis
 INPUT /usr/local/texlive/2022/texmf.cnf
 INPUT /usr/local/texlive/2022/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt
@@ -954,10 +954,7 @@ INPUT Thesis.lot
 INPUT Thesis.lot
 OUTPUT Thesis.lot
 INPUT ./Chapters/introduction_chapter.tex
-INPUT ./Chapters/introduction_chapter.tex
-INPUT ./Chapters/introduction_chapter.tex
 INPUT Chapters/introduction_chapter.tex
-INPUT ./Chapters/introduction_chapter.tex
 INPUT ./Chapters/introduction_chapter.tex
 INPUT Chapters/introduction_chapter.tex
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
@@ -1755,10 +1752,7 @@ INPUT ./Chapters/stad1875-TW-SS.pdf
 INPUT Chapters/stad1875-TW-SS.pdf
 INPUT ./Chapters/stad1875-TW-SS.pdf
 INPUT ./Chapters/rotational_peropd_gap_chapter_update.tex
-INPUT ./Chapters/rotational_peropd_gap_chapter_update.tex
-INPUT ./Chapters/rotational_peropd_gap_chapter_update.tex
 INPUT Chapters/rotational_peropd_gap_chapter_update.tex
-INPUT ./Chapters/rotational_peropd_gap_chapter_update.tex
 INPUT ./Chapters/rotational_peropd_gap_chapter_update.tex
 INPUT Chapters/rotational_peropd_gap_chapter_update.tex
 INPUT ./Figures/rot_gap_figures/HR.png
@@ -1858,10 +1852,7 @@ INPUT Figures/rot_gap_figures/comp_hist.png
 INPUT ./Figures/rot_gap_figures/comp_hist.png
 INPUT ./Figures/rot_gap_figures/comp_hist.png
 INPUT ./Chapters/conclusion_chapter.tex
-INPUT ./Chapters/conclusion_chapter.tex
-INPUT ./Chapters/conclusion_chapter.tex
 INPUT Chapters/conclusion_chapter.tex
-INPUT ./Chapters/conclusion_chapter.tex
 INPUT ./Chapters/conclusion_chapter.tex
 INPUT Chapters/conclusion_chapter.tex
 INPUT ./Thesis.bbl

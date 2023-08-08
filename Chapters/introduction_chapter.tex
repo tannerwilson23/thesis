@@ -1,4 +1,3 @@
-post-main sequence
 
 \newcommand\dive{\textmd{div}}
 \newcommand\der{\textmd{d}}
@@ -124,24 +123,29 @@ Despite requiring much more data, the information provided by this technique is 
 
 Stellar spot rotation period measurements can be made from long-cadence data with observation periods as low as 90 days \citep{mcquillan_rotation_2014}.
 The technique employed to determine the rotation period is much less computationally intensive than required for asteroseismic inference of rotation rates.
-Through the combination of various photometric missions, \kepler{} \citep{mcquillan_rotation_2014, santos_surface_2021}, \ktoo{} \citep{santos_surface_2021}, Zwicky Transient Facility (\ZTF) \citep{lu_bridging_2022}, \gaia{} DR3 \citep{distefano_gaia_2022}. %todo reference% ~500,000 stars have had their stellar spot rotation periods measured.
-We show the rotational period distribution against colour (Gaia DR3 $B_P - R_P$) of the \kepler{} Mcquillan Sample, \ZTF{} sample and \gaia{} DR3 samples in the top, middle and bottom panels of Figure \ref{fig:rot_comp} respectively.
+Through the combination of various photometric missions, \kepler{} \citep{mcquillan_rotation_2014, santos_surface_2021}, \ktoo{} \citep{santos_surface_2021}, Zwicky Transient Facility (\ZTF) \citep{lu_bridging_2022}, and \gaia{} Data Release 3 (DR3) \citep{distefano_gaia_2022}. %todo reference% ~500,000 stars have had their stellar spot rotation periods measured.
+We show the rotational period distribution against colour (\gaia{} DR3 $B_P - R_P$) of the representative \kepler{}, \ZTF{} and \gaia{} DR3 rotational period samples in the top left, top right, bottom left and bottom right panels of Figure \ref{fig:rot_comp} respectively.
 
 \begin{figure}[h]
     \includegraphics[width=\textwidth]{Figures/intro_figures/rot_comp.png}
-    \caption[2D normalised histograms of the \kepler, \gaia, and \tess{} rotational period distributions]{Normalised 2D histograms of the \kepler{} \citep{mcquillan_rotation_2014} (top), \gaia{} DR3 \citep{distefano_gaia_2022} (middle), and Zwicky Transient Facility (\ZTF) \citep{lu_bridging_2022} (bottom) samples. Each sample probes a different area of the rotational period against colour space with some overlap. This expands our knowledge of the evolution of rotation to different types of stars. \update{Their agreement in overlapping regions of the rotational period distribution also confirms their independent accuracy.} \todo{I will remake this plot. You have both commented on it.}}
+    \caption[2D normalised histograms of representative \kepler, \gaia, and \ZTF{} rotational period distributions]{Normalised 2D histograms of the \kepler{} \citep{mcquillan_rotation_2014} (top), \gaia{} DR3 \citep{distefano_gaia_2022} (middle), and Zwicky Transient Facility (\ZTF) \citep{lu_bridging_2022} (bottom) samples. Each sample probes a different area of the rotational period against colour space with some overlap. This expands our knowledge of the evolution of rotation to different types of stars. \update{Their agreement in overlapping regions of the rotational period distribution also confirms their independent accuracy.}}
     \label{fig:rot_comp}
 \end{figure}
 
 The stellar spot rotation periods that are obtained from each of these missions are suited to observe particular masses and rotation period regimes along the main sequence.
 This results from the underlying telescope parameters, the scanning technique employed, and each mission's observation cadences \citep{distefano_determination_2012}.
+%The Gaia DR3 rotation period sample exhibits spurious periods centred around 0.5, 18, 25, 32 and 49d.
+%\citet{distefano_gaia_2022} suggest that the non-uniformity of the Gaia sampling could be the cause of these peaks.
+%@andy: I was wrong about this, this is before processing.
 Comparing the rotational period distributions in Figure \ref{fig:rot_comp} we observe a few notable features and limitations from each mission.
-The Gaia DR3 rotation period sample exhibits spurious periods centred around 0.5, 18, 25, 32 and 49d.
-\todo{make this clear in that plot}
-\citet{distefano_gaia_2022} suggest that the non-uniformity of the Gaia sampling could be the cause of these peaks.
-\kepler{} mainly targeted solar-like \update{, relatively higher mass ({$M\sim M_\odot$),}stars.}
+\update{For example, before post-processing the Gaia DR3 rotation period sample exhibits spurious periods centred around 0.5, 18, 25, 32 and 49d (compare Figures 17, 18 and 19. in \citet{distefano_gaia_2022}) due to the non-uniformity of \gaia{} sampling.
+Period detections at these periods or at fundamental over and undertones should be treated with caution.
+Another example comes in the form of the \kepler{} instrument's pixel-level temperature changes can produce periodic variability with a period of approximately 10 days, falling within the range of rotation periods of young low-mass main-sequence stellar rotators. Rotation period observations close to this period should therefore also be treated with caution.}
+
+Different missions can also have different selection functions depending on their intended science goals.
+\kepler{} mainly targeted solar-like\update{, relatively higher mass ({$M\sim M_\odot$),}stars.}
 As a result, in the \kepler{} sample, there is a lack of measured periods for M dwarfs and fast-rotating young stars.
-On the other hand, the \ZTF{} and \gaia{} samples did not have this targeting bias.
+On the other hand, the \ZTF{} and \gaia{} samples did not have this targeting bias and have a non-specific untargeted approach.
 The \ZTF{} and \gaia{} samples probe the rotation periods of the comparatively lower-mass (redder) stars.
 
 \update{Due to the \kepler{} mission's long baseline, but usually long-cadence data, it is biased towards the observation of long periods (P $<$ 10 d).
@@ -185,7 +189,7 @@ Compared to the main sequence where stars generally spin-down due to surface win
 
 \begin{figure}
     \includegraphics[width=\textwidth]{Figures/intro_figures/pms_evo.png}
-    \caption[Angular rotation rate distributions of low-mass young open clusters and the Sun over time.]{Angular rotation rate (relative to solar) distributions of low-mass young open clusters and the Sun. Inverted triangles, triangles, and squares represent the 25$^{th}$, $50^{th}$, and 90$^{th}$ percentiles. Open circle denotes the present value of the rotation rate of the Sun. Median values indicate that the rotation rate of cluster is approximately constant with age, despite the spin up by accretion. In order of increasing age (left to right) the clusters are ONC (1 Myr) \citep{herbst_stellar_2002}, NGC 6530 \citep{henderson_time-series_2012}, NGC 2264 (2 Myr) \citep{affer_rotation_2013}, NGC 2362 (5 Myr) \citep{irwin_monitor_2008}, h PER (13 Myr) \citep{moraux_monitor_2013}, NGC 2547 (40 Myr) \citep{irwin_monitor_2008}, Pleiades (120 Myr) \citep{hartman_large_2010}, M50 (130 Myr) \citep{irwin_monitor_2009}, M35 (150 Myr) \citep{meibom_slar_2009}, M37 (550 Myr) \citep{hartman_deep_2009}, Praesepe (578 Myr) \citep{delorme_stellar_2011}, Hyades (625 Myr) \citep{delorme_stellar_2011}, and NGC 6811 (1 Gyr) \citep{meibom_kepler_2011}.  Sourced from \citet{gallet_improved_2013},  Figure 1.}
+    \caption[Angular rotation rate distributions of low-mass young open clusters and the Sun over time.]{Angular rotation rate (relative to solar) distributions of low-mass young open clusters and the Sun. Inverted triangles, triangles, and squares represent the 25$^{th}$, $50^{th}$, and 90$^{th}$ percentiles. Open circle denotes the present value of the rotation rate of the Sun. Median (50$^{th}$ percentile) values indicate that the rotation rate of cluster is approximately constant with age, despite the spin-up by accretion. In order of increasing age (left to right) the clusters are ONC (1 Myr) \citep{herbst_stellar_2002}, NGC 6530 \citep{henderson_time-series_2012}, NGC 2264 (2 Myr) \citep{affer_rotation_2013}, NGC 2362 (5 Myr) \citep{irwin_monitor_2008}, h PER (13 Myr) \citep{moraux_monitor_2013}, NGC 2547 (40 Myr) \citep{irwin_monitor_2008}, Pleiades (120 Myr) \citep{hartman_large_2010}, M50 (130 Myr) \citep{irwin_monitor_2009}, M35 (150 Myr) \citep{meibom_slar_2009}, M37 (550 Myr) \citep{hartman_deep_2009}, Praesepe (578 Myr) \citep{delorme_stellar_2011}, Hyades (625 Myr) \citep{delorme_stellar_2011}, and NGC 6811 (1 Gyr) \citep{meibom_kepler_2011}.  Sourced from \citet{gallet_improved_2013},  Figure 1.}
     \label{fig:pms_ms_evo}
 \end{figure}
 
@@ -694,7 +698,8 @@ As previously discussed, the surface rotation rates of white dwarfs are consiste
 This is because the time scale of angular momentum transport is longer than the timescale of evolution from red clump star to a white dwarf.
 \citet{den_hartogh_constraining_2019} suggest that mass-dependent angular momentum transport must decrease with evolution along the red clump such that the angular momentum of terminal red clump rotation cores agree with the angular momentum of white dwarf stars.
 
-\subsection{Summary - Effects of rotation on low-mass evolution}
+\subsection{Effects of rotation on low-mass evolution}
+\label{sec:effects}
 
 In this Section, we will summarise the observable features of rotation on low-mass stellar evolution.
 Compared to high-mass rotating stellar evolution, the indicators of low-mass rotating stellar evolution are minimal \citep[see, e.g.,][]{heger_presupernova_2000, maeder_evolution_2000}.
@@ -790,7 +795,8 @@ To measure rotation periods using these variations, we face a signal-processing 
 The first step is to acquire precise time-series photometry, generating the light curve that represents the brightness variations of the star over time.
  Before analysing the light curve for periodic variability, data preprocessing is essential to remove systematic effects and correct instrumental noise. 
  Without proper preprocessing, systematic effects on the timescale of known low-mass main-sequence rotational periods could be mistaken for genuine signals.
-For example, the \kepler{} instrument's pixel-level temperature changes can produce periodic variability with a period of approximately 10 days, falling within the range of rotation periods of young low-mass main-sequence stellar rotators. By addressing these systematic effects, we can ensure the accuracy of subsequent analyses.
+For example, the \kepler{} instrument's pixel-level temperature changes can produce periodic variability with a period of approximately 10 days, falling within the range of rotation periods of young low-mass main-sequence stellar rotators. 
+By addressing these systematic effects, we can ensure the accuracy of subsequent analyses.
 Once the light curve is preprocessed, the analysis of periodic signals can take various forms, each offering its unique advantages. 
 
 Different signal processing techniques are adopted to identify and characterise the periodic variability in the light curve, leading to the determination of rotation periods for the stars under investigation.
