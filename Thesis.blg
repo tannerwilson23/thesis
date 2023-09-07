@@ -3,12 +3,10 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: Thesis.aux
 The style file: mnras.bst
 Database file #1: references.bib
-Warning--I didn't find a database entry for "reinhold_transition_2018"
-Warning--I didn't find a database entry for "aigrain_testing_2015"
-Warning--I didn't find a database entry for "claytor_recovery_2023"
+Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--empty publisher in aerts_asteroseismology_2010
 "ArXiv e-prints" is a string literal, `journal' is a missing field
 ---they aren't the same literal types for entry charbonnel_deep_2008
 while executing---line 1822 of file mnras.bst
@@ -38,45 +36,45 @@ while executing---line 1822 of file mnras.bst
 while executing---line 1822 of file mnras.bst
 `series' is a missing field, not a string, for entry saar_starspots_2011
 while executing---line 1822 of file mnras.bst
-You've used 171 entries,
+You've used 169 entries,
             2881 wiz_defined-function locations,
-            1982 strings with 66324 characters,
-and the built_in function-call counts, 81404 in all, are:
-= -- 6512
-> -- 6219
-< -- 404
-+ -- 2728
-- -- 965
-* -- 9937
-:= -- 13017
+            1977 strings with 65392 characters,
+and the built_in function-call counts, 80467 in all, are:
+= -- 6472
+> -- 6125
+< -- 396
++ -- 2677
+- -- 954
+* -- 9849
+:= -- 12874
 add.period$ -- 0
-call.type$ -- 171
-change.case$ -- 342
-chr.to.int$ -- 169
-cite$ -- 172
-duplicate$ -- 3911
-empty$ -- 3882
-format.name$ -- 1493
-if$ -- 14003
+call.type$ -- 169
+change.case$ -- 338
+chr.to.int$ -- 167
+cite$ -- 171
+duplicate$ -- 3855
+empty$ -- 3821
+format.name$ -- 1468
+if$ -- 13841
 int.to.chr$ -- 3
 int.to.str$ -- 0
 missing$ -- 168
-newline$ -- 529
-num.names$ -- 1186
-pop$ -- 820
+newline$ -- 524
+num.names$ -- 1168
+pop$ -- 796
 preamble$ -- 1
-purify$ -- 684
+purify$ -- 676
 quote$ -- 0
-skip$ -- 2376
+skip$ -- 2340
 stack$ -- 0
-substring$ -- 4533
-swap$ -- 1966
-text.length$ -- 692
+substring$ -- 4525
+swap$ -- 1930
+text.length$ -- 681
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1530
-warning$ -- 1
-while$ -- 1272
+type$ -- 1509
+warning$ -- 2
+while$ -- 1264
 width$ -- 0
-write$ -- 1718
+write$ -- 1703
 (There were 12 error messages)

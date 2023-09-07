@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.2.3)  9 AUG 2023 11:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.2.3)  8 SEP 2023 03:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -527,38 +527,170 @@ File: pppdftex.def 2022/01/29 v0.5u Pdfpages driver for pdfTeX (AM)
 \c@AM@survey=\count316
 \AM@templatesizebox=\box61
 )
+(/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/mathptmx.sty
+Package: mathptmx 2020/03/25 PSNFSS-v9.3 Times w/ Math, improved (SPQR, WaS) 
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+\symbold=\mathgroup6
+\symitalic=\mathgroup7
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/ptm/m/it on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
+LaTeX Info: Redefining \hbar on input line 50.
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/anyfontsize/anyfontsize.sty
+Package: anyfontsize 2007/11/22 anyfontsize.sty by pts
+)
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 6
+3.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
 (/usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count317
 \l__pdf_internal_box=\box62
 )
-(./Thesis.aux)
+(./Thesis.aux
+
+LaTeX Warning: Label `p1' multiply defined.
+
+
+LaTeX Warning: Label `p1' multiply defined.
+
+
+LaTeX Warning: Label `p1' multiply defined.
+
+
+LaTeX Warning: Label `p1' multiply defined.
+
+
+LaTeX Warning: Label `f1' multiply defined.
+
+
+LaTeX Warning: Label `p1' multiply defined.
+
+
+LaTeX Warning: Label `p1' multiply defined.
+
+
+LaTeX Warning: Label `f1' multiply defined.
+
+
+LaTeX Warning: Label `p1' multiply defined.
+
+
+LaTeX Warning: Label `f1' multiply defined.
+
+
+LaTeX Warning: Label `f1' multiply defined.
+
+
+LaTeX Warning: Label `t1' multiply defined.
+
+
+LaTeX Warning: Label `p1' multiply defined.
+
+
+LaTeX Warning: Label `p1' multiply defined.
+
+
+LaTeX Warning: Label `p1' multiply defined.
+
+
+LaTeX Warning: Label `f1' multiply defined.
+
+
+LaTeX Warning: Label `p1' multiply defined.
+
+
+LaTeX Warning: Label `f1' multiply defined.
+
+
+LaTeX Warning: Label `p1' multiply defined.
+
+
+LaTeX Warning: Label `f1' multiply defined.
+
+
+LaTeX Warning: Label `p1' multiply defined.
+
+
+LaTeX Warning: Label `p1' multiply defined.
+
+
+LaTeX Warning: Label `f1' multiply defined.
+
+
+LaTeX Warning: Label `f1' multiply defined.
+
+
+LaTeX Warning: Label `p1' multiply defined.
+
+
+LaTeX Warning: Label `f1' multiply defined.
+
+
+LaTeX Warning: Label `p1' multiply defined.
+
+
+LaTeX Warning: Label `f1' multiply defined.
+
+
+LaTeX Warning: Label `sec:conclusion' multiply defined.
+
+)
 \openout1 = `Thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: longtable package is loaded.
-
-(/usr/local/texlive/2022/texmf-dist/tex/latex/caption/ltcaption.sty
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/caption/ltcaption.sty
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: rotating package is loaded.
@@ -580,7 +712,7 @@ Package caption Info: End \AtBeginDocument code.
 \everyMPtoPDFconversion=\toks37
 )
 \c@lstlisting=\count324
-Package hyperref Info: Link coloring ON on input line 60.
+Package hyperref Info: Link coloring ON on input line 63.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
@@ -593,9 +725,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count325
 )
-LaTeX Info: Redefining \ref on input line 60.
-LaTeX Info: Redefining \pageref on input line 60.
-LaTeX Info: Redefining \nameref on input line 60.
+LaTeX Info: Redefining \ref on input line 63.
+LaTeX Info: Redefining \pageref on input line 63.
+LaTeX Info: Redefining \nameref on input line 63.
  (./Thesis.out) (./Thesis.out)
 \@outlinefile=\write3
 \openout3 = `Thesis.out'.
@@ -612,10 +744,10 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ------------------------------------------------------------------------------
  Title Page
 ------------------------------------------------------------------------------
-<Figures/monash-logo.jpg, id=225, 2370.8575pt x 469.755pt>
+<Figures/monash-logo.jpg, id=221, 2370.8575pt x 469.755pt>
 File: Figures/monash-logo.jpg Graphic file (type jpg)
 <use Figures/monash-logo.jpg>
-Package pdftex.def Info: Figures/monash-logo.jpg  used on input line 87.
+Package pdftex.def Info: Figures/monash-logo.jpg  used on input line 90.
 (pdftex.def)             Requested size: 417.47307pt x 82.7101pt.
 [1
 
@@ -626,16 +758,40 @@ es/monash-logo.jpg>] (./Preamble/copyright.tex
 ------------------------------------------------------------------------------
  Copyright notice
 ------------------------------------------------------------------------------
-LaTeX Font Info:    Trying to load font information for U+msa on input line 15.
-
-(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
+ 15.
+(/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
+File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 15.
+LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
+ 15.
 
+(/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/omlztmcm.fd
+File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
+ 15.
 
-(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+(/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/omsztmcm.fd
+File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
+ 15.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/omxztmcm.fd
+File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 15.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 15.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 15.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
+5.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )) [1
 
 ]
@@ -644,12 +800,12 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
  Abstract
 ------------------------------------------------------------------------------
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--28
+Underfull \hbox (badness 10000) in paragraph at lines 27--27
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--28
+Underfull \hbox (badness 10000) in paragraph at lines 27--27
 
  []
 
@@ -686,7 +842,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--28
 (./Thesis.toc [8
 
 
-])
+]
+Overfull \hbox (4.7991pt too wide) in paragraph at lines 51--51
+ [][] [][][]\OT1/ptm/m/n/10.95 The fu-ture of as-ter-o-seis-mol-ogy and ob-ser-
+va-tion of stel-lar ro-ta-tion through 
+ []
+
+)
 \tf@toc=\write4
 \openout4 = `Thesis.toc'.
 
@@ -694,19 +856,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--28
 ------------------------------------------------------------------------------
  List of Figures
 ------------------------------------------------------------------------------
-(./Thesis.lof [10
+(./Thesis.lof
+Overfull \hbox (15.14565pt too wide) in paragraph at lines 21--21
+ [][] [][][]\OT1/ptm/m/n/10.95 Posteriors on step pro-file pa-ram-e-ters given 
+the ro-ta-tional split-tings of KIC 12508433 
+ []
+
+[10
 
 
-] [11]
-Overfull \hbox (4.18759pt too wide) in paragraph at lines 43--43
- [][] [][][]\OT1/cmr/m/n/10.95 The LAM-OST chro-mo-spher-i-cally ac-tive and \O
-T1/cmr/m/sl/10.95 Ke-pler \OT1/cmr/m/n/10.95 ro-tat-ing closeby, main- 
+]
+Overfull \hbox (3.61612pt too wide) in paragraph at lines 38--38
+ [][] [][][]\OT1/ptm/m/n/10.95 Colour-magnitude di-a-gram of the closeby ro-tat
+-ing main-sequence sam-ple colours 
  []
 
 
-Overfull \hbox (15.29086pt too wide) in paragraph at lines 45--45
- \OT1/cmr/m/n/10.95 main-sequence sam-ple cross-matched with the LAMOST-\OT1/cm
-r/m/sl/10.95 Kepler \OT1/cmr/m/n/10.95 field coloured 
+Overfull \hbox (2.82011pt too wide) in paragraph at lines 44--44
+ \OT1/ptm/m/n/10.95 sequence cross-match $[][]$ of ro-ta-tional pe-riod $[][]$ 
+against \OT1/ptm/m/sl/10.95 Gaia$\OML/ztmcm/m/it/10.95 B[] \OMS/ztmcm/m/n/10.95
+ ^^@ \OML/ztmcm/m/it/10.95 R[]$ \OT1/ptm/m/n/10.95 colour 
+ []
+
+[11]
+Overfull \hbox (9.21114pt too wide) in paragraph at lines 46--46
+ [][] [][][]\OT1/ptm/m/n/10.95 HR di-a-gram of the closeby ro-tat-ing (top) and
+ non-rotating (bot-tom) main-sequence 
  []
 
 )
@@ -717,19 +892,17 @@ r/m/sl/10.95 Kepler \OT1/cmr/m/n/10.95 field coloured
 ------------------------------------------------------------------------------
  List of Tables
 ------------------------------------------------------------------------------
-(./Thesis.lot)
+(./Thesis.lot
+Overfull \hbox (2.33466pt too wide) in paragraph at lines 4--4
+ \OT1/ptm/m/n/10.95 split-tings of KIC 12508433 from op-ti-mally lo-calised av-
+er-ages (OLA) ([][]De-heuvels 
+ []
+
+)
 \tf@lot=\write6
 \openout6 = `Thesis.lot'.
 
  [13
-
-
-]
-------------------------------------------------------------------------------
- Abbreviations
-------------------------------------------------------------------------------
-[14
-
 
 
 ] (./Chapters/introduction_chapter.tex
@@ -737,190 +910,187 @@ Chapter 1.
 ------------------------------------------------------------------------------
  1 Introduction
 ------------------------------------------------------------------------------
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 19.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 19.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 19.
 [1
 
 
 
-] [2] [3] [4] [5] [6]
-<Figures/intro_figures/rot_comp.png, id=711, 1084.05pt x 867.24pt>
+] [2] [3]
+<Figures/intro_figures/rot_comp.png, id=634, 867.24pt x 578.16pt>
 File: Figures/intro_figures/rot_comp.png Graphic file (type png)
 <use Figures/intro_figures/rot_comp.png>
 Package pdftex.def Info: Figures/intro_figures/rot_comp.png  used on input line
- 130.
-(pdftex.def)             Requested size: 417.47307pt x 333.97446pt.
+ 86.
+(pdftex.def)             Requested size: 417.47307pt x 278.31645pt.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 87.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 87.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[7] [8 <./Figures/intro_figures/rot_comp.png>] [9]
-<Figures/intro_figures/pms_evo.png, id=760, 1161.33875pt x 782.925pt>
+[4] [5 <./Figures/intro_figures/rot_comp.png>] [6] [7] [8] [9]
+<Figures/intro_figures/pms_evo.png, id=786, 1161.33875pt x 782.925pt>
 File: Figures/intro_figures/pms_evo.png Graphic file (type png)
 <use Figures/intro_figures/pms_evo.png>
 Package pdftex.def Info: Figures/intro_figures/pms_evo.png  used on input line 
-191.
+218.
 (pdftex.def)             Requested size: 417.47307pt x 281.44661pt.
-<Figures/intro_figures/cluster_kepler.png, id=822, 1149.29375pt x 839.135pt>
+ [10 <./Figures/intro_figures/pms_evo.png>]
+<Figures/intro_figures/cluster_kepler.png, id=870, 1149.29375pt x 839.135pt>
 File: Figures/intro_figures/cluster_kepler.png Graphic file (type png)
 <use Figures/intro_figures/cluster_kepler.png>
 Package pdftex.def Info: Figures/intro_figures/cluster_kepler.png  used on inpu
-t line 204.
+t line 231.
 (pdftex.def)             Requested size: 417.47307pt x 304.80284pt.
+ [11 <./Figures/intro_figures/cluster_kepler.png>]
+[12]
+<Figures/intro_figures/kepler_rot_dist.png, id=931, 867.24pt x 578.16pt>
+File: Figures/intro_figures/kepler_rot_dist.png Graphic file (type png)
+<use Figures/intro_figures/kepler_rot_dist.png>
+Package pdftex.def Info: Figures/intro_figures/kepler_rot_dist.png  used on inp
+ut line 281.
+(pdftex.def)             Requested size: 417.47307pt x 278.31645pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[10] [11 <./Figures/intro_figures/pms_evo.png>] [12 <./Figures/intro_figures/cl
-uster_kepler.png>] [13]
-<Figures/intro_figures/kepler_rot_dist.png, id=908, 867.24pt x 578.16pt>
-File: Figures/intro_figures/kepler_rot_dist.png Graphic file (type png)
-<use Figures/intro_figures/kepler_rot_dist.png>
-Package pdftex.def Info: Figures/intro_figures/kepler_rot_dist.png  used on inp
-ut line 254.
-(pdftex.def)             Requested size: 417.47307pt x 278.31645pt.
- [14 <./Figures/intro_figures/kepler_rot_dist.png>]
-[15]
-<Figures/intro_figures/ztf_comp.png, id=971, 750.805pt x 399.4925pt>
+[13] [14 <./Figures/intro_figures/kepler_rot_dist.png>]
+<Figures/intro_figures/ztf_comp.png, id=997, 750.805pt x 399.4925pt>
 File: Figures/intro_figures/ztf_comp.png Graphic file (type png)
 <use Figures/intro_figures/ztf_comp.png>
 Package pdftex.def Info: Figures/intro_figures/ztf_comp.png  used on input line
- 307.
+ 331.
 (pdftex.def)             Requested size: 417.47307pt x 222.13547pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[16] [17 <./Figures/intro_figures/ztf_comp.png>] [18] [19] [20] [21] [22]
-[23] [24]
-<Figures/intro_figures/qualitative_evo.png, id=1164, 719.68875pt x 466.74374pt>
+[15] [16 <./Figures/intro_figures/ztf_comp.png>] [17] [18]
+<Figures/intro_figures/qualitative_evo.png, id=1108, 719.68875pt x 466.74374pt>
 
 File: Figures/intro_figures/qualitative_evo.png Graphic file (type png)
 <use Figures/intro_figures/qualitative_evo.png>
 Package pdftex.def Info: Figures/intro_figures/qualitative_evo.png  used on inp
-ut line 514.
+ut line 421.
 (pdftex.def)             Requested size: 417.47307pt x 270.75429pt.
- [25 <./Figures/intro_figures/qualitative_evo.png>] [26]
-<Figures/intro_figures/deheuvels_disparity_without.png, id=1271, 531.9875pt x 2
+ [19 <./Figures/intro_figures/qualitative_evo.png>] [20]
+<Figures/intro_figures/deheuvels_disparity_without.png, id=1217, 531.9875pt x 2
 68.00125pt>
 File: Figures/intro_figures/deheuvels_disparity_without.png Graphic file (type 
 png)
 <use Figures/intro_figures/deheuvels_disparity_without.png>
 Package pdftex.def Info: Figures/intro_figures/deheuvels_disparity_without.png 
- used on input line 557.
+ used on input line 456.
 (pdftex.def)             Requested size: 417.47307pt x 210.316pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Figures/intro_figures/deheuvels_disparity_with.png, id=1284, 520.94624pt x 503
+<Figures/intro_figures/deheuvels_disparity_with.png, id=1230, 520.94624pt x 503
 .8825pt>
 File: Figures/intro_figures/deheuvels_disparity_with.png Graphic file (type png
 )
 <use Figures/intro_figures/deheuvels_disparity_with.png>
 Package pdftex.def Info: Figures/intro_figures/deheuvels_disparity_with.png  us
-ed on input line 567.
+ed on input line 466.
 (pdftex.def)             Requested size: 417.47307pt x 403.79852pt.
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/intro_figures/rgb_core_rot_without.png, id=1291, 804.00375pt x 594.22p
+<Figures/intro_figures/rgb_core_rot_without.png, id=1237, 804.00375pt x 594.22p
 t>
 File: Figures/intro_figures/rgb_core_rot_without.png Graphic file (type png)
 <use Figures/intro_figures/rgb_core_rot_without.png>
 Package pdftex.def Info: Figures/intro_figures/rgb_core_rot_without.png  used o
-n input line 575.
+n input line 474.
 (pdftex.def)             Requested size: 417.47307pt x 308.54283pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/intro_figures/rgb_core_rot.png, id=1304, 781.92125pt x 594.22pt>
+<Figures/intro_figures/rgb_core_rot.png, id=1250, 781.92125pt x 594.22pt>
 File: Figures/intro_figures/rgb_core_rot.png Graphic file (type png)
 <use Figures/intro_figures/rgb_core_rot.png>
 Package pdftex.def Info: Figures/intro_figures/rgb_core_rot.png  used on input 
-line 585.
+line 484.
 (pdftex.def)             Requested size: 417.47307pt x 317.25627pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[27] [28 <./Figures/intro_figures/deheuvels_disparity_without.png>] [29 <./Figu
-res/intro_figures/deheuvels_disparity_with.png>] [30 <./Figures/intro_figures/r
-gb_core_rot_without.png>] [31 <./Figures/intro_figures/rgb_core_rot.png>]
-[32]
-<Figures/intro_figures/subgiant_surface.png, id=1449, 728.7225pt x 353.32pt>
+
+Overfull \hbox (3.9224pt too wide) in paragraph at lines 491--494
+[]\OT1/ptm/m/n/10.95 Mechanisms un-der-ly-ing the ex-cess an-gu-lar mo-men-tum 
+trans-port have also been pro-posed. [][]Barker
+ []
+
+[21 <./Figures/intro_figures/deheuvels_disparity_without.png>] [22 <./Figures/i
+ntro_figures/deheuvels_disparity_with.png>] [23 <./Figures/intro_figures/rgb_co
+re_rot_without.png>] [24 <./Figures/intro_figures/rgb_core_rot.png>] [25]
+<Figures/intro_figures/subgiant_surface.png, id=1378, 728.7225pt x 353.32pt>
 File: Figures/intro_figures/subgiant_surface.png Graphic file (type png)
 <use Figures/intro_figures/subgiant_surface.png>
 Package pdftex.def Info: Figures/intro_figures/subgiant_surface.png  used on in
-put line 673.
+put line 570.
 (pdftex.def)             Requested size: 417.47307pt x 202.40804pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[33]
-<Figures/intro_figures/rgb_surface.png, id=1473, 727.71875pt x 705.63625pt>
+[26 <./Figures/intro_figures/subgiant_surface.png>]
+<Figures/intro_figures/rgb_surface.png, id=1405, 727.71875pt x 705.63625pt>
 File: Figures/intro_figures/rgb_surface.png Graphic file (type png)
 <use Figures/intro_figures/rgb_surface.png>
 Package pdftex.def Info: Figures/intro_figures/rgb_surface.png  used on input l
-ine 688.
+ine 585.
 (pdftex.def)             Requested size: 417.47307pt x 404.81172pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[34 <./Figures/intro_figures/subgiant_surface.png>]
-<Figures/intro_figures/PMS_effect.png, id=1503, 1226.5825pt x 579.16376pt>
+ [27 <./Figures/intro_figures/rgb_surface.png>] [28] [29]
+<Figures/intro_figures/PMS_effect.png, id=1486, 1226.5825pt x 579.16376pt>
 File: Figures/intro_figures/PMS_effect.png Graphic file (type png)
 <use Figures/intro_figures/PMS_effect.png>
 Package pdftex.def Info: Figures/intro_figures/PMS_effect.png  used on input li
-ne 710.
+ne 699.
 (pdftex.def)             Requested size: 417.47307pt x 197.11632pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[35 <./Figures/intro_figures/rgb_surface.png>] [36 <./Figures/intro_figures/PMS
-_effect.png>]
-<Figures/intro_figures/MS_effect.png, id=1527, 1211.52625pt x 582.175pt>
+[30]
+<Figures/intro_figures/MS_effect.png, id=1506, 1211.52625pt x 582.175pt>
 File: Figures/intro_figures/MS_effect.png Graphic file (type png)
 <use Figures/intro_figures/MS_effect.png>
 Package pdftex.def Info: Figures/intro_figures/MS_effect.png  used on input lin
-e 732.
+e 721.
 (pdftex.def)             Requested size: 417.47307pt x 200.61075pt.
- [37 <./Figures/intro_figures/MS_effect.png>] [38] [39] [40]
-[41] [42] [43] [44] [45] [46] [47]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1015.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\mathop' on input line 1015.
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[31 <./Figures/intro_figures/PMS_effect.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 744--750
+
+ []
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\mathgroup' on input line 1015.
+Underfull \hbox (badness 10000) in paragraph at lines 744--750
+
+ []
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\symoperators' on input line 1015.
+Underfull \hbox (badness 10000) in paragraph at lines 744--750
 
+ []
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 1015.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1015.
-
-[48] [49]) (./Chapters/subgiant_astero_original.tex [50]
+[32 <./Figures/intro_figures/MS_effect.png>])
+(./Chapters/subgiant_astero_original.tex [33]
 Chapter 2.
 ------------------------------------------------------------------------------
  2 Constraining the Rotation Profile in a Low-Luminosity Subgiant with a Surfac
 e Rotation Measurement
 ------------------------------------------------------------------------------
-[51
+[34
 
-] [52]
-<Chapters/stad771-TW-subgiant.pdf, id=1741, 597.50627pt x 785.21959pt>
+] [35]
+<Chapters/stad771-TW-subgiant.pdf, id=1568, 597.50627pt x 785.21959pt>
 File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
 <use Chapters/stad771-TW-subgiant.pdf>
 Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf  used on input line 2
@@ -931,7 +1101,7 @@ File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
 Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf  used on input line 2
 9.
 (pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
-<Chapters/stad771-TW-subgiant.pdf, id=1744, page=1, 597.50627pt x 785.21959pt>
+<Chapters/stad771-TW-subgiant.pdf, id=1571, page=1, 597.50627pt x 785.21959pt>
 File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
 <use Chapters/stad771-TW-subgiant.pdf, page 1>
 Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page1 used on input
@@ -957,7 +1127,7 @@ File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
 Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page1 used on input
  line 29.
 (pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
- [53 <./Chapters/stad771-TW-subgiant.pdf>]
+ [36 <./Chapters/stad771-TW-subgiant.pdf>]
 File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
 <use Chapters/stad771-TW-subgiant.pdf>
 Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf  used on input line 3
@@ -968,7 +1138,7 @@ File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
 Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf  used on input line 3
 1.
 (pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
-<Chapters/stad771-TW-subgiant.pdf, id=1809, page=2, 597.50627pt x 785.21959pt>
+<Chapters/stad771-TW-subgiant.pdf, id=1636, page=2, 597.50627pt x 785.21959pt>
 File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
 <use Chapters/stad771-TW-subgiant.pdf, page 2>
 Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page2 used on input
@@ -994,1032 +1164,936 @@ File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
 Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page2 used on input
  line 31.
 (pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
- [54 <./Chapters/stad771-TW-subgiant.pdf>]
+ [37 <./Chapters/stad771-TW-subgiant.pdf>]
 File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
 <use Chapters/stad771-TW-subgiant.pdf>
-Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf  used on input line 6
+Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf  used on input line 3
+3.
+(pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
+File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
+<use Chapters/stad771-TW-subgiant.pdf>
+Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf  used on input line 3
+3.
+(pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
+<Chapters/stad771-TW-subgiant.pdf, id=1647, page=3, 597.50627pt x 785.21959pt>
+File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
+<use Chapters/stad771-TW-subgiant.pdf, page 3>
+Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page3 used on input
+ line 33.
+(pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
+File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
+<use Chapters/stad771-TW-subgiant.pdf, page 3>
+Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page3 used on input
+ line 33.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
+<use Chapters/stad771-TW-subgiant.pdf, page 3>
+Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page3 used on input
+ line 33.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
+<use Chapters/stad771-TW-subgiant.pdf, page 3>
+Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page3 used on input
+ line 33.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 33.
+See the caption package documentation for explanation.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 33.
+See the caption package documentation for explanation.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 33.
+See the caption package documentation for explanation.
+
+File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
+<use Chapters/stad771-TW-subgiant.pdf, page 3>
+Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page3 used on input
+ line 33.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+[38 <./Chapters/stad771-TW-subgiant.pdf>]
+File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
+<use Chapters/stad771-TW-subgiant.pdf>
+Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf  used on input line 3
 5.
 (pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
 File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
 <use Chapters/stad771-TW-subgiant.pdf>
-Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf  used on input line 6
+Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf  used on input line 3
 5.
 (pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
-<Chapters/stad771-TW-subgiant.pdf, id=1820, page=3, 597.50627pt x 785.21959pt>
+<Chapters/stad771-TW-subgiant.pdf, id=1678, page=4, 597.50627pt x 785.21959pt>
 File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
-<use Chapters/stad771-TW-subgiant.pdf, page 3>
-Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page3 used on input
- line 65.
+<use Chapters/stad771-TW-subgiant.pdf, page 4>
+Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page4 used on input
+ line 35.
 (pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
 File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
-<use Chapters/stad771-TW-subgiant.pdf, page 3>
-Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page3 used on input
- line 65.
+<use Chapters/stad771-TW-subgiant.pdf, page 4>
+Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page4 used on input
+ line 35.
 (pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
 File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
-<use Chapters/stad771-TW-subgiant.pdf, page 3>
-Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page3 used on input
- line 65.
+<use Chapters/stad771-TW-subgiant.pdf, page 4>
+Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page4 used on input
+ line 35.
 (pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
 File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
-<use Chapters/stad771-TW-subgiant.pdf, page 3>
-Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page3 used on input
- line 65.
+<use Chapters/stad771-TW-subgiant.pdf, page 4>
+Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page4 used on input
+ line 35.
 (pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
-<Figures/subgiant_chapter_figures/staradif.png, id=1821, 578.16pt x 361.35pt>
-File: Figures/subgiant_chapter_figures/staradif.png Graphic file (type png)
-<use Figures/subgiant_chapter_figures/staradif.png>
-Package pdftex.def Info: Figures/subgiant_chapter_figures/staradif.png  used on
- input line 65.
-(pdftex.def)             Requested size: 417.47307pt x 260.92168pt.
-<Figures/subgiant_chapter_figures/rots.png, id=1822, 433.62pt x 289.08pt>
-File: Figures/subgiant_chapter_figures/rots.png Graphic file (type png)
-<use Figures/subgiant_chapter_figures/rots.png>
-Package pdftex.def Info: Figures/subgiant_chapter_figures/rots.png  used on inp
-ut line 65.
-(pdftex.def)             Requested size: 208.73653pt x 139.15822pt.
 File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
-<use Chapters/stad771-TW-subgiant.pdf, page 3>
-Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page3 used on input
- line 65.
+<use Chapters/stad771-TW-subgiant.pdf, page 4>
+Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page4 used on input
+ line 35.
 (pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
- [55 <./Chapters/stad771-TW-subgiant.pdf> <./Figures/subgiant_chapter_figures/s
-taradif.png> <./Figures/subgiant_chapter_figures/rots.png>]
+ [39 <./Chapters/stad771-TW-subgiant.pdf>]
 File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
 <use Chapters/stad771-TW-subgiant.pdf>
-Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf  used on input line 6
+Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf  used on input line 3
 7.
 (pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
 File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
 <use Chapters/stad771-TW-subgiant.pdf>
-Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf  used on input line 6
+Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf  used on input line 3
 7.
 (pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
-<Chapters/stad771-TW-subgiant.pdf, id=1856, page=4, 597.50627pt x 785.21959pt>
+<Chapters/stad771-TW-subgiant.pdf, id=1693, page=5, 597.50627pt x 785.21959pt>
 File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
-<use Chapters/stad771-TW-subgiant.pdf, page 4>
-Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page4 used on input
- line 67.
+<use Chapters/stad771-TW-subgiant.pdf, page 5>
+Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page5 used on input
+ line 37.
 (pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
 File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
-<use Chapters/stad771-TW-subgiant.pdf, page 4>
-Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page4 used on input
- line 67.
+<use Chapters/stad771-TW-subgiant.pdf, page 5>
+Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page5 used on input
+ line 37.
 (pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
 File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
-<use Chapters/stad771-TW-subgiant.pdf, page 4>
-Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page4 used on input
- line 67.
+<use Chapters/stad771-TW-subgiant.pdf, page 5>
+Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page5 used on input
+ line 37.
 (pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
 File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
-<use Chapters/stad771-TW-subgiant.pdf, page 4>
-Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page4 used on input
- line 67.
-(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
-File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
-<use Chapters/stad771-TW-subgiant.pdf, page 4>
-Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page4 used on input
- line 67.
+<use Chapters/stad771-TW-subgiant.pdf, page 5>
+Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page5 used on input
+ line 37.
 (pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
 
-[56 <./Chapters/stad771-TW-subgiant.pdf>]
-File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
-<use Chapters/stad771-TW-subgiant.pdf>
-Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf  used on input line 7
-6.
-(pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
-File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
-<use Chapters/stad771-TW-subgiant.pdf>
-Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf  used on input line 7
-6.
-(pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
-<Chapters/stad771-TW-subgiant.pdf, id=1871, page=5, 597.50627pt x 785.21959pt>
-File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
-<use Chapters/stad771-TW-subgiant.pdf, page 5>
-Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page5 used on input
- line 76.
-(pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
-File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
-<use Chapters/stad771-TW-subgiant.pdf, page 5>
-Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page5 used on input
- line 76.
-(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
-File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
-<use Chapters/stad771-TW-subgiant.pdf, page 5>
-Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page5 used on input
- line 76.
-(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
-File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
-<use Chapters/stad771-TW-subgiant.pdf, page 5>
-Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page5 used on input
- line 76.
-(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
-<Figures/subgiant_chapter_figures/combined_results.png, id=1872, 772.68675pt x 
-763.1712pt>
-File: Figures/subgiant_chapter_figures/combined_results.png Graphic file (type 
-png)
-<use Figures/subgiant_chapter_figures/combined_results.png>
-Package pdftex.def Info: Figures/subgiant_chapter_figures/combined_results.png 
- used on input line 76.
-(pdftex.def)             Requested size: 396.59813pt x 391.7275pt.
-File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
-<use Chapters/stad771-TW-subgiant.pdf, page 5>
-Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page5 used on input
- line 76.
-(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
- [57 <./Chapters/stad771-TW-subgiant.pdf> <./Figures/subgiant_chapter_figures/c
-ombined_results.png>]
-File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
-<use Chapters/stad771-TW-subgiant.pdf>
-Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf  used on input line 1
-05.
-(pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
-File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
-<use Chapters/stad771-TW-subgiant.pdf>
-Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf  used on input line 1
-05.
-(pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
-<Chapters/stad771-TW-subgiant.pdf, id=1884, page=6, 597.50627pt x 785.21959pt>
-File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
-<use Chapters/stad771-TW-subgiant.pdf, page 6>
-Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page6 used on input
- line 105.
-(pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
-File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
-<use Chapters/stad771-TW-subgiant.pdf, page 6>
-Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page6 used on input
- line 105.
-(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
-File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
-<use Chapters/stad771-TW-subgiant.pdf, page 6>
-Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page6 used on input
- line 105.
-(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
-File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
-<use Chapters/stad771-TW-subgiant.pdf, page 6>
-Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page6 used on input
- line 105.
-(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
-<Figures/subgiant_chapter_figures/12_corner.png, id=1885, 549.05125pt x 549.051
-25pt>
-File: Figures/subgiant_chapter_figures/12_corner.png Graphic file (type png)
-<use Figures/subgiant_chapter_figures/12_corner.png>
-Package pdftex.def Info: Figures/subgiant_chapter_figures/12_corner.png  used o
-n input line 105.
-(pdftex.def)             Requested size: 208.73653pt x 208.7338pt.
-<Figures/subgiant_chapter_figures/22_corner.png, id=1886, 549.05125pt x 549.051
-25pt>
-File: Figures/subgiant_chapter_figures/22_corner.png Graphic file (type png)
-<use Figures/subgiant_chapter_figures/22_corner.png>
-Package pdftex.def Info: Figures/subgiant_chapter_figures/22_corner.png  used o
-n input line 105.
-(pdftex.def)             Requested size: 208.73653pt x 208.7338pt.
-File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
-<use Chapters/stad771-TW-subgiant.pdf, page 6>
-Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page6 used on input
- line 105.
-(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
- [58 <./Chapters/stad771-TW-subgiant.pdf> <./Figures/subgiant_chapter_figures/1
-2_corner.png> <./Figures/subgiant_chapter_figures/22_corner.png>]
-File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
-<use Chapters/stad771-TW-subgiant.pdf>
-Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf  used on input line 1
-08.
-(pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
-File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
-<use Chapters/stad771-TW-subgiant.pdf>
-Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf  used on input line 1
-08.
-(pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
-<Chapters/stad771-TW-subgiant.pdf, id=1909, page=7, 597.50627pt x 785.21959pt>
-File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
-<use Chapters/stad771-TW-subgiant.pdf, page 7>
-Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page7 used on input
- line 108.
-(pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
-File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
-<use Chapters/stad771-TW-subgiant.pdf, page 7>
-Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page7 used on input
- line 108.
-(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
-File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
-<use Chapters/stad771-TW-subgiant.pdf, page 7>
-Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page7 used on input
- line 108.
-(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
-File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
-<use Chapters/stad771-TW-subgiant.pdf, page 7>
-Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page7 used on input
- line 108.
-(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
-File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
-<use Chapters/stad771-TW-subgiant.pdf, page 7>
-Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page7 used on input
- line 108.
-(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
- [59 <./Chapters/stad771-TW-subgiant.pdf>]
-File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
-<use Chapters/stad771-TW-subgiant.pdf>
-Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf  used on input line 1
-44.
-(pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
-File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
-<use Chapters/stad771-TW-subgiant.pdf>
-Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf  used on input line 1
-44.
-(pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
-<Chapters/stad771-TW-subgiant.pdf, id=1916, page=8, 597.50627pt x 785.21959pt>
-File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
-<use Chapters/stad771-TW-subgiant.pdf, page 8>
-Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page8 used on input
- line 144.
-(pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
-File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
-<use Chapters/stad771-TW-subgiant.pdf, page 8>
-Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page8 used on input
- line 144.
-(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
-File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
-<use Chapters/stad771-TW-subgiant.pdf, page 8>
-Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page8 used on input
- line 144.
-(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
-File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
-<use Chapters/stad771-TW-subgiant.pdf, page 8>
-Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page8 used on input
- line 144.
-(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
-<Figures/subgiant_chapter_figures/10.05_corner.png, id=1917, 549.05125pt x 549.
-05125pt>
-File: Figures/subgiant_chapter_figures/10.05_corner.png Graphic file (type png)
 
-<use Figures/subgiant_chapter_figures/10.05_corner.png>
-Package pdftex.def Info: Figures/subgiant_chapter_figures/10.05_corner.png  use
-d on input line 144.
-(pdftex.def)             Requested size: 208.73653pt x 208.7338pt.
-<Figures/subgiant_chapter_figures/10.2_corner.png, id=1920, 549.05125pt x 549.0
-5125pt>
-File: Figures/subgiant_chapter_figures/10.2_corner.png Graphic file (type png)
-<use Figures/subgiant_chapter_figures/10.2_corner.png>
-Package pdftex.def Info: Figures/subgiant_chapter_figures/10.2_corner.png  used
- on input line 144.
-(pdftex.def)             Requested size: 208.73653pt x 208.7338pt.
-<Figures/subgiant_chapter_figures/10.5_corner.png, id=1923, 549.05125pt x 549.0
-5125pt>
-File: Figures/subgiant_chapter_figures/10.5_corner.png Graphic file (type png)
-<use Figures/subgiant_chapter_figures/10.5_corner.png>
-Package pdftex.def Info: Figures/subgiant_chapter_figures/10.5_corner.png  used
- on input line 144.
-(pdftex.def)             Requested size: 208.73653pt x 208.7338pt.
-<Figures/subgiant_chapter_figures/20.05_corner.png, id=1926, 549.05125pt x 549.
-05125pt>
-File: Figures/subgiant_chapter_figures/20.05_corner.png Graphic file (type png)
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 37.
+See the caption package documentation for explanation.
 
-<use Figures/subgiant_chapter_figures/20.05_corner.png>
-Package pdftex.def Info: Figures/subgiant_chapter_figures/20.05_corner.png  use
-d on input line 144.
-(pdftex.def)             Requested size: 208.73653pt x 208.7338pt.
+File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
+<use Chapters/stad771-TW-subgiant.pdf, page 5>
+Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page5 used on input
+ line 37.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+[40 <./Chapters/stad771-TW-subgiant.pdf>]
+File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
+<use Chapters/stad771-TW-subgiant.pdf>
+Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf  used on input line 3
+9.
+(pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
+File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
+<use Chapters/stad771-TW-subgiant.pdf>
+Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf  used on input line 3
+9.
+(pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
+<Chapters/stad771-TW-subgiant.pdf, id=1704, page=6, 597.50627pt x 785.21959pt>
+File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
+<use Chapters/stad771-TW-subgiant.pdf, page 6>
+Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page6 used on input
+ line 39.
+(pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
+File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
+<use Chapters/stad771-TW-subgiant.pdf, page 6>
+Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page6 used on input
+ line 39.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
+<use Chapters/stad771-TW-subgiant.pdf, page 6>
+Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page6 used on input
+ line 39.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
+<use Chapters/stad771-TW-subgiant.pdf, page 6>
+Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page6 used on input
+ line 39.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 39.
+See the caption package documentation for explanation.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 39.
+See the caption package documentation for explanation.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 39.
+See the caption package documentation for explanation.
+
+File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
+<use Chapters/stad771-TW-subgiant.pdf, page 6>
+Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page6 used on input
+ line 39.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+[41 <./Chapters/stad771-TW-subgiant.pdf>]
+File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
+<use Chapters/stad771-TW-subgiant.pdf>
+Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf  used on input line 4
+2.
+(pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
+File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
+<use Chapters/stad771-TW-subgiant.pdf>
+Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf  used on input line 4
+2.
+(pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
+<Chapters/stad771-TW-subgiant.pdf, id=1725, page=7, 597.50627pt x 785.21959pt>
+File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
+<use Chapters/stad771-TW-subgiant.pdf, page 7>
+Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page7 used on input
+ line 42.
+(pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
+File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
+<use Chapters/stad771-TW-subgiant.pdf, page 7>
+Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page7 used on input
+ line 42.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
+<use Chapters/stad771-TW-subgiant.pdf, page 7>
+Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page7 used on input
+ line 42.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
+<use Chapters/stad771-TW-subgiant.pdf, page 7>
+Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page7 used on input
+ line 42.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
+<use Chapters/stad771-TW-subgiant.pdf, page 7>
+Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page7 used on input
+ line 42.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+ [42 <./Chapters/stad771-TW-subgiant.pdf>]
+File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
+<use Chapters/stad771-TW-subgiant.pdf>
+Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf  used on input line 4
+3.
+(pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
+File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
+<use Chapters/stad771-TW-subgiant.pdf>
+Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf  used on input line 4
+3.
+(pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
+<Chapters/stad771-TW-subgiant.pdf, id=1732, page=8, 597.50627pt x 785.21959pt>
 File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
 <use Chapters/stad771-TW-subgiant.pdf, page 8>
 Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page8 used on input
- line 144.
+ line 43.
+(pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
+File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
+<use Chapters/stad771-TW-subgiant.pdf, page 8>
+Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page8 used on input
+ line 43.
 (pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
- [60 <./Chapters/stad771-TW-subgiant.pdf> <./Figures/subgiant_chapter_figures/1
-0.05_corner.png> <./Figures/subgiant_chapter_figures/10.2_corner.png> <./Figure
-s/subgiant_chapter_figures/10.5_corner.png> <./Figures/subgiant_chapter_figures
-/20.05_corner.png>]
+File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
+<use Chapters/stad771-TW-subgiant.pdf, page 8>
+Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page8 used on input
+ line 43.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
+<use Chapters/stad771-TW-subgiant.pdf, page 8>
+Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page8 used on input
+ line 43.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
+<use Chapters/stad771-TW-subgiant.pdf, page 8>
+Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page8 used on input
+ line 43.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+ [43 <./Chapters/stad771-TW-subgiant.pdf>]
 File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
 <use Chapters/stad771-TW-subgiant.pdf>
-Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf  used on input line 1
-63.
+Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf  used on input line 4
+4.
 (pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
 File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
 <use Chapters/stad771-TW-subgiant.pdf>
-Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf  used on input line 1
-63.
+Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf  used on input line 4
+4.
 (pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
-<Chapters/stad771-TW-subgiant.pdf, id=1957, page=9, 597.50627pt x 785.21959pt>
+<Chapters/stad771-TW-subgiant.pdf, id=1756, page=9, 597.50627pt x 785.21959pt>
 File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
 <use Chapters/stad771-TW-subgiant.pdf, page 9>
 Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page9 used on input
- line 163.
+ line 44.
 (pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
 File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
 <use Chapters/stad771-TW-subgiant.pdf, page 9>
 Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page9 used on input
- line 163.
+ line 44.
 (pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
 File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
 <use Chapters/stad771-TW-subgiant.pdf, page 9>
 Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page9 used on input
- line 163.
+ line 44.
 (pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
 File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
 <use Chapters/stad771-TW-subgiant.pdf, page 9>
 Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page9 used on input
- line 163.
+ line 44.
 (pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
-<Figures/subgiant_chapter_figures/20.2_corner.png, id=1958, 549.05125pt x 549.0
-5125pt>
-File: Figures/subgiant_chapter_figures/20.2_corner.png Graphic file (type png)
-<use Figures/subgiant_chapter_figures/20.2_corner.png>
-Package pdftex.def Info: Figures/subgiant_chapter_figures/20.2_corner.png  used
- on input line 163.
-(pdftex.def)             Requested size: 208.73653pt x 208.7338pt.
-<Figures/subgiant_chapter_figures/20.5_corner.png, id=1963, 549.05125pt x 549.0
-5125pt>
-File: Figures/subgiant_chapter_figures/20.5_corner.png Graphic file (type png)
-<use Figures/subgiant_chapter_figures/20.5_corner.png>
-Package pdftex.def Info: Figures/subgiant_chapter_figures/20.5_corner.png  used
- on input line 163.
-(pdftex.def)             Requested size: 208.73653pt x 208.7338pt.
 File: Chapters/stad771-TW-subgiant.pdf Graphic file (type pdf)
 <use Chapters/stad771-TW-subgiant.pdf, page 9>
 Package pdftex.def Info: Chapters/stad771-TW-subgiant.pdf , page9 used on input
- line 163.
+ line 44.
 (pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
- [61 <./Chapters/stad771-TW-subgiant.pdf> <./Figures/subgiant_chapter_figures/2
-0.2_corner.png> <./Figures/subgiant_chapter_figures/20.5_corner.png>]) (./Chapt
-ers/stellar_spot_original.tex
+ [44 <./Chapters/stad771-TW-subgiant.pdf>]) (./Chapters/stellar_spot_original.t
+ex
 Chapter 3.
 ------------------------------------------------------------------------------
  3 Stellar spots cause measurable variations in atmospheric metallicity
 ------------------------------------------------------------------------------
-[62
+[45
 
-] [63]
-<Chapters/stad1875-TW-SS.pdf, id=1995, 597.50627pt x 785.21959pt>
-File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
-<use Chapters/stad1875-TW-SS.pdf>
-Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf  used on input line 32.
-(pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
-File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
-<use Chapters/stad1875-TW-SS.pdf>
-Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf  used on input line 32.
-(pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
-<Chapters/stad1875-TW-SS.pdf, id=1998, page=1, 597.50627pt x 785.21959pt>
-File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
-<use Chapters/stad1875-TW-SS.pdf, page 1>
-Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page1 used on input line
- 32.
-(pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
-File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
-<use Chapters/stad1875-TW-SS.pdf, page 1>
-Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page1 used on input line
- 32.
-(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
-File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
-<use Chapters/stad1875-TW-SS.pdf, page 1>
-Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page1 used on input line
- 32.
-(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
-File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
-<use Chapters/stad1875-TW-SS.pdf, page 1>
-Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page1 used on input line
- 32.
-(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
-File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
-<use Chapters/stad1875-TW-SS.pdf, page 1>
-Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page1 used on input line
- 32.
-(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
- [64 <./Chapters/stad1875-TW-SS.pdf>]
-File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
-<use Chapters/stad1875-TW-SS.pdf>
-Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf  used on input line 42.
-(pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
-File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
-<use Chapters/stad1875-TW-SS.pdf>
-Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf  used on input line 42.
-(pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
-<Chapters/stad1875-TW-SS.pdf, id=2046, page=2, 597.50627pt x 785.21959pt>
-File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
-<use Chapters/stad1875-TW-SS.pdf, page 2>
-Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page2 used on input line
- 42.
-(pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
-File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
-<use Chapters/stad1875-TW-SS.pdf, page 2>
-Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page2 used on input line
- 42.
-(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
-File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
-<use Chapters/stad1875-TW-SS.pdf, page 2>
-Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page2 used on input line
- 42.
-(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
-File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
-<use Chapters/stad1875-TW-SS.pdf, page 2>
-Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page2 used on input line
- 42.
-(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
-<Figures/ss_chapter_figures/injected_hr.png, id=2047, 867.24pt x 505.89pt>
-File: Figures/ss_chapter_figures/injected_hr.png Graphic file (type png)
-<use Figures/ss_chapter_figures/injected_hr.png>
-Package pdftex.def Info: Figures/ss_chapter_figures/injected_hr.png  used on in
-put line 42.
-(pdftex.def)             Requested size: 208.73653pt x 121.76344pt.
-File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
-<use Chapters/stad1875-TW-SS.pdf, page 2>
-Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page2 used on input line
- 42.
-(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
- [65 <./Chapters/stad1875-TW-SS.pdf> <./Figures/ss_chapter_figures/injected_hr.
-png>]
-File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
-<use Chapters/stad1875-TW-SS.pdf>
-Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf  used on input line 51.
-(pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
-File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
-<use Chapters/stad1875-TW-SS.pdf>
-Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf  used on input line 51.
-(pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
-<Chapters/stad1875-TW-SS.pdf, id=2069, page=3, 597.50627pt x 785.21959pt>
-File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
-<use Chapters/stad1875-TW-SS.pdf, page 3>
-Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page3 used on input line
- 51.
-(pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
-File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
-<use Chapters/stad1875-TW-SS.pdf, page 3>
-Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page3 used on input line
- 51.
-(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
-File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
-<use Chapters/stad1875-TW-SS.pdf, page 3>
-Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page3 used on input line
- 51.
-(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
-File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
-<use Chapters/stad1875-TW-SS.pdf, page 3>
-Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page3 used on input line
- 51.
-(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
-<Figures/ss_chapter_figures/recov_tests_spot.png, id=2070, 1084.05pt x 722.7pt>
-
-File: Figures/ss_chapter_figures/recov_tests_spot.png Graphic file (type png)
-<use Figures/ss_chapter_figures/recov_tests_spot.png>
-Package pdftex.def Info: Figures/ss_chapter_figures/recov_tests_spot.png  used 
-on input line 51.
-(pdftex.def)             Requested size: 417.47307pt x 278.31203pt.
-File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
-<use Chapters/stad1875-TW-SS.pdf, page 3>
-Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page3 used on input line
- 51.
-(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
- [66 <./Chapters/stad1875-TW-SS.pdf> <./Figures/ss_chapter_figures/recov_tests_
-spot.png>]
-File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
-<use Chapters/stad1875-TW-SS.pdf>
-Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf  used on input line 60.
-(pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
-File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
-<use Chapters/stad1875-TW-SS.pdf>
-Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf  used on input line 60.
-(pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
-<Chapters/stad1875-TW-SS.pdf, id=2084, page=4, 597.50627pt x 785.21959pt>
-File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
-<use Chapters/stad1875-TW-SS.pdf, page 4>
-Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page4 used on input line
- 60.
-(pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
-File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
-<use Chapters/stad1875-TW-SS.pdf, page 4>
-Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page4 used on input line
- 60.
-(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
-File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
-<use Chapters/stad1875-TW-SS.pdf, page 4>
-Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page4 used on input line
- 60.
-(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
-File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
-<use Chapters/stad1875-TW-SS.pdf, page 4>
-Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page4 used on input line
- 60.
-(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
-<Figures/ss_chapter_figures/recov_spot_param.png, id=2085, 578.16pt x 722.7pt>
-File: Figures/ss_chapter_figures/recov_spot_param.png Graphic file (type png)
-<use Figures/ss_chapter_figures/recov_spot_param.png>
-Package pdftex.def Info: Figures/ss_chapter_figures/recov_spot_param.png  used 
-on input line 60.
-(pdftex.def)             Requested size: 208.73653pt x 260.92166pt.
-File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
-<use Chapters/stad1875-TW-SS.pdf, page 4>
-Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page4 used on input line
- 60.
-(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
- [67 <./Chapters/stad1875-TW-SS.pdf> <./Figures/ss_chapter_figures/recov_spot_p
-aram.png>]
-File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
-<use Chapters/stad1875-TW-SS.pdf>
-Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf  used on input line 69.
-(pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
-File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
-<use Chapters/stad1875-TW-SS.pdf>
-Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf  used on input line 69.
-(pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
-<Chapters/stad1875-TW-SS.pdf, id=2099, page=5, 597.50627pt x 785.21959pt>
-File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
-<use Chapters/stad1875-TW-SS.pdf, page 5>
-Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page5 used on input line
- 69.
-(pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
-File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
-<use Chapters/stad1875-TW-SS.pdf, page 5>
-Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page5 used on input line
- 69.
-(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
-File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
-<use Chapters/stad1875-TW-SS.pdf, page 5>
-Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page5 used on input line
- 69.
-(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
-File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
-<use Chapters/stad1875-TW-SS.pdf, page 5>
-Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page5 used on input line
- 69.
-(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
-<Figures/ss_chapter_figures/recov_tests_full.png, id=2100, 1084.05pt x 722.7pt>
-
-File: Figures/ss_chapter_figures/recov_tests_full.png Graphic file (type png)
-<use Figures/ss_chapter_figures/recov_tests_full.png>
-Package pdftex.def Info: Figures/ss_chapter_figures/recov_tests_full.png  used 
-on input line 69.
-(pdftex.def)             Requested size: 417.47307pt x 278.31203pt.
-File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
-<use Chapters/stad1875-TW-SS.pdf, page 5>
-Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page5 used on input line
- 69.
-(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
-
-[68 <./Chapters/stad1875-TW-SS.pdf> <./Figures/ss_chapter_figures/recov_tests_f
-ull.png>]
-File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
-<use Chapters/stad1875-TW-SS.pdf>
-Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf  used on input line 77.
-(pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
-File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
-<use Chapters/stad1875-TW-SS.pdf>
-Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf  used on input line 77.
-(pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
-<Chapters/stad1875-TW-SS.pdf, id=2114, page=6, 597.50627pt x 785.21959pt>
-File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
-<use Chapters/stad1875-TW-SS.pdf, page 6>
-Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page6 used on input line
- 77.
-(pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
-File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
-<use Chapters/stad1875-TW-SS.pdf, page 6>
-Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page6 used on input line
- 77.
-(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
-File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
-<use Chapters/stad1875-TW-SS.pdf, page 6>
-Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page6 used on input line
- 77.
-(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
-File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
-<use Chapters/stad1875-TW-SS.pdf, page 6>
-Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page6 used on input line
- 77.
-(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
-<Figures/ss_chapter_figures/full_results_teff.png, id=2115, 1300.86pt x 867.24p
-t>
-File: Figures/ss_chapter_figures/full_results_teff.png Graphic file (type png)
-<use Figures/ss_chapter_figures/full_results_teff.png>
-Package pdftex.def Info: Figures/ss_chapter_figures/full_results_teff.png  used
- on input line 77.
-(pdftex.def)             Requested size: 417.47307pt x 278.31645pt.
-File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
-<use Chapters/stad1875-TW-SS.pdf, page 6>
-Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page6 used on input line
- 77.
-(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
- [69 <./Chapters/stad1875-TW-SS.pdf> <./Figures/ss_chapter_figures/full_results
-_teff.png>]
-File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
-<use Chapters/stad1875-TW-SS.pdf>
-Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf  used on input line 86.
-(pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
-File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
-<use Chapters/stad1875-TW-SS.pdf>
-Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf  used on input line 86.
-(pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
-<Chapters/stad1875-TW-SS.pdf, id=2127, page=7, 597.50627pt x 785.21959pt>
-File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
-<use Chapters/stad1875-TW-SS.pdf, page 7>
-Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page7 used on input line
- 86.
-(pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
-File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
-<use Chapters/stad1875-TW-SS.pdf, page 7>
-Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page7 used on input line
- 86.
-(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
-File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
-<use Chapters/stad1875-TW-SS.pdf, page 7>
-Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page7 used on input line
- 86.
-(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
-File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
-<use Chapters/stad1875-TW-SS.pdf, page 7>
-Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page7 used on input line
- 86.
-(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
-<Figures/ss_chapter_figures/full_results.png, id=2128, 1300.86pt x 867.24pt>
-File: Figures/ss_chapter_figures/full_results.png Graphic file (type png)
-<use Figures/ss_chapter_figures/full_results.png>
-Package pdftex.def Info: Figures/ss_chapter_figures/full_results.png  used on i
-nput line 86.
-(pdftex.def)             Requested size: 417.47307pt x 278.31645pt.
-File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
-<use Chapters/stad1875-TW-SS.pdf, page 7>
-Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page7 used on input line
- 86.
-(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
- [70 <./Chapters/stad1875-TW-SS.pdf> <./Figures/ss_chapter_figures/full_results
-.png>]
-File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
-<use Chapters/stad1875-TW-SS.pdf>
-Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf  used on input line 95.
-(pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
-File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
-<use Chapters/stad1875-TW-SS.pdf>
-Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf  used on input line 95.
-(pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
-<Chapters/stad1875-TW-SS.pdf, id=2141, page=8, 597.50627pt x 785.21959pt>
-File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
-<use Chapters/stad1875-TW-SS.pdf, page 8>
-Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page8 used on input line
- 95.
-(pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
-File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
-<use Chapters/stad1875-TW-SS.pdf, page 8>
-Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page8 used on input line
- 95.
-(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
-File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
-<use Chapters/stad1875-TW-SS.pdf, page 8>
-Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page8 used on input line
- 95.
-(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
-File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
-<use Chapters/stad1875-TW-SS.pdf, page 8>
-Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page8 used on input line
- 95.
-(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
-<Figures/ss_chapter_figures/med_age.png, id=2142, 867.24pt x 505.89pt>
-File: Figures/ss_chapter_figures/med_age.png Graphic file (type png)
-<use Figures/ss_chapter_figures/med_age.png>
-Package pdftex.def Info: Figures/ss_chapter_figures/med_age.png  used on input 
-line 95.
-(pdftex.def)             Requested size: 208.73653pt x 121.76344pt.
-File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
-<use Chapters/stad1875-TW-SS.pdf, page 8>
-Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page8 used on input line
- 95.
-(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
- [71 <./Chapters/stad1875-TW-SS.pdf> <./Figures/ss_chapter_figures/med_age.png>
 ]
+<Chapters/stad1875-TW-SS.pdf, id=1778, 597.50627pt x 785.21959pt>
 File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
 <use Chapters/stad1875-TW-SS.pdf>
-Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf  used on input line 96.
+Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf  used on input line 32.
 (pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
 File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
 <use Chapters/stad1875-TW-SS.pdf>
-Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf  used on input line 96.
+Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf  used on input line 32.
 (pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
-<Chapters/stad1875-TW-SS.pdf, id=2154, page=9, 597.50627pt x 785.21959pt>
+<Chapters/stad1875-TW-SS.pdf, id=1781, page=1, 597.50627pt x 785.21959pt>
+File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
+<use Chapters/stad1875-TW-SS.pdf, page 1>
+Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page1 used on input line
+ 32.
+(pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
+File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
+<use Chapters/stad1875-TW-SS.pdf, page 1>
+Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page1 used on input line
+ 32.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
+<use Chapters/stad1875-TW-SS.pdf, page 1>
+Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page1 used on input line
+ 32.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
+<use Chapters/stad1875-TW-SS.pdf, page 1>
+Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page1 used on input line
+ 32.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
+<use Chapters/stad1875-TW-SS.pdf, page 1>
+Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page1 used on input line
+ 32.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+ [46 <./Chapters/stad1875-TW-SS.pdf>]
+File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
+<use Chapters/stad1875-TW-SS.pdf>
+Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf  used on input line 37.
+(pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
+File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
+<use Chapters/stad1875-TW-SS.pdf>
+Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf  used on input line 37.
+(pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
+<Chapters/stad1875-TW-SS.pdf, id=1827, page=2, 597.50627pt x 785.21959pt>
+File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
+<use Chapters/stad1875-TW-SS.pdf, page 2>
+Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page2 used on input line
+ 37.
+(pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
+File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
+<use Chapters/stad1875-TW-SS.pdf, page 2>
+Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page2 used on input line
+ 37.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
+<use Chapters/stad1875-TW-SS.pdf, page 2>
+Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page2 used on input line
+ 37.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
+<use Chapters/stad1875-TW-SS.pdf, page 2>
+Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page2 used on input line
+ 37.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 37.
+See the caption package documentation for explanation.
+
+File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
+<use Chapters/stad1875-TW-SS.pdf, page 2>
+Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page2 used on input line
+ 37.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+[47 <./Chapters/stad1875-TW-SS.pdf>]
+File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
+<use Chapters/stad1875-TW-SS.pdf>
+Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf  used on input line 41.
+(pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
+File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
+<use Chapters/stad1875-TW-SS.pdf>
+Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf  used on input line 41.
+(pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
+<Chapters/stad1875-TW-SS.pdf, id=1849, page=3, 597.50627pt x 785.21959pt>
+File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
+<use Chapters/stad1875-TW-SS.pdf, page 3>
+Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page3 used on input line
+ 41.
+(pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
+File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
+<use Chapters/stad1875-TW-SS.pdf, page 3>
+Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page3 used on input line
+ 41.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
+<use Chapters/stad1875-TW-SS.pdf, page 3>
+Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page3 used on input line
+ 41.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
+<use Chapters/stad1875-TW-SS.pdf, page 3>
+Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page3 used on input line
+ 41.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 41.
+See the caption package documentation for explanation.
+
+File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
+<use Chapters/stad1875-TW-SS.pdf, page 3>
+Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page3 used on input line
+ 41.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+[48 <./Chapters/stad1875-TW-SS.pdf>]
+File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
+<use Chapters/stad1875-TW-SS.pdf>
+Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf  used on input line 45.
+(pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
+File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
+<use Chapters/stad1875-TW-SS.pdf>
+Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf  used on input line 45.
+(pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
+<Chapters/stad1875-TW-SS.pdf, id=1862, page=4, 597.50627pt x 785.21959pt>
+File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
+<use Chapters/stad1875-TW-SS.pdf, page 4>
+Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page4 used on input line
+ 45.
+(pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
+File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
+<use Chapters/stad1875-TW-SS.pdf, page 4>
+Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page4 used on input line
+ 45.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
+<use Chapters/stad1875-TW-SS.pdf, page 4>
+Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page4 used on input line
+ 45.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
+<use Chapters/stad1875-TW-SS.pdf, page 4>
+Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page4 used on input line
+ 45.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 45.
+See the caption package documentation for explanation.
+
+File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
+<use Chapters/stad1875-TW-SS.pdf, page 4>
+Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page4 used on input line
+ 45.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+[49 <./Chapters/stad1875-TW-SS.pdf>]
+File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
+<use Chapters/stad1875-TW-SS.pdf>
+Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf  used on input line 49.
+(pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
+File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
+<use Chapters/stad1875-TW-SS.pdf>
+Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf  used on input line 49.
+(pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
+<Chapters/stad1875-TW-SS.pdf, id=1875, page=5, 597.50627pt x 785.21959pt>
+File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
+<use Chapters/stad1875-TW-SS.pdf, page 5>
+Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page5 used on input line
+ 49.
+(pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
+File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
+<use Chapters/stad1875-TW-SS.pdf, page 5>
+Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page5 used on input line
+ 49.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
+<use Chapters/stad1875-TW-SS.pdf, page 5>
+Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page5 used on input line
+ 49.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
+<use Chapters/stad1875-TW-SS.pdf, page 5>
+Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page5 used on input line
+ 49.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 49.
+See the caption package documentation for explanation.
+
+File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
+<use Chapters/stad1875-TW-SS.pdf, page 5>
+Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page5 used on input line
+ 49.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+[50 <./Chapters/stad1875-TW-SS.pdf>]
+File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
+<use Chapters/stad1875-TW-SS.pdf>
+Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf  used on input line 53.
+(pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
+File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
+<use Chapters/stad1875-TW-SS.pdf>
+Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf  used on input line 53.
+(pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
+<Chapters/stad1875-TW-SS.pdf, id=1888, page=6, 597.50627pt x 785.21959pt>
+File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
+<use Chapters/stad1875-TW-SS.pdf, page 6>
+Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page6 used on input line
+ 53.
+(pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
+File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
+<use Chapters/stad1875-TW-SS.pdf, page 6>
+Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page6 used on input line
+ 53.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
+<use Chapters/stad1875-TW-SS.pdf, page 6>
+Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page6 used on input line
+ 53.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
+<use Chapters/stad1875-TW-SS.pdf, page 6>
+Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page6 used on input line
+ 53.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 53.
+See the caption package documentation for explanation.
+
+File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
+<use Chapters/stad1875-TW-SS.pdf, page 6>
+Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page6 used on input line
+ 53.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+[51 <./Chapters/stad1875-TW-SS.pdf>]
+File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
+<use Chapters/stad1875-TW-SS.pdf>
+Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf  used on input line 57.
+(pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
+File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
+<use Chapters/stad1875-TW-SS.pdf>
+Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf  used on input line 57.
+(pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
+<Chapters/stad1875-TW-SS.pdf, id=1899, page=7, 597.50627pt x 785.21959pt>
+File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
+<use Chapters/stad1875-TW-SS.pdf, page 7>
+Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page7 used on input line
+ 57.
+(pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
+File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
+<use Chapters/stad1875-TW-SS.pdf, page 7>
+Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page7 used on input line
+ 57.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
+<use Chapters/stad1875-TW-SS.pdf, page 7>
+Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page7 used on input line
+ 57.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
+<use Chapters/stad1875-TW-SS.pdf, page 7>
+Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page7 used on input line
+ 57.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 57.
+See the caption package documentation for explanation.
+
+File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
+<use Chapters/stad1875-TW-SS.pdf, page 7>
+Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page7 used on input line
+ 57.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+[52 <./Chapters/stad1875-TW-SS.pdf>]
+File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
+<use Chapters/stad1875-TW-SS.pdf>
+Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf  used on input line 62.
+(pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
+File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
+<use Chapters/stad1875-TW-SS.pdf>
+Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf  used on input line 62.
+(pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
+<Chapters/stad1875-TW-SS.pdf, id=1910, page=8, 597.50627pt x 785.21959pt>
+File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
+<use Chapters/stad1875-TW-SS.pdf, page 8>
+Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page8 used on input line
+ 62.
+(pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
+File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
+<use Chapters/stad1875-TW-SS.pdf, page 8>
+Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page8 used on input line
+ 62.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
+<use Chapters/stad1875-TW-SS.pdf, page 8>
+Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page8 used on input line
+ 62.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
+<use Chapters/stad1875-TW-SS.pdf, page 8>
+Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page8 used on input line
+ 62.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 62.
+See the caption package documentation for explanation.
+
+File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
+<use Chapters/stad1875-TW-SS.pdf, page 8>
+Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page8 used on input line
+ 62.
+(pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
+[53 <./Chapters/stad1875-TW-SS.pdf>]
+File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
+<use Chapters/stad1875-TW-SS.pdf>
+Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf  used on input line 64.
+(pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
+File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
+<use Chapters/stad1875-TW-SS.pdf>
+Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf  used on input line 64.
+(pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
+<Chapters/stad1875-TW-SS.pdf, id=1923, page=9, 597.50627pt x 785.21959pt>
 File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
 <use Chapters/stad1875-TW-SS.pdf, page 9>
 Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page9 used on input line
- 96.
+ 64.
 (pdftex.def)             Requested size: 597.5048pt x 785.21768pt.
 File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
 <use Chapters/stad1875-TW-SS.pdf, page 9>
 Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page9 used on input line
- 96.
+ 64.
 (pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
 File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
 <use Chapters/stad1875-TW-SS.pdf, page 9>
 Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page9 used on input line
- 96.
+ 64.
 (pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
 File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
 <use Chapters/stad1875-TW-SS.pdf, page 9>
 Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page9 used on input line
- 96.
+ 64.
 (pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
 File: Chapters/stad1875-TW-SS.pdf Graphic file (type pdf)
 <use Chapters/stad1875-TW-SS.pdf, page 9>
 Package pdftex.def Info: Chapters/stad1875-TW-SS.pdf , page9 used on input line
- 96.
+ 64.
 (pdftex.def)             Requested size: 537.75067pt x 706.69112pt.
- [72 <./Chapters/stad1875-TW-SS.pdf>])
+ [54 <./Chapters/stad1875-TW-SS.pdf>])
 (./Chapters/rotational_peropd_gap_chapter_update.tex
 Chapter 4.
 ------------------------------------------------------------------------------
  4 The Intermediate Period Gap
 ------------------------------------------------------------------------------
-[73
+[55
 
-] [74] [75] [76] [77] [78] [79] [80] [81]
-<Figures/rot_gap_figures/HR.png, id=2315, 878.68275pt x 458.6736pt>
+] [56] [57] [58] [59] [60]
+<Figures/rot_gap_figures/comparison_diffrot.png, id=2069, 651.6345pt x 442.6537
+5pt>
+File: Figures/rot_gap_figures/comparison_diffrot.png Graphic file (type png)
+<use Figures/rot_gap_figures/comparison_diffrot.png>
+Package pdftex.def Info: Figures/rot_gap_figures/comparison_diffrot.png  used o
+n input line 197.
+(pdftex.def)             Requested size: 417.47307pt x 283.58786pt.
+ [61 <./Figures/rot_gap_figures/comparison_diffrot.png>] [62]
+<Figures/rot_gap_figures/comparison_observed_rot_periods.png, id=2101, 740.0448
+pt x 505.52866pt>
+File: Figures/rot_gap_figures/comparison_observed_rot_periods.png Graphic file 
+(type png)
+<use Figures/rot_gap_figures/comparison_observed_rot_periods.png>
+Package pdftex.def Info: Figures/rot_gap_figures/comparison_observed_rot_period
+s.png  used on input line 249.
+(pdftex.def)             Requested size: 417.47307pt x 285.17682pt.
+ [63 <./Figures/rot_gap_figures/comparison_observed_rot_periods.png>]
+<Figures/rot_gap_figures/comp_dist.png, id=2120, 1200.8865pt x 893.2572pt>
+File: Figures/rot_gap_figures/comp_dist.png Graphic file (type png)
+<use Figures/rot_gap_figures/comp_dist.png>
+Package pdftex.def Info: Figures/rot_gap_figures/comp_dist.png  used on input l
+ine 280.
+(pdftex.def)             Requested size: 417.47307pt x 310.51842pt.
+<Figures/rot_gap_figures/comp_hess.png, id=2129, 1453.71104pt x 1578.8586pt>
+File: Figures/rot_gap_figures/comp_hess.png Graphic file (type png)
+<use Figures/rot_gap_figures/comp_hess.png>
+Package pdftex.def Info: Figures/rot_gap_figures/comp_hess.png  used on input l
+ine 289.
+(pdftex.def)             Requested size: 417.47307pt x 453.40036pt.
+
+
+LaTeX Warning: Float too large for page by 33.24835pt on input line 299.
+
+[64] [65 <./Figures/rot_gap_figures/comp_dist.png>] [66 <./Figures/rot_gap_figu
+res/comp_hess.png>] [67]
+<Figures/rot_gap_figures/com_gap_clus.png, id=2168, 747.15135pt x 448.074pt>
+File: Figures/rot_gap_figures/com_gap_clus.png Graphic file (type png)
+<use Figures/rot_gap_figures/com_gap_clus.png>
+Package pdftex.def Info: Figures/rot_gap_figures/com_gap_clus.png  used on inpu
+t line 347.
+(pdftex.def)             Requested size: 417.47307pt x 250.36592pt.
+ [68 <./Figures/rot_gap_figures/com_gap_clus.png>]
+[69]) (./Chapters/conclusion_chapter.tex [70]
+Chapter 5.
+------------------------------------------------------------------------------
+ 5 Summary, Conclusions and Future Work
+------------------------------------------------------------------------------
+[71
+
+] [72] [73] [74] [75]) (./Appendices/AppendixA.tex [76]
+Appendix A.
+------------------------------------------------------------------------------
+ A An investigation into the evidence against current explanations for the inte
+rmediate period gap
+------------------------------------------------------------------------------
+[77
+
+] [78] [79] [80]
+<Figures/rot_gap_figures/HR.png, id=2342, 878.68275pt x 458.6736pt>
 File: Figures/rot_gap_figures/HR.png Graphic file (type png)
 <use Figures/rot_gap_figures/HR.png>
-Package pdftex.def Info: Figures/rot_gap_figures/HR.png  used on input line 194
+Package pdftex.def Info: Figures/rot_gap_figures/HR.png  used on input line 115
 .
 (pdftex.def)             Requested size: 417.47307pt x 217.9212pt.
-<Figures/rot_gap_figures/rotational_dist.png, id=2316, 918.67215pt x 458.6736pt
+<Figures/rot_gap_figures/rotational_dist.png, id=2343, 918.67215pt x 458.6736pt
 >
 File: Figures/rot_gap_figures/rotational_dist.png Graphic file (type png)
 <use Figures/rot_gap_figures/rotational_dist.png>
 Package pdftex.def Info: Figures/rot_gap_figures/rotational_dist.png  used on i
-nput line 202.
+nput line 123.
 (pdftex.def)             Requested size: 417.47307pt x 208.43785pt.
- [82] [83 <./Figures/rot_gap_figures/HR.png> <./Figures/rot_gap_figures/rotatio
-nal_dist.png>]
-<Figures/rot_gap_figures/rot_dist_binned.png, id=2339, 804.96735pt x 458.6736pt
+ [81 <./Figures/rot_gap_figures/HR.png>]
+<Figures/rot_gap_figures/rot_dist_binned.png, id=2357, 804.96735pt x 458.6736pt
 >
 File: Figures/rot_gap_figures/rot_dist_binned.png Graphic file (type png)
 <use Figures/rot_gap_figures/rot_dist_binned.png>
 Package pdftex.def Info: Figures/rot_gap_figures/rot_dist_binned.png  used on i
-nput line 221.
+nput line 142.
 (pdftex.def)             Requested size: 417.47307pt x 237.88174pt.
- [84 <./Figures/rot_gap_figures/rot_dist_binned.png>]
-<Figures/rot_gap_figures/rot_vs_rper_minima.png, id=2351, 782.56364pt x 2532.58
+ [82 <./Figures/rot_gap_figures/rotational_dist.png>]
+<Figures/rot_gap_figures/rot_vs_rper_minima.png, id=2368, 782.56364pt x 2532.58
 17pt>
 File: Figures/rot_gap_figures/rot_vs_rper_minima.png Graphic file (type png)
 <use Figures/rot_gap_figures/rot_vs_rper_minima.png>
 Package pdftex.def Info: Figures/rot_gap_figures/rot_vs_rper_minima.png  used o
-n input line 248.
+n input line 169.
 (pdftex.def)             Requested size: 208.73653pt x 675.53639pt.
 
 
-LaTeX Warning: Float too large for page by 60.56331pt on input line 252.
+LaTeX Warning: Float too large for page by 60.56331pt on input line 173.
 
-<Figures/rot_gap_figures/rot_dist_minima_shown.png, id=2352, 620.19705pt x 426.
+<Figures/rot_gap_figures/rot_dist_minima_shown.png, id=2369, 620.19705pt x 426.
 8748pt>
 File: Figures/rot_gap_figures/rot_dist_minima_shown.png Graphic file (type png)
 
 <use Figures/rot_gap_figures/rot_dist_minima_shown.png>
 Package pdftex.def Info: Figures/rot_gap_figures/rot_dist_minima_shown.png  use
-d on input line 256.
+d on input line 177.
 (pdftex.def)             Requested size: 417.47307pt x 287.3399pt.
-[85] [86 <./Figures/rot_gap_figures/rot_vs_rper_minima.png>]
-<Figures/rot_gap_figures/per_vs_colour.png, id=2363, 833.15265pt x 2532.5817pt>
+[83 <./Figures/rot_gap_figures/rot_dist_binned.png>] [84 <./Figures/rot_gap_fig
+ures/rot_vs_rper_minima.png>]
+<Figures/rot_gap_figures/per_vs_colour.png, id=2382, 833.15265pt x 2532.5817pt>
 
 File: Figures/rot_gap_figures/per_vs_colour.png Graphic file (type png)
 <use Figures/rot_gap_figures/per_vs_colour.png>
 Package pdftex.def Info: Figures/rot_gap_figures/per_vs_colour.png  used on inp
-ut line 274.
+ut line 195.
 (pdftex.def)             Requested size: 208.73653pt x 634.49641pt.
 
 
-LaTeX Warning: Float too large for page by 19.52333pt on input line 278.
+LaTeX Warning: Float too large for page by 19.52333pt on input line 199.
 
-[87 <./Figures/rot_gap_figures/rot_dist_minima_shown.png>] [88 <./Figures/rot_g
+[85 <./Figures/rot_gap_figures/rot_dist_minima_shown.png>] [86 <./Figures/rot_g
 ap_figures/per_vs_colour.png>]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 289.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\mathop' on input line 289.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 210.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\mathgroup' on input line 289.
+(hyperref)                removing `math shift' on input line 210.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\symoperators' on input line 289.
+(hyperref)                removing `\mathop' on input line 210.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 289.
+(hyperref)                removing `\mathgroup' on input line 210.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 289.
+(hyperref)                removing `\symoperators' on input line 210.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 289.
+(hyperref)                removing `\@ifnextchar' on input line 210.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 289.
+(hyperref)                removing `superscript' on input line 210.
 
 
-Overfull \hbox (8.17258pt too wide) in paragraph at lines 297--301
-[][][]\OT1/cmr/m/n/10.95 Zhang et al.[][] ([][]2020[][]) ex-tracted the chro-mo
--spheric mag-netic ac-tiv-ity in-dexes, S and $[]  \OML/cmm/m/it/10.95 R[]$\OT1
-/cmr/m/n/10.95 ,
- []
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 210.
 
-[89]
-<Figures/rot_gap_figures/rotational_dist_rhk.png, id=2387, 923.73105pt x 458.67
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 210.
+
+<Figures/rot_gap_figures/rotational_dist_rhk.png, id=2400, 923.73105pt x 458.67
 36pt>
 File: Figures/rot_gap_figures/rotational_dist_rhk.png Graphic file (type png)
 <use Figures/rot_gap_figures/rotational_dist_rhk.png>
 Package pdftex.def Info: Figures/rot_gap_figures/rotational_dist_rhk.png  used 
-on input line 309.
+on input line 227.
 (pdftex.def)             Requested size: 417.47307pt x 207.29005pt.
- [90 <./Figures/rot_gap_figures/rotational_dist_rhk.png>]
-<Figures/rot_gap_figures/rot_vs_rper_rhk_minima.png, id=2395, 809.1831pt x 1140
+[87]
+<Figures/rot_gap_figures/rot_vs_rper_rhk_minima.png, id=2408, 809.1831pt x 1140
 .54105pt>
 File: Figures/rot_gap_figures/rot_vs_rper_rhk_minima.png Graphic file (type png
 )
 <use Figures/rot_gap_figures/rot_vs_rper_rhk_minima.png>
 Package pdftex.def Info: Figures/rot_gap_figures/rot_vs_rper_rhk_minima.png  us
-ed on input line 325.
+ed on input line 243.
 (pdftex.def)             Requested size: 417.47307pt x 588.4381pt.
- [91] [92 <./Figures/rot_gap_figures/rot_vs_rper_rhk_minima.png>]
-<Figures/rot_gap_figures/HR_mag_and_non_rot.png, id=2413, 858.44714pt x 723.061
+ [88 <./Figures/rot_gap_figures/rotational_dist_rhk.png>] [89 <./Figures/rot_ga
+p_figures/rot_vs_rper_rhk_minima.png>]
+<Figures/rot_gap_figures/HR_mag_and_non_rot.png, id=2428, 858.44714pt x 723.061
 36pt>
 File: Figures/rot_gap_figures/HR_mag_and_non_rot.png Graphic file (type png)
 <use Figures/rot_gap_figures/HR_mag_and_non_rot.png>
 Package pdftex.def Info: Figures/rot_gap_figures/HR_mag_and_non_rot.png  used o
-n input line 369.
+n input line 285.
 (pdftex.def)             Requested size: 417.47307pt x 351.63318pt.
- [93]
-<Figures/rot_gap_figures/pdf_cdf.png, id=2422, 754.13745pt x 453.73515pt>
+ [90]
+<Figures/rot_gap_figures/pdf_cdf.png, id=2435, 754.13745pt x 453.73515pt>
 File: Figures/rot_gap_figures/pdf_cdf.png Graphic file (type png)
 <use Figures/rot_gap_figures/pdf_cdf.png>
 Package pdftex.def Info: Figures/rot_gap_figures/pdf_cdf.png  used on input lin
-e 388.
+e 305.
 (pdftex.def)             Requested size: 417.47307pt x 251.17519pt.
- [94 <./Figures/rot_gap_figures/HR_mag_and_non_rot.png>]
-<Figures/rot_gap_figures/detection_efficiency.png, id=2431, 880.60995pt x 731.4
+ [91 <./Figures/rot_gap_figures/HR_mag_and_non_rot.png>]
+<Figures/rot_gap_figures/detection_efficiency.png, id=2443, 880.60995pt x 731.4
 9284pt>
 File: Figures/rot_gap_figures/detection_efficiency.png Graphic file (type png)
 <use Figures/rot_gap_figures/detection_efficiency.png>
 Package pdftex.def Info: Figures/rot_gap_figures/detection_efficiency.png  used
- on input line 404.
+ on input line 321.
 (pdftex.def)             Requested size: 417.47307pt x 346.78185pt.
- [95 <./Figures/rot_gap_figures/pdf_cdf.png>]
-[96 <./Figures/rot_gap_figures/detection_efficiency.png>]
-<Figures/rot_gap_figures/hist_obs.png, id=2448, 677.1699pt x 450.2421pt>
+ [92 <./Figures/rot_gap_figures/pdf_cdf.png>] [93 <./Figures/rot_gap_figures/de
+tection_efficiency.png>]
+<Figures/rot_gap_figures/hist_obs.png, id=2460, 677.1699pt x 450.2421pt>
 File: Figures/rot_gap_figures/hist_obs.png Graphic file (type png)
 <use Figures/rot_gap_figures/hist_obs.png>
 Package pdftex.def Info: Figures/rot_gap_figures/hist_obs.png  used on input li
-ne 441.
+ne 358.
 (pdftex.def)             Requested size: 417.47307pt x 277.57394pt.
- [97]
-<Figures/rot_gap_figures/n_col.png, id=2454, 782.56364pt x 1168.48544pt>
+ [94]
+<Figures/rot_gap_figures/n_col.png, id=2466, 782.56364pt x 1168.48544pt>
 File: Figures/rot_gap_figures/n_col.png Graphic file (type png)
 <use Figures/rot_gap_figures/n_col.png>
 Package pdftex.def Info: Figures/rot_gap_figures/n_col.png  used on input line 
-459.
+375.
 (pdftex.def)             Requested size: 417.47307pt x 623.3595pt.
 
 
-LaTeX Warning: Float too large for page by 8.38641pt on input line 464.
+LaTeX Warning: Float too large for page by 8.38641pt on input line 380.
 
-[98 <./Figures/rot_gap_figures/hist_obs.png>]
-<Figures/rot_gap_figures/stars_donot_fullgap.png, id=2462, 723.78406pt x 450.24
+[95 <./Figures/rot_gap_figures/hist_obs.png>] [96 <./Figures/rot_gap_figures/n_
+col.png>]
+<Figures/rot_gap_figures/stars_donot_fullgap.png, id=2479, 723.78406pt x 450.24
 21pt>
 File: Figures/rot_gap_figures/stars_donot_fullgap.png Graphic file (type png)
 <use Figures/rot_gap_figures/stars_donot_fullgap.png>
 Package pdftex.def Info: Figures/rot_gap_figures/stars_donot_fullgap.png  used 
-on input line 478.
+on input line 394.
 (pdftex.def)             Requested size: 417.47307pt x 259.691pt.
- [99] [100 <./Figures/rot_gap_figures/n_col.png>] [101 <./Figures/rot_gap_figur
-es/stars_donot_fullgap.png>]
-[102] [103]
+ [97 <./Figures/rot_gap_figures/stars_donot_fullgap.png>] [98]
+[99]) (./Thesis.bbl [100] [101
 
-LaTeX Warning: Reference `fig:compar_diff_rot' on page 104 undefined on input l
-ine 583.
+] [102] [103] [104] [105] [106] [107] [108])
+[109] (./Thesis.aux)
 
-[104] [105] [106]
-<Figures/rot_gap_figures/comparison_diffrot.png, id=2566, 670.30424pt x 457.830
-44pt>
-File: Figures/rot_gap_figures/comparison_diffrot.png Graphic file (type png)
-<use Figures/rot_gap_figures/comparison_diffrot.png>
-Package pdftex.def Info: Figures/rot_gap_figures/comparison_diffrot.png  used o
-n input line 639.
-(pdftex.def)             Requested size: 417.47307pt x 285.14433pt.
-<Figures/rot_gap_figures/comparison_observed_rot_periods.png, id=2575, 764.0143
-4pt x 524.80064pt>
-File: Figures/rot_gap_figures/comparison_observed_rot_periods.png Graphic file 
-(type png)
-<use Figures/rot_gap_figures/comparison_observed_rot_periods.png>
-Package pdftex.def Info: Figures/rot_gap_figures/comparison_observed_rot_period
-s.png  used on input line 648.
-(pdftex.def)             Requested size: 417.47307pt x 286.7594pt.
-<Figures/rot_gap_figures/comp_dist.png, id=2578, 1232.08305pt x 911.44514pt>
-File: Figures/rot_gap_figures/comp_dist.png Graphic file (type png)
-<use Figures/rot_gap_figures/comp_dist.png>
-Package pdftex.def Info: Figures/rot_gap_figures/comp_dist.png  used on input l
-ine 657.
-(pdftex.def)             Requested size: 417.47307pt x 308.83028pt.
-
-
-LaTeX Warning: Reference `fig:comp_fig' on page 107 undefined on input line 660
-.
-
-
-LaTeX Warning: Reference `fig:comp_fig' on page 107 undefined on input line 660
-.
-
-<Figures/rot_gap_figures/comp_hist.png, id=2585, 1290.86266pt x 911.44514pt>
-File: Figures/rot_gap_figures/comp_hist.png Graphic file (type png)
-<use Figures/rot_gap_figures/comp_hist.png>
-Package pdftex.def Info: Figures/rot_gap_figures/comp_hist.png  used on input l
-ine 666.
-(pdftex.def)             Requested size: 417.47307pt x 294.76978pt.
-[107 <./Figures/rot_gap_figures/comparison_diffrot.png>]
-
-Package natbib Warning: Citation `reinhold_transition_2018' on page 108 undefin
-ed on input line 681.
-
-[108 <./Figures/rot_gap_figures/comparison_observed_rot_periods.png>] [109 <./F
-igures/rot_gap_figures/comp_dist.png>] [110 <./Figures/rot_gap_figures/comp_his
-t.png>] [111] [112] [113] [114]) (./Chapters/conclusion_chapter.tex [115]
-Chapter 5.
-------------------------------------------------------------------------------
- 5 Summary, Conclusions and Future Work
-------------------------------------------------------------------------------
-[116
-
-] [117] [118] [119] [120]
-
-Package natbib Warning: Citation `aigrain_testing_2015' on page 121 undefined o
-n input line 97.
-
-
-LaTeX Warning: Reference `sec:intro_diff_rot_techniques' on page 121 undefined 
-on input line 98.
-
-[121]
-
-Package natbib Warning: Citation `claytor_recovery_2023' on page 122 undefined 
-on input line 116.
-
-[122]) (./Thesis.bbl [123] [124
-
-] [125] [126] [127] [128] [129] [130] [131]
-[132])
-
-Package natbib Warning: There were undefined citations.
-
-[133] (./Thesis.aux)
-
-LaTeX Warning: There were undefined references.
+LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: C3FE0399CDE3F4608C3BE2F9254A9AC0;12720.
+(rerunfilecheck)             Checksum: 662735A6E583197B66985430B985B82A;12344.
  ) 
 Here is how much of TeX's memory you used:
- 16538 strings out of 478268
- 280462 string characters out of 5846348
- 572297 words of memory out of 5000000
- 33924 multiletter control sequences out of 15000+600000
- 487433 words of font info for 95 fonts, out of 8000000 for 9000
+ 16594 strings out of 478268
+ 278014 string characters out of 5846348
+ 577977 words of memory out of 5000000
+ 33987 multiletter control sequences out of 15000+600000
+ 544591 words of font info for 182 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,18n,77p,1340b,768s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
-}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
-</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><
-/usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></u
-sr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxsl10.pfb></
-usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></
-usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></u
-sr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb>
-</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
-/usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></
-usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></us
-r/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/
-local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/lo
-cal/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/loca
-l/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/
-texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/te
-xlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texl
-ive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive
-/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/20
-22/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2022/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2022/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/local/texlive/2022/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf
--dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2022/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2022/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2022/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2022/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2022/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2022/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2022/texmf-dist/fonts/
-type1/public/amsfonts/euler/eurm10.pfb></usr/local/texlive/2022/texmf-dist/font
-s/type1/public/mathabx-type1/mathb8.pfb></usr/local/texlive/2022/texmf-dist/fon
-ts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2022/texmf-dist
-/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2022/texmf-dist/f
-onts/type1/public/cm-super/sfrm1095.pfb>
-Output written on Thesis.pdf (148 pages, 47494142 bytes).
+ 75i,18n,77p,1320b,766s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
+xlive/2022/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/local
+/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/
+texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/te
+xlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/tex
+live/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texli
+ve/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive
+/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/
+2022/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb></usr/local/texliv
+e/2022/texmf-dist/fonts/type1/public/mathabx-type1/mathb8.pfb></usr/local/texli
+ve/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/t
+exlive/2022/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr/local/texlive/2
+022/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2022/texmf-d
+ist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2022/texmf-dist/fonts/t
+ype1/urw/times/utmb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/t
+imes/utmr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmr8
+a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Thesis.pdf (123 pages, 43862161 bytes).
 PDF statistics:
- 3207 PDF objects out of 3580 (max. 8388607)
- 2609 compressed objects within 27 object streams
- 483 named destinations out of 1000 (max. 500000)
- 976 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2927 PDF objects out of 2984 (max. 8388607)
+ 2424 compressed objects within 25 object streams
+ 433 named destinations out of 1000 (max. 500000)
+ 883 words of extra memory for PDF output out of 10000 (max. 10000000)
 

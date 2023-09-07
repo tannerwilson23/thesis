@@ -17,6 +17,12 @@
   {mn@eprint@\@tempb}{\@tempb:\@tempc}{\expandafter \expandafter \csname
   mn@eprint@\@tempb\endcsname \expandafter{\@tempc}}}
 
+\bibitem[\protect\citeauthoryear{Aerts, Christensen-Dalsgaard  \& Kurtz}{Aerts
+  et~al.}{2010}]{aerts_asteroseismology_2010}
+Aerts C.,  Christensen-Dalsgaard J.,   Kurtz D.~W.,  2010, Asteroseismology,
+  \mn@doi{10.1007/978-1-4020-5803-5.
+}, \url {https://ui.adsabs.harvard.edu/abs/2010aste.book.....A}
+
 \bibitem[\protect\citeauthoryear{Affer, Micela, Favata, Flaccomio  \&
   Bouvier}{Affer et~al.}{2013}]{affer_rotation_2013}
 Affer L.,  Micela G.,  Favata F.,  Flaccomio E.,   Bouvier J.,  2013, \mn@doi
@@ -53,6 +59,12 @@ Albrecht S.,  Winn J.~N.,  Carter J.~A.,  Snellen I. A.~G.,   de Mooij E.
   Winn}{Albrecht et~al.}{2013}]{albrecht_banana_2013}
 Albrecht S.,  Setiawan J.,  Torres G.,  Fabrycky D.~C.,   Winn J.~N.,  2013,
   \mn@doi [The Astrophysical Journal] {10.1088/0004-637X/767/1/32}, 767, 32
+
+\bibitem[\protect\citeauthoryear{{Amard}, {Palacios}, {Charbonnel}, {Gallet}
+  \& {Bouvier}}{{Amard} et~al.}{2016}]{amard_rotating_2016}
+{Amard} L.,  {Palacios} A.,  {Charbonnel} C.,  {Gallet} F.,   {Bouvier} J.,
+  2016, \mn@doi [Astronomy \& Astrophysics] {10.1051/0004-6361/201527349},
+  \href {https://ui.adsabs.harvard.edu/abs/2016A&A...587A.105A} {587, A105}
 
 \bibitem[\protect\citeauthoryear{Amard, Palacios, Charbonnel, Gallet, Georgy,
   Lagarde  \& Siess}{Amard et~al.}{2019}]{amard_first_2019}
@@ -142,10 +154,6 @@ Princeton University Press
   \mn@doi [Astronomy \& Astrophysics] {10.1051/0004-6361/201834594}, \href
   {https://ui.adsabs.harvard.edu/abs/2019A&A...623A.125B} {623, A125}
 
-\bibitem[\protect\citeauthoryear{Beck et~al.,}{Beck
-  et~al.}{2012}]{beck_fast_2012}
-Beck P.~G.,  et~al., 2012, \mn@doi [Nature] {10.1038/nature10612}, 481, 55
-
 \bibitem[\protect\citeauthoryear{Bedding et~al.,}{Bedding
   et~al.}{2011}]{bedding_gravity_2011}
 Bedding T.~R.,  et~al., 2011, \mn@doi [Nature] {10.1038/nature09935}, 471, 608
@@ -222,6 +230,12 @@ Charbonnel C.,  Talon S.,  2008, ] {10.1017/S1743921308022710}, 252, 163
 Charbonnel C.,  Vauclair S.,  Maeder A.,  Meynet G.,   Schaller G.,  1994,
   Astronomy and Astrophysics, 283, 155
 
+\bibitem[\protect\citeauthoryear{Christensen-Dalsgaard \&
+  Gough}{Christensen-Dalsgaard \&
+  Gough}{1982}]{christensen-dalsgaard_interpretation_1982}
+Christensen-Dalsgaard J.,  Gough D.~O.,  1982, \mn@doi [Monthly Notices of the
+  Royal Astronomical Society] {10.1093/mnras/198.1.141}, 198, 141
+
 \bibitem[\protect\citeauthoryear{Christensen-Dalsgaard, Schou  \&
   Thompson}{Christensen-Dalsgaard
   et~al.}{1990}]{christensen-dalsgaard_comparison_1990}
@@ -256,11 +270,6 @@ Christensen-Dalsgaard J.,  Hansen P.~C.,   Thompson M.~J.,  1993, \mn@doi
 {Collier Cameron} A.,  2007, \mn@doi [Astronomische Nachrichten]
   {10.1002/asna.200710880}, \href
   {https://ui.adsabs.harvard.edu/abs/2007AN....328.1030C} {328, 1030}
-
-\bibitem[\protect\citeauthoryear{Craig \& Brown}{Craig \&
-  Brown}{1986}]{craig_inverse_1986}
-Craig I. J.~D.,  Brown J.~C.,  1986, Research supported by SERC. Bristol,
-  England and Boston, MA, Adam Hilger, Ltd., 1986, 159 p.
 
 \bibitem[\protect\citeauthoryear{{Cranmer} \& {Saar}}{{Cranmer} \&
   {Saar}}{2011}]{cranmer_testing_2011}
@@ -329,12 +338,6 @@ Distefano E.,  et~al., 2022, Gaia {Data} {Release} 3. {Rotational} modulation
   and patterns of colour variations in solar-like variables, \url
   {http://arxiv.org/abs/2206.05500}
 
-\bibitem[\protect\citeauthoryear{{Donahue}, {Saar}  \& {Baliunas}}{{Donahue}
-  et~al.}{1996}]{donahue_relationship_1996}
-{Donahue} R.~A.,  {Saar} S.~H.,   {Baliunas} S.~L.,  1996, \mn@doi
-  [Astrophysical Journal] {10.1086/177517}, \href
-  {https://ui.adsabs.harvard.edu/abs/1996ApJ...466..384D} {466, 384}
-
 \bibitem[\protect\citeauthoryear{Douglas, Ag{\"u}eros, Covey  \& Kraus}{Douglas
   et~al.}{2017}]{douglas_poking_2017}
 Douglas S.~T.,  Ag{\"u}eros M.~A.,  Covey K.~R.,   Kraus A.~L.,  2017, \mn@doi
@@ -351,9 +354,6 @@ Douglas S.~T.,  Curtis J.~L.,  Ag{\"u}eros M.~A.,  Cargile P.~A.,  Brewer
 Dumont T.,  Palacios A.,  Charbonnel C.,  Richard O.,  Amard L.,  Augustson K.,
     Mathis S.,  2021, \mn@doi [Astronomy \& Astrophysics]
   {10.1051/0004-6361/202039515}, 646, A48
-
-\bibitem[\protect\citeauthoryear{Ebden}{Ebden}{2015}]{ebden_gaussian_2015}
-Ebden M.,  2015, arXiv:1505.02965
 
 \bibitem[\protect\citeauthoryear{Eddington}{Eddington}{1918}]{eddington_conditions_1918}
 Eddington A.~S.,  1918, \mn@doi [The Astrophysical Journal] {10.1086/142427},
@@ -437,6 +437,11 @@ Garcia R.~A.,  et~al., 2014, \mn@doi [Astronomy \& Astrophysics]
 Gehan C.,  Mosser B.,  Michel E.,  Samadi R.,   Kallinger T.,  2018, \mn@doi
   [Astronomy \& Astrophysics] {10.1051/0004-6361/201832822}, 616, A24
 
+\bibitem[\protect\citeauthoryear{Gehan, Mosser  \& Michel}{Gehan
+  et~al.}{2019}]{gehan_measuring_2019}
+Gehan C.,  Mosser B.,   Michel E.,  2019, \mn@doi [EAS Publications Series]
+  {10.1051/eas/1982021}, 82, 225
+
 \bibitem[\protect\citeauthoryear{Goldreich \& Schubert}{Goldreich \&
   Schubert}{1967}]{goldreich_differential_1967}
 Goldreich P.,  Schubert G.,  1967, \mn@doi [The Astrophysical Journal]
@@ -467,13 +472,6 @@ Gough D.,  Toomre J.,  1991, \mn@doi [Annual Review of Astronomy and
 Gough D.~O.,  Sekii T.,   Stark P.~B.,  1996, \mn@doi [The Astrophysical
   Journal] {10.1086/176942}, 459, 779
 
-\bibitem[\protect\citeauthoryear{{Granzer} \& {Strassmeier}}{{Granzer} \&
-  {Strassmeier}}{2003}]{granzer_spotted_2003}
-{Granzer} T.,  {Strassmeier} K.~G.,  2003, in {Brown} A.,  {Harper} G.~M.,
-  {Ayres} T.~R.,  eds,  Cambridge Workshop on Cool Stars, Stellar Systems, and
-  the Sun Vol. 12, The Future of Cool-Star Astrophysics: 12th Cambridge
-  Workshop on Cool Stars, Stellar Systems, and the Sun. pp 763--768
-
 \bibitem[\protect\citeauthoryear{{Hall} et~al.,}{{Hall}
   et~al.}{2021}]{hall_weakened_2021}
 {Hall} O.~J.,  et~al., 2021, \mn@doi [Nature Astronomy]
@@ -496,6 +494,11 @@ Hartman J.~D.,  Bakos G.~{\'A}.,  Kov{\'a}cs G.,   Noyes R.~W.,  2010, A
   {Large} {Sample} of {Photometric} {Rotation} {Periods} for {FGK} {Pleiades}
   {Stars}, \mn@doi{10.48550/arXiv.1006.0950}, \url
   {http://arxiv.org/abs/1006.0950}
+
+\bibitem[\protect\citeauthoryear{{Hathaway}}{{Hathaway}}{2015}]{hathaway_solar_2015}
+{Hathaway} D.~H.,  2015, \mn@doi [Living Reviews in Solar Physics]
+  {10.1007/lrsp-2015-4}, \href
+  {https://ui.adsabs.harvard.edu/abs/2015LRSP...12....4H} {12, 4}
 
 \bibitem[\protect\citeauthoryear{Hatt et~al.,}{Hatt
   et~al.}{2023}]{hatt_catalogue_2023}
@@ -568,6 +571,11 @@ Lagarde N.,  Decressin T.,  Charbonnel C.,  Eggenberger P.,  Ekstr{\"o}m S.,
   Palacios A.,  2012, \mn@doi [Astronomy \& Astrophysics]
   {10.1051/0004-6361/201118331}, 543, A108
 
+\bibitem[\protect\citeauthoryear{{Lanza} \& {Rodono}}{{Lanza} \&
+  {Rodono}}{1996}]{lanza_evaluation_1996}
+{Lanza} A.~F.,  {Rodono} M.,  1996, Astronomy \& Astrophysics, \href
+  {https://ui.adsabs.harvard.edu/abs/1996A&A...306..145L} {306, 145}
+
 \bibitem[\protect\citeauthoryear{Lanzafame \& Spada}{Lanzafame \&
   Spada}{2015}]{lanzafame_rotational_2015}
 Lanzafame A.~C.,  Spada F.,  2015, \mn@doi [Astronomy and Astrophysics]
@@ -584,10 +592,6 @@ Li Y.,  Bedding T.~R.,  Li T.,  Bi S.,  Stello D.,  Zhou Y.,   White T.~R.,
 Li T.,  Bedding T.~R.,  Christensen-Dalsgaard J.,  Stello D.,  Li Y.,   Keen
   M.~A.,  2020b, \mn@doi [Monthly Notices of the Royal Astronomical Society]
   {10.1093/mnras/staa1350}, 495, 3431
-
-\bibitem[\protect\citeauthoryear{Liu, Ong, Shen  \& Cai}{Liu
-  et~al.}{2019}]{liu_when_2019}
-Liu H.,  Ong Y.-S.,  Shen X.,   Cai J.,  2019, arXiv:1807.01065
 
 \bibitem[\protect\citeauthoryear{Lockwood, Skiff, Henry, Henry, Radick,
   Baliunas, Donahue  \& Soon}{Lockwood et~al.}{2007}]{lockwood_patterns_2007}
@@ -618,12 +622,6 @@ Lockwood G.~W.,  Skiff B.~A.,  Henry G.~W.,  Henry S.,  Radick R.~R.,  Baliunas
 Lu Y.,  Curtis J.~L.,  Angus R.,  David T.~J.,   Hattori S.,  2022, \mn@doi
   [The Astronomical Journal] {10.3847/1538-3881/ac9bee}, 164, 251
 
-\bibitem[\protect\citeauthoryear{Lu, See, Amard, Angus  \& Matt}{Lu
-  et~al.}{2023}]{lu_abrupt_2023}
-Lu Y.,  See V.,  Amard L.,  Angus R.,   Matt S.~P.,  2023, An abrupt change in
-  the stellar spin-down law at the fully convective boundary (\mn@eprint
-  {arXiv} {2306.09119})
-
 \bibitem[\protect\citeauthoryear{Maeder}{Maeder}{2009}]{maeder_physics_2009}
 Maeder A.,  2009, Physics, {Formation} and {Evolution} of {Rotating} {Stars}.
 Springer
@@ -639,6 +637,11 @@ Maeder A.,  Zahn J.-P.,  1998, Astronomy and Astrophysics, 334, 1000
 
 \bibitem[\protect\citeauthoryear{Masuda}{Masuda}{2022}]{masuda_detectability_2022}
 Masuda K.,  2022, The Astrophysical Journal, 937, 94
+
+\bibitem[\protect\citeauthoryear{{Maunder}}{{Maunder}}{1904}]{maunder_note_1904}
+{Maunder} E.~W.,  1904, \mn@doi [Monthly Notices of the Royal Astronomical
+  Society] {10.1093/mnras/64.8.747}, \href
+  {https://ui.adsabs.harvard.edu/abs/1904MNRAS..64..747M} {64, 747}
 
 \bibitem[\protect\citeauthoryear{McQuillan, Mazeh  \& Aigrain}{McQuillan
   et~al.}{2014}]{mcquillan_rotation_2014}
@@ -659,12 +662,6 @@ Meibom S.,  et~al., 2011, \mn@doi [The Astrophysical Journal]
   Mer}{2006}]{menou_magnetorotational_2006}
 Menou K.,  Mer J.~L.,  2006, \mn@doi [The Astrophysical Journal]
   {10.1086/507022}, 650, 1208
-
-\bibitem[\protect\citeauthoryear{{Messina} \& {Guinan}}{{Messina} \&
-  {Guinan}}{2003}]{messina_magnetic_2003}
-{Messina} S.,  {Guinan} E.~F.,  2003, \mn@doi [Astronomy \& Astrophysics]
-  {10.1051/0004-6361:20031161}, \href
-  {https://ui.adsabs.harvard.edu/abs/2003A&A...409.1017M} {409, 1017}
 
 \bibitem[\protect\citeauthoryear{Metcalfe et~al.,}{Metcalfe
   et~al.}{2010}]{metcalfe_precise_2010}
@@ -718,10 +715,6 @@ Noyes R.~W.,  Hartmann L.~W.,  Baliunas S.~L.,  Duncan D.~K.,   Vaughan A.~H.,
   \& Salmon}{Ouazzani et~al.}{2018}]{ouazzani_gamma_2018}
 Ouazzani R.-M.,  Marques J.~P.,  Goupil M.-J.,  Christophe S.,  Antoci V.,
   Salmon S. J. A.~J.,  2018, arXiv e-prints, 1801, arXiv:1801.09228
-
-\bibitem[\protect\citeauthoryear{Pijpers \& Thompson}{Pijpers \&
-  Thompson}{1994}]{pijpers_sola_1994}
-Pijpers F.~P.,  Thompson M.~J.,  1994, Astronomy and Astrophysics, 281, 231
 
 \bibitem[\protect\citeauthoryear{Pin{\c c}on, Belkacem, Goupil  \&
   Marques}{Pin{\c c}on et~al.}{2017}]{pincon_can_2017}
@@ -859,10 +852,6 @@ Vaughan A.~H.,  Preston G.~W.,  1980, \mn@doi [Publications of the Astronomical
   Astronomical Society] {10.1093/mnras/stt1700}, \href
   {https://ui.adsabs.harvard.edu/abs/2013MNRAS.436.1883W} {436, 1883}
 
-\bibitem[\protect\citeauthoryear{Williams \& Ramussen}{Williams \&
-  Ramussen}{1996}]{williams_gaussian_1996}
-Williams C.~K.,  Ramussen C.~E.,  1996, MIT
-
 \bibitem[\protect\citeauthoryear{{Wilson}}{{Wilson}}{1963}]{wilson_probable_1963}
 {Wilson} O.~C.,  1963, \mn@doi [Astrophysical Journal] {10.1086/147689}, \href
   {https://ui.adsabs.harvard.edu/abs/1963ApJ...138..832W} {138, 832}
@@ -889,6 +878,12 @@ Zahn J.-P.,  1992, Astronomy and Astrophysics, 265, 115
   et~al.}{2020}]{zhang_magnetic_2020}
 Zhang J.,  et~al., 2020, \mn@doi [The Astrophysical Journal Supplement Series]
   {10.3847/1538-4365/ab6165}, 247, 9
+
+\bibitem[\protect\citeauthoryear{{de Grijs} \& {Kamath}}{{de Grijs} \&
+  {Kamath}}{2021}]{grijs_stellar_2021}
+{de Grijs} R.,  {Kamath} D.,  2021, \mn@doi [Universe]
+  {10.3390/universe7110440}, \href
+  {https://ui.adsabs.harvard.edu/abs/2021Univ....7..440D} {7, 440}
 
 \bibitem[\protect\citeauthoryear{den Hartogh, Eggenberger  \& Hirschi}{den
   Hartogh et~al.}{2019}]{den_hartogh_constraining_2019}

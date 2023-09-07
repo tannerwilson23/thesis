@@ -26,8 +26,10 @@
 \usepackage{vector}  % Allows "\bvec{}" and "\buvec{}" for "blackboard" style bold vectors in maths
 \hypersetup{urlcolor=blue, colorlinks=true}  % Colours hyperlinks in blue, but this can be distracting if there are many links.
 \usepackage{amsmath}
-\usepackage{amssymb}
+%\usepackage{amssymb}
 \usepackage{pdfpages}
+\usepackage{mathptmx}
+\usepackage{anyfontsize}
 
 \newcommand\project[1]{\textsl{#1}}
 \newcommand\corot{\project{CoRoT}}
@@ -38,6 +40,7 @@
 \newcommand\ktoo{\project{K2}}
 \newcommand\ZTF{\project{ZTF}}
 \newcommand\gaia{\project{Gaia}}
+\newcommand\GDRT{\project{GDR3}}
 
 \newcommand{\tamb}{$T_{\text{amb}}$}
 \newcommand{\tspot}{$T_{\text{spot}}$}
@@ -52,7 +55,7 @@
 
 
 \newcommand{\todo}[1]{\textcolor{red}{#1}}
-\newcommand{\update}[1]{\textbf{#1}}
+\newcommand{\update}[1]{#1}
 
 
 
@@ -161,20 +164,20 @@
 %}
 
 %% ----------------------------------------------------------------
-\setstretch{1.5}  % Set the line spacing to 1.5, this makes the following tables easier to read
-\clearpage  % Start a new page
-\lhead{\emph{Abbreviations}}  % Set the left side page header to "Abbreviations"
-\listofsymbols{ll}  % Include a list of Abbreviations (a table of two columns)
-{
-% \textbf{Acronym} & \textbf{W}hat (it) \textbf{S}tands \textbf{F}or \\
-\textbf{TESS} & \textbf{T}ransiting \textbf{E}xoplanet \textbf{S}urvey \textbf{Satellite}\\
-\textbf{ZTF} & \textbf{Z}wicky \textbf{T}ransient \textbf{F}acility\\
-\textbf{MS} & \textbf{M}ain \textbf{S}equence\\
-\textbf{ZAMS} & \textbf{Z}ero \textbf{A}ge \textbf{M}ain \textbf{S}equence\\
-\textbf{RGB} &\textbf{R}ed \textbf{G}iant \textbf{B}ranch\\
-\textbf{PMS} &\textbf{P}re \textbf{M}ain \textbf{S}equence\\
-\textbf{PoMS} &\textbf{P}ost \textbf{M}ain \textbf{S}equence\\
-}
+%\setstretch{1.5}  % Set the line spacing to 1.5, this makes the following tables easier to read
+%\clearpage  % Start a new page
+%\lhead{\emph{Abbreviations}}  % Set the left side page header to "Abbreviations"
+%\listofsymbols{ll}  % Include a list of Abbreviations (a table of two columns)
+%{
+%% \textbf{Acronym} & \textbf{W}hat (it) \textbf{S}tands \textbf{F}or \\
+%\textbf{TESS} & \textbf{T}ransiting \textbf{E}xoplanet \textbf{S}urvey \textbf{Satellite}\\
+%\textbf{ZTF} & \textbf{Z}wicky \textbf{T}ransient \textbf{F}acility\\
+%\textbf{MS} & \textbf{M}ain \textbf{S}equence\\
+%\textbf{ZAMS} & \textbf{Z}ero \textbf{A}ge \textbf{M}ain \textbf{S}equence\\
+%\textbf{RGB} &\textbf{R}ed \textbf{G}iant \textbf{B}ranch\\
+%\textbf{PMS} &\textbf{P}re \textbf{M}ain \textbf{S}equence\\
+%\textbf{PoMS} &\textbf{P}ost \textbf{M}ain \textbf{S}equence\\
+%}
 
 %% ----------------------------------------------------------------
 
@@ -208,11 +211,11 @@
 %% ----------------------------------------------------------------
 % Now begin the Appendices, including them as separate files
 %
-%\addtocontents{toc}{\vspace{2em}} % Add a gap in the Contents, for aesthetics
+\addtocontents{toc}{\vspace{2em}} % Add a gap in the Contents, for aesthetics
 %
-%\appendix % Cue to tell LaTeX that the following 'chapters' are Appendices
+\appendix % Cue to tell LaTeX that the following 'chapters' are Appendices
 %
-%% \input{Appendices/AppendixA}	% Appendix Title
+ \input{Appendices/AppendixA}	% Appendix Title
 %
 %%\input{Appendices/AppendixB} % Appendix Title
 %

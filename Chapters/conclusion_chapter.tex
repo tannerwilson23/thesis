@@ -1,4 +1,10 @@
- \chapter{Summary, Conclusions and Future Work}
+\newcommand\wfirst{\project{WFIRST}}
+\newcommand\plato{\project{PLATO}}
+\newcommand\haydn{\project{HAYDN}}
+
+
+ 
+\chapter{Summary, Conclusions and Future Work}
 \label{chap:conc}
 
 \section{Summary}
@@ -7,12 +13,11 @@ Rotation is an often overlooked area of stellar astrophysics and astronomy due t
 That being said, over the previous decades, our understanding of the evolution of rotation and its impact on stellar evolution has grown dramatically.
 With every observation of rotation that we make we are learning that our simple implementations and parameterisations in stellar evolution codes do not necessarily account for a number of misunderstood mechanisms underlying the evolution of rotating stars.
 We are also learning that rotation can have impacts on the observations that we are able to make of stars.
-This is the direct result of the growth of the data boom that we find ourselves in due to the sheer number of stars we have precisely photometrically observed over long-period baselines through missions such as \kepler \citep{borucki_kepler_2010}, \ktoo \citep{howell_k2_2014} and \tess \citep{ricker_transiting_2014}..
+This is the direct result of the growth of the data boom that we find ourselves in due to the sheer number of stars we have precisely photometrically observed over long-period baselines through missions such as \kepler\ \citep{borucki_kepler_2010}, \ktoo\ \citep{howell_k2_2014}, \tess\ \citep{ricker_transiting_2014} and \gaia{} \citep{distefano_gaia_2022} .
 
 Indeed, this thesis does not provide an exhaustive list of every single effect that rotation has on stellar evolution, nor every gap in our knowledge of its effects.
 In this work, we have attempted to provide novel ways to improve our understanding of rotation, without the requirement of more data.
-The title of this thesis was deliberately chosen as "Problems in low-mass stellar rotation" - because, while we do work to provide methods that may lead to conclusions about the effects that rotation has on stellar evolution, these are not closed problems.
-We define a problem here as something that requires a resolution.
+The title of this thesis was deliberately chosen as ``Problems in low-mass stellar rotation" - because, while we do work to provide methods that may lead to conclusions about the effects that rotation has on stellar evolution, these are not closed problems.
 
 \section{Conclusions}
 
@@ -21,34 +26,26 @@ In Chapter \ref{chap:subgiant_ast} we first investigated the subgiant angular mo
 This is the disparity between the observations of the core and surface rotation rates of subgiants and expected core and surface rotation rates from rotating models of stellar evolution.
 Those observed core-to-surface rotation rate ratio of low-luminosity subgiants suggest angular momentum transport one to two orders of magnitude greater than the angular momentum transport currently implemented in rotating stellar evolution codes.
 Stronger constraints to the internal rotation profile shapes of those low-luminosity subgiants would illuminate the excess angular momentum transport mechanism at play.
-We have shown in this thesis that, through the application of distinct measurements of stellar rotation - specifically here asteroseismology and periodic photometric variability due to stellar spots - to more precisely constrain the internal rotation profile of low-luminosity subgiants.
+We have shown in this thesis that, through the application of distinct measurements of stellar rotation, specifically here asteroseismology and periodic photometric variability due to stellar spots, to more precisely constrain the internal rotation profile of low-luminosity subgiants.
 While we have only applied this method to a single star, KIC 12508433, we believe the method is easily adopted in other studies to better constrain those internal rotation profiles better than either of those measurements of stellar rotation can individually - without the requirement of more data.
 
 In Chapter \ref{chap:stellar_spots} we investigate the effect that stellar rotation can have on accurate and precise measurements of atmospheric metallicity and chemical abundances.
-Accurate measurement of stellar metallicity can be an integral part of our understanding of the universe - from the understanding of the origin of elements in the universe to galactic archeology, to accurate aging of open clusters.
+Accurate measurement of stellar metallicity can be an integral part of our understanding of the universe: from the understanding of the origin of elements in the universe to galactic archeology, to accurate aging of open clusters.
 Astrophysicists rely on accurate measurements of atmospheric metallicity to constrain their models of stellar evolution and astronomers investigate the predictions made by those models.
 This is a cyclic process where if astronomers do not adopt accurate models of the stellar atmosphere, inaccuracy compounds.
 We created a sample of synthetic spotted stellar spectra with physically motivated stellar parameters to investigate the effect that adopting a non-spotted model of the stellar atmosphere has on the accuracy of recovered stellar parameters.
-We found that even when adopting a naive model of the effect of stellar spots, through a two-temperature model of the stellar atmosphere, stellar spots introduce on average a 0.03 dex scatter to the measured metallicity of main-sequence stars.
+We found that even when adopting a naive model of the effect of stellar spots, through a two-temperature model of the stellar atmosphere, stellar spots introduce a mean scatter of 0.03 to the measured metallicity of main-sequence stars.
 This effect is non-negligible. 
 A spotted model of the stellar atmosphere should be adopted, or the effect that this level of imprecision can have on our inferences of astrophysics should be considered, especially where precise inference of stellar metallicity is required.
 
 Finally, in Chapter \ref{chap:period_gap} this thesis investigates the intermediate period gap.
-The intermediate period gap is a currently unexplained phenomenon manifesting as a dearth of observations of particular stellar surface rotation periods from photometric variability due to stellar spots.
-The two leading theoretical explanations for the rotational period gap are that the gap represents a minima of observability of rotational periods through a sudden decrease in photometric variability or that the gap represents a region of extreme angular momentum loss that causes stars to quickly physically "jump" the gap leading to a decreased number of stars with observed rotation periods.
-If either of these hypotheses are the cause of the intermediate period gap then they have wider implications for our understanding of the evolution of magnetic activity or the angular momentum evolution of stars.
-We first investigate these hypotheses through measurements of their magnetic activity through the chemical magnetic activity indicator $\log R^{+}_{\rm{HK}}$.
-The decrease in photometric variability of stars toward the gap is possibly coincident with a decrease in $\log R^{+}_{\rm{HK}}$.
-We argue that this suggests that the cause of the decrease in photometric variability and $\log R^{+}_{\rm{HK}}$ are one and the same.
-If the decrease in photometric variability is the cause of the intermediate period gap, then the decrease in photometric variability should be reflected in a decrease to $\log R^{+}_{\rm{HK}}$.
-We do not find evidence of an ultra-low magnetic activity subsample of stars in the \kepler-LAMOST crossmatch of stars without detected rotation periods, nor evidence of increased magnetic activity of stars above the gap, that would be indicative of extreme magnetic braking.
-Furthermore, we show that the number of stars without detected rotation periods in the \kepler sample would need to make up a majority of the stars required to fill the rotation period gap.
-In conjunction, these results suggest that the cause of the intermediate period gap is not a decrease in the detectability of the rotation of stars.
-As a result of this conclusion, we propose another cause for the intermediate period gap: the onset of equator-fast latitudinal differential rotation at $R_o \approx 0.5$ and the variability of the distribution of stellar spot (latitudinally) on the surfaces of stars.
+The intermediate period gap is an unexplained phenomenon manifesting as a dearth of observations of particular stellar surface rotation periods from photometric variability due to stellar spots.
+We propose, thorough a series of data tests in Appendix \ref{apndx:magnetic} that leading theories do not adequately explain the observed phenomena of the gap. 
+We propose another cause for the intermediate period gap: the onset of equator-fast latitudinal differential rotation at $R_o \approx 0.5$ and the variability of the distribution of stellar spot (latitudinally) on the surfaces of stars.
 We generate a sample of physically motivated stellar rotation periods and calculate their observed rotation periods given multiple relationships between the scale of differential rotation and $R_o$.
 Paradoxically, equator-fast differential rotation introduces a bias to larger observed rotation periods.
 This, in conjunction with swift increase in the scale of differential rotation just below $R_o<0.5$ creates a dearth of observations resulting in the gap.
-While this result requires more thorough investigations into the effect of latitudinal differential rotation on the stellar light curve and therefore observed rotational period, this is a novel proposal that we argue explains all of the observational counterparts \footnote{or lack thereof in terms of the implied peculiarity} to the intermediate period gap without the requirement of new, and complex, physics.
+While this result requires more thorough investigations into the effect of latitudinal differential rotation on the stellar light curve and therefore observed rotational period, this is a novel proposal that we argue explains all of the observational counterparts\footnote{Or lack thereof in terms of the implied peculiarity.} to the intermediate period gap without the requirement of new, and complex, physics.
 
 \section{Future Work}
 
@@ -75,7 +72,7 @@ Further, the effect of magnetic fields, the properties of stellar spots and the 
 For some stars, Doppler imaging is able to indirectly determine the spot contribution to stellar flux.
 Investigations into the variance between spotted and unspotted stars, even through observations of the Sun, are required to more accurately parameterise the effect of stellar spots on stellar spectra.
 
-For example, in this work we have only considered the effect that the cooler "spot" regions have on the inference of stellar parameters.
+For example, in this work we have only considered the effect that the cooler ``spot" regions have on the inference of stellar parameters.
 Indeed, as well as the cool regions, magnetically active regions can also be brighter, or hotter, than the ambient temperature of a star in the form of faculae.
 The relative effect of faculae is, comparatively, unknown.
 Algebraically, in the model we adopt, a star with a large fractional coverage of cool spots is the same as a star with a small fractional coverage of hot faculae.
@@ -94,35 +91,33 @@ A lack of variation to the stellar spectra before and during suspected transits 
 
 Finally, in this work, we investigated the nature of the intermediate period gap that we conclude is created by the onset of latitudinal differential rotation and variances to the latitudinal probability density function of stellar spots.
 Confirmation of this conclusion using observations is difficult.
-Constraining the scale of latitudinal differential rotation of main-sequence stars appears improbable using current photometric methods \citep[See Section 4.3 of]{aigrain_testing_2015}.
-Fourier transforms of spectroscopic line profiles and time series Doppler image maps of the active regions of stars offer a possible avenue to explore in this regard (See \ref{sec:intro_diff_rot_techniques}).
+Constraining the scale of latitudinal differential rotation of main-sequence stars appears improbable using current photometric methods \citep[See Section 4.3 of][]{aigrain_hare_2015}.
+Fourier transforms of spectroscopic line profiles and time series Doppler image maps of the active regions of stars offer a possible avenue to explore in this regard (See Chapter \ref{chap:intro}).
 We know at what observed rotation periods stars are below and above the gap, so a good first step would be to determine the scale of differential rotation (and stellar spot distribution) of stars with similar masses and varying observed stellar rotation periods.
 Observation of little latitudinal differential rotation below the gap, and differential rotation above the gap would provide clear evidence for this being the main mechanism at play.
 
 Furthermore, more investigations into the evolution of magnetic activity in regard to rotation are required.
 Only recently has the observation that magnetic activity, through the fractional spot coverage of stars, varies as a result of core-envelope recoupling been made.
-While we believe that the cause of the decreased photometric variability of stars just below the rotational period gap is the result of core-envelope recoupling, we do not have a clear explanation for the increase in magnetic activity as stars evolve beyond the rotational period gap.
-Further studies into the differential rotation, radially and latitudinally, are required to understand why and how this occurs.
+While we propose in our work that the cause of the decreased photometric variability of stars is the decrease in gross rotation rate, followed by a increase in stellar spot coverage from latitudinal differential rotation, further work is required to determine if this is indeed the case.
 
 \subsection{The future of asteroseismology and observation of stellar rotation through photometric modulation}
 
 While the second \kepler{} mission ended five years ago, the data is still being investigated.
 A number of stars, especially low-luminosity subgiants, from whom we can determine core and surface rotation rates, are yet to be asteroseismically investigated.
 We have shown in this work that the internal rotation profile shape of these stars cannot be measured with current measurements of the rotational splittings.
-Further, the feasibility of determining the internal rotation profile of these stars, without dedicated long-term photometric missions is low.
+The feasibility of determining the internal rotation profile of these stars, without dedicated long-term photometric missions is low.
 That being said, the data boom we are currently experiencing, in regard to photometric data, does not appear to be slowing.
-The \tess{} photometric mission has, at the time of writing, been collecting short cadence data for over 4 years.
+The \tess{} photometric mission has been collecting short cadence data for over 4 years.
 High-resolution observations of stars have been made that will bring with them a new observing field of stars through which we will be able to measure surface rotation periods, as well as rotational splittings, especially within its continuous viewing zones.
-With this data more and more stars have their surface rotation periods \citep{claytor_recovery_2023} and rotational splittings determined.
+With this data more and more stars have their surface rotation periods \citep{claytor_tess_2023} and rotational splittings determined.
 With the accurate measurement of those quantities, and application of our proposed method to place stronger constraints on the internal rotation profile of these stars with a surface rotation rate constraint, a population inference approach appears as the approach to answering the post-main sequence angular momentum transport problem.
 
 The future of precise measurement of stellar rotation comes in the form of space-based high-cadence photometric missions.
-The Nancy Grace Roman telescope \citep{akeson_wide_2019}, originally known as WFIRST, is a space-based photometric mission that will observe large patches of the sky with a faster cadence than both the \kepler and \tess{} missions.
+The Nancy Grace Roman telescope \citep{akeson_wide_2019}, originally known as \wfirst, is a space-based photometric mission that will observe large patches of the sky with a faster cadence than both the \kepler\ and \tess{} missions.
 The telescope is expected to launch in 2026 and it will be some time before the baseline is long enough to infer stellar rotation.
-Proposals have been made for targeted high-precision asteroseismically focussed missions: PLAnetary Transits and Oscillations of stars (PLATO) \citep{rauer_plato_2014}, the High-precision AsteroseismologY of DeNse stellar fields (HAYDN) mission \citep{miglio_haydn_2021}.
+Proposals have been made for targeted high-precision asteroseismically focussed missions: PLAnetary Transits and Oscillations of stars (\plato) \citep{rauer_plato_2014}, the High-precision AsteroseismologY of DeNse stellar fields (\haydn) mission \citep{miglio_haydn_2021}.
 When, or if, these missions are launched, our understanding of the nature of the rotation of stars will grow.
 This will be both from a larger sample of stars with more precise photometric observations and with longer baselines, which will result in more stars with a larger number of and more precise measurements of rotational splittings, as well as a larger sample of stars with photometrically measured surface rotation rates.
 
 As we have discussed within this thesis, there are problems underlying stellar rotation that we do not yet have the answers for, though we are making progress in answering them.
 We will not speculate what the next problems in the low-mass stellar rotation will be, but with this level of data, we are certainly focussing on 2nd and 3rd-order effects of rotation which will no doubt improve our understanding of the evolution of rotation in stars and the effects that it has on the observations that we make.
-

@@ -11,50 +11,50 @@
 
 \contentsline {chapter}{List of Figures}{x}{dummy.8}%
 \contentsline {chapter}{List of Tables}{xiii}{dummy.10}%
-\contentsline {chapter}{Abbreviations}{xiv}{dummy.12}%
-\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.15}%
-\contentsline {section}{\numberline {1.1}An introduction to the observation of stellar rotation}{2}{section.18}%
-\contentsline {subsection}{\numberline {1.1.1}Classical observations of rotation}{2}{subsection.19}%
-\contentsline {subsection}{\numberline {1.1.2}Modern observations of rotation}{5}{subsection.27}%
-\contentsline {section}{\numberline {1.2}Evolution of Rotation}{9}{section.31}%
-\contentsline {subsection}{\numberline {1.2.1}From birth to the terminal age main sequence}{9}{subsection.32}%
-\contentsline {subsection}{\numberline {1.2.2}Post-main sequence}{23}{subsection.39}%
-\contentsline {subsection}{\numberline {1.2.3}Effects of rotation on low-mass evolution}{35}{subsection.49}%
-\contentsline {section}{\numberline {1.3}Measuring rotation in low-mass stars}{38}{section.52}%
-\contentsline {subsection}{\numberline {1.3.1}Periodic brightness variations due to stellar spots}{39}{subsection.53}%
-\contentsline {subsection}{\numberline {1.3.2}Asteroseismic measurement of rotation}{43}{subsection.62}%
-\contentsline {subsection}{\numberline {1.3.3}Spectroscopic $v \qopname \relax o{sin}{i}$}{48}{subsection.75}%
-\contentsline {chapter}{\numberline {2}Constraining the Rotation Profile in a Low-Luminosity Subgiant with a Surface Rotation Measurement}{51}{chapter.76}%
-\contentsline {section}{\numberline {2.1}Introduction}{53}{section.78}%
-\contentsline {section}{\numberline {2.2}Method and Results}{54}{section.79}%
-\contentsline {subsection}{\numberline {2.2.1}Rotational Splittings}{54}{subsection.80}%
-\contentsline {subsection}{\numberline {2.2.2}Forward Model}{54}{subsection.81}%
-\contentsline {section}{\numberline {2.3}Results}{55}{section.82}%
-\contentsline {subsection}{\numberline {2.3.1}Mock data experiments with three hypothetical rotation profiles}{55}{subsection.83}%
-\contentsline {subsection}{\numberline {2.3.2}KIC\nobreakspace {}12508433}{56}{subsection.87}%
-\contentsline {section}{\numberline {2.4}Discussion}{56}{section.88}%
-\contentsline {section}{\numberline {2.5}Conclusions}{58}{section.90}%
-\contentsline {chapter}{\numberline {3}Stellar spots cause measurable variations in atmospheric metallicity}{62}{chapter.100}%
-\contentsline {section}{\numberline {3.1}Introduction}{64}{section.102}%
-\contentsline {section}{\numberline {3.2}Method}{65}{section.103}%
-\contentsline {subsection}{\numberline {3.2.1}Stellar parameters for a population of fake stars}{65}{subsection.104}%
-\contentsline {subsection}{\numberline {3.2.2}Spotted spectrum generative model}{66}{subsection.106}%
-\contentsline {section}{\numberline {3.3}Results}{67}{section.108}%
-\contentsline {section}{\numberline {3.4}Discussion}{68}{section.110}%
-\contentsline {subsection}{\numberline {3.4.1}Imperfect models}{68}{subsection.111}%
-\contentsline {subsection}{\numberline {3.4.2}When should a spotted model of the stellar atmosphere be employed?}{70}{subsection.114}%
-\contentsline {section}{\numberline {3.5}Conclusions}{71}{section.116}%
-\contentsline {chapter}{\numberline {4}The Intermediate Period Gap}{73}{chapter.118}%
-\contentsline {section}{\numberline {4.1}Introduction}{75}{section.120}%
-\contentsline {section}{\numberline {4.2}Stellar magnetic activity indicators}{79}{section.122}%
-\contentsline {section}{\numberline {4.3}The gap aligns with a minima in photometric variability}{82}{section.124}%
-\contentsline {section}{\numberline {4.4}The gap aligns with a minima in $\qopname \relax o{log}R^{+}_{\rm {HK}}$ }{89}{section.131}%
-\contentsline {section}{\numberline {4.5}Is there a sample of low-magnetic activity stars without rotational period detection?}{93}{section.134}%
-\contentsline {section}{\numberline {4.6}Latitudinal differential rotation}{99}{section.142}%
-\contentsline {section}{\numberline {4.7}Summary, Discussion, and Future Work}{107}{section.154}%
-\contentsline {chapter}{\numberline {5}Summary, Conclusions and Future Work}{116}{chapter.156}%
-\contentsline {section}{\numberline {5.1}Summary}{116}{section.157}%
-\contentsline {section}{\numberline {5.2}Conclusions}{117}{section.158}%
-\contentsline {section}{\numberline {5.3}Future Work}{119}{section.160}%
-\contentsline {subsection}{\numberline {5.3.1}Applications of our work}{119}{subsection.161}%
-\contentsline {subsection}{\numberline {5.3.2}The future of asteroseismology and observation of stellar rotation through photometric modulation}{122}{subsection.162}%
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.12}%
+\contentsline {section}{\numberline {1.1}An introduction to the observation of stellar rotation}{2}{section.15}%
+\contentsline {subsection}{\numberline {1.1.1}Classical and modern observations of rotation}{2}{subsection.16}%
+\contentsline {section}{\numberline {1.2}Evolution of Rotation}{9}{section.27}%
+\contentsline {subsection}{\numberline {1.2.1}From birth to the terminal age main-sequence}{9}{subsection.28}%
+\contentsline {subsection}{\numberline {1.2.2}Post-main-sequence}{18}{subsection.34}%
+\contentsline {subsection}{\numberline {1.2.3}Effects of rotation on low-mass evolution}{30}{subsection.45}%
+\contentsline {chapter}{\numberline {2}Constraining the Rotation Profile in a Low-Luminosity Subgiant with a Surface Rotation Measurement}{34}{chapter.48}%
+\contentsline {section}{\numberline {2.1}\ignorespaces Introduction}{36}{section.50}%
+\contentsline {subsection}{\numberline {2.1.1}\ignorespaces Rotational Splittings}{37}{subsection.51}%
+\contentsline {subsection}{\numberline {2.1.2}\ignorespaces Forwards Model}{37}{subsection.52}%
+\contentsline {section}{\numberline {2.2}\ignorespaces Results}{38}{section.53}%
+\contentsline {subsection}{\numberline {2.2.1}\ignorespaces Mock data experiments with three hypothetical rotation profiles}{38}{subsection.54}%
+\contentsline {subsection}{\numberline {2.2.2}\ignorespaces KIC\nobreakspace {}12508433}{39}{subsection.61}%
+\contentsline {section}{\numberline {2.3}\ignorespaces Discussion}{39}{section.62}%
+\contentsline {section}{\numberline {2.4}\ignorespaces Conclusions}{41}{section.65}%
+\contentsline {chapter}{\numberline {3}Stellar spots cause measurable variations in atmospheric metallicity}{45}{chapter.72}%
+\contentsline {section}{\numberline {3.1}\ignorespaces Introduction}{46}{section.74}%
+\contentsline {section}{\numberline {3.2}\ignorespaces Method}{47}{section.75}%
+\contentsline {subsection}{\numberline {3.2.1}\ignorespaces Stellar parameters for a population of fake stars}{47}{subsection.76}%
+\contentsline {subsection}{\numberline {3.2.2}\ignorespaces Spotted spectrum generative model}{48}{subsection.79}%
+\contentsline {section}{\numberline {3.3}\ignorespaces Results}{49}{section.82}%
+\contentsline {section}{\numberline {3.4}\ignorespaces Discussion}{50}{section.85}%
+\contentsline {subsection}{\numberline {3.4.1}\ignorespaces Imperfect models}{50}{subsection.86}%
+\contentsline {subsection}{\numberline {3.4.2}\ignorespaces When should a spotted model of the stellar atmosphere be employed?}{52}{subsection.91}%
+\contentsline {section}{\numberline {3.5}\ignorespaces Conclusions}{53}{section.94}%
+\contentsline {chapter}{\numberline {4}The Intermediate Period Gap}{55}{chapter.97}%
+\contentsline {section}{\numberline {4.1}Introduction}{56}{section.99}%
+\contentsline {section}{\numberline {4.2}Methods}{59}{section.103}%
+\contentsline {section}{\numberline {4.3}Results}{64}{section.114}%
+\contentsline {section}{\numberline {4.4}Discussion}{64}{section.117}%
+\contentsline {section}{\numberline {4.5}Conclusions}{69}{section.119}%
+\contentsline {chapter}{\numberline {5}Summary, Conclusions and Future Work}{71}{chapter.120}%
+\contentsline {section}{\numberline {5.1}Summary}{71}{section.121}%
+\contentsline {section}{\numberline {5.2}Conclusions}{72}{section.122}%
+\contentsline {section}{\numberline {5.3}Future Work}{73}{section.124}%
+\contentsline {subsection}{\numberline {5.3.1}Applications of our work}{73}{subsection.125}%
+\contentsline {subsection}{\numberline {5.3.2}The future of asteroseismology and observation of stellar rotation through photometric modulation}{75}{subsection.126}%
+\vspace {2em}
+\contentsline {chapter}{\numberline {A}An investigation into the evidence against current explanations for the intermediate period gap}{77}{appendix.127}%
+\contentsline {section}{\numberline {A.1}Introduction}{77}{section.128}%
+\contentsline {section}{\numberline {A.2}The gap aligns with a minima in photometric variability}{81}{section.132}%
+\contentsline {section}{\numberline {A.3}The gap aligns with a minima in $\qopname \relax o{log}R^{+}_{\rm {HK}}$ }{87}{section.139}%
+\contentsline {section}{\numberline {A.4}Is there a sample of low-magnetic activity stars without rotational period detection?}{90}{section.142}%
+\contentsline {section}{\numberline {A.5}The lack of observation of stars that could fill the intermediate period gap}{94}{section.147}%
+\contentsline {section}{\numberline {A.6}Summary and discussion}{97}{section.151}%
+\contentsline {section}{\numberline {A.7}Conclusion}{100}{section.153}%
