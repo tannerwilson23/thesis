@@ -30,17 +30,36 @@
 \usepackage{pdfpages}
 \usepackage{mathptmx}
 \usepackage{anyfontsize}
+\usepackage{xcolor} 
+\definecolor{aureolin}{rgb}{0.99, 0.93, 0.0}
+
+%\usepackage[math]{cellspace}
+%\usepackage[graphicx]
+%\usepackage{subcaption}
+%\usepackage{mwe}
 
 \newcommand\project[1]{\textsl{#1}}
+\newcommand\software[1]{\textsc{#1}}
+
 \newcommand\corot{\project{CoRoT}}
 \newcommand\kepler{\project{Kepler}}
 \newcommand\mesa{\project{MESA}}
+\newcommand\MESA{\project{MESA}}
 \newcommand\tess{\project{TESS}}
 \newcommand\lamost{\project{LAMOST}}
 \newcommand\ktoo{\project{K2}}
 \newcommand\ZTF{\project{ZTF}}
 \newcommand\gaia{\project{Gaia}}
 \newcommand\GDRT{\project{GDR3}}
+\newcommand\PLATO{\project{PLATO}}
+
+
+\newcommand\ADIPLS{\software{ADIPLS}}
+\newcommand\pymc{\software{PyMC3}}
+\newcommand\python{\software{Python}}
+\newcommand\numdifftools{\software{numdifftools}}
+\newcommand\numpy{\software{NumPy}}
+\newcommand\scipy{\software{SciPy}}
 
 \newcommand{\tamb}{$T_{\text{amb}}$}
 \newcommand{\tspot}{$T_{\text{spot}}$}
@@ -53,9 +72,14 @@
 \newcommand{\feh}{$\left[\rm{Fe/H}\right]$}
 \newcommand{\Kappa}{\mathcal{K}}
 
+\newcommand{\matr}[1]{\mathbf{#1}}
+\newcommand{\vect}[1]{\overrightarrow{\vec{#1}}}
+
+\newcommand{\tw}[1]{\textcolor{black}{#1}}
 
 \newcommand{\todo}[1]{\textcolor{red}{#1}}
 \newcommand{\update}[1]{#1}
+\newcommand{\up}[1]{\textbf{#1}}
 
 
 
@@ -198,9 +222,9 @@
 
 \input{Chapters/introduction_chapter.tex} % Introduction
 
-\input{Chapters/subgiant_astero_original.tex}
+\input{Chapters/subgiant_inversions_chapter.tex}
  
-\input{Chapters/stellar_spot_original.tex}
+\input{Chapters/stellar_spot_metallicity_chapter.tex}
 %
 \input{Chapters/rotational_peropd_gap_chapter_update.tex} 
 %

@@ -1,53 +1,36 @@
-\newcommand\project[1]{\textsl{#1}}
-\newcommand\software[1]{\textsc{#1}}
-\newcommand\corot{\project{CoRoT}}
-\newcommand\kepler{\project{Kepler}}
 
-\newcommand\tess{\project{TESS}}
-\newcommand\PLATO{\project{PLATO}}
-
-\newcommand\MESA{\software{MESA}}
-\newcommand\ADIPLS{\software{ADIPLS}}
-\newcommand\pymc{\software{PyMC3}}
-\newcommand\python{\software{Python}}
-\newcommand\numdifftools{\software{numdifftools}}
-\newcommand\numpy{\software{NumPy}}
-\newcommand\scipy{\software{SciPy}}
-
-\newcommand{\matr}[1]{\mathbf{#1}}
-\newcommand{\vect}[1]{\overrightarrow{\vec{#1}}}
-
-\newcommand{\ilya}[1]{\textcolor{red}{#1}}
-\newcommand{\tw}[1]{\textcolor{black}{#1}}
-\newcommand{\Add}[1]{\textbf{#1}}
-% \newcommand{\Del}[1]{\textcolor{red}{#1}}
-%\newcommand{\Add}[1]{#1}
-\newcommand{\Del}[1]{}
-\newcommand{\Chng}[2]{\Del{#1} \Add{#2}}
-\newcommand{\tamb}{$T_{\text{amb}}$}
-\newcommand{\tspot}{$T_{\text{spot}}$}
-\newcommand{\xspot}{$x_{\text{spot}}$}
-\newcommand{\fspot}{$f_{\text{spot}}$}
-\newcommand{\teff}{$T_{\text{eff}}$}
-\newcommand{\vsini}{$v \sin{i}$}
-\newcommand{\logg}{$\log{g}$}
-\newcommand{\deltafe}{$\Delta$[Fe/H]}
-
-\newcommand{\todo}[1]{\textcolor{red}{#1}}
-
-\usepackage{xcolor} 
-\definecolor{aureolin}{rgb}{0.99, 0.93, 0.0}
-\newcommand{\arcHighlight}[1]{#1}
-\newcommand{\CitationNeeded}{\textcolor{red}{[citation needed]}}
 
 
 \chapter{Stellar spots cause measurable variations in atmospheric metallicity}
 \label{chap:stellar_spots}
+
+\section*{Preamble}
+
+The effects of rotation can permeate astronomy in unexpected ways.
+The number of stellar spots expressed by stars is directly tied to the surface rotation rate through increased magnetic field strength.
+Stars with relatively fast rotation rates express larger surface spot coverage than those with slow rotation rates \citep{cao_starspots_2022}.
+While stellar spots are useful in determining the surface rotation of stars, through periodic brightness variations, they have also been obtrusive in other areas.
+For example, they can mimic transits of exoplanets in light curves.
+
+In this work, we investigate the effect of stellar spots on the inferred atmospheric parameters of stars through spectroscopy.
+We adopt a simple two-temperature model of the stellar atmosphere to reflect the impact of stellar spots on the stellar atmosphere.
+With this model, we generate synthetic spotted spectra of a population of stars with physically motivated stellar and spot parameters
+Then, we investigate the effect of fitting spotted spectra with non-spotted models of the stellar atmosphere.
+We find that, even in this simple model of the impact of spots on the stellar atmosphere stellar spots can introduce bias and scatter to inferred atmospheric parameters.
+The introduced scatter is particularly impactful to the precise measurement of stellar metallicity.
+
+
+The content of this chapter was originally published as:
+\begin{quote}
+	\citet{tanner_ss}
+\end{quote}
+and is presented here in the form of a chapter for aesthetic purposes \update{in accordance with Monash University's thesis by submission guidelines.}
+
+\newpage
+
 \section*{Abstract}
 
 To accurately measure a star's atmospheric parameters and chemical abundances, it is crucial to have high-quality spectra. Analysing the detailed chemical abundances of groups of stars can help us better understand nucleosynthesis, galactic chemical enrichment, and stellar evolution. In this study, we explored whether stellar spots can affect a star's inferred metallicity and, if so, where the impact is the strongest. To investigate this, we created synthetic infrared spectra that included stellar spots for a sample of main-sequence stars. We then applied two models to the data: one that accounted for spots and one that did not. From this, we can determine the bias introduced when fitting spotted spectra with a non-spotted model and how this bias varies with different parameters. Our findings revealed that fitting spotted spectra with a non-spotted model can introduce a scatter of up to 0.05 dex in the inferred metallicity, especially for stars with high levels of spot coverage. This bias is similar in magnitude to other relevant effects, such as atomic diffusion, radiative levitation, or non-local thermodynamic equilibrium. We also found that the effect is most pronounced in young stars and decreases with age. These results suggest that stellar spots can introduce a systematic uncertainty in metallicity that is not currently accounted for in spectroscopic analysis. This could potentially limit scientific inferences for population-level studies and differential abundance analyses.
-
-\newpage
 
 \section{Introduction}
 \label{sec:intro}
@@ -103,8 +86,6 @@ f_{\text{spot}} =
 \right\}.
 \end{equation}
 
-
-
 There is some scatter in \fspot\, which is not accounted for by this relation (see left panel of Figure 7 in \citet{cao_starspots_2022}). For this reason, we add random noise to our calculated \fspot\, which is drawn from a normal distribution with a standard deviation of 0.1
 it is clear that there is some scatter in \fspot\ About 
 
@@ -112,7 +93,7 @@ We assume \xspot\ is drawn from a uniform distribution $x_{\text{spot}} \sim \ma
 
 \begin{figure}
     \includegraphics[width=\textwidth]{Figures/ss_chapter_figures/injected_hr.png}
-    \caption{HR diagram of the 1500 sets of stellar parameters drawn from physically motivated distributions of mass, metallicity and age coloured by [Fe/H].}
+    \caption[HR diagram of the 1500 sets of stellar parameters drawn from physically motivated distributions of mass{,} metallicity and age coloured by \feh.]{HR diagram of the 1500 sets of stellar parameters drawn from physically motivated distributions of mass, metallicity and age coloured by [Fe/H].}
     \label{fig:HR}
 \end{figure}
 
@@ -162,21 +143,21 @@ The best-fit parameters following fitting the synthetic spotted spectra with a s
 \begin{figure*}
     \centering
     \includegraphics[width =\textwidth]{Figures/ss_chapter_figures/recov_tests_spot.png}
-    \caption[heheh]{\tw{Recovered traditional stellar parameters (\teff, \logg, [Fe/H] and \vsini) from fitting synthetic spotted spectra with a spotted model of the stellar atmosphere against the corresponding injected parameters. We consistently accurately recover each injected value when a spotted model of the stellar atmosphere is employed to fit the spotted synthetic spectra.}}
+    \caption[Recovered traditional stellar parameters (\teff{,} \logg{,} \feh \ and \vsini) from fitting synthetic spotted spectra with a spotted model of the stellar atmosphere against the corresponding injected parameters.]{\tw{Recovered traditional stellar parameters (\teff, \logg, [Fe/H] and \vsini) from fitting synthetic spotted spectra with a spotted model of the stellar atmosphere against the corresponding injected parameters. We consistently accurately recover each injected value when a spotted model of the stellar atmosphere is employed to fit the spotted synthetic spectra.}}
     \label{fig:recov_test}
 \end{figure*}
 
 \begin{figure}
     \centering
-    \includegraphics[width=0.5\textwidth]{Figures/ss_chapter_figures/recov_spot_param.png}
-    \caption{\tw{Recovered spot parameters (\xspot\ and \fspot) from the synthetic spotted spectra fitted with a spotted model of the stellar spectra against the injected parameters of the synthetic spectra. We identify that the spot parameters are not always accurately recovered through the fitting procedure. The recovered spot parameters are notably more inaccurate as \xspot \ approaches 1. }}
+    \includegraphics[width=\textwidth]{Figures/ss_chapter_figures/recov_spot_param.png}
+    \caption[Recovered spot parameters from the synthetic spotted spectra fitted with a spotted model of the stellar spectra against the injected parameters of the synthetic spectra.]{\tw{Recovered spot parameters (\xspot\ and \fspot) from the synthetic spotted spectra fitted with a spotted model of the stellar spectra against the injected parameters of the synthetic spectra. We identify that the spot parameters are not always accurately recovered through the fitting procedure. The recovered spot parameters are notably more inaccurate as \xspot \ approaches 1. }}
 %add comment
     \label{fig:recov_spot_params}
 \end{figure}
 
 \begin{figure*}
     \includegraphics[width=\textwidth]{Figures/ss_chapter_figures/recov_tests_full.png}
-    \caption{\tw{The difference between the recovered traditional stellar spectra parameters (\teff, \ \logg, \ [Fe/H] and \vsini) from the synthetic spotted spectra fitted with both a spotted and non-spotted model of the stellar spectra against the injected parameters of the synthetic spectra (spotted model non-spotted model recovered parameter). We identify scatter introduced to each of the stellar parameters when fitting spotted spectra with a non-spotted model of the stellar atmosphere.}}
+    \caption[The difference between the recovered traditional stellar spectra parameters (\teff{,} \ \logg{,} \ \feh \ and \vsini) from the synthetic spotted spectra fitted with both a spotted and non-spotted model of the stellar spectra against the injected parameters of the synthetic spectra.]{\tw{The difference between the recovered traditional stellar spectra parameters (\teff, \ \logg, \ [Fe/H] and \vsini) from the synthetic spotted spectra fitted with both a spotted and non-spotted model of the stellar spectra against the injected parameters of the synthetic spectra (spotted model non-spotted model recovered parameter). We identify scatter introduced to each of the stellar parameters when fitting spotted spectra with a non-spotted model of the stellar atmosphere.}}
     \label{fig:recov_dif}
 \end{figure*}
 
@@ -189,7 +170,7 @@ In Figure \ref{fig:res_teff} we show the effect of the injected parameters on th
 
 \begin{figure*}
     \includegraphics[width=\textwidth]{Figures/ss_chapter_figures/full_results_teff.png}
-    \caption{Bias introduced to \teff\ (blue) when fitting spotted spectra with a non-spotted model against injected parameters of synthetic spectra. Each injected parameter is binned into ten bins across the range of injected parameters. The median and median absolute deviation of the difference between the spotted and non-spotted recovered \teff\ ($\Delta$\teff) are then calculated in each bin.
+    \caption[Bias introduced to \teff\ when fitting spotted spectra with a non-spotted model against injected parameters of synthetic spectra.]{Bias introduced to \teff\ (blue) when fitting spotted spectra with a non-spotted model against injected parameters of synthetic spectra. Each injected parameter is binned into ten bins across the range of injected parameters. The median and median absolute deviation of the difference between the spotted and non-spotted recovered \teff\ ($\Delta$\teff) are then calculated in each bin.
     Scatter points show the median $\Delta$\teff\ for each bin in injected parameters. Filled areas show one maximum absolute deviation above and below the median value and dashed lines indicate the edge of this range.
      Inference of \teff\ with a non-spotted model injects random scatter on average of the scale of $\sim$50K and introduces a consistent bias of order $\sim$-25K for spectra with significant spot coverage.
     }
@@ -198,7 +179,7 @@ In Figure \ref{fig:res_teff} we show the effect of the injected parameters on th
 
 \begin{figure*}
     \includegraphics[width=\textwidth]{Figures/ss_chapter_figures/full_results.png}
-    \caption{Bias introduced to \logg  \ (orange), [Fe/H] (green) and $\log$ \vsini\ (red) when fitting spotted spectra with a non-spotted model against injected parameters of synthetic spectra. \tw{Here we have plotted $\log$ \vsini\ as the grid we perform interpolation over is distributed uniformly in $\log$ \vsini\ and to make direct comparisons to the other stellar parameters ([Fe/H] and \logg). Each injected parameter is binned into ten bins across the range of injected parameters.} The median and median absolute deviation of the difference between the spotted and non-spotted recovered parameters ($\Delta$ parameter) are then calculated in each of these bins.
+    \caption[Bias introduced to \logg  \ (orange){,} \feh \ (green) and $\log$ \vsini\ (red) when fitting spotted spectra with a non-spotted model against injected parameters of synthetic spectra.]{Bias introduced to \logg  \ (orange), [Fe/H] (green) and $\log$ \vsini\ (red) when fitting spotted spectra with a non-spotted model against injected parameters of synthetic spectra. \tw{Here we have plotted $\log$ \vsini\ as the grid we perform interpolation over is distributed uniformly in $\log$ \vsini\ and to make direct comparisons to the other stellar parameters ([Fe/H] and \logg). Each injected parameter is binned into ten bins across the range of injected parameters.} The median and median absolute deviation of the difference between the spotted and non-spotted recovered parameters ($\Delta$ parameter) are then calculated in each of these bins.
     Scatter points show each bin's median $\Delta$ parameter in injected parameters. Filled areas show one maximum absolute deviation above and below the median value and dashed lines indicate the edge of this range.
     Fitting spotted spectra with non-spotted models does not introduce a bias to the inferred parameters though it does introduce a scatter. This scatter increases with decreasing \xspot\ and increasing \fspot\ to a maximum median absolute deviation on the order of $\sim$0.05 for \logg, [Fe/H] and $\log$ \vsini \ - which corresponds to a maximum scatter on \vsini \ of $\sim$2 km/s.
     The scatter is otherwise approximately constant for all other parameters, and on average $\sim 0.025$ \ - which corresponds to an average scatter on \vsini \ of $\sim$ 1 km/s }
@@ -216,7 +197,7 @@ The effect of fitting spotted spectra with a non-spotted model is significant in
 
 \begin{figure}
     \includegraphics[width=\textwidth]{Figures/ss_chapter_figures/med_age.png}
-    \caption{Bias introduced to [Fe/H] when fitting spotted spectra with a non-spotted model against the age of the model used to generate synthetic spectra. Age is binned into ten bins across the range of injected parameters. The median and median absolute deviation of the difference between the spotted and non-spotted recovered [Fe/H]\ ($\Delta$[Fe/H]) are then calculated in each of these bins.
+    \caption[Bias introduced to \feh \ when fitting spotted spectra with a non-spotted model against the age of the model used to generate synthetic spectra.]{Bias introduced to [Fe/H] when fitting spotted spectra with a non-spotted model against the age of the model used to generate synthetic spectra. Age is binned into ten bins across the range of injected parameters. The median and median absolute deviation of the difference between the spotted and non-spotted recovered [Fe/H]\ ($\Delta$[Fe/H]) are then calculated in each of these bins.
     Scatter points show the median $\Delta$[Fe/H] for each bin in injected parameters. Filled areas show one maximum absolute deviation above and below the median value and dashed lines indicate the edge of this range.
     We find that the introduced scatter is greatest for stars younger than $\sim$ 2Gyr is $\sim$0.02 while the bias is 0 for stars in this age range.
     The scatter decreases for older stars ($>$3Gyr) to $\sim$0.01 but the median $\Delta$[Fe/H] increases with increasing age.

@@ -1,53 +1,41 @@
-\newcommand\project[1]{\textsl{#1}}
-\newcommand\software[1]{\texttt{#1}}
-\newcommand\corot{\project{CoRoT}}
-\newcommand\kepler{\project{Kepler}}
 
-\newcommand\tess{\project{TESS}}
-\newcommand\PLATO{\project{PLATO}}
-
-\newcommand\MESA{\software{MESA}}
-\newcommand\ADIPLS{\software{ADIPLS}}
-\newcommand\pymc{\software{PyMC3}}
-\newcommand\python{\software{Python}}
-\newcommand\numdifftools{\software{numdifftools}}
-\newcommand\numpy{\software{NumPy}}
-
-\newcommand{\matr}[1]{\mathbf{#1}}
-\newcommand{\vect}[1]{\overrightarrow{\vec{#1}}}
 \newcommand\thestar{KIC~12508433}
 
-\newcommand{\ilya}[1]{\textcolor{red}{#1}}
-\newcommand{\tw}[1]{{#1}}
 %\newcommand{\Add}[1]{\textcolor{green}{#1}}
 \newcommand{\Revision}[1]{#1}
 %\newcommand{\Del}[1]{\textcolor{red}{#1}}
-\newcommand{\todo}[1]{\textcolor{red}{#1}}
 % \newcommand{\TW}[1]{\textbf{#1}}
 \newcommand{\TW}[1]{#1}
 
 \newcommand{\Add}[1]{#1}
-\newcommand{\Del}[1]{}
-\newcommand{\Chng}[2]{\Del{#1} \Add{#2}}
-\usepackage{xcolor} 
-\definecolor{aureolin}{rgb}{0.99, 0.93, 0.0}
-\newcommand{\arcHighlight}[1]{#1}
-\newcommand{\CitationNeeded}{\textcolor{red}{[citation needed]}}
-\usepackage[math]{cellspace}
-\usepackage[graphicx]
-
-\usepackage{subcaption}
-\usepackage{mwe}
 
 \chapter{Constraining the Rotation Profile in a Low-Luminosity Subgiant with a Surface Rotation Measurement}
 
-\textit{Originally published as} Constraining the rotation profile in a low-luminosity subgiant with a surface rotation measurement, \textit{MNRAS 521, 3 by Wilson et al (2023)}
+\section*{Preamble}
+
+Asteroseismic inference of the core and surface rotation of low-luminosity subgiants reveals that the core-to-surface rotation rate ratio is much smaller than state-of-the-art models of rotating stellar evolution predict \citep{deheuvels_seismic_2014, cantiello_angular_2014, eggenberger_asteroseismology_2019}.
+This result implies that there is missing physics in our treatment of angular momentum transport.
+One way to determine the source of the missing angular momentum transport is to look for signatures of those mechanisms in the shape of the rotation profile.
+However, due to the limited number and low precision of observed rotational splitting of low-luminosity subgiants, constraints to the rotation profile are usually limited to two-zone (core and surface rotation rate) inferences \citep{deheuvels_seismic_2014}.
+
+We find, assuming a model-motivated step-function rotation profile, a consistent degeneracy between the surface rotation rate and radial position of a strong rotational gradient when performing asteroseismic inference using the observed rotational splittings of a low-luminosity subgiant.
+We show that we can leverage this degeneracy to place stronger constraints on the position of the strong rotational gradient with independent measurements of the surface rotation rate assuming representative precision.
+Furthermore, we apply this approach to the observed rotational splittings and surface rotation rate of low-luminosity subgiant KIC~12508433 and obtain stronger constraints to the internal rotation profile.
+We find decreased support for rotation profiles with strong rotational gradients in the core and $r/R\ > \ 0.4$, which suggests the data disfavours angular momentum transport via internal gravity waves \citep[e.g.,][]{pincon_can_2017} or magnetorotational instabilities \citep[e.g.,][]{spada_angular_2016,menou_magnetorotational_2006}.
+The method applied in this work can readily be adopted in other works to more tightly constrain the internal rotation profiles of post-main sequence stars without the requirement for more data.
+
+The content of this chapter was originally published as:
+\begin{quote}
+	\citet{tanner_ast}
+\end{quote}
+and is presented here in the form of a chapter for stylistic purposes \update{in accordance with Monash University's thesis by submission guidelines.}
+
+\newpage
 
 \section*{Abstract}
 
 Rotationally-induced mode splitting frequencies of low-luminosity subgiants suggest that angular momentum transport mechanisms are 1-2 orders of magnitude more efficient \Revision{in these stars} than predicted by theory. Constraints on the rotation profile of low-luminosity subgiants could be used to identify the dominant mechanism for angular momentum transport. We develop a forward model for the rotation profile given observed rotational splittings, assuming a step-like rotation profile. We identify a consistent degeneracy between the position of the profile discontinuity and the surface rotation rate. We perform mock experiments that show the discontinuity position can be better constrained with a prior on the surface rotation rate, which is informed by star spot modulations. We finally apply this approach to \thestar, a well-studied low-luminosity subgiant, as an example case. With the observed surface rotation prior, we obtain a factor of two increase in precision of the position of strong rotation gradient. We recover the literature values of the core and surface rotation rates and find the highest support for a discontinuity in the radiative zone. \TW{Auxiliary measurements of }surface rotation could substantially improve inferences on the rotation profile of low-luminosity subgiants with already available data.
 
-\newpage
 
 \section{Introduction}
 \label{sec:intro}
@@ -135,7 +123,7 @@ We  used this model of \thestar{} to calculate the rotational kernels for all ob
 
 \begin{figure}
     \includegraphics[width=\textwidth]{Figures/subgiant_chapter_figures/staradif.png}
-    \caption{Rotational kernels for the best-fitting model of \thestar{}. The red curve shows three times the local standard deviation of the set of observed kernels (kernel deviation). Regions with large kernel deviation are expected to be sensitive to the rotation profile following forward modelling. In this model these regions can be seen in the H-burning shell core ($r/R<0.05$) and nearing the surface ($r/R$ > $0.8$). The inset shows the same kernels with two modes highlighted: the $\ell = 1,\ n=9$ mode (blue) is sensitive to core rotation and the $\ell = 2,\ n = 6$ (orange) is sensitive to surface rotation.}
+    \caption[Rotational kernels for the best-fitting model of KIC~12508433.]{Rotational kernels for the best-fitting model of \thestar{}. The red curve shows three times the local standard deviation of the set of observed kernels (kernel deviation). Regions with large kernel deviation are expected to be sensitive to the rotation profile following forward modelling. In this model these regions can be seen in the H-burning shell core ($r/R<0.05$) and nearing the surface ($r/R$ > $0.8$). The inset shows the same kernels with two modes highlighted: the $\ell = 1,\ n=9$ mode (blue) is sensitive to core rotation and the $\ell = 2,\ n = 6$ (orange) is sensitive to surface rotation.}
     \label{fig:kern}
 \end{figure}
 
@@ -153,7 +141,7 @@ $T_{\mathrm{eff,spec}}\,(\mathrm{K})$ & $5248~\pm~130$              & $5434$    
 $[\mathrm{Fe/H}]$ (dex)                                & $0.25~\pm~ 0.23$            & $0.06$ \\
 \hline
 \end{tabular}
-\caption{Measured properties of \thestar{} \citep{deheuvels_seismic_2014}, and those of the best-fitting stellar model from which the rotation kernels are generated.
+\caption[Measured properties and best-fit stellar model parameters of KIC~12508433.]{Measured properties of \thestar{} \citep{deheuvels_seismic_2014}, and those of the best-fitting stellar model from which the rotation kernels are generated.
 }
 \label{tab:kictab}
 \end{table}
@@ -208,7 +196,7 @@ We adopted uncertainties on those expected values given the precision of mode fr
 \begin{figure}
 \centering
     \includegraphics[width=\textwidth]{Figures/subgiant_chapter_figures/rots.png}
-    \caption{\Add{Three} rotation profiles used in the mock data experiments. These profiles represent the extreme consequences of different angular momentum transport mechanisms in low-luminosity post-MS stars. Cross-hatching represents the convective surface region and diagonal-hatching represents the H-burning shell. See Section~\ref{sec:prof} for descriptions of each profile.}
+    \caption[Three rotation profiles used in the mock data experiments.]{\Add{Three} rotation profiles used in the mock data experiments. These profiles represent the extreme consequences of different angular momentum transport mechanisms in low-luminosity post-MS stars. Cross-hatching represents the convective surface region and diagonal-hatching represents the H-burning shell. See Section~\ref{sec:prof} for descriptions of each profile.}
     \label{fig:5rotprof}
 \end{figure}
 
@@ -225,7 +213,7 @@ We adopted uncertainties on those expected values given the precision of mode fr
 \begin{figure*}
 \centering
     \includegraphics[width=0.95\textwidth]{Figures/subgiant_chapter_figures/combined_results.png}
-    \caption{Normalised posterior density following sampling for each \textit{mock} rotational splitting experiment. From left to right the normalised posterior density of each of the parameters of the rotation profile model are shown: surface rotation rate ($\Omega_s/2\pi$), core rotation rate ($\Omega_c/2\pi$), and position of rotational gradient ($p$). Thin coloured dashed lines are samples with no prior on the surface rotation rate, thin dotted black lines correspond to the the introduced prior on surface rotation rate and thick coloured lines correspond to samples when the informed surface rotation prior was introduced. Vertical black lines correspond to the input values for each of the rotation profile parameters used to generate the mock rotational splittings. From top to bottom each row displays the result of sampling a different set of rotational splittings with the same colours as the rotation profiles used to generate the mock data in Figure \ref{fig:5rotprof}: the H-burning shell step (purple), radiative zone step (blue) and base of convective zone step (red).} 
+    \caption[Normalised posterior density following sampling for each \textit{mock} rotational splitting experiment.]{Normalised posterior density following sampling for each \textit{mock} rotational splitting experiment. From left to right the normalised posterior density of each of the parameters of the rotation profile model are shown: surface rotation rate ($\Omega_s/2\pi$), core rotation rate ($\Omega_c/2\pi$), and position of rotational gradient ($p$). Thin coloured dashed lines are samples with no prior on the surface rotation rate, thin dotted black lines correspond to the the introduced prior on surface rotation rate and thick coloured lines correspond to samples when the informed surface rotation prior was introduced. Vertical black lines correspond to the input values for each of the rotation profile parameters used to generate the mock rotational splittings. From top to bottom each row displays the result of sampling a different set of rotational splittings with the same colours as the rotation profiles used to generate the mock data in Figure \ref{fig:5rotprof}: the H-burning shell step (purple), radiative zone step (blue) and base of convective zone step (red).} 
     \label{fig:full_results}
 \end{figure*}
 
@@ -243,14 +231,14 @@ When sampling with a uniform prior on surface rotation (Figures \ref{fig:mock_po
 \begin{figure}
 \centering
     \includegraphics[width=\textwidth]{Figures/subgiant_chapter_figures/12_corner.png}
-    \caption{Posterior distributions of the core rotation rate $\Omega_c$, the surface rotation rate $\Omega_s$, and the discontinuity position $p$ (Eq.~\ref{eqn:step}) given the observed $l=\{1,2\}$ rotational splittings of \thestar{} and assuming a rotation profile with a step function.}
+    \caption[Posterior distributions of core rotation rate $\Omega_c${,} the surface rotation rate $\Omega_s${,} and the discontinuity position $p$ given the observed $l=\{1{,}2\}$ rotational splittings of KIC 12508433 and assuming a rotation profile with a step function.]{Posterior distributions of the core rotation rate $\Omega_c$, the surface rotation rate $\Omega_s$, and the discontinuity position $p$ (Eq.~\ref{eqn:step}) given the observed $l=\{1,2\}$ rotational splittings of \thestar{} and assuming a rotation profile with a step function.}
     \label{fig:kic-corner}
 \end{figure}
 
 \begin{figure}
 \centering
     \includegraphics[width=\textwidth]{Figures/subgiant_chapter_figures/22_corner.png}
-    \caption{Posteriors on step profile parameters given the rotational splittings of \thestar\ and informed prior on surface rotation rate from \citep{garcia_rotation_2014}. }
+    \caption[Posteriors on step profile parameters given the rotational splittings of KIC 12508433 and informed prior on surface rotation rate from \citep{garcia_rotation_2014}.]{Posteriors on step profile parameters given the rotational splittings of \thestar\ and informed prior on surface rotation rate from \citep{garcia_rotation_2014}. }
     \label{fig:kic12408433_with_surface_rotation_prior}
 \end{figure}
 
@@ -265,7 +253,7 @@ Sampling - Flat $\Omega_s$ Prior     & $524${\raisebox{0.5ex}{\tiny$^{+36}_{-34}
 Sampling - Informed $\Omega_s$ Prior & $525${\raisebox{0.5ex}{\tiny$^{+39}_{-35}$}} & $175${\raisebox{0.5ex}{\tiny$^{+19}_{-21}$}} & $0.29${\raisebox{0.5ex}{\tiny$^{+0.13}_{-0.12}$}} \\ \hline
 \end{tabular}%
 }
-\caption{best-fitting rotation profile parameters given observed $\ell = 1$ and $2$ rotational splittings of \thestar\ from optimally localised averages (OLA) \citep{deheuvels_seismic_2014} and forward modelling with flat and informed ($\Omega_s/2\pi = 172 \pm 21$ nHz) priors. OLA does not place constraints on the rotation profile outside the g- and p-mode cavities in the core and at the star's surface, respectively. $p$ is more precisely measured with the introduction of the informed prior when forward modelling.}
+\caption[Best-fitting rotation profile parameters given observed $\ell = 1$ and $2$ rotational splittings of KIC~12508433 from optimally localised averages (OLA) \citep{deheuvels_seismic_2014} and forward modelling with flat and informed ($\Omega_s/2\pi = 172 \pm 21$ nHz) priors.]{Best-fitting rotation profile parameters given observed $\ell = 1$ and $2$ rotational splittings of \thestar\ from optimally localised averages (OLA) \citep{deheuvels_seismic_2014} and forward modelling with flat and informed ($\Omega_s/2\pi = 172 \pm 21$ nHz) priors. OLA does not place constraints on the rotation profile outside the g- and p-mode cavities in the core and at the star's surface, respectively. $p$ is more precisely measured with the introduction of the informed prior when forward modelling.}
 \label{tab:results_table}
 \end{table}
 
@@ -376,7 +364,7 @@ We find that introducing \TW{the independent measure of surface rotation } incre
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%% APPENDICES %%%%%%%%%%%%%%%%%%%%%
-
+\newpage
 \section{Appendix}
 \subsection{Sampling Results}
 Here we provide the posteriors following sampling of each set of rotational splittings.
@@ -436,54 +424,48 @@ Here we provide the posteriors following sampling of each set of rotational spli
 %     \label{fig:mean and std of nets}
 % \end{figure*}
 
-\begin{figure}
+\begin{figure*}
 \centering
-    \includegraphics[width=0.5\textwidth]{Figures/subgiant_chapter_figures/10.05_corner.png}
+    \includegraphics[width=\textwidth]{Figures/subgiant_chapter_figures/10.05_corner.png}[h]
     \caption{
     Posterior distributions using mock data generated with a step function aligned with the H burning shell ($r/R = 0.05$, purple profile in Figure~\ref{fig:5rotprof}). True values are indicated in purple. There is considerable multi-modality and degeneracy present.}
     \label{fig:mock_posterior_005_uniform}
-\end{figure}
+\end{figure*}
 
 
-\begin{figure}
+\begin{figure*}
 \centering
-    \includegraphics[width=0.5\textwidth]{Figures/subgiant_chapter_figures/10.2_corner.png}
+    \includegraphics[width=\textwidth]{Figures/subgiant_chapter_figures/10.2_corner.png}[h]
     \caption{Posterior distributions using mock data generated with a step function in the radiative region ($r/R = 0.2$, blue profile in Figure~\ref{fig:5rotprof}) and realistic uncertainties. True values in blue.}
     \label{fig:mock_posterior_020_uniform}
-\end{figure}
-\begin{figure}
+\end{figure*}
+\begin{figure*}
 \centering
-    \includegraphics[width=0.5\textwidth]{Figures/subgiant_chapter_figures/10.5_corner.png}
+    \includegraphics[width=\textwidth]{Figures/subgiant_chapter_figures/10.5_corner.png}[h]
     \caption{Posterior distributions using mock data generated with a step function at the BCZ ($r/R = 0.5$; red profile in Figure~\ref{fig:5rotprof}), and realistic uncertainties. True values in red.}
     \label{fig:mock_posterior_050_uniform}
-\end{figure}
+\end{figure*}
 
-\begin{figure}
+\begin{figure*}
 \centering
-    \includegraphics[width=0.5\textwidth]{Figures/subgiant_chapter_figures/20.05_corner.png}
+    \includegraphics[width=\textwidth]{Figures/subgiant_chapter_figures/20.05_corner.png}[h]
     \caption{Posterior distributions using mock data generated with a step profile at the g-mode cavity ($r/R = 0.05$; purple profile in Figure~\ref{fig:5rotprof}), with realistic uncertainties, and a 10\% prior on surface rotation $\Omega_s$. There is still degeneracy between $p$ and the rotation parameters (e.g., Figure~\ref{fig:mock_posterior_005_uniform}), but the prior has collapsed all other modes.}
     \label{fig:mock_posterior_005_reject}
-\end{figure}
+\end{figure*}
 
-\begin{figure}
+\begin{figure*}
 \centering
-    \includegraphics[width=0.5\textwidth]{Figures/subgiant_chapter_figures/20.2_corner.png}
+    \includegraphics[width=\textwidth]{Figures/subgiant_chapter_figures/20.2_corner.png}[h]
     \caption{Posterior distributions using mock data generated with a step profile in the radiative region ($r/R = 0.20$; blue profile in Figure~\ref{fig:5rotprof}), with realistic uncertainties, and a 10\% prior on surface rotation $\Omega_s$ (compare with Figure~\ref{fig:mock_posterior_020_uniform}).}
     \label{fig:mock_posterior_020_reject}
-\end{figure}
+\end{figure*}
 
-\begin{figure}
+\begin{figure*}
 \centering
-    \includegraphics[width=0.5\textwidth]{Figures/subgiant_chapter_figures/20.5_corner.png}
+    \includegraphics[width=\textwidth]{Figures/subgiant_chapter_figures/20.5_corner.png}[h]
     \caption{Posterior distributions using mock data generated with a step profile at the BCZ ($r/R = 0.50$; red profile in Figure~\ref{fig:5rotprof}), with realistic uncertainties, and a 10\% prior on surface rotation $\Omega_s$ (compare with Figure~\ref{fig:mock_posterior_050_uniform}).}
     \label{fig:mock_posterior_050_reject}
-\end{figure}
-% Don't change these lines
-\bsp	% typesetting comment
-\label{lastpage}
+\end{figure*}
 
 
-\section{Todo}
-\begin{itemize}
-    \item Edit section from draft of GPLVM paper. Either include here or in Appendix of the thesis.
-\end{itemize}
+
