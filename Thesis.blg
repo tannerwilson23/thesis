@@ -2,81 +2,63 @@ This is BibTeX, Version 0.99d (TeX Live 2022)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: Thesis.aux
 The style file: mnras.bst
-Reallocated field_info (elt_size=4) to 11048 items from 5000.
+Reallocated field_info (elt_size=4) to 11102 items from 5000.
 Database file #1: references.bib
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Warning--empty publisher in aerts_asteroseismology_2010
-"ArXiv e-prints" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry charbonnel_deep_2008
+Too many commas in name 4 of "Gustafsson, B. and Edvardsson, B. and Eriksson, K. and J{\o}rgensen, U. G., Nordlund, \AA., Plez, B." for entry gustafsson_grid_2008
+while executing---line 1706 of file mnras.bst
+Too many commas in name 4 of "Gustafsson, B. and Edvardsson, B. and Eriksson, K. and J{\o}rgensen, U. G., Nordlund, \AA., Plez, B." for entry gustafsson_grid_2008
+while executing---line 1706 of file mnras.bst
+Too many commas in name 4 of "Gustafsson, B. and Edvardsson, B. and Eriksson, K. and J{\o}rgensen, U. G., Nordlund, \AA., Plez, B." for entry gustafsson_grid_2008
+while executing---line 1706 of file mnras.bst
+Warning--empty booktitle in charbonnel_deep_2008
+Too many commas in name 4 of "Gustafsson, B. and Edvardsson, B. and Eriksson, K. and J{\o}rgensen, U. G., Nordlund, \AA., Plez, B." for entry gustafsson_grid_2008
 while executing---line 1822 of file mnras.bst
-`journal' is a missing field, not a string, for entry charbonnel_deep_2008
+Too many commas in name 4 of "Gustafsson, B. and Edvardsson, B. and Eriksson, K. and J{\o}rgensen, U. G., Nordlund, \AA., Plez, B." for entry gustafsson_grid_2008
 while executing---line 1822 of file mnras.bst
-"ArXiv e-prints" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry charbonnel_deep_2008
+Too many commas in name 4 of "Gustafsson, B. and Edvardsson, B. and Eriksson, K. and J{\o}rgensen, U. G., Nordlund, \AA., Plez, B." for entry gustafsson_grid_2008
 while executing---line 1822 of file mnras.bst
-Warning--empty publisher in eddington_internal_1926
-"ArXiv e-prints" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry johnstone_stellar_2015
-while executing---line 1822 of file mnras.bst
-`journal' is a missing field, not a string, for entry johnstone_stellar_2015
-while executing---line 1822 of file mnras.bst
-"ArXiv e-prints" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry johnstone_stellar_2015
-while executing---line 1822 of file mnras.bst
-`series' is a missing field, not a string, for entry saar_starspots_2011
-while executing---line 1822 of file mnras.bst
-"" is a string literal, not an integer, for entry saar_starspots_2011
-while executing---line 1822 of file mnras.bst
-`series' is a missing field, not a string, for entry saar_starspots_2011
-while executing---line 1822 of file mnras.bst
-`series' is a missing field, not a string, for entry saar_starspots_2011
-while executing---line 1822 of file mnras.bst
-"" is a string literal, not an integer, for entry saar_starspots_2011
-while executing---line 1822 of file mnras.bst
-`series' is a missing field, not a string, for entry saar_starspots_2011
-while executing---line 1822 of file mnras.bst
-Warning--empty publisher in unno_nonradial_1989
-You've used 224 entries,
+You've used 226 entries,
             2881 wiz_defined-function locations,
-            2335 strings with 84131 characters,
-and the built_in function-call counts, 105509 in all, are:
-= -- 8419
-> -- 8044
-< -- 525
+            2351 strings with 84805 characters,
+and the built_in function-call counts, 105760 in all, are:
+= -- 8418
+> -- 8067
+< -- 528
 + -- 3537
-- -- 1236
-* -- 12919
-:= -- 16911
+- -- 1240
+* -- 12899
+:= -- 16966
 add.period$ -- 0
-call.type$ -- 224
-change.case$ -- 448
-chr.to.int$ -- 221
+call.type$ -- 226
+change.case$ -- 452
+chr.to.int$ -- 223
 cite$ -- 227
-duplicate$ -- 5089
-empty$ -- 5055
-format.name$ -- 1926
-if$ -- 18096
+duplicate$ -- 5120
+empty$ -- 5072
+format.name$ -- 1934
+if$ -- 18143
 int.to.chr$ -- 4
 int.to.str$ -- 0
-missing$ -- 221
-newline$ -- 691
-num.names$ -- 1547
-pop$ -- 1049
+missing$ -- 229
+newline$ -- 697
+num.names$ -- 1557
+pop$ -- 1029
 preamble$ -- 1
-purify$ -- 896
+purify$ -- 904
 quote$ -- 0
-skip$ -- 3075
+skip$ -- 3139
 stack$ -- 0
-substring$ -- 5804
-swap$ -- 2521
-text.length$ -- 902
+substring$ -- 5732
+swap$ -- 2542
+text.length$ -- 908
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1998
-warning$ -- 3
-while$ -- 1664
+type$ -- 2019
+warning$ -- 1
+while$ -- 1676
 width$ -- 0
-write$ -- 2256
-(There were 12 error messages)
+write$ -- 2270
+(There were 6 error messages)

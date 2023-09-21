@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.2.3)  21 SEP 2023 11:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.2.3)  22 SEP 2023 03:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -566,8 +566,9 @@ LaTeX Info: Redefining \hbar on input line 50.
 (/usr/local/texlive/2022/texmf-dist/tex/latex/anyfontsize/anyfontsize.sty
 Package: anyfontsize 2007/11/22 anyfontsize.sty by pts
 )
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 8
-7.
+Package hyperref Info: Option `colorlinks' set `true' on input line 39.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 9
+3.
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
@@ -605,24 +606,24 @@ LaTeX Warning: Label `sec:conclusion' multiply defined.
 )
 \openout1 = `Thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
@@ -649,7 +650,7 @@ Package caption Info: End \AtBeginDocument code.
 \everyMPtoPDFconversion=\toks37
 )
 \c@lstlisting=\count324
-Package hyperref Info: Link coloring ON on input line 87.
+Package hyperref Info: Link coloring ON on input line 93.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
@@ -662,9 +663,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count325
 )
-LaTeX Info: Redefining \ref on input line 87.
-LaTeX Info: Redefining \pageref on input line 87.
-LaTeX Info: Redefining \nameref on input line 87.
+LaTeX Info: Redefining \ref on input line 93.
+LaTeX Info: Redefining \pageref on input line 93.
+LaTeX Info: Redefining \nameref on input line 93.
  (./Thesis.out) (./Thesis.out)
 \@outlinefile=\write3
 \openout3 = `Thesis.out'.
@@ -684,7 +685,7 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 <Figures/monash-logo.jpg, id=233, 2370.8575pt x 469.755pt>
 File: Figures/monash-logo.jpg Graphic file (type jpg)
 <use Figures/monash-logo.jpg>
-Package pdftex.def Info: Figures/monash-logo.jpg  used on input line 114.
+Package pdftex.def Info: Figures/monash-logo.jpg  used on input line 120.
 (pdftex.def)             Requested size: 417.47307pt x 82.7101pt.
 [1
 
@@ -802,7 +803,14 @@ the ro-ta-tional split-tings of KIC 12508433
 [10
 
 
-] [11]
+]
+Overfull \hbox (11.0062pt too wide) in paragraph at lines 38--38
+ [][] [][][]\OT1/ptm/m/n/10.95 The re-la-tion-ships be-tween lat-i-tu-di-nal di
+f-fer-en-tial ro-ta-tion and the stel-lar $\OML/ztmcm/m/it/10.95 R[]$ \OT1/ptm/
+m/n/10.95 adopted 
+ []
+
+[11]
 Overfull \hbox (3.61612pt too wide) in paragraph at lines 47--47
  [][] [][][]\OT1/ptm/m/n/10.95 Colour-magnitude di-a-gram of the closeby ro-tat
 -ing main-sequence sam-ple colours 
@@ -848,124 +856,119 @@ Chapter 1.
  1 Introduction
 ------------------------------------------------------------------------------
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 19.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 18.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 19.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 18.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 19.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 18.
 [1
 
 
 
 ] [2] [3]
-<Figures/intro_figures/rot_comp.png, id=695, 867.24pt x 578.16pt>
+<Figures/intro_figures/rot_comp.png, id=696, 867.24pt x 578.16pt>
 File: Figures/intro_figures/rot_comp.png Graphic file (type png)
 <use Figures/intro_figures/rot_comp.png>
 Package pdftex.def Info: Figures/intro_figures/rot_comp.png  used on input line
- 86.
+ 91.
 (pdftex.def)             Requested size: 417.47307pt x 278.31645pt.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 87.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 92.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 87.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 92.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [4] [5 <./Figures/intro_figures/rot_comp.png>] [6] [7] [8] [9]
-<Figures/intro_figures/pms_evo.png, id=848, 1161.33875pt x 782.925pt>
+<Figures/intro_figures/pms_evo.png, id=845, 1161.33875pt x 782.925pt>
 File: Figures/intro_figures/pms_evo.png Graphic file (type png)
 <use Figures/intro_figures/pms_evo.png>
 Package pdftex.def Info: Figures/intro_figures/pms_evo.png  used on input line 
 219.
 (pdftex.def)             Requested size: 417.47307pt x 281.44661pt.
- [10 <./Figures/intro_figures/pms_evo.png>]
-<Figures/intro_figures/cluster_kepler.png, id=932, 1149.29375pt x 839.135pt>
+<Figures/intro_figures/cluster_kepler.png, id=902, 1149.29375pt x 839.135pt>
 File: Figures/intro_figures/cluster_kepler.png Graphic file (type png)
 <use Figures/intro_figures/cluster_kepler.png>
 Package pdftex.def Info: Figures/intro_figures/cluster_kepler.png  used on inpu
-t line 232.
+t line 225.
 (pdftex.def)             Requested size: 417.47307pt x 304.80284pt.
- [11 <./Figures/intro_figures/cluster_kepler.png>]
-[12]
-<Figures/intro_figures/kepler_rot_dist.png, id=990, 867.24pt x 578.16pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[10 <./Figures/intro_figures/pms_evo.png>] [11 <./Figures/intro_figures/cluster
+_kepler.png>] [12]
+<Figures/intro_figures/kepler_rot_dist.png, id=1010, 867.24pt x 578.16pt>
 File: Figures/intro_figures/kepler_rot_dist.png Graphic file (type png)
 <use Figures/intro_figures/kepler_rot_dist.png>
 Package pdftex.def Info: Figures/intro_figures/kepler_rot_dist.png  used on inp
-ut line 282.
+ut line 284.
 (pdftex.def)             Requested size: 417.47307pt x 278.31645pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[13] [14 <./Figures/intro_figures/kepler_rot_dist.png>]
-<Figures/intro_figures/ztf_comp.png, id=1059, 750.805pt x 399.4925pt>
+[13] [14 <./Figures/intro_figures/kepler_rot_dist.png>] [15]
+<Figures/intro_figures/ztf_comp.png, id=1084, 750.805pt x 399.4925pt>
 File: Figures/intro_figures/ztf_comp.png Graphic file (type png)
 <use Figures/intro_figures/ztf_comp.png>
 Package pdftex.def Info: Figures/intro_figures/ztf_comp.png  used on input line
- 331.
+ 332.
 (pdftex.def)             Requested size: 417.47307pt x 222.13547pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[15] [16 <./Figures/intro_figures/ztf_comp.png>] [17]
-<Figures/intro_figures/qualitative_evo.png, id=1155, 719.68875pt x 466.74374pt>
+ [16 <./Figures/intro_figures/ztf_comp.png>] [17]
+<Figures/intro_figures/qualitative_evo.png, id=1173, 719.68875pt x 466.74374pt>
 
 File: Figures/intro_figures/qualitative_evo.png Graphic file (type png)
 <use Figures/intro_figures/qualitative_evo.png>
 Package pdftex.def Info: Figures/intro_figures/qualitative_evo.png  used on inp
-ut line 420.
+ut line 413.
 (pdftex.def)             Requested size: 417.47307pt x 270.75429pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[18] [19 <./Figures/intro_figures/qualitative_evo.png>]
-<Figures/intro_figures/deheuvels_disparity_without.png, id=1268, 531.9875pt x 2
+ [18] [19 <./Figures/intro_figures/qualitative_evo.png>]
+<Figures/intro_figures/deheuvels_disparity_without.png, id=1274, 531.9875pt x 2
 68.00125pt>
 File: Figures/intro_figures/deheuvels_disparity_without.png Graphic file (type 
 png)
 <use Figures/intro_figures/deheuvels_disparity_without.png>
 Package pdftex.def Info: Figures/intro_figures/deheuvels_disparity_without.png 
- used on input line 455.
+ used on input line 448.
 (pdftex.def)             Requested size: 417.47307pt x 210.316pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/intro_figures/deheuvels_disparity_with.png, id=1281, 520.94624pt x 503
+<Figures/intro_figures/deheuvels_disparity_with.png, id=1287, 520.94624pt x 503
 .8825pt>
 File: Figures/intro_figures/deheuvels_disparity_with.png Graphic file (type png
 )
 <use Figures/intro_figures/deheuvels_disparity_with.png>
 Package pdftex.def Info: Figures/intro_figures/deheuvels_disparity_with.png  us
-ed on input line 465.
+ed on input line 458.
 (pdftex.def)             Requested size: 417.47307pt x 403.79852pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/intro_figures/rgb_core_rot_without.png, id=1288, 804.00375pt x 594.22p
+<Figures/intro_figures/rgb_core_rot_without.png, id=1294, 804.00375pt x 594.22p
 t>
 File: Figures/intro_figures/rgb_core_rot_without.png Graphic file (type png)
 <use Figures/intro_figures/rgb_core_rot_without.png>
 Package pdftex.def Info: Figures/intro_figures/rgb_core_rot_without.png  used o
-n input line 473.
+n input line 466.
 (pdftex.def)             Requested size: 417.47307pt x 308.54283pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/intro_figures/rgb_core_rot.png, id=1301, 781.92125pt x 594.22pt>
+<Figures/intro_figures/rgb_core_rot.png, id=1307, 781.92125pt x 594.22pt>
 File: Figures/intro_figures/rgb_core_rot.png Graphic file (type png)
 <use Figures/intro_figures/rgb_core_rot.png>
 Package pdftex.def Info: Figures/intro_figures/rgb_core_rot.png  used on input 
-line 483.
+line 476.
 (pdftex.def)             Requested size: 417.47307pt x 317.25627pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (3.9224pt too wide) in paragraph at lines 490--493
+Overfull \hbox (3.9224pt too wide) in paragraph at lines 483--486
 []\OT1/ptm/m/n/10.95 Mechanisms un-der-ly-ing the ex-cess an-gu-lar mo-men-tum 
 trans-port have also been pro-posed. [][]Barker
  []
@@ -973,22 +976,18 @@ trans-port have also been pro-posed. [][]Barker
 [20] [21 <./Figures/intro_figures/deheuvels_disparity_without.png>] [22 <./Figu
 res/intro_figures/deheuvels_disparity_with.png>] [23 <./Figures/intro_figures/r
 gb_core_rot_without.png>] [24 <./Figures/intro_figures/rgb_core_rot.png>]
-<Figures/intro_figures/subgiant_surface.png, id=1439, 728.7225pt x 353.32pt>
+[25]
+<Figures/intro_figures/subgiant_surface.png, id=1449, 728.7225pt x 353.32pt>
 File: Figures/intro_figures/subgiant_surface.png Graphic file (type png)
 <use Figures/intro_figures/subgiant_surface.png>
 Package pdftex.def Info: Figures/intro_figures/subgiant_surface.png  used on in
-put line 568.
+put line 558.
 (pdftex.def)             Requested size: 417.47307pt x 202.40804pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[25]
-<Figures/intro_figures/rgb_surface.png, id=1465, 727.71875pt x 705.63625pt>
+<Figures/intro_figures/rgb_surface.png, id=1469, 727.71875pt x 705.63625pt>
 File: Figures/intro_figures/rgb_surface.png Graphic file (type png)
 <use Figures/intro_figures/rgb_surface.png>
 Package pdftex.def Info: Figures/intro_figures/rgb_surface.png  used on input l
-ine 583.
+ine 573.
 (pdftex.def)             Requested size: 417.47307pt x 404.81172pt.
 
 
@@ -996,32 +995,32 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [26 <./Figures/intro_figures/subgiant_surface.png>] [27 <./Figures/intro_figure
 s/rgb_surface.png>] [28] [29]
-<Figures/intro_figures/PMS_effect.png, id=1553, 1226.5825pt x 579.16376pt>
+<Figures/intro_figures/PMS_effect.png, id=1556, 1226.5825pt x 579.16376pt>
 File: Figures/intro_figures/PMS_effect.png Graphic file (type png)
 <use Figures/intro_figures/PMS_effect.png>
 Package pdftex.def Info: Figures/intro_figures/PMS_effect.png  used on input li
-ne 694.
+ne 683.
 (pdftex.def)             Requested size: 417.47307pt x 197.11632pt.
  [30 <./Figures/intro_figures/PMS_effect.png>]
-<Figures/intro_figures/MS_effect.png, id=1573, 1211.52625pt x 582.175pt>
+<Figures/intro_figures/MS_effect.png, id=1575, 1211.52625pt x 582.175pt>
 File: Figures/intro_figures/MS_effect.png Graphic file (type png)
 <use Figures/intro_figures/MS_effect.png>
 Package pdftex.def Info: Figures/intro_figures/MS_effect.png  used on input lin
-e 716.
+e 705.
 (pdftex.def)             Requested size: 417.47307pt x 200.61075pt.
 
 [31 <./Figures/intro_figures/MS_effect.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 738--744
+Underfull \hbox (badness 10000) in paragraph at lines 727--733
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 738--744
+Underfull \hbox (badness 10000) in paragraph at lines 727--733
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 738--744
+Underfull \hbox (badness 10000) in paragraph at lines 727--733
 
  []
 
@@ -1034,20 +1033,20 @@ e Rotation Measurement
 [33
 
 ] [34] [35] [36] [37] [38]
-<Figures/subgiant_chapter_figures/staradif.png, id=1802, 578.16pt x 361.35pt>
+<Figures/subgiant_chapter_figures/staradif.png, id=1804, 578.16pt x 361.35pt>
 File: Figures/subgiant_chapter_figures/staradif.png Graphic file (type png)
 <use Figures/subgiant_chapter_figures/staradif.png>
 Package pdftex.def Info: Figures/subgiant_chapter_figures/staradif.png  used on
  input line 126.
 (pdftex.def)             Requested size: 417.47307pt x 260.92168pt.
  [39 <./Figures/subgiant_chapter_figures/staradif.png>] [40]
-<Figures/subgiant_chapter_figures/rots.png, id=1853, 433.62pt x 289.08pt>
+<Figures/subgiant_chapter_figures/rots.png, id=1856, 433.62pt x 289.08pt>
 File: Figures/subgiant_chapter_figures/rots.png Graphic file (type png)
 <use Figures/subgiant_chapter_figures/rots.png>
 Package pdftex.def Info: Figures/subgiant_chapter_figures/rots.png  used on inp
 ut line 199.
 (pdftex.def)             Requested size: 417.47307pt x 278.32967pt.
-<Figures/subgiant_chapter_figures/combined_results.png, id=1856, 772.68675pt x 
+<Figures/subgiant_chapter_figures/combined_results.png, id=1859, 772.68675pt x 
 763.1712pt>
 File: Figures/subgiant_chapter_figures/combined_results.png Graphic file (type 
 png)
@@ -1057,14 +1056,14 @@ Package pdftex.def Info: Figures/subgiant_chapter_figures/combined_results.png
 (pdftex.def)             Requested size: 396.59813pt x 391.7275pt.
  [41] [42 <./Figures/subgiant_chapter_figures/rots.png>] [43 <./Figures/subgian
 t_chapter_figures/combined_results.png>]
-<Figures/subgiant_chapter_figures/12_corner.png, id=1894, 549.05125pt x 549.051
+<Figures/subgiant_chapter_figures/12_corner.png, id=1897, 549.05125pt x 549.051
 25pt>
 File: Figures/subgiant_chapter_figures/12_corner.png Graphic file (type png)
 <use Figures/subgiant_chapter_figures/12_corner.png>
 Package pdftex.def Info: Figures/subgiant_chapter_figures/12_corner.png  used o
 n input line 234.
 (pdftex.def)             Requested size: 417.47307pt x 417.48436pt.
-<Figures/subgiant_chapter_figures/22_corner.png, id=1897, 549.05125pt x 549.051
+<Figures/subgiant_chapter_figures/22_corner.png, id=1900, 549.05125pt x 549.051
 25pt>
 File: Figures/subgiant_chapter_figures/22_corner.png Graphic file (type png)
 <use Figures/subgiant_chapter_figures/22_corner.png>
@@ -1079,100 +1078,82 @@ Underfull \hbox (badness 1629) in paragraph at lines 242--242
 
 [44 <./Figures/subgiant_chapter_figures/12_corner.png>] [45 <./Figures/subgiant
 _chapter_figures/22_corner.png>] [46] [47] [48]
-<Figures/subgiant_chapter_figures/10.05_corner.png, id=1946, 549.05125pt x 549.
+<Figures/subgiant_chapter_figures/10.05_corner.png, id=1949, 549.05125pt x 549.
 05125pt>
 File: Figures/subgiant_chapter_figures/10.05_corner.png Graphic file (type png)
 
 <use Figures/subgiant_chapter_figures/10.05_corner.png>
 Package pdftex.def Info: Figures/subgiant_chapter_figures/10.05_corner.png  use
 d on input line 430.
-(pdftex.def)             Requested size: 417.47307pt x 417.48436pt.
-
-Overfull \hbox (12.7676pt too wide) in paragraph at lines 430--432
- [][]\OT1/ptm/m/n/10.95 [h] 
- []
-
-<Figures/subgiant_chapter_figures/10.2_corner.png, id=1949, 549.05125pt x 549.0
+(pdftex.def)             Requested size: 208.73653pt x 208.7338pt.
+<Figures/subgiant_chapter_figures/10.2_corner.png, id=1952, 549.05125pt x 549.0
 5125pt>
 File: Figures/subgiant_chapter_figures/10.2_corner.png Graphic file (type png)
 <use Figures/subgiant_chapter_figures/10.2_corner.png>
 Package pdftex.def Info: Figures/subgiant_chapter_figures/10.2_corner.png  used
  on input line 439.
-(pdftex.def)             Requested size: 417.47307pt x 417.48436pt.
-
-Overfull \hbox (12.7676pt too wide) in paragraph at lines 439--440
- [][]\OT1/ptm/m/n/10.95 [h] 
- []
-
-<Figures/subgiant_chapter_figures/10.5_corner.png, id=1952, 549.05125pt x 549.0
+(pdftex.def)             Requested size: 208.73653pt x 208.7338pt.
+<Figures/subgiant_chapter_figures/10.5_corner.png, id=1955, 549.05125pt x 549.0
 5125pt>
 File: Figures/subgiant_chapter_figures/10.5_corner.png Graphic file (type png)
 <use Figures/subgiant_chapter_figures/10.5_corner.png>
 Package pdftex.def Info: Figures/subgiant_chapter_figures/10.5_corner.png  used
- on input line 445.
-(pdftex.def)             Requested size: 417.47307pt x 417.48436pt.
+ on input line 446.
+(pdftex.def)             Requested size: 208.73653pt x 208.7338pt.
 
-Overfull \hbox (12.7676pt too wide) in paragraph at lines 445--446
- [][]\OT1/ptm/m/n/10.95 [h] 
- []
 
-<Figures/subgiant_chapter_figures/20.05_corner.png, id=1955, 549.05125pt x 549.
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Figures/subgiant_chapter_figures/20.05_corner.png, id=1958, 549.05125pt x 549.
 05125pt>
 File: Figures/subgiant_chapter_figures/20.05_corner.png Graphic file (type png)
 
 <use Figures/subgiant_chapter_figures/20.05_corner.png>
 Package pdftex.def Info: Figures/subgiant_chapter_figures/20.05_corner.png  use
-d on input line 452.
-(pdftex.def)             Requested size: 417.47307pt x 417.48436pt.
+d on input line 453.
+(pdftex.def)             Requested size: 208.73653pt x 208.7338pt.
 
-Overfull \hbox (12.7676pt too wide) in paragraph at lines 452--453
- [][]\OT1/ptm/m/n/10.95 [h] 
- []
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/subgiant_chapter_figures/20.2_corner.png, id=1960, 549.05125pt x 549.0
+<Figures/subgiant_chapter_figures/20.2_corner.png, id=1963, 549.05125pt x 549.0
 5125pt>
 File: Figures/subgiant_chapter_figures/20.2_corner.png Graphic file (type png)
 <use Figures/subgiant_chapter_figures/20.2_corner.png>
 Package pdftex.def Info: Figures/subgiant_chapter_figures/20.2_corner.png  used
- on input line 459.
-(pdftex.def)             Requested size: 417.47307pt x 417.48436pt.
+ on input line 460.
+(pdftex.def)             Requested size: 208.73653pt x 208.7338pt.
 
-Overfull \hbox (12.7676pt too wide) in paragraph at lines 459--460
- [][]\OT1/ptm/m/n/10.95 [h] 
- []
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/subgiant_chapter_figures/20.5_corner.png, id=1965, 549.05125pt x 549.0
+<Figures/subgiant_chapter_figures/20.5_corner.png, id=1968, 549.05125pt x 549.0
 5125pt>
 File: Figures/subgiant_chapter_figures/20.5_corner.png Graphic file (type png)
 <use Figures/subgiant_chapter_figures/20.5_corner.png>
 Package pdftex.def Info: Figures/subgiant_chapter_figures/20.5_corner.png  used
- on input line 466.
-(pdftex.def)             Requested size: 417.47307pt x 417.48436pt.
+ on input line 467.
+(pdftex.def)             Requested size: 208.73653pt x 208.7338pt.
 
-Overfull \hbox (12.7676pt too wide) in paragraph at lines 466--467
- [][]\OT1/ptm/m/n/10.95 [h] 
- []
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 ) (./Chapters/stellar_spot_metallicity_chapter.tex [49 <./Figures/subgiant_chap
-ter_figures/10.05_corner.png>] [50 <./Figures/subgiant_chapter_figures/10.2_cor
-ner.png>] [51 <./Figures/subgiant_chapter_figures/10.5_corner.png>] [52 <./Figu
-res/subgiant_chapter_figures/20.05_corner.png>] [53 <./Figures/subgiant_chapter
-_figures/20.2_corner.png>] [54 <./Figures/subgiant_chapter_figures/20.5_corner.
-png>]
+ter_figures/10.05_corner.png> <./Figures/subgiant_chapter_figures/10.2_corner.p
+ng>] [50 <./Figures/subgiant_chapter_figures/10.5_corner.png> <./Figures/subgia
+nt_chapter_figures/20.05_corner.png>] [51 <./Figures/subgiant_chapter_figures/2
+0.2_corner.png> <./Figures/subgiant_chapter_figures/20.5_corner.png>]
 Chapter 3.
 ------------------------------------------------------------------------------
  3 Stellar spots cause measurable variations in atmospheric metallicity
 ------------------------------------------------------------------------------
-[55
+[52
 
-] [56] [57] [58]
-<Figures/ss_chapter_figures/injected_hr.png, id=2121, 867.24pt x 505.89pt>
+] [53] [54] [55]
+<Figures/ss_chapter_figures/injected_hr.png, id=2113, 867.24pt x 505.89pt>
 File: Figures/ss_chapter_figures/injected_hr.png Graphic file (type png)
 <use Figures/ss_chapter_figures/injected_hr.png>
 Package pdftex.def Info: Figures/ss_chapter_figures/injected_hr.png  used on in
 put line 95.
 (pdftex.def)             Requested size: 417.47307pt x 243.52689pt.
- [59]
+ [56]
 LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 1
 09.
 
@@ -1181,78 +1162,78 @@ File: omsptm.fd
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 109.
- [60 <./Figures/ss_chapter_figures/injected_hr.png>] [61]
-<Figures/ss_chapter_figures/recov_tests_spot.png, id=2174, 1084.05pt x 722.7pt>
+ [57 <./Figures/ss_chapter_figures/injected_hr.png>] [58]
+<Figures/ss_chapter_figures/recov_tests_spot.png, id=2164, 1084.05pt x 722.7pt>
 
 File: Figures/ss_chapter_figures/recov_tests_spot.png Graphic file (type png)
 <use Figures/ss_chapter_figures/recov_tests_spot.png>
 Package pdftex.def Info: Figures/ss_chapter_figures/recov_tests_spot.png  used 
 on input line 145.
 (pdftex.def)             Requested size: 417.47307pt x 278.31203pt.
-<Figures/ss_chapter_figures/recov_spot_param.png, id=2175, 578.16pt x 722.7pt>
+<Figures/ss_chapter_figures/recov_spot_param.png, id=2165, 578.16pt x 722.7pt>
 File: Figures/ss_chapter_figures/recov_spot_param.png Graphic file (type png)
 <use Figures/ss_chapter_figures/recov_spot_param.png>
 Package pdftex.def Info: Figures/ss_chapter_figures/recov_spot_param.png  used 
 on input line 152.
-(pdftex.def)             Requested size: 417.47307pt x 521.84334pt.
-<Figures/ss_chapter_figures/recov_tests_full.png, id=2176, 1084.05pt x 722.7pt>
+(pdftex.def)             Requested size: 208.73653pt x 260.92166pt.
+<Figures/ss_chapter_figures/recov_tests_full.png, id=2166, 1084.05pt x 722.7pt>
 
 File: Figures/ss_chapter_figures/recov_tests_full.png Graphic file (type png)
 <use Figures/ss_chapter_figures/recov_tests_full.png>
 Package pdftex.def Info: Figures/ss_chapter_figures/recov_tests_full.png  used 
 on input line 159.
 (pdftex.def)             Requested size: 417.47307pt x 278.31203pt.
- [62 <./Figures/ss_chapter_figures/recov_tests_spot.png>] [63 <./Figures/ss_cha
-pter_figures/recov_spot_param.png>]
-<Figures/ss_chapter_figures/full_results_teff.png, id=2189, 1300.86pt x 867.24p
+ [59 <./Figures/ss_chapter_figures/recov_tests_spot.png>]
+<Figures/ss_chapter_figures/full_results_teff.png, id=2175, 1300.86pt x 867.24p
 t>
 File: Figures/ss_chapter_figures/full_results_teff.png Graphic file (type png)
 <use Figures/ss_chapter_figures/full_results_teff.png>
 Package pdftex.def Info: Figures/ss_chapter_figures/full_results_teff.png  used
  on input line 172.
 (pdftex.def)             Requested size: 417.47307pt x 278.31645pt.
-<Figures/ss_chapter_figures/full_results.png, id=2190, 1300.86pt x 867.24pt>
+<Figures/ss_chapter_figures/full_results.png, id=2176, 1300.86pt x 867.24pt>
 File: Figures/ss_chapter_figures/full_results.png Graphic file (type png)
 <use Figures/ss_chapter_figures/full_results.png>
 Package pdftex.def Info: Figures/ss_chapter_figures/full_results.png  used on i
 nput line 181.
 (pdftex.def)             Requested size: 417.47307pt x 278.31645pt.
-
-[64 <./Figures/ss_chapter_figures/recov_tests_full.png>]
-<Figures/ss_chapter_figures/med_age.png, id=2199, 867.24pt x 505.89pt>
+ [60 <./Figures/ss_chapter_figures/recov_spot_param.png>]
+<Figures/ss_chapter_figures/med_age.png, id=2185, 867.24pt x 505.89pt>
 File: Figures/ss_chapter_figures/med_age.png Graphic file (type png)
 <use Figures/ss_chapter_figures/med_age.png>
 Package pdftex.def Info: Figures/ss_chapter_figures/med_age.png  used on input 
 line 199.
 (pdftex.def)             Requested size: 417.47307pt x 243.52689pt.
- [65 <./Figures/ss_chapter_figures/full_results_teff.png>] [66 <./Figures/ss_ch
-apter_figures/full_results.png>] [67 <./Figures/ss_chapter_figures/med_age.png>
-] [68] [69])
-(./Chapters/rotational_peropd_gap_chapter_update.tex [70]
+
+[61 <./Figures/ss_chapter_figures/recov_tests_full.png>] [62 <./Figures/ss_chap
+ter_figures/full_results_teff.png>] [63 <./Figures/ss_chapter_figures/full_resu
+lts.png>] [64 <./Figures/ss_chapter_figures/med_age.png>] [65])
+(./Chapters/rotational_peropd_gap_chapter_update.tex [66]
 Chapter 4.
 ------------------------------------------------------------------------------
- 4 The Intermediate Period Gap
+ 4 The effect of Rossby number dependent latitudinal differential rotation on t
+he observed rotation period distribution
 ------------------------------------------------------------------------------
-[71
+[67
 
 ]
-<Figures/rot_gap_figures/big_prawn.png, id=2277, 747.39224pt x 846.2817pt>
+<Figures/rot_gap_figures/big_prawn.png, id=2264, 747.39224pt x 846.2817pt>
 File: Figures/rot_gap_figures/big_prawn.png Graphic file (type png)
 <use Figures/rot_gap_figures/big_prawn.png>
 Package pdftex.def Info: Figures/rot_gap_figures/big_prawn.png  used on input l
-ine 51.
+ine 52.
 (pdftex.def)             Requested size: 417.47307pt x 472.71358pt.
- [72] [73 <./Figures/rot_gap_figures/big_prawn.png>] [74] [75] [76]
-[77]
-<Figures/rot_gap_figures/comparison_diffrot.png, id=2402, 658.6206pt x 449.8807
+ [68] [69 <./Figures/rot_gap_figures/big_prawn.png>] [70] [71] [72]
+[73] [74]
+<Figures/rot_gap_figures/comparison_diffrot.png, id=2403, 658.6206pt x 449.8807
 5pt>
 File: Figures/rot_gap_figures/comparison_diffrot.png Graphic file (type png)
 <use Figures/rot_gap_figures/comparison_diffrot.png>
 Package pdftex.def Info: Figures/rot_gap_figures/comparison_diffrot.png  used o
-n input line 224.
+n input line 225.
 (pdftex.def)             Requested size: 417.47307pt x 285.16998pt.
- [78] [79 <./Figures/rot_gap_figures/comparison_diffrot.png>]
-<Figures/rot_gap_figures/comparison_observed_rot_periods.png, id=2439, 766.7847
+ [75 <./Figures/rot_gap_figures/comparison_diffrot.png>] [76]
+<Figures/rot_gap_figures/comparison_observed_rot_periods.png, id=2442, 766.7847
 pt x 514.8033pt>
 File: Figures/rot_gap_figures/comparison_observed_rot_periods.png Graphic file 
 (type png)
@@ -1260,98 +1241,93 @@ File: Figures/rot_gap_figures/comparison_observed_rot_periods.png Graphic file
 Package pdftex.def Info: Figures/rot_gap_figures/comparison_observed_rot_period
 s.png  used on input line 280.
 (pdftex.def)             Requested size: 417.47307pt x 280.27553pt.
- [80] [81 <./Figures/rot_gap_figures/comparison_observed_rot_periods.png>]
-File: Figures/rot_gap_figures/comparison_observed_rot_periods.png Graphic file 
-(type png)
-<use Figures/rot_gap_figures/comparison_observed_rot_periods.png>
-Package pdftex.def Info: Figures/rot_gap_figures/comparison_observed_rot_period
-s.png  used on input line 299.
-(pdftex.def)             Requested size: 417.47307pt x 280.27553pt.
- [82] [83]
-<Figures/rot_gap_figures/com_gap_clus.png, id=2495, 761.0031pt x 456.7464pt>
+ [77 <./Figures/rot_gap_figures/comparison_observed_rot_periods.png>]
+<Figures/rot_gap_figures/create_gap.png, id=2460, 1251.4755pt x 901.9296pt>
+File: Figures/rot_gap_figures/create_gap.png Graphic file (type png)
+<use Figures/rot_gap_figures/create_gap.png>
+Package pdftex.def Info: Figures/rot_gap_figures/create_gap.png  used on input 
+line 299.
+(pdftex.def)             Requested size: 417.47307pt x 300.85806pt.
+ [78] [79 <./Figures/rot_gap_figures/create_gap.png>]
+<Figures/rot_gap_figures/com_gap_clus.png, id=2491, 761.0031pt x 456.7464pt>
 File: Figures/rot_gap_figures/com_gap_clus.png Graphic file (type png)
 <use Figures/rot_gap_figures/com_gap_clus.png>
 Package pdftex.def Info: Figures/rot_gap_figures/com_gap_clus.png  used on inpu
 t line 338.
 (pdftex.def)             Requested size: 417.47307pt x 250.56314pt.
- [84]
-[85 <./Figures/rot_gap_figures/com_gap_clus.png>] [86]
-<Figures/rot_gap_figures/comp_dist.png, id=2579, 1216.42455pt x 901.9296pt>
+ [80] [81 <./Figures/rot_gap_figures/com_gap_clus.png>] [82]
+<Figures/rot_gap_figures/comp_dist.png, id=2575, 1216.42455pt x 901.9296pt>
 File: Figures/rot_gap_figures/comp_dist.png Graphic file (type png)
 <use Figures/rot_gap_figures/comp_dist.png>
 Package pdftex.def Info: Figures/rot_gap_figures/comp_dist.png  used on input l
-ine 402.
+ine 401.
 (pdftex.def)             Requested size: 417.47307pt x 309.5421pt.
-<Figures/rot_gap_figures/comp_hess_up.png, id=2594, 1453.71104pt x 1582.4721pt>
+<Figures/rot_gap_figures/comp_hess_up.png, id=2584, 1453.71104pt x 1582.4721pt>
 
 File: Figures/rot_gap_figures/comp_hess_up.png Graphic file (type png)
 <use Figures/rot_gap_figures/comp_hess_up.png>
 Package pdftex.def Info: Figures/rot_gap_figures/comp_hess_up.png  used on inpu
-t line 414.
+t line 411.
 (pdftex.def)             Requested size: 417.47307pt x 454.43805pt.
 
 
-LaTeX Warning: Float too large for page by 69.14374pt on input line 425.
+LaTeX Warning: Float too large for page by 57.14374pt on input line 421.
 
-[87 <./Figures/rot_gap_figures/comp_dist.png>] [88 <./Figures/rot_gap_figures/c
-omp_hess_up.png>] [89]
-<Figures/rot_gap_figures/compar_dist.png, id=2649, 684.27644pt x 638.50545pt>
+[83] [84 <./Figures/rot_gap_figures/comp_dist.png>] [85 <./Figures/rot_gap_figu
+res/comp_hess_up.png>]
+<Figures/rot_gap_figures/compar_dist.png, id=2640, 684.27644pt x 638.50545pt>
 File: Figures/rot_gap_figures/compar_dist.png Graphic file (type png)
 <use Figures/rot_gap_figures/compar_dist.png>
 Package pdftex.def Info: Figures/rot_gap_figures/compar_dist.png  used on input
- line 462.
+ line 464.
 (pdftex.def)             Requested size: 417.47307pt x 389.55595pt.
- [90] [91 <./Figures/rot_gap_figures/compar_dist.png>])
-(./Chapters/conclusion_chapter.tex [92] [93]
+ [86] [87 <./Figures/rot_gap_figures/compar_dist.png>]
+[88]) (./Chapters/conclusion_chapter.tex [89]
 Chapter 5.
 ------------------------------------------------------------------------------
  5 Summary, Conclusions and Future Work
 ------------------------------------------------------------------------------
-[94
+[90
 
-] [95] [96] [97] [98]) (./Appendices/AppendixA.tex [99]
+] [91] [92] [93] [94]) (./Appendices/AppendixA.tex [95]
 Appendix A.
 ------------------------------------------------------------------------------
- A An investigation into the evidence against current explanations for the inte
-rmediate period gap
+ A An investigation into the evidence for current explanations of the intermedi
+ate period gap
 ------------------------------------------------------------------------------
-[100
+[96
 
-] [101] [102] [103]
-<Figures/rot_gap_figures/HR.png, id=2839, 878.68275pt x 458.6736pt>
+] [97] [98] [99]
+<Figures/rot_gap_figures/HR.png, id=2836, 878.68275pt x 458.6736pt>
 File: Figures/rot_gap_figures/HR.png Graphic file (type png)
 <use Figures/rot_gap_figures/HR.png>
 Package pdftex.def Info: Figures/rot_gap_figures/HR.png  used on input line 115
 .
 (pdftex.def)             Requested size: 417.47307pt x 217.9212pt.
-<Figures/rot_gap_figures/rotational_dist.png, id=2840, 918.67215pt x 458.6736pt
+<Figures/rot_gap_figures/rotational_dist.png, id=2837, 918.67215pt x 458.6736pt
 >
 File: Figures/rot_gap_figures/rotational_dist.png Graphic file (type png)
 <use Figures/rot_gap_figures/rotational_dist.png>
 Package pdftex.def Info: Figures/rot_gap_figures/rotational_dist.png  used on i
 nput line 123.
 (pdftex.def)             Requested size: 417.47307pt x 208.43785pt.
- [104 <./Figures/rot_gap_figures/HR.png>]
-<Figures/rot_gap_figures/rot_dist_binned.png, id=2854, 804.96735pt x 458.6736pt
+ [100 <./Figures/rot_gap_figures/HR.png>]
+<Figures/rot_gap_figures/rot_dist_binned.png, id=2851, 804.96735pt x 458.6736pt
 >
 File: Figures/rot_gap_figures/rot_dist_binned.png Graphic file (type png)
 <use Figures/rot_gap_figures/rot_dist_binned.png>
 Package pdftex.def Info: Figures/rot_gap_figures/rot_dist_binned.png  used on i
 nput line 142.
 (pdftex.def)             Requested size: 417.47307pt x 237.88174pt.
- [105 <./Figures/rot_gap_figures/rotational_dist.png>]
-<Figures/rot_gap_figures/rot_vs_rper_minima.png, id=2865, 782.56364pt x 2532.58
+ [101 <./Figures/rot_gap_figures/rotational_dist.png>]
+<Figures/rot_gap_figures/rot_vs_rper_minima.png, id=2863, 782.56364pt x 2532.58
 17pt>
 File: Figures/rot_gap_figures/rot_vs_rper_minima.png Graphic file (type png)
 <use Figures/rot_gap_figures/rot_vs_rper_minima.png>
 Package pdftex.def Info: Figures/rot_gap_figures/rot_vs_rper_minima.png  used o
 n input line 169.
-(pdftex.def)             Requested size: 208.73653pt x 675.53639pt.
-
-
-LaTeX Warning: Float too large for page by 60.56331pt on input line 173.
-
-<Figures/rot_gap_figures/rot_dist_minima_shown.png, id=2866, 620.19705pt x 426.
+(pdftex.def)             Requested size: 187.8616pt x 607.94797pt.
+<Figures/rot_gap_figures/rot_dist_minima_shown.png, id=2864, 620.19705pt x 426.
 8748pt>
 File: Figures/rot_gap_figures/rot_dist_minima_shown.png Graphic file (type png)
 
@@ -1359,9 +1335,9 @@ File: Figures/rot_gap_figures/rot_dist_minima_shown.png Graphic file (type png)
 Package pdftex.def Info: Figures/rot_gap_figures/rot_dist_minima_shown.png  use
 d on input line 177.
 (pdftex.def)             Requested size: 417.47307pt x 287.3399pt.
-[106 <./Figures/rot_gap_figures/rot_dist_binned.png>] [107 <./Figures/rot_gap_f
-igures/rot_vs_rper_minima.png>]
-<Figures/rot_gap_figures/per_vs_colour.png, id=2879, 833.15265pt x 2532.5817pt>
+ [102 <./Figures/rot_gap_figures/rot_dist_binned.png>] [103 <./Figures/rot_gap_
+figures/rot_vs_rper_minima.png>]
+<Figures/rot_gap_figures/per_vs_colour.png, id=2876, 833.15265pt x 2532.5817pt>
 
 File: Figures/rot_gap_figures/per_vs_colour.png Graphic file (type png)
 <use Figures/rot_gap_figures/per_vs_colour.png>
@@ -1372,7 +1348,7 @@ ut line 195.
 
 LaTeX Warning: Float too large for page by 19.52333pt on input line 199.
 
-[108 <./Figures/rot_gap_figures/rot_dist_minima_shown.png>] [109 <./Figures/rot
+[104 <./Figures/rot_gap_figures/rot_dist_minima_shown.png>] [105 <./Figures/rot
 _gap_figures/per_vs_colour.png>]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 210.
@@ -1409,15 +1385,15 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 210.
 
-<Figures/rot_gap_figures/rotational_dist_rhk.png, id=2897, 923.73105pt x 458.67
+<Figures/rot_gap_figures/rotational_dist_rhk.png, id=2894, 923.73105pt x 458.67
 36pt>
 File: Figures/rot_gap_figures/rotational_dist_rhk.png Graphic file (type png)
 <use Figures/rot_gap_figures/rotational_dist_rhk.png>
 Package pdftex.def Info: Figures/rot_gap_figures/rotational_dist_rhk.png  used 
 on input line 227.
 (pdftex.def)             Requested size: 417.47307pt x 207.29005pt.
-[110]
-<Figures/rot_gap_figures/rot_vs_rper_rhk_minima.png, id=2904, 809.1831pt x 1140
+[106]
+<Figures/rot_gap_figures/rot_vs_rper_rhk_minima.png, id=2901, 809.1831pt x 1140
 .54105pt>
 File: Figures/rot_gap_figures/rot_vs_rper_rhk_minima.png Graphic file (type png
 )
@@ -1425,40 +1401,40 @@ File: Figures/rot_gap_figures/rot_vs_rper_rhk_minima.png Graphic file (type png
 Package pdftex.def Info: Figures/rot_gap_figures/rot_vs_rper_rhk_minima.png  us
 ed on input line 243.
 (pdftex.def)             Requested size: 417.47307pt x 588.4381pt.
- [111 <./Figures/rot_gap_figures/rotational_dist_rhk.png>] [112 <./Figures/rot_
+ [107 <./Figures/rot_gap_figures/rotational_dist_rhk.png>] [108 <./Figures/rot_
 gap_figures/rot_vs_rper_rhk_minima.png>]
-<Figures/rot_gap_figures/HR_mag_and_non_rot.png, id=2923, 858.44714pt x 723.061
+<Figures/rot_gap_figures/HR_mag_and_non_rot.png, id=2921, 858.44714pt x 723.061
 36pt>
 File: Figures/rot_gap_figures/HR_mag_and_non_rot.png Graphic file (type png)
 <use Figures/rot_gap_figures/HR_mag_and_non_rot.png>
 Package pdftex.def Info: Figures/rot_gap_figures/HR_mag_and_non_rot.png  used o
 n input line 285.
 (pdftex.def)             Requested size: 417.47307pt x 351.63318pt.
- [113]
-<Figures/rot_gap_figures/pdf_cdf.png, id=2932, 754.13745pt x 453.73515pt>
+ [109]
+<Figures/rot_gap_figures/pdf_cdf.png, id=2928, 754.13745pt x 453.73515pt>
 File: Figures/rot_gap_figures/pdf_cdf.png Graphic file (type png)
 <use Figures/rot_gap_figures/pdf_cdf.png>
 Package pdftex.def Info: Figures/rot_gap_figures/pdf_cdf.png  used on input lin
 e 305.
 (pdftex.def)             Requested size: 417.47307pt x 251.17519pt.
- [114 <./Figures/rot_gap_figures/HR_mag_and_non_rot.png>]
-<Figures/rot_gap_figures/detection_efficiency.png, id=2940, 880.60995pt x 731.4
+ [110 <./Figures/rot_gap_figures/HR_mag_and_non_rot.png>]
+<Figures/rot_gap_figures/detection_efficiency.png, id=2937, 880.60995pt x 731.4
 9284pt>
 File: Figures/rot_gap_figures/detection_efficiency.png Graphic file (type png)
 <use Figures/rot_gap_figures/detection_efficiency.png>
 Package pdftex.def Info: Figures/rot_gap_figures/detection_efficiency.png  used
  on input line 321.
 (pdftex.def)             Requested size: 417.47307pt x 346.78185pt.
- [115 <./Figures/rot_gap_figures/pdf_cdf.png>]
-[116 <./Figures/rot_gap_figures/detection_efficiency.png>]
-<Figures/rot_gap_figures/hist_obs.png, id=2957, 677.1699pt x 450.2421pt>
+ [111 <./Figures/rot_gap_figures/pdf_cdf.png>]
+[112 <./Figures/rot_gap_figures/detection_efficiency.png>]
+<Figures/rot_gap_figures/hist_obs.png, id=2954, 677.1699pt x 450.2421pt>
 File: Figures/rot_gap_figures/hist_obs.png Graphic file (type png)
 <use Figures/rot_gap_figures/hist_obs.png>
 Package pdftex.def Info: Figures/rot_gap_figures/hist_obs.png  used on input li
 ne 358.
 (pdftex.def)             Requested size: 417.47307pt x 277.57394pt.
- [117]
-<Figures/rot_gap_figures/n_col.png, id=2963, 782.56364pt x 1168.48544pt>
+ [113]
+<Figures/rot_gap_figures/n_col.png, id=2961, 782.56364pt x 1168.48544pt>
 File: Figures/rot_gap_figures/n_col.png Graphic file (type png)
 <use Figures/rot_gap_figures/n_col.png>
 Package pdftex.def Info: Figures/rot_gap_figures/n_col.png  used on input line 
@@ -1468,56 +1444,50 @@ Package pdftex.def Info: Figures/rot_gap_figures/n_col.png  used on input line
 
 LaTeX Warning: Float too large for page by 8.38641pt on input line 380.
 
-[118 <./Figures/rot_gap_figures/hist_obs.png>] [119 <./Figures/rot_gap_figures/
+[114 <./Figures/rot_gap_figures/hist_obs.png>] [115 <./Figures/rot_gap_figures/
 n_col.png>]
-<Figures/rot_gap_figures/stars_donot_fullgap.png, id=2976, 723.78406pt x 450.24
+<Figures/rot_gap_figures/stars_donot_fullgap.png, id=2973, 723.78406pt x 450.24
 21pt>
 File: Figures/rot_gap_figures/stars_donot_fullgap.png Graphic file (type png)
 <use Figures/rot_gap_figures/stars_donot_fullgap.png>
 Package pdftex.def Info: Figures/rot_gap_figures/stars_donot_fullgap.png  used 
 on input line 394.
 (pdftex.def)             Requested size: 417.47307pt x 259.691pt.
- [120 <./Figures/rot_gap_figures/stars_donot_fullgap.png>] [121]
-[122]) (./Thesis.bbl [123] [124
+ [116 <./Figures/rot_gap_figures/stars_donot_fullgap.png>] [117]
+[118]) (./Thesis.bbl [119] [120
 
-] [125] [126] [127] [128]
-Underfull \hbox (badness 1331) in paragraph at lines 595--600
-[]\OT1/ptm/m/n/10.95 Heged[]us V., M[]esz[]aros S., Jofr[]e P., Stringfel-low G
-. S., Feuil-let D., Garc[]^^Pa-Hern[]andez
- []
-
-[129] [130] [131] [132] [133] [134]) [135] (./Thesis.aux)
+] [121] [122] [123] [124] [125] [126] [127]
+[128] [129] [130]) [131] (./Thesis.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: BDEC9DEB7E1967C22AA477B560A67762;13159.
+(rerunfilecheck)             Checksum: BC9E3BB89FDA3C126208F5C4B0D51357;13612.
  ) 
 Here is how much of TeX's memory you used:
- 17034 strings out of 478268
- 289753 string characters out of 5846348
- 592884 words of memory out of 5000000
- 34284 multiletter control sequences out of 15000+600000
- 552680 words of font info for 196 fonts, out of 8000000 for 9000
+ 17042 strings out of 478268
+ 290147 string characters out of 5846348
+ 593380 words of memory out of 5000000
+ 34294 multiletter control sequences out of 15000+600000
+ 552512 words of font info for 195 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,13n,77p,1829b,888s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,13n,77p,1835b,896s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
 xlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/tex
 live/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texli
 ve/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texliv
-e/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive
-/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/tex
-live/2022/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr/local/texlive/202
-2/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2022/texmf-dis
-t/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2022/texmf-dist/fonts/typ
-e1/urw/times/utmb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/tim
-es/utmr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmr8a.
-pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Thesis.pdf (149 pages, 55152245 bytes).
+e/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/te
+xlive/2022/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr/local/texlive/20
+22/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2022/texmf-di
+st/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2022/texmf-dist/fonts/ty
+pe1/urw/times/utmb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/ti
+mes/utmr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmr8a
+.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Thesis.pdf (145 pages, 56556814 bytes).
 PDF statistics:
- 3514 PDF objects out of 3580 (max. 8388607)
- 3044 compressed objects within 31 object streams
- 543 named destinations out of 1000 (max. 500000)
- 727 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3493 PDF objects out of 3580 (max. 8388607)
+ 3019 compressed objects within 31 object streams
+ 541 named destinations out of 1000 (max. 500000)
+ 732 words of extra memory for PDF output out of 10000 (max. 10000000)
 

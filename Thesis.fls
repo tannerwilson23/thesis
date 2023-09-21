@@ -791,6 +791,7 @@ INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/anyfontsize/anyfontsize.sty
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/anyfontsize/anyfontsize.sty
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/anyfontsize/anyfontsize.sty
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/xcolor/xcolor.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/hyperref.sty
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/ot1ptm.fd
@@ -1351,10 +1352,11 @@ INPUT ./Figures/rot_gap_figures/comparison_observed_rot_periods.png
 INPUT Figures/rot_gap_figures/comparison_observed_rot_periods.png
 INPUT ./Figures/rot_gap_figures/comparison_observed_rot_periods.png
 INPUT ./Figures/rot_gap_figures/comparison_observed_rot_periods.png
-INPUT ./Figures/rot_gap_figures/comparison_observed_rot_periods.png
-INPUT ./Figures/rot_gap_figures/comparison_observed_rot_periods.png
-INPUT Figures/rot_gap_figures/comparison_observed_rot_periods.png
-INPUT ./Figures/rot_gap_figures/comparison_observed_rot_periods.png
+INPUT ./Figures/rot_gap_figures/create_gap.png
+INPUT ./Figures/rot_gap_figures/create_gap.png
+INPUT Figures/rot_gap_figures/create_gap.png
+INPUT ./Figures/rot_gap_figures/create_gap.png
+INPUT ./Figures/rot_gap_figures/create_gap.png
 INPUT ./Figures/rot_gap_figures/com_gap_clus.png
 INPUT ./Figures/rot_gap_figures/com_gap_clus.png
 INPUT Figures/rot_gap_figures/com_gap_clus.png
@@ -1479,7 +1481,6 @@ INPUT ./Thesis.bbl
 INPUT Thesis.bbl
 INPUT ./Thesis.bbl
 INPUT Thesis.bbl
-INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
 INPUT Thesis.aux
 INPUT ./Thesis.out
 INPUT ./Thesis.out
@@ -1488,7 +1489,6 @@ INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.p
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
-INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/urw/symbol/usyr.pfb

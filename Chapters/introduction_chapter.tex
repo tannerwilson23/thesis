@@ -10,8 +10,7 @@
 Humans have been captivated by the stars since the dawn of civilisation, and this fascination has driven our curiosity and drive to understand the universe around us. 
 The history of astronomy is rich and diverse. 
 Indigenous cultures still use the stars for navigation, seasonal calendars, and mythological stories. 
-Since the invention of the modern telescope, some would say the birth of modern astronomy in the 16th century, to the launch of the James Webb \update{Space Telescope}, technology has advanced during the period that this PhD was undertaken. 
-Our ability to observe and study the stars has grown in scale and sophistication. 
+From the invention of the modern telescope, some would say the birth of modern astronomy, in the 16th century to the launch of the James Webb \update{Space Telescope}, the scale and sophistication of technology has advanced and enhanced our ability to observe and study the stars. 
 
 Each observation that we make improves our understanding of the underlying physics of the universe. 
 In recent years the sheer amount of data available to astronomers has increased dramatically due in part to technological advances, such as space-based observatories, which allow us to perform large sky surveys in unprecedented detail. 
@@ -36,7 +35,7 @@ This discussion will provide the necessary background to our attempts to underst
 The history of observing the rotating stars began with observations of the Sun\footnote{As most astronomy does.}. 
 In approximately 1610, Galileo reported evidence of sunspots and tracked their motion in his book \update{``\textit{L'Istoria e dimostrazioni intorno alle macchie solari e loro accidenti"}.} 
 He interpreted the motion of stellar spots on the surface of the Sun as a result of its rotation. 
-Adding onto this work in 1630, Christoph Scheiner found that the stellar spots had different rotational periods at the poles and the equator, measurements that agree with modern observations of the Sun. 
+Adding onto this work in 1630, Christoph Scheiner found that the stellar spots had different rotation periods at the poles and the equator, measurements that agree with modern observations of the Sun. 
 \update{This was the first observation of latitude-dependent rotation, more commonly known as latitudinal differential rotation.}
 
 The history of observing stellar\footnote{Here we make the distinction between the Sun and other stars through the use of the terms \update{``solar" and ``stellar"} respectively.} rotation can be traced back to the early 20th century when astronomers first discovered that some stars they observed were rotating. 
@@ -56,19 +55,25 @@ Enhanced mixing leads to an increased lifetime on the main-sequence through the 
 Their results underlay our modern understanding of the impacts of stellar rotation on stellar evolution.
 
 \update{Like the Sun, stars exhibit magnetically active regions\footnote{Magnetically active regions can have varying effects on the flux of stars. Those regions can be brighter (faculae), darker (spots) and induce emission in strong lines (e.g., Ca II H \& K and H$\alpha$).}. 
-These regions cannot be \update{directly imaged} on the surface of stars other than the Sun. 
-However, rotational modulation of magnetically active regions on the surfaces of stars produce quasi-periodic\footnote{Here we will use quasi-periodic and periodic interchangeably though these are distinct terms. Quasi-periodic is more accurate to the signal here. Stellar spots are not constant features on the surface of stars - they have finite lifetimes and stochastically appear on the surfaces of stars. The recurrence of the signal has a component of unpredictability that does not lend itself to precise measurement.} variations in the disc-integrated flux, generally through magnitude variations due to induced brightness variations.
+In this work, we will refer to these active regions as stellar spots, however, it should be noted that an active region is composed of two distinct regions: the cool, darker spots and the hot, bright faculae that surround them.
+Stellar spots are regions of intense magnetic activity on a star's surface from magnetic flux tubes in the convection zone. 
+These flux tubes are thought to be stretched and curled by the differential rotation of the convective region. 
+As a result, convection is inhibited, limiting plasma flow to the surface in these tubes.
+This results in lower-temperature material within the tube, which looks like a darker spot on the star's surface.
+
+Stellar spots cannot be \update{directly imaged} on the surface of stars other than the Sun. 
+However, rotational modulation of magnetically active regions on the surfaces of stars produce quasi-periodic\footnote{Here we will use quasi-periodic and periodic interchangeably though these are distinct terms. Quasi-periodic is more accurate to the signal here. Stellar spots are not constant features on the surface of stars: they have finite lifetimes and stochastically appear on the surfaces of stars. The recurrence of the signal has a component of unpredictability that does not lend itself to precise measurement.} variations in the disc-integrated flux, generally through magnitude variations due to induced brightness variations from stellar spots.
 Measuring the period of brightness variation is used as a proxy for the rotation period\footnote{It is important to note here that the rotation period - time taken for one rotation -  and rotation rate - frequency of rotation - of a star are not the same quantity. They are inversely related.}
 However, measuring rotation periods is not straightforward due to the transient nature of stellar spots and the unpredictable recurrence of their signals. 
 While it is commonly accepted that active regions mainly manifest as dim spots, their finite lifetimes and stochastic appearance make precise period measurements challenging.
-Unlike the spectroscopic technique -- where the inclination angle modulates the rotation rate  -- the surface rotational periods from stellar spot brightness modulations are more accurate to the star's actual rotation rate.
+Unlike the spectroscopic technique -- where the inclination angle modulates the rotation rate  -- the surface rotation periods from stellar spot brightness modulations are more accurate to the star's actual rotation rate.
 In this thesis, we will investigate the impact of latitudinal differential rotation on the observed rotation period of stars.
 As such we adopt the ``surface rotation period" as the average rotation period when spots are present on a star.}
 
 To measure the surface rotation periods using these variations, we face a signal-processing problem that involves employing various techniques. 
 The first step is to acquire precise time-series photometry, generating the light curve that represents the brightness variations of the star over time.
 Before analysing the light curve for periodic variability, data preprocessing is essential to remove systematic effects and correct instrumental noise. 
-Without proper preprocessing, systematic effects on the timescale of known low-mass main-sequence rotational periods could be mistaken for genuine signals.
+Without proper preprocessing, systematic effects on the timescale of low-mass main-sequence rotation periods could be mistaken for genuine signals.
 Once the light curve is preprocessed, the analysis of periodic signals can take various forms, each offering its unique advantages. 
 Different signal processing techniques are adopted to identify and characterise the periodic variability in the light curve, leading to the determination of rotation periods for the stars under investigation: Lomb-Scargle periodograms \citep[see, e.g.,][]{lomb_least_1976, scargle_studies_1982,mottola_slow_1995,scott_photometric_1992,reinhold_fast_2013,reinhold_rotation_2013}, auto-correlation functions \citep[see, e.g.,][]{aigrain_transiting_2008,garcia_rotation_2014,mcquillan_rotation_2014}, wavelet transforms \citep[see, e.g.,][]{garcia_rotation_2014}, gaussian processes \citep[see, e.g.,][]{angus_inferring_2017}, and machine learning \citep[see, e.g.,][]{claytor_recovery_2022}.
 Each come with their own benefits and drawbacks as described more thoroughly in the referenced works.
@@ -80,21 +85,21 @@ However, the limited precision of the telescopes and low cadence of time-samplin
 For many years, the Mount Wilson program monitored the emission in the cores of the Ca II H \& K lines for a large number of low-mass stars over a 20-year period \citep{wilson_probable_1963}.
 The cadence of observations by this mission was on the order of days and resultingly became the main source of rotation period measurements for field stars.
 This changed with the advent of space-based photometric missions such as \corot \ (COnvection, ROtation and planetary Transits) \citep{baglin_corot_2003}, \kepler \ \citep{borucki_kepler_2010, howell_k2_2014}, \tess \ (Transiting Exoplanet Survey Satellite) \citep{ricker_transiting_2014}, and \gaia{} \citep{distefano_gaia_2022} as well as with long-cadence observations of nearby stars through ground-based facilities such as the Zwicky Transient Facility (\ZTF) \citep{lu_bridging_2022}.
-These missions have collectively gathered sub-millimag precision photometry with short cadence observations (time scales between observations on the scale of minutes) over baselines from months to years, which have resulted in the largest high-precision catalogues of rotational periods of low-mass main-sequence stars available.
+These missions have collectively gathered sub-millimag precision photometry with short-cadence observations (time scales between observations on the scale of minutes) over baselines from months to years, which have resulted in the largest high-precision catalogues of rotation periods of low-mass main-sequence stars available.
 
 \begin{figure}[h]
     \includegraphics[width=\textwidth]{Figures/intro_figures/rot_comp.png}
-    \caption[1-$\sigma$ contours of \kepler\ (blue), \ZTF\ (green), and \GDRT\ (orange) rotational period distributions kernel density estimates.]{1-$\sigma$ contours of \kepler\ (blue) \citep{mcquillan_rotation_2014}, \ZTF (green) \citep{lu_bridging_2022}, and \GDRT\ \citep{distefano_gaia_2022} rotational period distributions kernel density estimates. Each sample probes a different area of the rotational period against colour space with some overlap. This expands our knowledge of the evolution of rotation to different types of stars. \update{Their agreement in overlapping regions of the rotational period distribution also confirms their independent accuracy.}}
+    \caption[1-$\sigma$ contours of \kepler\ (blue), \ZTF\ (green), and \GDRT\ (orange) rotation period distributions kernel density estimates.]{1-$\sigma$ contours of \kepler\ (blue) \citep{mcquillan_rotation_2014}, \ZTF (green) \citep{lu_bridging_2022}, and \GDRT\ \citep{distefano_gaia_2022} rotation period distributions kernel density estimates. Each sample probes a different area of the rotation period against colour space with some overlap. This expands our knowledge of the evolution of rotation to different types of stars. \update{Their agreement in overlapping regions of the rotation period distribution also confirms their independent accuracy.}}
     \label{fig:rot_comp}
 \end{figure}
 
 The stellar spot rotation periods obtained from different missions are suited to observe particular masses and rotation period regimes along the main-sequence.
-To highlight this we show the rotational period distribution against colour (\GDRT\ $B_P - R_P$) of the representative \kepler{}, \ZTF{} and \GDRT{} rotational period samples in blue, green and orange in Figure \ref{fig:rot_comp} respectively.
+To highlight this we show the rotation period distribution against colour (\GDRT\ $B_P - R_P$) of the representative \kepler{}, \ZTF{} and \GDRT{} rotation period samples in blue, green and orange in Figure \ref{fig:rot_comp} respectively.
 This results from the underlying telescope parameters, each mission's observation cadences \citep{distefano_determination_2012}, and, in the case of \gaia, the scanning technique employed.
 %The Gaia DR3 rotation period sample exhibits spurious periods centred around 0.5, 18, 25, 32 and 49d.
 %\citet{distefano_gaia_2022} suggest that the non-uniformity of the Gaia sampling could be the cause of these peaks.
 %@andy: I was wrong about this, this is before processing.
-Comparing the rotational period distributions in Figure \ref{fig:rot_comp} we observe a few notable features and limitations from each mission.
+Comparing the rotation period distributions in Figure \ref{fig:rot_comp} we observe a few notable features and limitations from each mission.
 \update{For example, before post-processing the Gaia DR3 rotation period sample shows spurious periods centred around 0.5, 18, 25, 32 and 49d (compare Figures 17, 18 and 19. in \citet{distefano_gaia_2022}) due to the non-uniformity of \gaia{} sampling.
 Period detections at these periods, or at fundamental over and undertones, should be treated with caution.
 Another example comes in the form of the \kepler{} instrument's temperature changes, which can produce periodic variability with a period of approximately 10 days, falling within the range of rotation periods of young low-mass main-sequence stellar rotators. 
@@ -105,13 +110,13 @@ Different missions can also have different selection functions depending on thei
 As a result, in the \kepler{} sample, there is a lack of measured periods for M dwarfs and fast-rotating young stars.
 The \ZTF{} and \gaia{} samples did not have this targeting bias and have a non-specific untargeted approach and thus probe the rotation periods of the comparatively lower-mass (redder) stars.
 
-\update{Due to the \kepler{} mission's long baseline, but usually long-cadence data, it is biased towards the observation of long periods (P $<$ 10 d).
+\update{Due to the \kepler{} mission's long baseline, but usually long-cadence data, it is biased towards the observation of long periods (P $>$ 10 d).
 The \GDRT\ rotation sample is, as a result of the \gaia{} scanning law, mostly suited to detect periods of rapidly rotating stars (P $<$ 5 d) \citep{distefano_gaia_2022}.
 Due to the long observation baseline, the \ZTF{} mission was more suited to observe longer rotation periods.
 Combining the results of these missions, we can accurately probe the evolution of rotation along the main-sequence for a wider range of stellar parameters than the individual missions permit.}
 
 Most of what we know about main-sequence stellar rotational evolution arises from measuring stellar spot rotation periods.
-However, the technique is limited by the requirement for stars to express stellar spots to be effective: a limitation that is invoked several times to explain phenomena discussed later in this Section. 
+However, the technique is limited by the requirement for stars to express stellar spots to be effective: a limitation that is invoked several times to explain phenomena discussed later in this Chapter. 
 \citet{mcquillan_rotation_2014} attempted to measure the stellar spot rotation periods of solar-like stars in the \kepler{} sample.
 In this work, they recovered the rotation period of ~20\% of stars with long cadence observations: 34,000 detected rotation periods out of 133,000 selected stars in the sample.
 On the other hand, \citet{distefano_gaia_2022} places the efficiency of the \GDRT\ period detection pipeline at $\sim$0.4\%.
@@ -119,20 +124,20 @@ They argue that the detection efficiency is non-constant and, in fact, a functio
 There may be regions of stellar evolution where the stellar spot rotation period does not effectively probe rotational evolution.
 
 Determining the rotation period of a star from stellar spots requires intermittent photometric measurements of stars, known as long-cadence observations, over the time scale of months. 
-On the other hand, measurements made on the order of minutes, known as short cadence observations, reveal the internal structure of stars.
+On the other hand, measurements with cadences on the order of minutes, known as short-cadence observations, and baselines on the order of years, reveal the internal structure of stars.
 Stars pulsate, and thus vary in brightness, at particular frequencies related to the structure of the star. 
-The measurement and study of these pulsations is known as asteroseismology \citep[see, e.g.][for thorough overviews]{christensen-dalsgaard_interpretation_1982,christensen-dalsgaard_comparison_1990, aerts_asteroseismology_2010, basu_asteroseismic_2017}
+The measurement and study of these pulsations is known as asteroseismology \citep[see, e.g.,][for thorough overviews]{christensen-dalsgaard_interpretation_1982,christensen-dalsgaard_comparison_1990, aerts_asteroseismology_2010, basu_asteroseismic_2017}
 We can separate the observed frequencies, or modes, of stars into distinct flavours: pressure (p) modes, gravity (g) modes, and mixed modes.
 p- and g-modes correspond to oscillations propagating in the convective envelope, and the result of trapping of gravity waves in the radiative core with buoyancy as a restoring force, respectively. 
 During the main-sequence, g-modes are trapped within the radiative core and thus do not introduce brightness variations (oscillations) to the stellar surface.
 Some g-modes can couple with p-modes in the surface convective cavity during the post-main-sequence and are known as ``mixed modes".
 Where, precisely, the mixed modes probe is dependent on where in the post-main-sequence the star is observed.
-For example, sub-giant stars express p-modes and mixed modes that can probe both the core and the surface, whereas red giant branch (RGB) stars mainly express mixed modes that can only probe the star's core.
+For example, subgiant stars express p-modes and mixed modes that can probe both the core and the surface, whereas red giant branch (RGB) stars mainly express mixed modes that can only probe the star's core.
 
 An oscillation mode, $\nu$, is described by its radial number, $n$, degree $\ell$, and the azimuthal order, $m$.
 The azimuthal order, $m$, is relevant when rotation and/or magnetic fields break spherical symmetry. 
 Rotation breaks an oscillation into 2$l$+1 modes, $m = (-\ell,-\ell+1,...,0,...,\ell-1,\ell)$.
-We are only able to observe low-degree oscillations $\ell<3$ due to the relatively low amplitude of $\ell>3$ integrated surface modulations.
+We are only able to observe low-degree oscillations $\ell<3$ due to the relatively low amplitude of $\ell>3$ integrated surface flux variations.
 Current observations of stars, therefore, only yield the radial ($l=0$), dipole ($l=1$) and quadrupole ($l=2$) modes with the latter two being those relevant to rotational observations \citep{basu_asteroseismic_2017}.
 \update{The difference in the frequency of $m=0$ and $m=1$ or $-1$ modes are known as the rotational splitting ($\delta \nu$).
 The rotational splitting is dependent on the rotation rate of a star in the cavity that the mode naturally oscillates and therefore the rotational splittings of the mixed modes allow us to infer the rotation rate in the radiative region and deep core \citep{metcalfe_precise_2010,bedding_gravity_2011}.
@@ -151,12 +156,9 @@ The effects of latitudinal differential rotation can be shown to be a 2nd order 
 
 Determining the rotation profile of a star using the observed rotational splittings is nontrivial. The rotation profile is convolved with the rotation kernels and the number of observed rotational splittings is finite,
 One of the critical challenges in asteroseismic inversions is to extract meaningful information from the limited set of observed oscillation frequencies. Inference of parts of the rotation profile is possible\footnote{Here we have specifically used the term “parts”. What we can infer about the rotation profile, i.e. constraints to a region of the star or to parameters of a model, is dependent on the techniques.}.
-State-of-the-art methods involve the use of linear inversion techniques, regularised least-squares fitting and forward modelling \citep[see, e.g.][ for thorough discussion of these techniques]{christensen-dalsgaard_comparison_1990, christensen-dalsgaard_generalized_1993,aerts_asteroseismology_2010}.
+State-of-the-art methods involve the use of linear inversion techniques, regularised least-squares fitting and forward modelling \citep[see, e.g.,][ for thorough discussion of these techniques]{christensen-dalsgaard_comparison_1990, christensen-dalsgaard_generalized_1993,aerts_asteroseismology_2010}.
 
-Obtaining high signal-to-noise asteroseismic signals of rotation requires short-cadence observations of stars over an observation period \update{on the order of years} \citep{deheuvels_seismic_2014}.
-%@andy It;s a bit of both, we are at a point with tess data where we are starting to see high S/N asteroseismic signals. It seems thats the threshold which just happens to line up with the kepler mission length
-Short-cadence data is required because the oscillation frequencies of stars must be \update{shorter} than the Nyquist frequency of the observations.
-We have only been able to probe asteroseismic rotation recently through the \kepler{} and \ktoo{} missions.
+Owing to the required long baseline and short-cadence of data to perform asteroseismology we have only been able to probe asteroseismic rotation recently through the \kepler{} and \ktoo{} missions.
 In the \kepler{} field, the cross-section of stars with both short-cadence observations and those with observation periods long enough to obtain a high enough \update{signal-to-noise} to perform asteroseismic inference \update{does not include a large number of stars}.
 On the other hand, \ktoo{} did not provide long enough baseline observations of stars to rigorously measure the rotation splittings of any stars.
 
@@ -174,7 +176,7 @@ However, the rotation periods obtained from asteroseismology are much less preci
 Despite requiring much more data, the information provided by this technique is limited compared to stellar spot brightness modulation periods.
 
 On the other hand, asteroseismology allows us to probe the internal rotational structure of post-main-sequence stars, something we cannot otherwise do with photometric variability from stellar spots or spectroscopic line broadenings.
-At time of writing the number of post-main-sequence stars with measured internal rotation rates is of order 100 \citep[see, e.g.,][]{deheuvels_seismic_2014,gehan_measuring_2019,li_asteroseismology_2020,li_asteroseismology_2020-1,moyano_asteroseismology_2022}.
+At time of writing the number of post-main-sequence (subgiant and RGB) stars with measured internal rotation rates is of order 100 \citep[see, e.g.,][]{deheuvels_seismic_2014,gehan_measuring_2019,li_asteroseismology_2020,li_asteroseismology_2020-1,moyano_asteroseismology_2022}.
 The constraints to the rotation profile of stars by asteroseismology, even in the post-main-sequence, are also somewhat limited.
 The core and surface rotation rates of subgiants can simultaneously be probed.
 However, where in a star the rotation can be probed depends on the observed oscillation modes, which depend on the stellar structure.
@@ -182,7 +184,7 @@ The rotation rates measured by asteroseismology are kernel-based averages of the
 For example, subgiants' core and surface rotation rates are the kernel-based average rotation rates of the innermost $r/R<0.05$ and outermost $r/R>0.9$ regions (on average).
 Between these regions, the rotation profile is not constrained.
 As a result, the shape of the rotation profile, which can act as fingerprints of specific angular momentum transport mechanisms at play, is also not constrained.
-This is because: a) state-of-the-art measurements of rotational splittings -- the quantity that constrains the rotation profile -- are low signal-to-noise and are often also imprecise, and b) the observed rotational splittings are a finite subset of the infinite number of rotational splittings that would be required to accurately and precisely constrain the entire rotation profile.
+This is because: a) state-of-the-art measurements of rotational splittings are low signal-to-noise and are often also imprecise, and b) the observed rotational splittings are a finite subset of the infinite number of rotational splittings that would be required to accurately and precisely constrain the entire rotation profile.
 
 \update{Despite the constraints, }asteroseismology has paved the way for several fundamental discoveries about the evolution of stellar rotation.
 Modern observations using asteroseismology\footnote{As well as helioseismology for the Sun.}, for example, have found that the Sun, and most post-main-sequence stars, exhibit differential rotation along the radial axis, known as radial differential rotation.
@@ -193,8 +195,6 @@ It is through a combination of these methods: periodic variability from stellar 
 \section{Evolution of Rotation}
 \label{sec:evolution}
 
-\update{Here we describe the evolution of rotation in low-mass stars from birth until the end of the post-main-sequence.}
-
 \subsection{From birth to the terminal age main-sequence}
 
 All matter in the universe has some angular momentum. 
@@ -203,12 +203,12 @@ As a result, all stars are rotating.
 The amount of angular momentum a star is born with may depend on the cloud from which it was formed.
 
 At the beginning of the pre-main-sequence (PMS) phase, a young star is typically surrounded by a disc of gas and dust from which it is accreting material.
-The accretion process can lead to an increase in the rotation rate of the star, as the angular momentum of the infalling material is transferred to the star.
+The accretion process can increase the star's rotation rate, as the angular momentum of the infalling material is transferred to the star.
 However, as the star grows in size and mass, its magnetic field becomes stronger, which can slow down its rotation through the process of magnetic braking.
 
 One key feature of PMS rotational evolution is the \update{``}disc-locking" phenomenon, in which the star's rotation becomes locked to the rotation of the disc \citep{eggenberger_angular_2012}.
 This occurs when the star's magnetic field is strong enough to interact with the disc, causing the star and disc to rotate together.
-disc-locking can help to explain why some PMS stars have relatively long rotation periods, even though they are young and should be rotating rapidly due to the effects of accretion.
+Disc-locking can help to explain why some PMS stars have relatively long rotation periods, even though they are young and should be rotating rapidly due to the effects of accretion.
 
 The interplay between accretion and magnetic braking can result in a complex evolution of the rotation rate of a young star during the PMS phase \citep{gallet_improved_2013}.
 Observations of young stars in star-forming regions have revealed that the rotation rates of PMS stars span a wide range.
@@ -216,30 +216,24 @@ We show this complex relationship in Figure \ref{fig:pms_ms_evo}.
 Compared to the main-sequence, where stars generally spin-down due to surface winds, the median rotation rate of PMS cluster is relatively constant with age.
 
 \begin{figure}
-    \includegraphics[width=\textwidth]{Figures/intro_figures/pms_evo.png}
-    \caption[Angular rotation rate distributions of low-mass young open clusters and the Sun over time.]{Angular rotation rate (relative to solar) distributions of low-mass young open clusters and the Sun. Inverted triangles, triangles, and squares represent the 25th, 50th, and 90th percentiles. Open circle denotes the present value of the rotation rate of the Sun. Median (50th percentile) values indicate that the rotation rate of cluster is approximately constant with age, despite the spin-up by accretion. In order of increasing age (left to right) the clusters are ONC (1 Myr) \citep{herbst_stellar_2002}, NGC 6530 \citep{henderson_time-series_2012}, NGC 2264 (2 Myr) \citep{affer_rotation_2013}, NGC 2362 (5 Myr) \citep{irwin_monitor_2008}, h PER (13 Myr) \citep{moraux_monitor_2013}, NGC 2547 (40 Myr) \citep{irwin_monitor_2008}, Pleiades (120 Myr) \citep{hartman_large_2010}, M50 (130 Myr) \citep{irwin_monitor_2009}, M35 (150 Myr) \citep{meibom_slar_2009}, M37 (550 Myr) \citep{hartman_deep_2009}, Praesepe (578 Myr) \citep{delorme_stellar_2011}, Hyades (625 Myr) \citep{delorme_stellar_2011}, and NGC 6811 (1 Gyr) \citep{meibom_kepler_2011}.  Sourced from \citet{gallet_improved_2013},  Figure 1.}
-    \label{fig:pms_ms_evo}
+  \includegraphics[width=\textwidth]{Figures/intro_figures/pms_evo.png}
+  \caption[Angular rotation rate distributions of low-mass young open clusters and the Sun over time.]{Angular rotation rate (relative to solar) distributions of low-mass young open clusters and the Sun. Inverted triangles, triangles, and squares represent the 25th, 50th, and 90th percentiles. Open circle denotes the present value of the rotation rate of the Sun. Median (50th percentile) values indicate that the rotation rate of cluster is approximately constant with age, despite the spin-up by accretion. In order of increasing age (left to right) the clusters are ONC (1 Myr) \citep{herbst_stellar_2002}, NGC 6530 \citep{henderson_time-series_2012}, NGC 2264 (2 Myr) \citep{affer_rotation_2013}, NGC 2362 (5 Myr) \citep{irwin_monitor_2008}, h PER (13 Myr) \citep{moraux_monitor_2013}, NGC 2547 (40 Myr) \citep{irwin_monitor_2008}, Pleiades (120 Myr) \citep{hartman_large_2010}, M50 (130 Myr) \citep{irwin_monitor_2009}, M35 (150 Myr) \citep{meibom_slar_2009}, M37 (550 Myr) \citep{hartman_deep_2009}, Praesepe (700 Myr) \citep{delorme_stellar_2011}, Hyades (625 Myr) \citep{delorme_stellar_2011}, and NGC 6811 (1 Gyr) \citep{meibom_kepler_2011}. Sourced from \citet{gallet_improved_2013}, Figure 1.}
+  \label{fig:pms_ms_evo}
 \end{figure}
-
-While many main-sequence stars have had their rotation rates measured, their ages are not well-constrained.
-Resultingly, the evolution of rotation with age is not well-constrained.
-Observations of young open clusters' main-sequence stellar surface rotation from the \kepler{} mission suggest that angular momentum transport over a star's lifetime is consistent between clusters \citep{spada_competing_2020}.
-The distribution of rotational periods of stars has considerable overlap between clusters \citep{spina_how_2020, curtis_when_2020}. 
-Figure \ref{fig:cluster_rotational_periods} shows the distribution of rotation rates of some open clusters.
-In this Figure, we can observe some significant aspects of the evolution of angular momentum in stars.
 
 \begin{figure}[h]
-    \includegraphics[width=\textwidth]{Figures/intro_figures/cluster_kepler.png}
-    \caption[Cluster rotational periods against effective temperature]{Scatter plot of various cluster rotational periods against effective temperature overlayed on the \kepler{} \citep{mcquillan_rotation_2014} rotational period sample.
-    The agreement between low mass Praesepe and NGC6811 periods implies mass-dependent core-envelope coupling for young ($<$1 Gyr) stars.
-    Sourced from top left panel of Figure 7 in \citet{curtis_when_2020}.}
-    \label{fig:cluster_rotational_periods}
+  \includegraphics[width=\textwidth]{Figures/intro_figures/cluster_kepler.png}
+  \caption[Cluster rotation periods against effective temperature.]{Scatter plot of young open clusters, Pleiades (120 Myr, blue \citep{rebull_rotation_2016}), Praesepe (orange, 700 Myr, \citep{douglas_poking_2017, douglas_k2_2019}) and NGC 6811 (green, 1 Gyr, \citep{curtis_temporary_2019}), NGC 752 (yellow, 1.4 Gyr), NGC 6819 (red squares, 2.5 Gyr - projected forward to 2.7 Gyr: scaled through Skumanich spin-down, for direct comparison with the Ruprecht 147 sample, \citep{meibom_kepler_2011}), and Ruprecht 147 (red circles, 2.7 Gyr, \citep{curtis_when_2020}) overlayed on the \kepler{} \citep{mcquillan_rotation_2014} rotation period sample.
+  Highlighted in this Figure is the mass dependence of the slow-rotator sequence and the commonality of the shape of rotation period distribution as set by the ascension to the slow-rotator sequence.
+  The agreement between low-mass Praesepe and NGC6811 periods also implies mass-dependent core-envelope coupling for young ($<$1 Gyr) stars.
+  Sourced from top left panel of Figure 7 in \citet{curtis_when_2020}.}
+  \label{fig:cluster_rotational_periods}
 \end{figure}
 
-The surface rotational period increases over time for stars $<$1.1 $M_{\odot}$.
+The surface rotation period increases over time for stars $<$1.1 $M_{\odot}$.
 Within this range of masses, angular momentum is lost from the convective surface through mass loss and interactions of the star's magnetic field and the lost ionised material through stellar winds, known as magnetic braking.
 Through observations of the Pleiades, Ursa Major, and Hyades stars and the Sun, \citet{skumanich_time_1972} derived the proportional relation between the rotational rate of stars and the inverse square of their age: $\Omega(t) \propto t^{-1/2}$.
-This relation forms the standard for expected rotational evolution and therefore the measurement of the ages of stars from their rotational rate.
+This relation forms the standard for expected rotational evolution and, therefore, measures the ages of stars from their rotational rate.
 
 Outside the $\sim$ 0.4 and 1.1 M$_{\odot}$ range, the rotation period also decreases, albeit slower, with much more complex relationships with time.
 Above $\sim$ 1.1 M$_{\odot}$, known as the Kraft break \citep{kraft_studies_1967}, stars have shallower convective envelopes and are believed to have less efficient magnetic dynamos.
@@ -252,46 +246,54 @@ Theoretical modelling of the rotational evolution of high-mass stars is a substa
 As this work has a stronger focus on observing the rotation of stars, these results will not be discussed here.
 For more information, we suggest reviews of astrophysical models of high-mass stellar rotational evolution, e.g. \citet{heger_presupernova_1998,maeder_evolution_2000,maeder_physics_2009}.
 
-Until recently, it was assumed that there was little to no angular momentum transport between the radiative core and convective surface of main-sequence stars in the between $0.4 \ < \ M_{\odot} \  < \ 1.1$ range. 
+While many main-sequence stars have had their rotation rates measured, their ages are not well-constrained.
+As a result, the evolution of rotation with age is difficult to determine.
+We can marginally investigate the evolution of rotation from variances to the rotation period distributions (rotation period against effective temperature or mass) of the small number of nearby young open clusters with known ages.
+Observations of young open clusters' main-sequence surface rotation period from the \kepler{} mission also suggest that angular momentum transport over a star's lifetime is qualitatively consistent between clusters \citep{spada_competing_2020} and a number of features can be observed by comparison between open clusters of different ages.
+
+In the low-mass regime (0.4 $<$ M$_{\odot}$ $<$ 1.1), young stars can be separated into two distinct categories depending on their rotation rate: stars that are still undergoing disc-locking, and those that are on the so-called ``slow-rotator sequence" \citep[see, e.g.,][]{lanzafame_rotational_2015}.
+The slow-rotator sequence appears to be a common feature between the rotation distributions of young clusters: clusters of different ages reflect similar rotation period distributions, albeit modulated by angular momentum transport over time.
+For a young open cluster ($<$ 1Gyr), whether a star has ascended to the slow-rotator sequence is mass-dependent, and this mass dependence sets the initial shape of the rotation period distribution.
+This is best illustrated by the rotation period distributions of the Pleiades (120 Myr, blue) and Praesepe (670 Myr, orange) in Figure \ref{fig:cluster_rotational_periods} where a majority of high-mass stars have ascended to the slow-rotator sequence.
+In contrast, low-mass ($<$ 4500 K) stars have not.
+Further, a larger proportion of low-mass stars have ascended to the slow-rotator sequence in the older Praesepe.
+
+Until recently, it was assumed that there was little to no angular momentum transport between the radiative core and convective surface of main-sequence stars in the between $0.4 \ < \ M_{\odot} \ < \ 1.1$ range. 
 Helioseismic observations of the Sun suggest that only the stellar surface undergoes rotational braking, and the core remains rotating rapidly.
 \update{This suggests that minimal angular momentum transport occurs between the core and the surface during the main-sequence.}
-However, open cluster rotation period observations suggest that Skaumanich-like rotational evolution alone does not explain the observed distributions of rotation periods with mass \citep{spada_competing_2020}.
-
 \citet{spada_competing_2020} proposed that mass-dependent angular momentum transport between the core and the surface was required to explain observations of young ($<$ 1 Gyr) open cluster rotation period distributions.
-In their work, they argue that clusters contain two sequences of stars: a sequence of relatively slower rotators, following the expected coherent slowing of rotation rate \update{expected by} the Skaumanich relation, and a sequence of lower mass stars that appear to have a constant rotation rate between clusters of different ages.
 They compared the observations of the $\sim$700 Myr old Praesepe and the 1 Gyr old NGC 6811 clusters.
-Figure 1 in \citet{spada_competing_2020} compares the rotation period distribution of the Pleiades (120 Myr), Praesepe (670 Myr), and NGC 6811 (1 Gyr).
-Comparing observed rotation periods, they find that higher mass stars (${>\ 1 \ M_{\odot}}$) that are on the slow rotator sequence of the older NGC 6811 have longer periods than their counterparts in the younger Praesepe, as Skaumanich rotational evolution suggests.
-On the other hand, the two clusters' rotational periods are indistinguishable at lower masses ($<$ 0.8 $M_{\odot}$).
+Comparing the rotation period distribution of the Pleiades (120 Myr), Praesepe (670 Myr), and NGC 6811 (1 Gyr) in Figure \ref{fig:cluster_rotational_periods}. \citet{spada_competing_2020} find that higher mass stars (${>\ 0.9 \ M_{\odot}}$) that are on the slow rotator sequence of the older NGC 6811 have longer periods than their counterparts in the younger Praesepe, as Skaumanich rotational evolution suggests.
+On the other hand, the two clusters' rotation periods are indistinguishable at lower masses ($<$ 0.8 $M_{\odot}$).
 In other words, low-mass stars have not been spinning down at all in the intervening 300 Myr. 
 They argue that behaviour is the result of mass-dependent core-envelope coupling -- angular momentum transport between the core and the surface -- briefly compensating for the loss of angular momentum due to wind braking at the surface.
-They develop a semi-analytical model of the rotational period's evolution with a star's age and mass, tuned with the observations of stellar cluster rotational period distributions.
+They develop a semi-analytical model of the rotation period's evolution with a star's age and mass, tuned with the observations of stellar cluster rotation period distributions.
 This notably improves the accuracy of gyrochronology compared to the Skaumanich relation, especially for younger low-mass stars.
 
 The slow spin-down rates of fast rotating stars could \update{instead} be related to saturation of the angular momentum loss due to stellar winds \citep{johnstone_stellar_2015, johnstone_stellar_2015-1,gallet_improved_2013}.
 This is motivated by the saturation of magnetic field indicators for fast rotation rates, or, rather, low Rossby numbers \citep{wright_stellar-activity-rotation_2011}.
-This could explain the slower observed spin-down of young rapidly rotating stars.
+This could explain the slower observed spin-down of young, rapidly rotating stars.
 Both of these prescriptions neglect each other: \citet{spada_competing_2020} includes a simple stellar wind prescription that does not consider the saturated regime, while \citet{gallet_improved_2013} does not consider mass-dependent angular momentum transport within the star.
 
 Another phenomenon not well explained by Skaumanich-like rotational evolution is the observed intermediate period gap.
-\citet{mcquillan_rotation_2014} calculated the rotation periods of $\sim$30000 stars in the \kepler{} sample from photometric oscillations of surface brightness from stellar spots.
-The distribution of the logarithm of the rotational periods from this sample against colour is shown in Figure \ref{fig:kepler_rot_period}. 
-Following increasing rotation period as a proxy for time, this figure highlights the overabundance of observations followed, temporally, by a dearth of observations of particular rotational periods, the position of which varies with mass.
+\citet{mcquillan_rotation_2014} calculated the rotation periods of $\sim$30,000 stars in the \kepler{} sample from photometric oscillations of surface brightness from stellar spots.
+The distribution of the logarithm of the rotation periods from this sample against colour is shown in Figure \ref{fig:kepler_rot_period}. 
+Following increasing rotation period as a proxy for time, this Figure highlights the overabundance of observations followed, temporally, by a dearth of observations of particular rotation periods, the position of which varies with mass.
 
 \begin{figure}[h]
     \includegraphics[width=\textwidth]{Figures/intro_figures/kepler_rot_dist.png}
-    \caption[The rotational period distribution of the \citet{mcquillan_rotation_2014} sample highlighting the intermediate period gap and long period pileup.]{A scatter plot showing \GDRT \ $B_P-R_P$ colour against log of the \kepler{} \citet{mcquillan_rotation_2014} rotational period sample, coloured by the logarithm of the photometric variability (\rper). Highlighted in this Figure is the intermediate period gap (region surrounded by a purple dashed line) and the long period pileup (region surrounded by a red dashed line). \textbf{Inset:} Log of \rper{} against log of rotational period for stars 1.65 $<$ $B_P - R_P$ $<$ 1.75.  The dip in \rper\ at $\log_{10} P_{\rm{rot}} \ \sim\ 1.25$ aligns itself with the intermediate period gap.
+    \caption[The rotation period distribution of the \citet{mcquillan_rotation_2014} sample highlighting the intermediate period gap and long-period pileup.]{A scatter plot showing \GDRT \ $B_P-R_P$ colour against logarithm of the \kepler{} \citet{mcquillan_rotation_2014} rotation period sample, coloured by the logarithm of the photometric variability (\rper). Highlighted in this Figure is the intermediate period gap (region surrounded by a purple dashed line) and the long-period pileup (region surrounded by a red dashed line). \textbf{Inset:} Logarithm of \rper{} against logarithm of rotation period for stars 1.65 $<$ $B_P - R_P$ $<$ 1.75.  The dip in \rper\ at $\log_{10} P_{\rm{rot}} \ \sim\ 1.25$ aligns itself with the intermediate period gap.
     \update{\rper\ decreases towards the gap from above and below, suggesting the gap is representative of a minimum of observability of rotation period.}}
     \label{fig:kepler_rot_period}
 \end{figure}
 
-\update{Before exploring possible explanations for the gap, it is worth identifying where the rotational period gap occurs with respect to stellar evolution.}
+\update{Before exploring possible explanations for the gap, it is worth identifying where the rotation period gap occurs with respect to stellar evolution.}
 \citet{reinhold_transition_2019} first suggested that the gap aligns with isochrone at $\sim$ 800 Myr using \citet{barnes_simple_2010} gyrochronological relations.
 \update{\citet{reinhold_stellar_2020} updated this value to $\sim$ 750 Myr with a larger set of \ktoo{} data.}
 Contrary to the hypothesis that the gap aligns itself with a certain isochrone, \citet{curtis_when_2020} identified that the open cluster Ruprecht 147 contains stars above and below the gap, as well as one star that appeared to be within the gap.
 This suggests that the gap does not align itself with a particular age.
 Instead, they argued that the gap aligns itself with a line of constant Rossby number of 0.5.
-\update{The Rossby Number is defined as the ratio of the rotational period to the convective turnover timescale ($R_{o} = P_{rot}/\tau_{conv}$), which itself is dependent on mass and approximately constant for a star's main-sequence lifetime.}
+\update{The Rossby Number is defined as the ratio of the rotation period to the convective turnover timescale ($R_{o} = P_{rot}/\tau_{conv}$), which itself is dependent on mass and approximately constant for a star's main-sequence lifetime.}
 The Rossby number is associated with the magnetic dynamo, \citep[see, e.g.,][]{noyes_rotation_1984, montesinos_new_2001, augustson_rossby_2019}.
 To simplify, a star can be thought of as a volume of charged particles.
 As a star rotates, so do the charged particles within it.
@@ -299,9 +301,8 @@ Moving charged particles induce a magnetic field, creating a magnetic dynamo.
 As the star rotationally evolves, so does the magnetic dynamo.
 
 The gap appears to align with a line of constant Rossby number, this may suggest that the gap is instead caused by an event in the evolution of the magnetic dynamo rather than an event in time.
-This is a notable result as the magnetic dynamo is associated with a number of stellar phenomena, such as magnetorotational instabilities (angular momentum transport processes associated with the magnetic field) and stellar spots.
-
-Other prospective hypotheses for the intermediate period gap can be broken down into three categories: bursty star formation, modified angular momentum transport, and decreased observability of rotation periods.
+This is a notable result as the magnetic dynamo is associated with a number of stellar phenomena, such as magnetorotational instabilities (angular momentum transport processes associated with the magnetic field) and stellar activity.
+Prospective hypotheses for the intermediate period gap can be broken down into three categories: bursty star formation, modified angular momentum transport, and decreased observability of rotation periods.
 
 \update{While the bursty star formation hypothesis is not a currently favoured, it led early studies into the intermediate period gap.}
 \citet{mcquillan_rotation_2014, davenport_rotating_2017} first proposed that the gap is the artifact of a recent period of bursty star formation in the \kepler{} field, resulting in a young ($<$ 50 Myr), fast rotating, population and an older, background slowly rotating, population.
@@ -310,11 +311,11 @@ Two kinematically separate groups \update{would} favour the explanation of two e
 This explanation is further supported by the work of \citet{davenport_rotating_2018}, who \update{argued} that the observation of the gap correlates with Galactic height, which is assumed to be related to stellar age.
 
 The bursty star formation hypothesis \update{would} account for the overpopulation of observations below the gap. 
-The dearth of observations would then represent the background observation rate of rotational periods within this period range.
+The dearth of observations would then represent the background observation rate of rotation periods within this period range.
 \citet{gordon_stellar_2021} provided evidence against this hypothesis through analysis of \ktoo{} data.
 They found that the intermediate period gap is present in the multiple pointings of the \ktoo{} mission, suggesting that recent bursty star formation is isotropic, and that clusters with different ages contain stars that have crossed the gap.
 
-The bursty star formation hypothesis would suggest that all clusters universally went through a period of bursty star formation $\sim$50 Myr ago. 
+The bursty star formation hypothesis suggests that all clusters universally went through a period of bursty star formation $\sim$50 Myr ago. 
 The two populations, above and below the gap, however, do not substantially universally differ in other spectroscopic and photometric observations.
 Furthermore, comparing Figures \ref{fig:cluster_rotational_periods} and of \ref{fig:kepler_rot_period}, the gap has a sharper slope than the sequences associated with constant age populations from Praesepe \citep{douglas_poking_2017,douglas_k2_2019}, NGC 6811 \citep{curtis_temporary_2019} and Ruprecht 147 \citep{curtis_when_2020}. 
 If the bimodal star formation scenario explained the gap, the gap should have the same shape and position for each cluster and the entire \ktoo/\kepler{} sample.
@@ -329,39 +330,31 @@ Stars redder than $B_P-R_P >$ 2.5 are fully convective \citep{amard_first_2019},
 
 \begin{figure}[h]
     \includegraphics[width=\textwidth]{Figures/intro_figures/ztf_comp.png}
-    \caption[Rotation period distribution including fully convective stars.]{Rotation period against \gaia{} $B_P - R_P$ from \kepler{}, \ZTF{} overlayed with various open cluster measurements. Highlighted by this figure is the disappearance of the intermediate period gap above $B_P-R_P \ >$ 2.5, the boundary where stars are fully convective. This suggests that the rotational period gap is related to the coupling of the core and surface of low mass stars (0.4 $<$ M $<$ 1.3 $M_{\odot}$). Sourced from the top panel of Figure 8 in \citet{lu_bridging_2022}.}
+    \caption[Rotation period distribution including fully convective stars.]{Rotation period against \gaia{} $B_P - R_P$ from \kepler{}, \ZTF{} overlayed with various open cluster measurements. Highlighted by this figure is the disappearance of the intermediate period gap above $B_P-R_P \ >$ 2.5, the boundary where stars are fully convective. This suggests that the rotation period gap is related to the coupling of the core and surface of low-mass stars (0.4 $<$ M $<$ 1.3 $M_{\odot}$). Sourced from the top panel of Figure 8 in \citet{lu_bridging_2022}.}
     \label{fig:ztf_comp}
 \end{figure}
 
-The proposed mechanism underlying this scenario is the mass-dependent decoupling and recoupling of the core and the envelope proposed in 
-\citet{lanzafame_rotational_2015} and \citet{spada_competing_2020}, discussed earlier in this work.
-\citet{angus_exploring_2020} suggest that the core envelope decoupling and recoupling may explain the period gap as a break between a ``younger" pile-up regime ($R_o$ $<$ 0.6) in which surface rotation periods are relatively constant with time from core-surface angular momentum transport, and increase with decreasing mass from an ``older" ($R_o$ $>$0.6) regime.
+The proposed mechanism underlying this scenario is the mass-dependent decoupling and recoupling of the core and the envelope proposed in \citet{lanzafame_rotational_2015} and \citet{spada_competing_2020}, discussed earlier in this work.
+\citet{angus_exploring_2020} suggest that the core envelope decoupling and recoupling may explain the period gap as a break between a ``younger" pile-up regime ($R_o$ $<$ 0.6) in which surface rotation periods are relatively constant with time from core-surface angular momentum transport, and increase with decreasing mass from an ``older" ($R_o$ $>$ 0.6) regime.
 The gap then represents a period of relatively fast spin evolution during the transition between the two.
 Proponents of this hypothesis suggest that the gap results from a period of enhanced spin-down following core and surface recoupling where stars ``jump" the gap before resuming Skumanich spin-down, as is observed for older clusters.
-Models of rotational evolution \update{(and the mechanism underlying the gap)} that reflect the proposed rapid spin-down are yet to be identified.
+Models of rotational evolution \update{(and, therefore, the mechanism underlying the gap)} that reflect the proposed rapid spin-down are yet to be identified.
 Under this model, the gap reflects an under-density of stars but would not be empty.
 \citet{curtis_when_2020} observed five Ruprecht 147 stars in or just beneath the gap that may express evidence of enhanced magnetic spin-down, though these stars are yet to be thoroughly investigated.
 
-Now let us discuss the \update{final} category, that the gap results from a lack of observations of rotational periods.
-Observing the rotational period of \kepler{} stars requires that stars express photometric oscillations from stellar spots.
-Starspots are regions of intense magnetic activity on a star's surface from magnetic flux tubes in the convection zone. 
-These flux tubes are thought to be stretched and curled by the differential rotation of the convective region. 
-As a result, convection is inhibited, limiting plasma flow to the surface in these tubes.
-This results in lower-temperature material within the tube, which looks like a darker spot on the star's surface.
-Stellar spots have bright perimeters surrounding the cooler internal regions of spots, known as faculae.
-
-Stellar spots can both increase or decrease stars' bolometric luminosity.
+The final current explanation is that the gap results from a lack of observations of rotation periods.
+Observing the rotation period of \kepler{} stars requires that stars express photometric oscillations from stellar spots however, stellar spots can both increase or decrease stars' bolometric luminosity.
  \citet{reinhold_fast_2013} and \citet{reinhold_transition_2019} propose stars transition in stellar spot structure from spot to faculae dominance in the photosphere: resulting in a decrease in photometric variability of stars and thus decreased observation of stars within the gap.
-In the \citet{mcquillan_rotation_2014} sample, stellar rotational periods are measured from photometric variability due to stellar spots.
+In the \citet{mcquillan_rotation_2014} sample, stellar rotation periods are measured from photometric variability due to stellar spots.
 Suppose the bolometric flux does not vary due to stellar spots in the gap region. 
 In that case, the amplitude of periodic variability would decrease within this region.
 \citet{reinhold_transition_2019} suggests that the gap is full of stars and represents a minimum in the detectability of rotation periods.
 
-Supporting this hypothesis, in both the \kepler{} and \ktoo{} fields, the variability amplitude (\rper) decreases towards the gap from both lower and higher rotational periods.
-This can be seen in Figure \ref{fig:kepler_rot_period}, which is coloured by the log of \rper.
+Supporting this hypothesis, in both the \kepler{} and \ktoo{} fields, the variability amplitude (\rper) decreases towards the gap from both lower and higher rotation periods.
+This can be seen in the \citet{mcquillan_rotation_2014} rotation period distribution shown in Figure \ref{fig:kepler_rot_period}, which is coloured by the logarithm of \rper, and is highlighted in the inset plot of the logarithm of \rper \ against the logarithm of the rotation period.
 While there is evidence that stars undergo spot-to-faculae dominance, e.g. the Vaughan-Preston gap \citep{vaughan_survey_1980}, this occurs much later in a star's lifetime ($R_o$ $\sim$ 1).
 Further, there is evidence that stars above and below the gap are both spot-dominated  \citep{lockwood_patterns_2007, reinhold_transition_2019}.
-\citet{reinhold_transition_2019} speculate that activity cycles that vary the spot-to-faculae brightness contributions on rotational timescales could be the process underlying the rotational period gap.
+\citet{reinhold_transition_2019} speculate that activity cycles that vary the spot-to-faculae brightness contributions on rotational timescales could be the process underlying the rotation period gap.
 
 %Measurement of the fractional spot coverage of cluster members attempted to identify the fractional spot coverage of cluster members from their spectra \citep{cao_starspots_2022}.
 %They do this by assuming the spectra of stars can be broken down into spot and ambient components that vary in temperature but are consistent in other stellar parameters.
@@ -370,38 +363,38 @@ Further, there is evidence that stars above and below the gap are both spot-domi
 %
 %In a follow-up work \citep{cao_core-envelope_2023} they combine the angular momentum transport and decreased observation hypothesis by proposing that star spot measurements in the Praesepe open cluster are strongly enhanced only for stars that depart Skumanich rotational evolution.
 %They suggest that a decoupling of the core and the surface could explain both observations.
-%In their model, angular momentum transport between the core and the surface slows the increase of the rotational period. 
+%In their model, angular momentum transport between the core and the surface slows the increase of the rotation period. 
 %The resultant shear enhances the magnetic dynamo and, thus, stellar spot activity.
 %Stars enhanced in stellar spot coverage would be expected to have decreased effective temperatures.
 %Spot-dominated, as opposed to faculae-dominated, stellar spots are cooler than the ambient temperature of the star.
 %As a result, stars with enhanced stellar spot coverage have a decreased observed effective temperature.
-%They then speculate that the rotational period gap is thus the result of a bias in observed effective temperature rather than a lack of observations of the rotational periods of stars in the gap.
+%They then speculate that the rotation period gap is thus the result of a bias in observed effective temperature rather than a lack of observations of the rotation periods of stars in the gap.
 
-Observations of open cluster rotational distributions beyond the gap suggest that stars less than $1M_{\odot}$ that have crossed the gap ($R_o>\,\,$0.6) continue to spin-down and follow the Skumanich-like rotational evolution until they leave the main-sequence.
+Observations of open cluster rotational distributions beyond the gap suggest that low-mass stars $\left( < 1 M_{\odot}\right)$ that have crossed the gap ($R_o>\,\,$0.6) continue to spin-down and follow the Skumanich-like rotational evolution until they leave the main-sequence.
 On the other hand, there is an apparent overabundance of stars at large ($P_{\rm{rot}} \ \sim \ 30$ d) rotation periods (dependent on their mass). 
 Above this rotation period is a lack of observations of rotation periods for stars hotter than 5500K.
 Stars with higher masses also appear to have lower rotation periods on the pile-up than their less massive counterparts.
 This results in what is known as the long-period pile-up, as noted in Figure \ref{fig:kepler_rot_period}.
 The long-period pile-up aligns itself in the \citet{mcquillan_rotation_2014} period distribution with Rossby number  ($R_o$ = 2.08) \citep{van_saders_forward_2019}.
  
-\citet{van_saders_forward_2019} suggest that the long-period pile-up could result from decreased magnetic braking precisely at this Rossby number, resulting in an over-density of stars and a lack of observations of larger rotational periods, or that we simply do not observe stars with larger rotational periods.
+\citet{van_saders_forward_2019} suggest that the long-period pile-up could result from decreased magnetic braking precisely at this Rossby number, resulting in an over-density of stars and a lack of observations of larger rotation periods, or that we simply do not observe stars with larger rotation periods.
 They propose variations to the stellar spot activity to explain the decrease in observed periods\footnote{These explanations are similar to explanations that have been invoked to explain the intermediate period gap and for the sake of brevity we will not repeat them.}.
 They argue that the error in observed periods can smooth out the over-density in stars, suggesting that the long-period pileup is an observational artifact.
-Further supporting this explanation \citet{david_further_2022} found that photometric variability significantly decreases above the long period pileup.
+Further supporting this explanation \citet{david_further_2022} found that photometric variability significantly decreases above the long-period pileup.
 \update{This suggests that there} is unobserved population of stars with longer rotation periods.
 
-Under the weakened magnetic braking model, \citet{david_further_2022} suggest that stars $1M_{\odot} < M < 1.3M_{\odot}$ \update{in this temperature regime} may spend half of their main-sequence lifetimes at the long period pile-up, with only modest variances to their rotational period.
+Under the weakened magnetic braking model, \citet{david_further_2022} suggest that stars $1M_{\odot} < M < 1.3M_{\odot}$ \update{in this temperature regime} may spend half of their main-sequence lifetimes at the long-period pile-up, with only modest variances to their rotation period.
 Below this mass regime, stars appear to continue to lose angular momentum through wind braking following the Skumanich relation.
-This results in stars with large rotational periods when they enter the post-main-sequence.
-While the evolution of surface rotational period of main-sequence stars was initially thought to be quite simple, indeed it is becoming apparent just how complex that evolution is.
+This results in stars with large rotation periods when they enter the post-main-sequence.
+While the evolution of surface rotation period of main-sequence stars was initially thought to be quite simple, indeed it is becoming apparent just how complex that evolution is.
 
 
 \subsection{Post-main-sequence}
 
 Rapid changes to the internal structure of stars in the post-main-sequence result in variations to their rotation profile.
-While qualitatively the rotation follows basic theoretical relations (e.g., compression of the core and expansion of the surface resulting in faster and slower rotation respectively, through conservation of angular momentum) there are discrepancies between what we observe and what models predict.
+While qualitatively, the rotation follows basic theoretical relations (e.g., compression of the core and expansion of the surface resulting in faster and slower rotation respectively, through conservation of angular momentum) there are discrepancies between what we observe and what models predict.
 
-For low mass (1.1 - 1.5 M$_{\odot}$) stars during the post-main-sequence, \update{angular momentum transport between the core and the surface can be probed.}
+For low-mass (1.1 - 1.5 M$_{\odot}$) stars during the post-main-sequence, \update{angular momentum transport between the core and the surface can be probed.}
 While surface rotation periods can be measured for post-main-sequence stars through photometric variations due to stellar spots \citep{mcquillan_rotation_2014, ceillier_surface_2017} and spectroscopic line broadenings, asteroseismic inference of both core and surface rates through asteroseismic rotational splittings is the standard for probing rotation evolution in this regime \citep{deheuvels_seismic_2014, gehan_core_2018, deheuvels_seismic_2020, fellay_asteroseismology_2021}.
 \update{This results from a combination of the expression of mixed modes, shorter mode lifetimes, and increased core rotation rates.}
 
@@ -410,9 +403,9 @@ Models of rotating stellar evolution \citep[see, e.g.,][]{maeder_evolution_2000,
 Towards the end of the main-sequence the rotation profile is largely flat.
 Assuming conservation of angular momentum as hydrogen core burning stops, pressure in the core drops, resulting in core contraction while the convective surface region expands.
 Resultingly the core is spun-up while the surface is spun-down.
-The core should continue to spin-up as the core contracts along the RGB until entering the red clump (low-mass core helium burning).
+The core should continue to spin-up as the core contracts along the RGB until entering the red clump (low-mass core-He burning).
 The core burning reintroduces core pressure, and the resulting expansion of the core decreases the core rotation rate.
-When core He burning ceases, the core pressure drops again, resulting in a spun-up white dwarf (relative to the core rotation rate of red clump stars).
+When core-He burning ceases, the core pressure drops again, resulting in a spun-up white dwarf (relative to the core rotation rate of red clump stars).
 We highlight the qualitative rotation evolution of post-main-sequence stars in Figure \ref{fig:poms_evo}.
 Observations suggest that low-mass stars follow this pathway \citep{mosser_spin_2012,deheuvels_seismic_2014,deheuvels_seismic_2015,hermes_white_2017,gehan_core_2018,deheuvels_seismic_2020}.
 
@@ -424,10 +417,10 @@ Observations suggest that low-mass stars follow this pathway \citep{mosser_spin_
 
 
 Observations of young subgiants suggest that terminal age main-sequence stars' rotation profiles are relatively flat \citep{deheuvels_seismic_2020}, while older subgiants have differentially rotating cores and surfaces \citep{deheuvels_seismic_2014}.
-The measured core and surface rotation rates of older subgiants suggest core-to-surface rotation rate ratio of subgiants ($\Omega_c / \Omega_s$) is one to two orders of magnitude smaller than models predict \citep{deheuvels_seismic_2014,spada_angular_2016, moyano_asteroseismology_2022}, suggesting the need for additional angular momentum transport in rotating post-main-sequence models \citep{fuller_asteroseismology_2015,spada_angular_2016,ouazzani_gamma_2018, eggenberger_asteroseismology_2019}.
+The measured core and surface rotation rates of older subgiants suggest core-to-surface rotation rate ratio of subgiants ($\Omega_c / \Omega_s$) are one to two orders of magnitude smaller than models predict \citep{deheuvels_seismic_2014,spada_angular_2016, moyano_asteroseismology_2022}, suggesting the need for additional angular momentum transport in rotating post-main-sequence models \citep{fuller_asteroseismology_2015,spada_angular_2016,ouazzani_gamma_2018, eggenberger_asteroseismology_2019}.
 While core rotation rates were first believed to decrease along the RGB\footnote{Indeed when core rotation rates of red giants are plotted against $\log{g}$, a proxy for evolution, they do appear to decrease with evolution. When plotted against the more appropriate scale of mixed mode coupling (see Equation 10 in \citet{gehan_core_2018} and compare Figures 12 and 13 in this work), they are constant with evolution.} \citep{mosser_spin_2012}, revised measurements, and larger sample size, revealed that the core rotation rates of RGB stars appear constant during a period when the contraction of the core should spin them up \citep{mosser_spin_2012,gehan_core_2018,moyano_asteroseismology_2022}.
 The core rotation rates of early RGB and red clump stars suggest a continued excess angular momentum transport during this phase of evolution \citep{cantiello_angular_2014,moyano_asteroseismology_2022}.
-On the other hand, observed white dwarf rotation rates can be recovered from the observed core rotation of clump stars, assuming conservation of angular momentum \citep{cantiello_angular_2014, den_hartogh_constraining_2019}.
+On the other hand, the angular momentum of white dwarfs agree with the core angular momentum of clump stars, assuming conservation of angular momentum \citep{cantiello_angular_2014, den_hartogh_constraining_2019}.
 \citet{cantiello_angular_2014} suggests that this feature may be owing to the short evolutionary timescale between the red clump and white dwarf phases, rather than indicative of a decrease in the excess angular momentum transport.
 
 The physical mechanism underlying the excess angular momentum transport is currently unidentified.
@@ -446,7 +439,7 @@ Comparing Figures \ref{fig:deh_without} and \ref{fig:deh_with} we see that the i
 
 \citet{moyano_asteroseismology_2022} performed a similar analysis but with the core rotation rates of RGB and red clump stars measured in \citet{mosser_spin_2012} and \citet{gehan_core_2018}.
 They found that the same order of magnitude additional viscosity term was required to explain the approximately constant core rotation rates of red giant and red clump stars.  
-Qualitatively they found that the additional angular momentum transport becomes stronger when the star evolves up the RGB through shell hydrogen burning.
+Qualitatively, they found that the additional angular momentum transport becomes stronger when the star evolves up the RGB through shell hydrogen burning.
 Angular momentum must be redistributed between two to three orders of
 magnitude more efficiently for red clump stars than for red giants closer to the main-sequence turn-off, consistent with \citet{den_hartogh_constraining_2019}.
 Figures \ref{fig:deh_with} and \ref{fig:rgb_cores_without}  highlight that models of red-giant evolution, with the additional viscosity introduced in this work, now agree with the observed core rotation rates observed in \citet{gehan_core_2018}.
@@ -471,7 +464,7 @@ Figures \ref{fig:deh_with} and \ref{fig:rgb_cores_without}  highlight that model
 
 \begin{figure}[h]
     \includegraphics[width=\textwidth]{Figures/intro_figures/rgb_core_rot_without.png}
-    \caption[Average core rotation rates of red giants against mixed mode density without additional angular momentum transport]{Average core rotation rates of red giants against mixed mode density (a proxy for evolution).
+    \caption[Average core rotation rates of red giants against mixed mode density without additional angular momentum transport.]{Average core rotation rates of red giants against mixed mode density (a proxy for evolution).
     \textbf{Dots:} Observed core rotation rates from \citet{gehan_core_2018}
     \textbf{Lines:} rotating models of the stars in that sample without additional angular momentum transport \citep{moyano_asteroseismology_2022}.
     The observed core rates are much smaller than models predict, implying excess angular momentum transport is required for the models to reflect the observations.
@@ -481,7 +474,7 @@ Figures \ref{fig:deh_with} and \ref{fig:rgb_cores_without}  highlight that model
 
 \begin{figure}[h]
     \includegraphics[width=\textwidth]{Figures/intro_figures/rgb_core_rot.png}
-    \caption[Average core rotation rates of red giants against mixed mode density without additional angular momentum transport]{Same as Figure \ref{fig:rgb_cores_without} but with additional angular momentum transport introduced for the models to reflect the observations.
+    \caption[Average core rotation rates of red giants against mixed mode density without additional angular momentum transport.]{Same as Figure \ref{fig:rgb_cores_without} but with additional angular momentum transport introduced for the models to reflect the observations.
     Sourced from Figure 7 in \citet{moyano_asteroseismology_2022}.}
     \label{fig:rgb_cores_with}
 \end{figure}
@@ -489,7 +482,7 @@ Figures \ref{fig:deh_with} and \ref{fig:rgb_cores_without}  highlight that model
 
 Mechanisms underlying the excess angular momentum transport have also been proposed.
 \citet{barker_angular_2019,barker_angular_2020} studied the role of the Goldreich-Schuber-Fricke (GSF) instability \citep{goldreich_differential_1967,fricke_rotation_1967} in angular momentum transport for post-main-sequence stars.
-They suggest that the GSF instability can introduce additional viscosity up to $10^4 \ \text{cm}^2 \text{s}^{-1}$ for low-mass stars but is two orders of magnitude too small to reflect the rotation of higher mass stars not discussed in this work.
+They suggest that the GSF instability can introduce additional viscosity up to $10^4 \ \text{cm}^2 \text{s}^{-1}$ for low-mass stars but is two orders of magnitude too small to reflect the rotation of higher mass stars.
 
 Magnetorotational instabilities constitute another candidate to explain the internal rotation of evolved stars.
 Two potential candidates are azimuthal magnetic rotational instabilities \update{\citep[AMRI; see ][]{ruediger_astrophysical_2014,rudiger_diffusive_2015}} and the Tayler-Spruit instability \citep[see ][]{spruit_dynamo_2002}).
@@ -501,7 +494,7 @@ The Tayler-Spruit instability does introduce excess angular momentum transport i
 This work suggests that an $\alpha$ of reflects the core rotation rates of red giants claimed in \citet{mosser_spin_2012}.
 \citet{moyano_asteroseismology_2022} revisited this prescription and found that $\alpha = 3$ more accurately reflects the approximately constant rotation core rotation rates of red giants observed by \citet{gehan_core_2018}.
 \citet{spada_angular_2016} was limited to a single model with a mass of 1.25 $M_{\odot}$.
-No parameterisation with mass was therefore performed.
+No investigation into the parameterisation with mass could therefore be performed.
 
 Other physical mechanisms have been suggested to have a role in excess angular momentum transport, such as angular momentum transport by internal gravity waves \citep{pincon_can_2017} or mixed-modes \citep{belkacem_angular_2015}. 
 However, the scale of their introduced additional viscosity is yet to be investigated.
@@ -521,7 +514,7 @@ Stronger constraints on the dependency of the excess angular momentum transport 
 The \kepler{} asteroseismic data currently available suggests that the efficiency of the excess angular momentum transport increases with the star's mass \citep{eggenberger_asteroseismology_2019}.
 However, the efficiency of angular momentum transport decreases with evolution during the subgiant phase.
 Consequently, a transport process with efficiency dependent on the angular momentum gradient between the core and the surface cannot be at play in subgiants.
-Identifying with more precision the dependency of excess angular momentum transport on stellar quantities would provide evidence for or discredit proposed mechanisms.
+Identifying, with more precision, the dependency of excess angular momentum transport on stellar quantities would provide evidence for or discredit proposed mechanisms.
 
 \update{The internal shape of the rotation profile of subgiants reflects the underlying mechanism that created it.}
 Therefore, evidence for or against particular shapes of rotation profiles is constrains possible mechanisms.
@@ -530,49 +523,46 @@ A strong gradient in the rotation profile in the core of a subgiant, for example
  Internal gravity waves, on the other hand, are expected to be efficient during the advanced phases of stellar evolution \citep{charbonnel_deep_2008}. 
 Internal gravity waves can give birth to localised weak gradients in the rotation profile, as a result of extraction and deposit of angular momentum \citep{charbonnel_influence_2005}. 
 A sharp rotational gradient could also potentially trigger magneto-rotational instabilities that would transport angular momentum (\citealp{balbus_stability_1994,arlt_differential_2003,menou_magnetorotational_2006, fuller_asteroseismology_2015, fuller_slowing_2019,moyano_asteroseismology_2022}). 
-Evidence of a strong angular momentum gradient towards the core of a sub-giant quickly constrains the number of possible angular momentum transport mechanisms that could solve the angular momentum transport problem.
+Evidence of a strong angular momentum gradient towards the core of a subgiant quickly constrains the number of possible angular momentum transport mechanisms that could solve the angular momentum transport problem.
 
 Two obvious problems impede the single-star pathway: the need for observations of high signal-to-noise higher degree modes, and the results of methods used to measure rotation profiles being unstable to high-resolution inversions. 
 Constraints on the rotation profile in intermediate points between the core and surface require the observations of oscillation modes of $l \approx 10$ \citep{ahlborn_asteroseismic_2020}. 
 For reliable measurements of such oscillations, much longer observation periods, longer than \corot{} and \kepler{}, of subgiants are required.
    
 Both of these pathways require much more asteroseismic data than is currently available.
-For ensemble fitting to be viable, many subgiants would need to be observed over long baselines with short cadence observations.
-If the \kepler{} mission is exemplary, then the baseline required for high-signal-to-noise asteroseismic observations is on the order of ~4 years per star.
+For ensemble fitting to be viable, many subgiants would need to be observed over long baselines with short-cadence observations.
+If the \kepler{} mission is exemplary, then the baseline required for high-signal-to-noise asteroseismic observations is on the order of $\sim$4 years per star.
 
-At the time of writing, \update{of order thirty} subgiant lightcurves have measurable rotational splittings \citep{li_asteroseismology_2020,li_asteroseismology_2020-1}, though the rotational splitting data is yet to be released and analysed.
-The results will be undoubtedly informative, though we will not speculate the extent to which they will solve the subgiant excess angular momentum transport problem.
+\update{Of order thirty} subgiant lightcurves have measurable rotational splittings \citep{li_asteroseismology_2020-1,li_asteroseismology_2020}, though the rotational splitting data is yet to be released and analysed.
+The results will be undoubtedly informative, though we will not speculate on the extent to which they will solve the subgiant excess angular momentum transport problem.
 \citet{hatt_catalogue_2023} suggests that there are \update{of order four thousand} stars in the \tess{} short-cadence catalogue with observable solar-like oscillation features.
-The measured frequency of peak oscillation power $\nu_{\text{max}}$ of stars in these sample suggests that some of these stars are subgiants.
+The measured frequency of peak oscillation power ($\nu_{\text{max}}$) of stars in this sample suggests that some of these stars are subgiants.
 While no rotational splittings of these stars have been reported, some of these stars may lay in the continuous viewing zone.
-This means their observation periods are approaching 4 years at time of writing and may soon offer a seperate sample of subgiants with observations of asteroseismic rotational splittings.
-While we may speculate about future asteroseismic-focused missions, it will be some time before any new asteroseismic rotation signals in subgiants are made.
+This means their baselines are approaching 4 years and may soon offer a separate sample of subgiants with observations of asteroseismic rotational splittings.
+While we could speculate about future asteroseismic-focused missions, it will be some time before any new asteroseismic rotation signals in subgiants are made.
 
 Independent constraints can also be placed on the evolution of the surface rotation of subgiants.
 \citet{santos_surface_2021} measured the surface rotation of \update{4,500} subgiants using photometric oscillations from stellar spots.
-The measured rotational periods against their effective temperature are shown in Figure \ref{fig:subgiant_surface}.
+The measured rotation periods against their effective temperature are shown in Figure \ref{fig:subgiant_surface}.
 Within this figure, there are a few notable features.
 While subgiants are definitionally older than their main-sequence counterparts, there is a sample of fast-rotating stars coincident with the fast rotators on the main-sequence.
-This could be explained by most of the stars in this sample being a higher mass than the Kraft break.
+This could be explained by most of the stars in this sample having a higher mass than the Kraft break.
 They have passed through the main-sequence with fast rotating surfaces, entering the subgiant phase; their effective temperatures decrease and are shifted to the right in this diagram relative to their main-sequence counterparts.
 The high density of fast-rotating stars could also result from an observational bias.
-Long rotational periods require longer baselines to recover and thus have a decreased observed fraction.
-Among the sample is a group of slow-rotating (period $>$ 60 days) targets with \teff{} between 5000 and 6000 K.
+Long rotation periods require longer baselines to recover and thus have a decreased observed fraction.
+Among the sample is a group of slow-rotating (P $>$ 60 days) targets with \teff{} between 5000 and 6000 K.
 These are consistent with more evolved subgiants, as the slowest of these targets are located close to the RGB.
-This work also suggests that the decreased observation of rotation periods $>$60 days, the strong upper edge of the \citet{mcquillan_rotation_2014} rotational period distribution, is the result of a lack of observations of main-sequence stars rather than an inherent lack of long period probing power by \kepler. 
-Whether the upper edge results from angular momentum transport or decreased photometric variability is unknown.
-The final feature that is not commented on in their work is an apparent dearth of observations coincident with the intermediate period gap.
-Whether this is real or a result of noise is an interesting avenue of research in further understanding the underlying mechanism of the intermediate period gap for main-sequence stars.
+This work also suggests that the decreased observation of rotation periods $>$60 days, a feature of the long-period pileup, is the result of a lack of observations of main-sequence stars rather than an inherent lack of long-period probing power by \kepler. 
 
 \begin{figure}[h]
     \includegraphics[width=\textwidth]{Figures/intro_figures/subgiant_surface.png}
-    \caption[Surface rotation period distribution of subgiant stars]{Surface rotation period against effective temperature of subgiants in the \citet{santos_surface_2021} sample overlayed over the \kepler{} \citet{mcquillan_rotation_2014} sample. 
+    \caption[Surface rotation period distribution of subgiant stars.]{Surface rotation period against effective temperature of subgiants in the \citet{santos_surface_2021} sample overlayed over the \kepler{} \citet{mcquillan_rotation_2014} sample. 
     Sourced from the bottom panel of Figure 5 in \citet{santos_surface_2021}.}
     \label{fig:subgiant_surface}
 \end{figure}
 
 \citet{ceillier_surface_2017} measured the surface rotation periods of 361 red giants from stellar spot photometric variability.
-The measured rotational periods against their mass are shown in Figure \ref{fig:rgb_surface}.
+The measured rotation periods against their mass are shown in Figure \ref{fig:rgb_surface}.
 Compared to the subgiant analysis of \citet{santos_surface_2021}, the surface rotation period of red giant stars is greater than their subgiant counterparts.
 They suggest that the surfaces of these stars rotate faster than models predict \citep{tayar_rapid_2015}.
 They conclude that the large percentage of rapid rotators must result from interactions of red giants with other bodies.
@@ -581,7 +571,7 @@ Their results need to be reexamined within the context of excess angular momentu
 
 \begin{figure}[h]
     \includegraphics[width=\textwidth]{Figures/intro_figures/rgb_surface.png}
-    \caption[Surface rotation period distribution of red giant stars]{Surface rotation period against mass of red giant stars from \citet{ceillier_surface_2017}.
+    \caption[Surface rotation period distribution of red giant stars.]{Surface rotation period against mass of red giant stars from \citet{ceillier_surface_2017}.
     Sourced from the top panel of Figure 7 in \citet{ceillier_surface_2017}.}
     \label{fig:rgb_surface}
 \end{figure}
@@ -606,23 +596,23 @@ This is because the time scale of angular momentum transport is longer than the 
 %Therefore, throughout the rest of this Thesis, when we refer to latitudinal differential rotation we are referring purely to the surface latitudinal differential rotation.
 %
 %Rotating-magnetohydrodynamic models of stars \citep{brun_powering_2022} suggest that fast-rotating stars, $R_o\<0.5$ have latitudinally-flat or cylindrical rotation profiles, intermediate rotators, $0.5<R_o\< R_o_{\odot}$ have solar-like differential rotation profiles and stars where $R_o>2$ are anti-solar-like differentially rotating.
-%The term "latitudinally flat" is a misnomer here.
+%The term "latitudinally-flat" is a misnomer here.
 %Observations suggest that very rapidly rotating stars ($R_o\< \< 0.5$) are consistent with latitudinal flatness. 
-%However, differential rotation grows with $R_o$, and so "latitudinally flat" rotation profiles can, in fact, express equator-fast latitudinal dependence on rotation rate, the scale of the shear is just smaller than the arbitrary limit we place on what is considered to be "significant" latitudinal differential rotation.
-%While \citet{benomar_asteroseismic_2018} found that, qualitatively, asteroseismic observations of the latitudinal differential rotation of solar analogues increase with $R_o$ and observations of young, fast-rotating stars with time-series doppler imaging are consistent with latitudinally flat differential rotation, observational confirmation of latitudinally flat or anti-solar-like differential rotation is yet to be made.
+%However, differential rotation grows with $R_o$, and so "latitudinally-flat" rotation profiles can, in fact, express equator-fast latitudinal dependence on rotation rate, the scale of the shear is just smaller than the arbitrary limit we place on what is considered to be "significant" latitudinal differential rotation.
+%While \citet{benomar_asteroseismic_2018} found that, qualitatively, asteroseismic observations of the latitudinal differential rotation of solar analogues increase with $R_o$ and observations of young, fast-rotating stars with time-series doppler imaging are consistent with latitudinally-flat differential rotation, observational confirmation of latitudinally-flat or anti-solar-like differential rotation is yet to be made.
 
-Another facet of differential rotation is latitudinal rotation.
+Another facet of rotation is latitudinal rotation.
 This phenomenon refers to the observation that the rotation profiles of stars vary depending on their latitudes. 
 This phenomenon was initially discovered in the Sun, where the equator completes a rotation in 25 days, while the poles take 38 days for a full rotation. 
 The Sun is therefore expressing equator-fast (relative to the rotation rate at the poles) differential rotation.
 Helioseismic measurements indicate that this surface latitude dependence of rotation diminishes near the base of the convective zone, but measurements beyond this point become less reliable due to decreased sensitivity in seismology \citep{howe_solar_2009}.
 While the internal latitudinal differential rotation of stars, other than the Sun, remains unknown it is believed that they also undergo solid-body rotation within the base of the convective zone. Hence, in this thesis, the term `latitudinal differential rotation' specifically pertains to surface latitudinal differential rotation.
 
-Studies based on rotating-magnetohydrodynamic models of stars \citep{brun_powering_2022} suggest that stars with $R_o < 0.5$ tend to exhibit latitudinally-flat, or perhaps cylindrical, rotation profiles.
-However, it's worth noting that the term `latitudinally flat' is somewhat misleading: observations indicate that very rapidly rotating stars ($R_o < 0.5$) in fact, express equator-fast latitudinal dependence on rotation rate, with the scale of the shear being just smaller than the arbitrary limit set for considering it as `significant' latitudinal differential rotation.
-Intermediate rotators ($0.5<R_o< R_{o \ \odot}$) are predicted to express equator-fast differential rotation profiles, while stars where $R_o>2$ are predicted to exhibit equator-slow rotation profiles.
-Recent work \citep{benomar_asteroseismic_2018} suggest that observations of the latitudinal differential rotation of solar analogues increase with $R_o$, while observations of young, fast-rotating stars using time-series Doppler imaging are consistent with latitudinally flat differential rotation \citep[see, e.g.,][]{lanza_evaluation_1996}.
-Definitive observational evidence confirming latitudinally flat or anti-solar-like differential rotation is yet to be established.
+Studies based on rotating-magnetohydrodynamic models of stars \citep{brun_powering_2022} suggest that stars with $R_o \ < \ 0.5$ tend to exhibit latitudinally-flat, or perhaps cylindrical, rotation profiles.
+However, it's worth noting that the term `latitudinally-flat' is somewhat misleading: observations indicate that very rapidly rotating stars ($R_o \ < \ 0.5$) in fact, express equator-fast latitudinal dependence on rotation rate, with the scale of the shear being just smaller than the arbitrary limit set for considering it as `significant' latitudinal differential rotation.
+Intermediate rotators ($0.5 \ < \ R_o \ < \ 2$) are predicted to express equator-fast (relative to the poles) differential rotation profiles, while stars where $R_o \ > \ 2$ are predicted to exhibit equator-slow (again, relative to the poles) rotation profiles.
+Recent work \citep{benomar_asteroseismic_2018} suggest that observations of the latitudinal differential rotation of solar analogues increase with $R_o$, while observations of young, fast-rotating stars using time-series Doppler imaging are consistent with latitudinally-flat differential rotation \citep[see, e.g.,][]{lanza_evaluation_1996}.
+Definitive observational evidence confirming latitudinally-flat or anti-solar-like differential rotation is yet to be established.
 The post-main-sequence evolution of latitudinal differential rotation is also a currently unexplored field of study.
 We do not know if post-main-sequence stars do express latitudinal differential rotation or if they are expected to theoretically.
 
@@ -660,15 +650,15 @@ The method is limited to magnetically active fast rotators (\vsini\ $> 10\,\math
 \citet{barnes_dependence_2005, reiners_rotation_2002} adopt this method and confirm that latitudinal differential rotation increases with increasing temperature for young, rapidly rotating, magnetically active stars.
 The observation of differential rotation using this method is limited to young stars, hence the evolution of differential rotation with age cannot be probed using this method.
 
-Another prospect for measuring differential rotation arises through the latitudinal variation in the position of stellar spots and thus the measurement of multiple periods in a light curve (\citep[see, e.g.,][]{walcowicz_rotation_2013, reinhold_rotation_2013}.
+Another prospect for measuring differential rotation arises through the latitudinal variation in the position of stellar spots and thus the measurement of multiple periods in a light curve \citep[see, e.g.,][]{walcowicz_rotation_2013, reinhold_rotation_2013}.
 Measuring latitudinal differential rotation in this way is straightforward in theory: if multiple surface features appear at different latitudes then multiple peaks in the power spectrum arise from which the different rotation periods can be measured.
 The difference between the two periods provides a measure of the surface rotational shear.
 The latitudes at which the surface features arise cannot be probed using this method and the distribution of stellar spots on the surface of a star is unknown.
 Therefore, the surface rotation profile cannot be probed.
 
-If surface rotational shear is relatively small, then closely spaced peaks arising from latitudinal differential rotation can appear as a single broad peak in real data.
+If surface rotational shear is relatively small, then closely spaced peaks arising from latitudinal differential rotation can appear as a single broad peak in realistic observations.
 The broadness of a feature in Fourier space is also related to the lifetime of that feature in period space, limiting the inference of latitudinal shear from time series integrated photometry
-\citet{aigrain_hare_2015} compared methods of measuring rotational period and latitudinal shear using synthetic \kepler\ data.
+\citet{aigrain_hare_2015} compared methods of measuring rotation period and latitudinal shear using synthetic \kepler\ data.
 They found that no state-of-the-art method \citep[e.g., those adopted by ][]{reinhold_rotation_2013, mcquillan_rotation_2014, garcia_rotation_2014} are able to disentangle the effects of latitudinal differential rotation from the surface feature lifetime.
 Surface differential rotation cannot be accurately measured through this method.
 
@@ -677,7 +667,7 @@ Asteroseismic inversions of latitudinal differential rotation prove to be somewh
 Their combined sample includes 14 stars with significant detection of equator-fast differential rotation.
 They also report a number of other stars investigated show limited evidence of equator-fast and equator-slow latitudinal rotation.
 The significance of detection is related to the scale of the latitudinal shear.
-This complicates the inference of the evolution of latitudinally flat and anti-solar-like differential rotation profiles, which tend to express small scales of latitudinal shear.
+This complicates the inference of the evolution of latitudinally-flat and equator-slow differential rotation profiles, which tend to express small scales of latitudinal shear.
 Further, their investigations are limited to a small number of stars that have long-baseline time-series photometric observations that express solar-like oscillations below the Nyquist frequency of \kepler{}.
 This limits our understanding to, essentially, solar analogues.
 
@@ -685,19 +675,18 @@ This limits our understanding to, essentially, solar analogues.
 \subsection{Effects of rotation on low-mass evolution}
 \label{sec:effects}
 
-In this Section, we will summarise the observable features of rotation on low-mass stellar evolution.
 Compared to high-mass rotating stellar evolution, the indicators of low-mass rotating stellar evolution are minimal \citep[see, e.g.,][]{heger_presupernova_2000, maeder_evolution_2000}.
 The rotation rate is the main observable property of the evolution of rotation in stars.
 As this was discussed in length in Section \ref{sec:evolution}, we will focus here on the impact of rotation on other observable quantities and stellar evolution.
 
 \begin{figure}[h]
     \includegraphics[width=\textwidth]{Figures/intro_figures/PMS_effect.png}
-    \caption[Effect of rotation on pre-main-sequence evolution of a 1 $M_{\odot}$ star.]{Effect of rotation on post-main-sequence evolution of stars. Left: PMS HR diagram tracks of 1 M$_{\odot}$ solar metallicity models with and without rotation. The continuous line corresponds to a non-rotating model, while the dashed line corresponds to a rotating model with $\Omega = 20 \Omega_{\odot}$. The tracks end when the ZAMS is reached. Right: Surface lithium abundance with time during the PMS for the same models. Sourced from Figure 1 in \citet{eggenberger_rotation_2013}}
+    \caption[Effect of rotation on pre-main-sequence evolution of a 1 $M_{\odot}$ star.]{Effect of rotation on post-main-sequence evolution of stars. Left: PMS HR diagram tracks of 1 M$_{\odot}$ solar metallicity models with and without rotation. The continuous line corresponds to a non-rotating model, while the dashed line corresponds to a rotating model with $\Omega = 20 \ \Omega_{\odot}$. The tracks end when the ZAMS is reached. Right: Surface lithium abundance with time during the PMS for the same models. Sourced from Figure 1 in \citet{eggenberger_rotation_2013}}
     \label{fig:pms_effect}
 \end{figure}
 
 Figure \ref{fig:pms_effect} (left) compares the evolutionary track of a rotating solar-type, 1M$_{\odot}$, solar metallicity, star rotating with 20 $\Omega_{\odot}$ (twenty times the mean solar surface rotation rate), against a non-rotating model of the same mass and metallicity. 
-Because of the introduction of the centrifugal force, the stars path on the Hertzsprung-Russel (HR) diagram is slightly shifted towards lower effective temperatures and luminosities than a non-rotating star.
+Because of the introduction of the centrifugal force, the star's path on the Hertzsprung-Russel (HR) diagram is slightly shifted towards lower effective temperatures and luminosities than a non-rotating star.
 
 During the pre-main-sequence, both the changes to the rotation impact the observed lithium abundances, which are dependent on the treatment of angular momentum transport \citep{dumont_lithium_2021}.
 Figure \ref{fig:pms_effect} (right) displays the evolution of surface lithium abundance during the PMS phase for rotating and non-rotating models. 
@@ -714,7 +703,7 @@ Therefore, a correlation between the surface velocity and lithium abundance on t
 
 \begin{figure}[h]
     \includegraphics[width=\textwidth]{Figures/intro_figures/MS_effect.png}
-    \caption[Effect of rotation of main-sequence evoltuon of a stars 1 $M_{\odot}$]{Left: MS HR diagram tracks of 1 M$_{\odot}$ solar metallicity models with and without rotation. The continuous line corresponds to a non-rotating model, while the dashed line corresponds to a rotating model with ZAMS surface velocity 50 $\,\mathrm{km\,s}^{-1}$. The tracks end when the ZAMS is reached. Right: Surface helium abundance with time during the MS for the same models. Sourced from Figure 3 in \citet{eggenberger_rotation_2013}}
+    \caption[Effect of rotation of main-sequence evoltuon of a stars 1 $M_{\odot}$.]{Left: MS HR diagram tracks of 1 M$_{\odot}$ solar metallicity models with and without rotation. The continuous line corresponds to a non-rotating model, while the dashed line corresponds to a rotating model with ZAMS surface velocity 50 $\,\mathrm{km\,s}^{-1}$. The tracks end when the ZAMS is reached. Right: Surface He abundance with time during the MS for the same models. Sourced from Figure 3 in \citet{eggenberger_rotation_2013}}
     \label{fig:ms_effect}
 \end{figure}
 
@@ -723,17 +712,17 @@ This is illustrated in Figure \ref{fig:ms_effect} (left), which shows the main-s
 The rotating model has an initial surface velocity of \update{50 $\,\mathrm{km\,s}^{-1}$}.
 The rotating model is, like the PMS model, characterised by higher effective temperatures and slightly higher luminosities than the non-rotating model.
 Figure \ref{fig:ms_effect} (right) highlights that the presence of rotational mixing counteracts the impact of atomic diffusion in the star's outer layers. 
-This leads to higher helium surface abundances for the rotating model than the non-rotating model.
+This leads to higher He surface abundances for the rotating model than the non-rotating model.
 Consequently, the opacity in the external layers of the rotating model decreases, causing a shift towards the blue region of the HR diagram, as illustrated in Figure \ref{fig:ms_effect} (left). 
-The differences in helium content between rotating and non-rotating stars become increasingly pronounced during the main-sequence, resulting in significant distinctions in the HR diagram.
+The differences in He content between rotating and non-rotating stars become increasingly pronounced during the main-sequence, resulting in significant distinctions in the HR diagram.
 
 The inclusion of rotation affects the properties of the central layers of the star. 
-Fresh hydrogen fuel is transported to the central core through rotational mixing, leading to a higher central hydrogen mass fraction for rotating models than for models without rotation at a given age. 
+H is transported to the central core through rotational mixing, leading to a higher central H-mass fraction for rotating models than for models without rotation at a given age. 
 This leads to an increase in their main-sequence lifetime.
 
 Within the post-main-sequence, the rotation effects are similar to the main-sequence.
-When rotational effects are considered, the core helium-burning phase is shifted to higher luminosity values. 
-These changes are due to rotational mixing, which brings fresh hydrogen fuel into the convective core and transports helium and other H-burning products in the radiative zone.
+When rotational effects are considered, the core-He-burning phase is shifted to higher luminosity values. 
+These changes are due to rotational mixing, which brings fresh H into the convective core and transports He and other H-burning products in the radiative zone.
 
 There are no other significant enhancements in chemical abundances \citep[see Table 2 in][]{lagarde_thermohaline_2012}.
 Rotation can, however, substantially affect the asteroseismic properties of low-mass red-giant stars \citep{lagarde_thermohaline_2012, eggenberger_effects_2010}.
@@ -741,9 +730,6 @@ In particular, rotation decreases the derived stellar mass and increases the age
 Observation and identification of non-radial oscillation modes for red giants with moderate surface rotational velocities may be complicated due to non-negligible values of rotational splitting, which can be reached depending on the assumed rotation law in the convective envelope and the star's initial velocity.\\
  \\
  \\
-
-
-It is with these techniques, observations and understanding of stellar rotation and it's effects on stellar evolution that we now begin our investigation into a handful of ``problems in low-mass stellar rotation".
 
 
 
@@ -768,7 +754,7 @@ It is with these techniques, observations and understanding of stellar rotation 
 %To measure rotation periods using these variations, we face a signal-processing problem that involves employing various techniques. 
 %The first step is to acquire precise time-series photometry, generating the light curve that represents the brightness variations of the star over time.
 % Before analysing the light curve for periodic variability, data preprocessing is essential to remove systematic effects and correct instrumental noise. 
-% Without proper preprocessing, systematic effects on the timescale of known low-mass main-sequence rotational periods could be mistaken for genuine signals.
+% Without proper preprocessing, systematic effects on the timescale of known low-mass main-sequence rotation periods could be mistaken for genuine signals.
 %Once the light curve is preprocessed, the analysis of periodic signals can take various forms, each offering its unique advantages. 
 %
 %Different signal processing techniques are adopted to identify and characterise the periodic variability in the light curve, leading to the determination of rotation periods for the stars under investigation.
@@ -805,11 +791,11 @@ It is with these techniques, observations and understanding of stellar rotation 
 %The lag times where the strongest power in the power spectral density occurs generally correspond to the periodic signals in that data.
 %
 %The ACF of a light curve with a rotational signal generates a series of uniformly spaced peaks. 
-%The lag-time of the first peak corresponds to the lag-time of the highest correlation and is typically\footnote{\citep[see, e.g.,][]{mcquillan_rotation_2014} for a more thorough analysis of the "typicality" of the first peak corresponding to the rotational period.} adopted as the rotation period.
+%The lag-time of the first peak corresponds to the lag-time of the highest correlation and is typically\footnote{\citep[see, e.g.,][]{mcquillan_rotation_2014} for a more thorough analysis of the "typicality" of the first peak corresponding to the rotation period.} adopted as the rotation period.
 %The ACF method, as demonstrated by \citet{mcquillan_rotation_2014}, was successfully applied to measure rotation periods for 34,030 Kepler targets.
 %
 %In both this and the LSP method, uncertainties are hard to define.
-%Generally, the width of a Gaussian fit to the peak adopted as the rotational period signal is adopted as the precision of the measurement.
+%Generally, the width of a Gaussian fit to the peak adopted as the rotation period signal is adopted as the precision of the measurement.
 %However, the widths of peaks in these methods can be dependent on a number of factors, differential rotation, the correlation coefficient fall-off, and the finite lifetime of stellar spots.
 %While a generally useful method for determining the rotation period of stars, the lack of accurate measurement of the precision of the results of the method brings into question their validity.
 %
@@ -865,7 +851,7 @@ It is with these techniques, observations and understanding of stellar rotation 
 %They can capture intricate relationships that might be challenging to identify using traditional methods and can handle missing or irregularly sampled data.
 %
 %The computational cost of analysis using a trained neural network is quite low making them advantageous for analysis of large data sets.
-%However, they do not provide a robust measurement of the uncertainty of the recovered rotational periods.
+%However, they do not provide a robust measurement of the uncertainty of the recovered rotation periods.
 %It is also crucial to note that the machine learning approach requires careful validation and interpretation of the results.
 %A model's predictions can be influenced by the biases present in the training data.
 %While they have been found to be effective for \tess{} and \kepler{} data they are generally used in conjunction with ACFs and wavelets transforms to confirm the reliability of their measurements \citep{claytor_recovery_2022, santos_surface_2021}.
@@ -876,7 +862,7 @@ It is with these techniques, observations and understanding of stellar rotation 
 %The structure of a star is encoded in the natural frequency of its oscillations.
 %Measurement of these asteroseismic oscillations therefore probe the structure of stars.
 %An example of the oscillations found within a star is the so-called Solar-like oscillations\footnote{Named so because of the similarity to the properties of solar oscillations}. 
-%The perturbative mechanism generating this ringing comes from stochastic perturbations to the surface of a star from a surface convective region and are thus only applicable to low mass ($M< 1.3M_{\odot}$) stars.
+%The perturbative mechanism generating this ringing comes from stochastic perturbations to the surface of a star from a surface convective region and are thus only applicable to low-mass ($M< 1.3M_{\odot}$) stars.
 %These oscillations manifest as brightness variations that can be measured through high-precision long baseline photometric observations.
 %
 

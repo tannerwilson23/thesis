@@ -106,7 +106,7 @@ We build upon the work of \citep{cao_starspots_2022}, where a forward model is d
     T_{\text{eff}} = T_{\text{amb}}(1 - f_{\text{spot}} + f_{\text{spot}}x_{\text{spot}}^{4} )^{\frac{1}{4}},
     \label{eq:teff}
 \end{equation}
-where \fspot is the fractional surface spot coverage. From these relations, the set \{\teff, \xspot,\fspot\} define a pair of ambient and spot temperatures that preserve stellar luminosity.
+where \fspot \ is the fractional surface spot coverage. From these relations, the set \{\teff, \xspot,\fspot\} define a pair of ambient and spot temperatures that preserve stellar luminosity.
 
 We calculated a grid of synthetic spectra, which we interpolate between to generate the predicted spectra for a spotted or non-spotted model. The list of atomic and molecular transitions is from \citep{shetrone_sdss-iii_2015, smith_apogee_2021}. We used a grid of plane-parallel MARCS \citep{gustafsson_grid_2008} model photospheres that span dimensions in effective temperature, surface gravity, and metallicity.\footnote{We calculated spectra using spherical models as well, but in practice, only spectra from plane-parallel models (i.e., main-sequence stars) are used in this work.} Microturbulence was kept fixed based on surface gravity \citep{holtzman_apogee_2018}
 \begin{equation}
@@ -149,7 +149,7 @@ The best-fit parameters following fitting the synthetic spotted spectra with a s
 
 \begin{figure}
     \centering
-    \includegraphics[width=\textwidth]{Figures/ss_chapter_figures/recov_spot_param.png}
+    \includegraphics[width=0.5\textwidth]{Figures/ss_chapter_figures/recov_spot_param.png}
     \caption[Recovered spot parameters from the synthetic spotted spectra fitted with a spotted model of the stellar spectra against the injected parameters of the synthetic spectra.]{\tw{Recovered spot parameters (\xspot\ and \fspot) from the synthetic spotted spectra fitted with a spotted model of the stellar spectra against the injected parameters of the synthetic spectra. We identify that the spot parameters are not always accurately recovered through the fitting procedure. The recovered spot parameters are notably more inaccurate as \xspot \ approaches 1. }}
 %add comment
     \label{fig:recov_spot_params}
@@ -188,7 +188,7 @@ In Figure \ref{fig:res_teff} we show the effect of the injected parameters on th
 
 
 Figure \ref{fig:res_full} shows the effects of fitting spotted spectra with a non-spotted model on \logg\ (orange) and $\log$ \vsini\ (red), respectively.
-There appears to be no statistically significant bias introduced to both of the inferred parameters as the median of each bin of injected parameters is consistently about zero. However, a consistent scatter is introduced to both parameters. The MAD of $\Delta$ \logg\ and $\Delta \log$ \vsini\ in each injected parameter bin have an average value of $\sim$0.025 dex - corresponding to an average scatter on \vsini\ of $\sim$ 1 km\,s$^{-1}$. The scatter peaks for both recovered parameters at $\sim$0.05 dex for stars with significant spot coverage - which corresponds to a maximum scatter on \vsini\ of $\sim$ 2 km/s. The scatter on recovered \vsini\ and \logg\ is otherwise constant with the other injected parameters.
+There appears to be no statistically significant bias introduced to both of the inferred parameters as the median of each bin of injected parameters is consistently about zero. However, a consistent scatter is introduced to both parameters. The MAD of $\Delta$ \logg\ and $\Delta \log$ \vsini\ in each injected parameter bin have an average value of $\sim$ 0.025 dex - corresponding to an average scatter on \vsini\ of $\sim$ 1 km\,s$^{-1}$. The scatter peaks for both recovered parameters at $\sim$0.05 dex for stars with significant spot coverage - which corresponds to a maximum scatter on \vsini\ of $\sim$ 2 km/s. The scatter on recovered \vsini\ and \logg\ is otherwise constant with the other injected parameters.
 
 The effect of fitting spotted spectra with a non-spotted model is significant in the recovery of metallicity. This is seen in Figure \ref{fig:res_full} (green), where we compare the recovered [Fe/H] with a spotted and non-spotted model of the stellar atmosphere against the injected parameters of our spotted spectra. This process does not introduce a bias to the inferred metallicity of the spectra but does introduce a significant scatter to the recovered value, representing an intrinsic `minimum floor' of systematic uncertainty if the effects of spots are not included (see Section~\ref{sec:discussion}).
 
