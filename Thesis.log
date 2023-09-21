@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.2.3)  22 SEP 2023 03:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.2.3)  22 SEP 2023 03:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1298,13 +1298,13 @@ ate period gap
 [96
 
 ] [97] [98] [99]
-<Figures/rot_gap_figures/HR.png, id=2836, 878.68275pt x 458.6736pt>
+<Figures/rot_gap_figures/HR.png, id=2837, 878.68275pt x 458.6736pt>
 File: Figures/rot_gap_figures/HR.png Graphic file (type png)
 <use Figures/rot_gap_figures/HR.png>
 Package pdftex.def Info: Figures/rot_gap_figures/HR.png  used on input line 115
 .
 (pdftex.def)             Requested size: 417.47307pt x 217.9212pt.
-<Figures/rot_gap_figures/rotational_dist.png, id=2837, 918.67215pt x 458.6736pt
+<Figures/rot_gap_figures/rotational_dist.png, id=2838, 918.67215pt x 458.6736pt
 >
 File: Figures/rot_gap_figures/rotational_dist.png Graphic file (type png)
 <use Figures/rot_gap_figures/rotational_dist.png>
@@ -1312,7 +1312,7 @@ Package pdftex.def Info: Figures/rot_gap_figures/rotational_dist.png  used on i
 nput line 123.
 (pdftex.def)             Requested size: 417.47307pt x 208.43785pt.
  [100 <./Figures/rot_gap_figures/HR.png>]
-<Figures/rot_gap_figures/rot_dist_binned.png, id=2851, 804.96735pt x 458.6736pt
+<Figures/rot_gap_figures/rot_dist_binned.png, id=2852, 804.96735pt x 458.6736pt
 >
 File: Figures/rot_gap_figures/rot_dist_binned.png Graphic file (type png)
 <use Figures/rot_gap_figures/rot_dist_binned.png>
@@ -1320,14 +1320,14 @@ Package pdftex.def Info: Figures/rot_gap_figures/rot_dist_binned.png  used on i
 nput line 142.
 (pdftex.def)             Requested size: 417.47307pt x 237.88174pt.
  [101 <./Figures/rot_gap_figures/rotational_dist.png>]
-<Figures/rot_gap_figures/rot_vs_rper_minima.png, id=2863, 782.56364pt x 2532.58
+<Figures/rot_gap_figures/rot_vs_rper_minima.png, id=2864, 782.56364pt x 2532.58
 17pt>
 File: Figures/rot_gap_figures/rot_vs_rper_minima.png Graphic file (type png)
 <use Figures/rot_gap_figures/rot_vs_rper_minima.png>
 Package pdftex.def Info: Figures/rot_gap_figures/rot_vs_rper_minima.png  used o
 n input line 169.
 (pdftex.def)             Requested size: 187.8616pt x 607.94797pt.
-<Figures/rot_gap_figures/rot_dist_minima_shown.png, id=2864, 620.19705pt x 426.
+<Figures/rot_gap_figures/rot_dist_minima_shown.png, id=2865, 620.19705pt x 426.
 8748pt>
 File: Figures/rot_gap_figures/rot_dist_minima_shown.png Graphic file (type png)
 
@@ -1337,7 +1337,7 @@ d on input line 177.
 (pdftex.def)             Requested size: 417.47307pt x 287.3399pt.
  [102 <./Figures/rot_gap_figures/rot_dist_binned.png>] [103 <./Figures/rot_gap_
 figures/rot_vs_rper_minima.png>]
-<Figures/rot_gap_figures/per_vs_colour.png, id=2876, 833.15265pt x 2532.5817pt>
+<Figures/rot_gap_figures/per_vs_colour.png, id=2877, 833.15265pt x 2532.5817pt>
 
 File: Figures/rot_gap_figures/per_vs_colour.png Graphic file (type png)
 <use Figures/rot_gap_figures/per_vs_colour.png>
@@ -1385,7 +1385,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 210.
 
-<Figures/rot_gap_figures/rotational_dist_rhk.png, id=2894, 923.73105pt x 458.67
+<Figures/rot_gap_figures/rotational_dist_rhk.png, id=2895, 923.73105pt x 458.67
 36pt>
 File: Figures/rot_gap_figures/rotational_dist_rhk.png Graphic file (type png)
 <use Figures/rot_gap_figures/rotational_dist_rhk.png>
@@ -1393,7 +1393,7 @@ Package pdftex.def Info: Figures/rot_gap_figures/rotational_dist_rhk.png  used
 on input line 227.
 (pdftex.def)             Requested size: 417.47307pt x 207.29005pt.
 [106]
-<Figures/rot_gap_figures/rot_vs_rper_rhk_minima.png, id=2901, 809.1831pt x 1140
+<Figures/rot_gap_figures/rot_vs_rper_rhk_minima.png, id=2902, 809.1831pt x 1140
 .54105pt>
 File: Figures/rot_gap_figures/rot_vs_rper_rhk_minima.png Graphic file (type png
 )
@@ -1403,7 +1403,7 @@ ed on input line 243.
 (pdftex.def)             Requested size: 417.47307pt x 588.4381pt.
  [107 <./Figures/rot_gap_figures/rotational_dist_rhk.png>] [108 <./Figures/rot_
 gap_figures/rot_vs_rper_rhk_minima.png>]
-<Figures/rot_gap_figures/HR_mag_and_non_rot.png, id=2921, 858.44714pt x 723.061
+<Figures/rot_gap_figures/HR_mag_and_non_rot.png, id=2922, 858.44714pt x 723.061
 36pt>
 File: Figures/rot_gap_figures/HR_mag_and_non_rot.png Graphic file (type png)
 <use Figures/rot_gap_figures/HR_mag_and_non_rot.png>
@@ -1411,14 +1411,14 @@ Package pdftex.def Info: Figures/rot_gap_figures/HR_mag_and_non_rot.png  used o
 n input line 285.
 (pdftex.def)             Requested size: 417.47307pt x 351.63318pt.
  [109]
-<Figures/rot_gap_figures/pdf_cdf.png, id=2928, 754.13745pt x 453.73515pt>
+<Figures/rot_gap_figures/pdf_cdf.png, id=2929, 754.13745pt x 453.73515pt>
 File: Figures/rot_gap_figures/pdf_cdf.png Graphic file (type png)
 <use Figures/rot_gap_figures/pdf_cdf.png>
 Package pdftex.def Info: Figures/rot_gap_figures/pdf_cdf.png  used on input lin
 e 305.
 (pdftex.def)             Requested size: 417.47307pt x 251.17519pt.
  [110 <./Figures/rot_gap_figures/HR_mag_and_non_rot.png>]
-<Figures/rot_gap_figures/detection_efficiency.png, id=2937, 880.60995pt x 731.4
+<Figures/rot_gap_figures/detection_efficiency.png, id=2938, 880.60995pt x 731.4
 9284pt>
 File: Figures/rot_gap_figures/detection_efficiency.png Graphic file (type png)
 <use Figures/rot_gap_figures/detection_efficiency.png>
@@ -1427,14 +1427,14 @@ Package pdftex.def Info: Figures/rot_gap_figures/detection_efficiency.png  used
 (pdftex.def)             Requested size: 417.47307pt x 346.78185pt.
  [111 <./Figures/rot_gap_figures/pdf_cdf.png>]
 [112 <./Figures/rot_gap_figures/detection_efficiency.png>]
-<Figures/rot_gap_figures/hist_obs.png, id=2954, 677.1699pt x 450.2421pt>
+<Figures/rot_gap_figures/hist_obs.png, id=2955, 677.1699pt x 450.2421pt>
 File: Figures/rot_gap_figures/hist_obs.png Graphic file (type png)
 <use Figures/rot_gap_figures/hist_obs.png>
 Package pdftex.def Info: Figures/rot_gap_figures/hist_obs.png  used on input li
 ne 358.
 (pdftex.def)             Requested size: 417.47307pt x 277.57394pt.
  [113]
-<Figures/rot_gap_figures/n_col.png, id=2961, 782.56364pt x 1168.48544pt>
+<Figures/rot_gap_figures/n_col.png, id=2962, 782.56364pt x 1168.48544pt>
 File: Figures/rot_gap_figures/n_col.png Graphic file (type png)
 <use Figures/rot_gap_figures/n_col.png>
 Package pdftex.def Info: Figures/rot_gap_figures/n_col.png  used on input line 
@@ -1446,7 +1446,7 @@ LaTeX Warning: Float too large for page by 8.38641pt on input line 380.
 
 [114 <./Figures/rot_gap_figures/hist_obs.png>] [115 <./Figures/rot_gap_figures/
 n_col.png>]
-<Figures/rot_gap_figures/stars_donot_fullgap.png, id=2973, 723.78406pt x 450.24
+<Figures/rot_gap_figures/stars_donot_fullgap.png, id=2974, 723.78406pt x 450.24
 21pt>
 File: Figures/rot_gap_figures/stars_donot_fullgap.png Graphic file (type png)
 <use Figures/rot_gap_figures/stars_donot_fullgap.png>
@@ -1484,10 +1484,10 @@ st/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2022/texmf-dist/fonts/ty
 pe1/urw/times/utmb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/ti
 mes/utmr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmr8a
 .pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Thesis.pdf (145 pages, 56556814 bytes).
+Output written on Thesis.pdf (145 pages, 56556844 bytes).
 PDF statistics:
- 3493 PDF objects out of 3580 (max. 8388607)
- 3019 compressed objects within 31 object streams
+ 3494 PDF objects out of 3580 (max. 8388607)
+ 3020 compressed objects within 31 object streams
  541 named destinations out of 1000 (max. 500000)
  732 words of extra memory for PDF output out of 10000 (max. 10000000)
 
