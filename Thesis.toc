@@ -28,8 +28,6 @@
 \contentsline {subsection}{\numberline {2.3.2}KIC\nobreakspace {}12508433}{44}{subsection.66}%
 \contentsline {section}{\numberline {2.4}Discussion}{46}{section.70}%
 \contentsline {section}{\numberline {2.5}Conclusions}{48}{section.71}%
-\contentsline {section}{\numberline {2.6}Appendix}{49}{section.72}%
-\contentsline {subsection}{\numberline {2.6.1}Sampling Results}{49}{subsection.73}%
 \contentsline {chapter}{\numberline {3}Stellar spots cause measurable variations in atmospheric metallicity}{55}{chapter.80}%
 \contentsline {section}{\numberline {3.1}Introduction}{56}{section.83}%
 \contentsline {section}{\numberline {3.2}Method}{58}{section.84}%

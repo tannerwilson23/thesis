@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex Thesis"] 1695236676 "Thesis.aux" "Thesis.bbl" "Thesis" 1695236749
+["bibtex Thesis"] 1695261330 "Thesis.aux" "Thesis.bbl" "Thesis" 1695261412
   "./mnras.bst" 1685297858 43376 8463aa2cc1948e346d5641ca59bb4619 ""
-  "Thesis.aux" 1695236749 82461 5beb3887475ac8cc72ec60adfa59ecf8 "pdflatex"
+  "Thesis.aux" 1695261412 82379 676dc8a8cfc3163688a087a4b8b1fd83 "pdflatex"
   "references.bib" 1695229312 1038647 507d336446a182bbb22a51e607e4c877 ""
   (generated)
   "Thesis.bbl"
   "Thesis.blg"
-["pdflatex"] 1695236676 "Thesis.tex" "Thesis.pdf" "Thesis" 1695236749
+["pdflatex"] 1695261330 "Thesis.tex" "Thesis.pdf" "Thesis" 1695261412
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm" 1136768653 1408 5937f58aa508ea2cea4901c07d10f5fe ""
@@ -147,11 +147,11 @@
   "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1675388617 2826430 6422684fc5216ce7dccb4bfbd35ccfa1 ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
   "Appendices/AppendixA.tex" 1694108187 58191 5f4222f6871a1d555266adf23e43911d ""
-  "Chapters/conclusion_chapter.tex" 1694108188 16883 dcb5b14193aaf4326425206b0edddf2b ""
+  "Chapters/conclusion_chapter.tex" 1695260996 16916 3b47e294352ddbb756a739768048f963 ""
   "Chapters/introduction_chapter.tex" 1695233773 118266 9e9a4ab474b3be60e4750de2ae2d155d ""
-  "Chapters/rotational_peropd_gap_chapter_update.tex" 1695236287 68033 0801d6ac554105576f0ace402543dd4c ""
+  "Chapters/rotational_peropd_gap_chapter_update.tex" 1695261175 68038 1eae8392deecb70992e050c447421e7a ""
   "Chapters/stellar_spot_metallicity_chapter.tex" 1694569807 40531 212b0246ccc3afc62dd4e815450230ce ""
-  "Chapters/subgiant_inversions_chapter.tex" 1694569144 60778 9d7a183e8c54265e12eaa7002ebfb25d ""
+  "Chapters/subgiant_inversions_chapter.tex" 1695261244 60806 b199cf0e1ddcfbeaef3a44022fe699f6 ""
   "Figures/intro_figures/MS_effect.png" 1685297860 71155 e993ab12cca96621f77e79abfae267b0 ""
   "Figures/intro_figures/PMS_effect.png" 1685297860 75803 f71e038651c7e6458992641d61bf0c4b ""
   "Figures/intro_figures/cluster_kepler.png" 1685297860 978926 b68fb644fdcd10ad4b5d797e849d2182 ""
@@ -212,14 +212,14 @@
   "Preamble/Declaration_publications.tex" 1694043055 2629 447ba99792efae3ac71f6ffa7137a7a6 ""
   "Preamble/Publications.tex" 1691483299 543 5babf7b03bb58a577c5a706bf6c6cc88 ""
   "Preamble/copyright.tex" 1691334598 645 dcb63a8db0fa681afff6f59dd0da09ed ""
-  "Thesis.aux" 1695236749 82461 5beb3887475ac8cc72ec60adfa59ecf8 "pdflatex"
-  "Thesis.bbl" 1695236676 57253 a40ca1738558bfeb38f929f0fe96c956 "bibtex Thesis"
+  "Thesis.aux" 1695261412 82379 676dc8a8cfc3163688a087a4b8b1fd83 "pdflatex"
+  "Thesis.bbl" 1695261330 57253 a40ca1738558bfeb38f929f0fe96c956 "bibtex Thesis"
   "Thesis.cls" 1691336143 14214 4c98ecc2a8feb1a51c207821337a566e ""
-  "Thesis.lof" 1695236749 14135 aa3d66ec22796528706b85c4d93c4812 "pdflatex"
-  "Thesis.lot" 1695236749 657 c4c9cc69ea4f7016c9e4f62f0db6bf2d "pdflatex"
-  "Thesis.out" 1695236749 13451 48e8ca85a6b95df611f4e32d7a0f84ce "pdflatex"
+  "Thesis.lof" 1695261412 14135 aa3d66ec22796528706b85c4d93c4812 "pdflatex"
+  "Thesis.lot" 1695261412 657 c4c9cc69ea4f7016c9e4f62f0db6bf2d "pdflatex"
+  "Thesis.out" 1695261412 13159 bdec9deb7e1967c22aa477b560a67762 "pdflatex"
   "Thesis.tex" 1695006186 10478 bee55db1ea8c5de0c7c82b3a72071f7b ""
-  "Thesis.toc" 1695236749 5296 4131574405abd1c7f2134061a4c72621 "pdflatex"
+  "Thesis.toc" 1695261412 5144 fd0fcae3cc884b046a73be43b7a910cd "pdflatex"
   "lstpatch.sty" 1685297858 13431 1e4a9d9086bef9c3bb5a3d827053632c ""
   "vector.sty" 1685297858 2117 72e011c69c8316b0db0782e873339cc6 ""
   (generated)
