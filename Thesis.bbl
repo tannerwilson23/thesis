@@ -28,6 +28,12 @@ Affer L.,  Micela G.,  Favata F.,  Flaccomio E.,   Bouvier J.,  2013, \mn@doi
   [Monthly Notices of the Royal Astronomical Society] {10.1093/mnras/stt003},
   430, 1433
 
+\bibitem[\protect\citeauthoryear{{Ag{\"u}eros} et~al.,}{{Ag{\"u}eros}
+  et~al.}{2018}]{agueros_new_2018}
+{Ag{\"u}eros} M.~A.,  et~al., 2018, \mn@doi [The Astrophysical Journal]
+  {10.3847/1538-4357/aac6ed}, \href
+  {https://ui.adsabs.harvard.edu/abs/2018ApJ...862...33A} {862, 33}
+
 \bibitem[\protect\citeauthoryear{Ahlborn, Bellinger, Hekker, Basu  \&
   Angelou}{Ahlborn et~al.}{2020}]{ahlborn_asteroseismic_2020}
 Ahlborn F.,  Bellinger E.~P.,  Hekker S.,  Basu S.,   Angelou G.~C.,  2020,
@@ -199,6 +205,12 @@ Bensby T.,  Feltzing S.,   Lundstr{\"o}m I.,  2004, \mn@doi [Astronomy \&
 \bibitem[\protect\citeauthoryear{Berdyugina}{Berdyugina}{2005}]{berdyugina_starspots_2005}
 Berdyugina S.~V.,  2005, \mn@doi [Living Reviews in Solar Physics]
   {10.12942/lrsp-2005-8}, 2, 8
+
+\bibitem[\protect\citeauthoryear{{Berta}, {Irwin}, {Charbonneau}, {Burke}  \&
+  {Falco}}{{Berta} et~al.}{2012}]{berta_transit_2012}
+{Berta} Z.~K.,  {Irwin} J.,  {Charbonneau} D.,  {Burke} C.~J.,   {Falco} E.~E.,
+   2012, \mn@doi [Astronomical Journal] {10.1088/0004-6256/144/5/145}, \href
+  {https://ui.adsabs.harvard.edu/abs/2012AJ....144..145B} {144, 145}
 
 \bibitem[\protect\citeauthoryear{Blanco-Cuaresma}{Blanco-Cuaresma}{2019}]{blanco-cuaresma_modern_2019}
 Blanco-Cuaresma S.,  2019, \mn@doi [Monthly Notices of the Royal Astronomical
@@ -656,6 +668,13 @@ Irwin J.,  Aigrain S.,  Bouvier J.,  Hebb L.,  Hodgkin S.,  Irwin M.,   Moraux
   E.,  2009, \mn@doi [Monthly Notices of the Royal Astronomical Society]
   {10.1111/j.1365-2966.2008.14158.x}, 392, 1456
 
+\bibitem[\protect\citeauthoryear{{Irwin}, {Berta}, {Burke}, {Charbonneau},
+  {Nutzman}, {West}  \& {Falco}}{{Irwin} et~al.}{2011}]{irwin_angular_2011}
+{Irwin} J.,  {Berta} Z.~K.,  {Burke} C.~J.,  {Charbonneau} D.,  {Nutzman} P.,
+  {West} A.~A.,   {Falco} E.~E.,  2011, \mn@doi [Astrophysical Journal]
+  {10.1088/0004-637X/727/1/56}, \href
+  {https://ui.adsabs.harvard.edu/abs/2011ApJ...727...56I} {727, 56}
+
 \bibitem[\protect\citeauthoryear{Johnson, Fields  \& Thompson}{Johnson
   et~al.}{2020}]{johnson_origin_2020}
 Johnson J.~A.,  Fields B.~D.,   Thompson T.~A.,  2020, \mn@doi [Philosophical
@@ -855,6 +874,11 @@ Mottola S.,  et~al., 1995, Planetary and Space Science, 43, 1609
 Moyano F.~D.,  Eggenberger P.,  Meynet G.,  Gehan C.,  Mosser B.,  Buldgen G.,
    Salmon S. J. A.~J.,  2022, \mn@doi [Astronomy \& Astrophysics]
   {10.1051/0004-6361/202243389}, 663, A180
+
+\bibitem[\protect\citeauthoryear{Newton, Mondrik, Irwin, Winters  \&
+  Charbonneau}{Newton et~al.}{2018}]{newton_new_2018}
+Newton E.~R.,  Mondrik N.,  Irwin J.,  Winters J.~G.,   Charbonneau D.,  2018,
+  \mn@doi [The Astronomical Journal] {10.3847/1538-3881/aad73b}, 156, 217
 
 \bibitem[\protect\citeauthoryear{Nissen}{Nissen}{2015}]{nissen_high-precision_2015}
 Nissen P.~E.,  2015, \mn@doi [Astronomy \& Astrophysics]
